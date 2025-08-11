@@ -1,0 +1,318 @@
+{
+  "HomePage": {
+    "title": "¡Bienvenido a Pixan Chenes!"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "products": {
+      "title": "Productos",
+      "certificates": "Certificados",
+      "honey": "Miel",
+      "wine": "Vino"
+    },
+
+    "projects": {
+      "title": "Proyectos",
+      "nodess": "Nodess",
+      "seminaries": "Seminario Repensar la cultura maya",
+      "businesses": "Emprendimientos",
+      "artificialIntelligence": "Inteligencia artificial y apicultura"
+    },
+    "culture": {
+      "title": "Cultura",
+      "stories": "Cuentos y leyendas",
+      "events": "Evento del día mundial de la abeja",
+      "forum": "Foro UPIIT medio ambiente."
+    },
+
+    "aboutUs": "Sobre Nosotros",
+
+    "viewCertificates": "Ver Certificados",
+    "requestCertificate": "Solicitar Certificado",
+    "faq": "Preguntas Frecuentes",
+
+    "honeyProducts": "Productos de Miel",
+    "productionProcess": "Proceso de Producción",
+    "qualityCertification": "Calidad y Certificación",
+
+    "wineCatalog": "Catálogo de Vinos",
+    "elaborationProcess": "Proceso de Elaboración",
+    "originDenomination": "Denominación de Origen",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "registerFree": "Regístrate Gratis",
+    "logout": "Cerrar Sesión",
+    "account": "Cuenta",
+    "options": "Opciones",
+    "language": "Idioma",
+    "menu": "Menú"
+  },
+  "Auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "description": "Ingresa tu email para acceder a tu cuenta",
+      "email": {
+        "label": "Correo Electrónico",
+        "placeholder": "correo@ejemplo.com"
+      },
+      "password": {
+        "label": "Contraseña",
+        "placeholder": "Ingresa tu contraseña"
+      },
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "loginButton": "Iniciar Sesión",
+      "googleButton": "Continuar con Google",
+      "orContinueWith": "O continúa con",
+      "noAccount": "¿No tienes una cuenta?",
+      "signUpLink": "Regístrate"
+    },
+    "logout": {
+      "success": "Sesión cerrada exitosamente",
+      "error": "Error al cerrar sesión. Inténtalo de nuevo."
+    }
+  },
+  "Certificates": {
+    "hero": {
+      "heroTitle": "Ayudamos a salvar la",
+      "heroSubtitle": "selva Maya",
+      "communitySupport": "Con el apoyo de la comunidad se ha logrado",
+      "treesPlanted": "Árboles plantados",
+      "certificatesIssued": "Certificados emitidos",
+      "issued": "emitidos",
+      "planted": "plantados",
+      "contribute": "Contribuir"
+    },
+    "testimonials": {
+      "title": "Comunidad Contribuyente",
+      "description": "Estas personas ya forman parte del rescate de la Selva Maya. Tú también puedes ser uno de ellos."
+    },
+    "explanation": {
+      "title": "¿Qué es un Certificado de Siembra?",
+      "description": "Un Certificado de Siembra es un documento que certifica que una planta ha sido sembrada en un lugar específico. Representa una alianza entre quienes desean contribuir a salvar la Selva Maya y quienes, desde el territorio, llevan a cabo la labor.",
+      "subtitle": "¿Cómo se ve un certificado?",
+      "benefit_reforestation": {
+        "title": "Reforestación directa",
+        "description": "Aportas directamente a la reforestación de especies endémicas."
+      },
+      "benefit_certificate": {
+        "title": "Certificado verificable",
+        "description": "Obtienes un reconocimiento digital verificable, con código único."
+      },
+      "benefit_cultural_preservation": {
+        "title": "Preservación cultural",
+        "description": "Contribuyes a preservar la vivienda tradicional maya, más fresca y sustentable."
+      },
+      "benefit_beekeeping_support": {
+        "title": "Apoyo a la apicultura",
+        "description": "Fomentas la apicultura local y la economía sustentable."
+      }
+    },
+    "timeline": {
+      "title": "Proceso del Certificado",
+      "description": "Cada certificado representa un proceso real que toma más de un año y requiere esfuerzo diario. Así es como sucede:",
+      "step_1": {
+        "title": "Selección de semillas",
+        "description": "Se buscan las mejores semillas de árboles endémicos útiles para la miel y vivienda maya."
+      },
+      "step_2": {
+        "title": "Crianza en vivero",
+        "subtitle": "10 meses",
+        "description": "Se les debe de proveer de agua diariamente, cuidados, moverlos, embolsarlos, trasladarlos"
+      },
+      "step_3": {
+        "title": "Transporte y siembra",
+        "description": "Al llegar las lluvias, los árboles son llevados a zonas reforestadas, en terrenos complicados y bajo condiciones desafiantes."
+      },
+      "step_4": {
+        "title": "Supervisión y reposición ",
+        "subtitle": "12 meses",
+        "description": "Se monitorea cada árbol para asegurar su supervivencia. Si no prospera, se replanta."
+      }
+    },
+    "map": {
+      "title": "¿Cómo se veían las zonas antes de la deforestación?",
+      "description": "Mueve la barra para comparar cómo lucían la zona en el 2000 antes de la deforestación y comparado con ahora 2025"
+    },
+    "donationPlans": {
+      "header": {
+        "location": "Reforestación Maya - Campeche, México",
+        "title": "Modos de Adquisición de Certificados",
+        "description": "Elige la forma que mejor se adapte a ti para contribuir a nuestro proyecto de reforestación y ayudar a plantar árboles en las tierras mayas de Campeche."
+      },
+      "plans": {
+        "donation": {
+          "name": "Donación Libre",
+          "description": "Apoya el proyecto sin complicaciones",
+          "price": "Desde $1",
+          "priceDetail": "MXN - Tu eliges el monto",
+          "features": {
+            "symbolic_thanks": "Agradecimiento simbólico",
+            "project_support": "Apoyo al cuidado general del proyecto",
+            "community_monitoring": "Contribución al monitoreo comunitario",
+            "no_registration": "Sin necesidad de registro",
+            "digital_certificate": "Certificado digital personalizado",
+            "tree_tracking": "Seguimiento individual del árbol",
+            "unique_code": "Código único de identificación",
+            "tax_deductible": "Deducible de impuesto"
+          },
+          "buttonText": "Donar Ahora",
+          "idealFor": "Quienes solo quieren apoyar sin complicaciones"
+        },
+        "certificate": {
+          "name": "Certificado de Árbol",
+          "description": "Tu árbol, tu certificado, tu impacto",
+          "price": "$350",
+          "priceDetail": "MXN por certificado",
+          "popular": "⭐ Más Popular",
+          "quantityLabel": "Cantidad de certificados",
+          "features": {
+            "digital_certificate": "Certificado digital personalizado",
+            "unique_code": "Código único de identificación",
+            "geographic_location": "Ubicación geográfica general",
+            "tree_species": "Especie del árbol especificada",
+            "donor_name": "Nombre del donador (opcional)",
+            "direct_participation": "Participación directa en reforestación maya",
+            "multiple_purchase": "Compra múltiple (1-100 certificados)",
+            "tax_deductible": "Deducible de impuesto"
+          },
+          "extras": {
+            "title": "Extras Opcionales:",
+            "photo_tracking": "Seguimiento fotográfico del árbol",
+            "gps_location": "Ubicación detallada GPS",
+            "health_reports": "Reportes de salud del árbol",
+            "tree_naming": "Opción de nombrar tu árbol"
+          },
+          "buttonText": "Obtener Certificado",
+          "idealFor": "Empresas, regalos significativos, conexión directa con la causa",
+          "idealForTitle": "Ideal para:"
+        }
+      },
+      "additionalInfo": {
+        "location": {
+          "title": "Ubicación del Proyecto",
+          "description": "Todos los árboles se plantan en tierras mayas de Campeche, México, contribuyendo a la reforestación local y al bienestar de las comunidades indígenas.",
+          "verified": "Proyecto verificado • Cuidado garantizado por más de un año"
+        }
+      }
+    },
+    "FAQ": {
+      "header": {
+        "badge": "Preguntas Frecuentes",
+        "title": "¿Tienes dudas sobre el proyecto?",
+        "description": "Aquí encontrarás las respuestas a las preguntas más comunes sobre nuestro proyecto de reforestación en Campeche."
+      },
+      "categories": {
+        "all": "Todas las preguntas",
+        "donation": "Donaciones",
+        "certificate": "Certificados",
+        "trees": "Árboles",
+        "general": "General"
+      },
+      "text": {
+        "clearFilters": "Limpiar filtros",
+        "showingAllQuestions": "Mostrando todas las {count} preguntas",
+        "showingQuestions": "Mostrando {count} de {total} preguntas",
+        "noQuestionsFound": "No se encontraron preguntas",
+        "noQuestionsFoundDescription": "No hay preguntas que coincidan con tu búsqueda. Intenta con otros términos o revisa todas las categorías.",
+        "viewAllQuestions": "Ver todas las preguntas",
+        "contactSupport": "Contactar soporte"
+      },
+      "questions": {
+        "difference": {
+          "question": "¿Cuál es la diferencia entre donar y comprar un certificado?",
+          "answer": "Donar es un apoyo libre, sin necesidad de registrarte ni recibir nada a cambio. En cambio, al comprar un certificado adquieres un documento digital que representa un árbol real plantado, con posibilidad de seguimiento y personalización."
+        },
+        "cost": {
+          "question": "¿Cuánto cuesta un certificado?",
+          "answer": "Cada certificado tiene un costo de $350 MXN, lo cual cubre el proceso completo desde la selección de la semilla hasta el seguimiento del árbol durante más de un año."
+        },
+        "what_receive": {
+          "question": "¿Qué recibo al comprar un certificado?",
+          "answer": "Recibirás un certificado digital personalizado que incluye toda la información de tu árbol y opciones de seguimiento.",
+          "details": [
+            "Código único del árbol",
+            "Especie plantada",
+            "Ubicación general",
+            "Tu nombre (opcional)",
+            "Opción de seguimiento personalizado"
+          ]
+        },
+        "tree_types": {
+          "question": "¿Qué tipo de árboles se plantan?",
+          "answer": "Plantamos especies endémicas y útiles para la comunidad maya, seleccionadas cuidadosamente para favorecer la biodiversidad, la producción de miel y la construcción tradicional."
+        },
+        "money_destination": {
+          "question": "¿A dónde va mi dinero?",
+          "answer": "Tu aportación se utiliza de manera transparente en todo el proceso de reforestación y desarrollo comunitario.",
+          "details": [
+            "Producción de árboles (semillas, viveros)",
+            "Pago justo a la comunidad que los cuida",
+            "Monitoreo y seguimiento",
+            "Educación ambiental y fortalecimiento local"
+          ]
+        },
+        "multiple_certificates": {
+          "question": "¿Puedo comprar más de un certificado a la vez?",
+          "answer": "Sí, puedes comprar todos los certificados que quieras en una sola operación. Al finalizar la compra, recibirás un certificado individual por cada árbol adquirido."
+        },
+        "tree_tracking": {
+          "question": "¿Puedo saber cómo va mi árbol?",
+          "answer": "Sí. Al comprar un certificado puedes solicitar seguimiento personalizado que incluye fotos periódicas, estado de salud y avances."
+        },
+        "donation_registration": {
+          "question": "¿Tengo que registrarme para donar?",
+          "answer": "No. Las donaciones libres no requieren registro ni inicio de sesión. Solo eliges el monto y listo."
+        },
+        "purchase_registration": {
+          "question": "¿Y para comprar un certificado?",
+          "answer": "Sí. Para comprar certificados es necesario crear una cuenta o iniciar sesión, ya que se genera un historial y se te asignan los certificados comprados."
+        },
+        "gift_certificate": {
+          "question": "¿Puedo regalar un certificado?",
+          "answer": "Sí. Puedes comprar un certificado y poner el nombre de la persona a quien deseas regalarlo. Pronto podrás incluir un mensaje personalizado."
+        },
+        "certificate_delivery_time": {
+          "question": "¿Recibiré el certificado de inmediato?",
+          "answer": "Recibirás tu certificado digital en cuanto se procese tu pago. En algunos casos, puede tardar unos minutos."
+        },
+        "physical_certificate": {
+          "question": "¿Se puede obtener un certificado físico?",
+          "answer": "Por ahora solo entregamos certificados digitales. Estamos trabajando en ofrecer una versión física opcional en el futuro."
+        }
+      },
+      "details": {
+        "includes": "Incluye:"
+      },
+      "cta": {
+        "title": "¿No encontraste lo que buscabas?",
+        "description": "Tenemos más preguntas frecuentes y una función de búsqueda para ayudarte mejor",
+        "viewAllQuestions": "Ver todas las preguntas",
+        "contactSupport": "Contactar soporte"
+      },
+      "stats": {
+        "certificatePrice": {
+          "value": "$350",
+          "label": "MXN por certificado"
+        },
+        "careGuarantee": {
+          "value": "1+",
+          "label": "Año de cuidado garantizado"
+        },
+        "nativeSpecies": {
+          "value": "100%",
+          "label": "Especies nativas mayas"
+        }
+      }
+    }
+  },
+  "Metadata": {
+    "title": "Pixan Chenes",
+    "description": "Aplicación web multiidioma creada con Next.js",
+    "keywords": "aplicación web, multiidioma, Next.js, internacionalización, español",
+    "about": {
+      "title": "Acerca de - Mi App Multi-idioma",
+      "description": "Conoce más sobre nuestra aplicación web multiidioma y nuestro equipo de desarrollo."
+    }
+  }
+}

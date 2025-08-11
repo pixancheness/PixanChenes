@@ -1,0 +1,309 @@
+{
+  "HomePage": {
+    "title": "Willkommen bei Pixan Chenes!"
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": {
+      "title": "Produkte",
+      "certificates": "Zertifikate",
+      "honey": "Honig",
+      "wine": "Wein"
+    },
+    "projects": {
+      "title": "Projekte",
+      "nodess": "Nodess",
+      "seminaries": "Seminar Repensar la cultura maya",
+      "businesses": "Businesses",
+      "artificialIntelligence": "Artificial Intelligence and Apiculture"
+    },
+    "culture": {
+      "title": "Kultur",
+      "stories": "Geschichten und Legenden",
+      "events": "Weltweiter Bienen Tag",
+      "forum": "UPIIT Umweltforum"
+    },
+    "aboutUs": "Über uns",
+    "viewCertificates": "Zertifikate anzeigen",
+    "requestCertificate": "Zertifikat beantragen",
+    "faq": "Häufig gestellte Fragen",
+
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "registerFree": "Registrieren",
+    "logout": "Abmelden",
+    "account": "Konto",
+    "options": "Optionen",
+    "language": "Sprache",
+    "menu": "Menü"
+  },
+  "Auth": {
+    "login": {
+      "title": "Anmelden",
+      "description": "Geben Sie Ihre E-Mail-Adresse ein, um sich anzumelden",
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "m@beispiel.com"
+      },
+      "password": {
+        "label": "Passwort",
+        "placeholder": "Geben Sie Ihr Passwort ein"
+      },
+      "forgotPassword": "Passwort vergessen?",
+      "loginButton": "Anmelden",
+      "googleButton": "Mit Google fortfahren",
+      "orContinueWith": "Oder fortfahren mit",
+      "noAccount": "Noch kein Konto?",
+      "signUpLink": "Registrieren"
+    },
+    "logout": {
+      "success": "Erfolgreich abgemeldet",
+      "error": "Fehler beim Abmelden. Bitte versuche es erneut."
+    }
+  },
+  "Certificates": {
+    "hero": {
+      "heroTitle": "Wir helfen dabei, den",
+      "heroSubtitle": "Maya-Wald zu retten",
+      "communitySupport": "Mit der Unterstützung der Gemeinschaft haben wir erreicht",
+      "treesPlanted": "Bäume gepflanzt",
+      "certificatesIssued": "Zertifikate ausgestellt",
+      "issued": "ausgestellt",
+      "planted": "gepflanzt",
+      "contribute": "Beitragen"
+    },
+    "testimonials": {
+      "title": "Beitragende Gemeinschaft",
+      "description": "Diese Menschen sind bereits Teil der Rettung des Maya-Waldes. Auch Sie können einer von ihnen sein."
+    },
+    "explanation": {
+      "title": "Was ist eine Aussaatbescheinigung?",
+      "description": "Eine Aussaatbescheinigung ist ein Dokument, das bescheinigt, dass eine Pflanze an einem bestimmten Ort gepflanzt wurde.",
+      "subtitle": "Wie sieht ein Zertifikat aus?",
+      "benefit_reforestation": {
+        "title": "Direkte Wiederaufforstung",
+        "description": "Du trägst direkt zur Wiederaufforstung einheimischer Arten bei."
+      },
+      "benefit_certificate": {
+        "title": "Verifizierbare Bescheinigung",
+        "description": "Du erhältst eine verifizierbare digitale Anerkennung mit einem eindeutigen Code."
+      },
+      "benefit_cultural_preservation": {
+        "title": "Kulturelle Erhaltung",
+        "description": "Du trägst zur Erhaltung der traditionellen Maya-Wohnung bei, die frischer und nachhaltiger ist."
+      },
+      "benefit_beekeeping_support": {
+        "title": "Unterstützung der Bienenzucht",
+        "description": "Förderst die lokale Bienenzucht und die nachhaltige Wirtschaft."
+      }
+    },
+    "timeline": {
+      "title": "Prozess des Zertifikats",
+      "description": "Jedes Zertifikat repräsentiert einen realen Prozess, der mehr als ein Jahr dauert und täglichen Aufwand erfordert. So passiert es:",
+
+      "step_1": {
+        "title": "Auswahl der Samen",
+        "description": "Es werden die besten Samen einheimischer Bäume ausgewählt, die für die Honigproduktion und den traditionellen Maya-Bau geeignet sind."
+      },
+      "step_2": {
+        "title": "Aufzucht in der Baumschule",
+        "subtitle": "10 Monate",
+        "description": "Die Bäume werden täglich gegossen, gepflegt, bewegt, verpackt und bei Reife transportiert."
+      },
+      "step_3": {
+        "title": "Transport und Pflanzung",
+        "description": "Sobald die Regenzeit beginnt, werden die Bäume in schwer zugängliche Wiederaufforstungsgebiete gebracht und dort gepflanzt."
+      },
+      "step_4": {
+        "title": "Überwachung und Nachpflanzung",
+        "subtitle": "12 Monate",
+        "description": "Jeder Baum wird überwacht, um sein Überleben zu sichern. Wenn er eingeht, wird er ersetzt."
+      }
+    },
+    "map": {
+      "title": "Wie sah das Gebiet vor der Abholzung aus?",
+      "description": "Bewegen Sie den Balken, um zu vergleichen, wie das Gebiet im Jahr 2000 vor der Abholzung und im Vergleich zu heute 2025 aussah"
+    },
+    "donationPlans": {
+      "header": {
+        "location": "Maya-Aufforstung – Campeche, Mexiko",
+        "title": "Zertifikatserwerbsmöglichkeiten",
+        "description": "Wähle die Option, die am besten zu dir passt, um unser Aufforstungsprojekt zu unterstützen und Bäume auf dem Maya-Gebiet in Campeche zu pflanzen."
+      },
+      "plans": {
+        "donation": {
+          "name": "Freie Spende",
+          "description": "Unterstütze das Projekt unkompliziert",
+          "price": "Ab 1 $",
+          "priceDetail": "MXN – Du bestimmst den Betrag",
+          "features": {
+            "symbolic_thanks": "Symbolischer Dank",
+            "project_support": "Unterstützung der allgemeinen Projektpflege",
+            "community_monitoring": "Beitrag zur gemeinschaftlichen Überwachung",
+            "no_registration": "Keine Registrierung erforderlich",
+            "digital_certificate": "Personalisierte digitale Urkunde",
+            "tree_tracking": "Individuelle Baumverfolgung",
+            "unique_code": "Einzigartiger Identifikationscode",
+            "tax_deductible": "Steuerlich absetzbar"
+          },
+          "buttonText": "Jetzt spenden",
+          "idealFor": "Für alle, die einfach nur unterstützen wollen"
+        },
+        "certificate": {
+          "name": "Baumzertifikat",
+          "description": "Dein Baum, dein Zertifikat, deine Wirkung",
+          "price": "350 $",
+          "priceDetail": "MXN pro Zertifikat",
+          "popular": "⭐ Am beliebtesten",
+          "quantityLabel": "Anzahl der Zertifikate",
+          "features": {
+            "digital_certificate": "Personalisierte digitale Urkunde",
+            "unique_code": "Einzigartiger Identifikationscode",
+            "geographic_location": "Allgemeiner geografischer Standort",
+            "tree_species": "Baumart angegeben",
+            "donor_name": "Name des Spenders (optional)",
+            "direct_participation": "Direkte Teilnahme an der Maya-Aufforstung",
+            "multiple_purchase": "Mehrfachkauf (1–100 Zertifikate)",
+            "tax_deductible": "Steuerlich absetzbar"
+          },
+          "extras": {
+            "title": "Optionale Extras:",
+            "photo_tracking": "Fotografische Verfolgung des Baumes",
+            "gps_location": "Detaillierter GPS-Standort",
+            "health_reports": "Gesundheitsberichte des Baumes",
+            "tree_naming": "Option, deinem Baum einen Namen zu geben"
+          },
+          "buttonText": "Zertifikat erhalten",
+          "idealFor": "Unternehmen, bedeutungsvolle Geschenke, direkte Verbindung zur Sache",
+          "idealForTitle": "Ideal für:"
+        }
+      },
+      "additionalInfo": {
+        "location": {
+          "title": "Projektstandort",
+          "description": "Alle Bäume werden auf Maya-Gebieten in Campeche, Mexiko gepflanzt, was zur lokalen Aufforstung und zum Wohl indigener Gemeinschaften beiträgt.",
+          "verified": "Verifiziertes Projekt • Pflege für über ein Jahr garantiert"
+        }
+      }
+    },
+    "FAQ": {
+      "header": {
+        "badge": "Häufig gestellte Fragen",
+        "title": "Hast du Fragen zum Projekt?",
+        "description": "Hier findest du Antworten auf die häufigsten Fragen zu unserem Wiederaufforstungsprojekt in Campeche."
+      },
+      "categories": {
+        "all": "Alle Fragen",
+        "donation": "Spenden",
+        "certificate": "Zertifikate",
+        "trees": "Bäume",
+        "general": "Allgemein"
+      },
+      "text": {
+        "clearFilters": "Filter löschen",
+        "showingAllQuestions": "Alle {count} Fragen anzeigen",
+        "showingQuestions": "{count} von {total} Fragen anzeigen",
+        "noQuestionsFound": "Keine Fragen gefunden",
+        "noQuestionsFoundDescription": "Keine Fragen gefunden, die zu deiner Suche passen. Versuche es mit anderen Suchbegriffen oder prüfe alle Kategorien.",
+        "viewAllQuestions": "Alle Fragen anzeigen",
+        "contactSupport": "Support kontaktieren"
+      },
+      "questions": {
+        "difference": {
+          "question": "Was ist der Unterschied zwischen Spenden und dem Kauf eines Zertifikats?",
+          "answer": "Spenden ist eine freiwillige Unterstützung, ohne Registrierung und ohne Gegenleistung. Beim Kauf eines Zertifikats erhältst du hingegen ein digitales Dokument, das einen tatsächlich gepflanzten Baum repräsentiert, inklusive Nachverfolgung und Personalisierung."
+        },
+        "cost": {
+          "question": "Wie viel kostet ein Zertifikat?",
+          "answer": "Ein Zertifikat kostet 350 MXN und deckt den gesamten Prozess ab – von der Auswahl des Samens bis zur einjährigen Nachverfolgung des Baums."
+        },
+        "what_receive": {
+          "question": "Was erhalte ich beim Kauf eines Zertifikats?",
+          "answer": "Du erhältst ein personalisiertes digitales Zertifikat mit allen Informationen über deinen Baum und Nachverfolgungsoptionen.",
+          "details": [
+            "Einzigartiger Baumcode",
+            "Gepflanzte Baumart",
+            "Allgemeiner Standort",
+            "Dein Name (optional)",
+            "Option für individuelle Nachverfolgung"
+          ]
+        },
+        "tree_types": {
+          "question": "Welche Baumarten werden gepflanzt?",
+          "answer": "Wir pflanzen endemische Arten, die für die Maya-Gemeinschaft nützlich sind, sorgfältig ausgewählt zur Förderung der Biodiversität, Honigproduktion und traditionellem Bauwesen."
+        },
+        "money_destination": {
+          "question": "Wofür wird mein Geld verwendet?",
+          "answer": "Dein Beitrag wird transparent im gesamten Prozess der Aufforstung und Gemeinschaftsentwicklung eingesetzt.",
+          "details": [
+            "Baumproduktion (Samen, Baumschulen)",
+            "Faire Bezahlung der pflegenden Gemeinschaft",
+            "Überwachung und Nachverfolgung",
+            "Umweltbildung und lokale Stärkung"
+          ]
+        },
+        "multiple_certificates": {
+          "question": "Kann ich mehrere Zertifikate gleichzeitig kaufen?",
+          "answer": "Ja, du kannst beliebig viele Zertifikate in einem Vorgang kaufen. Du erhältst für jeden gekauften Baum ein einzelnes Zertifikat."
+        },
+        "tree_tracking": {
+          "question": "Kann ich den Fortschritt meines Baums verfolgen?",
+          "answer": "Ja. Mit dem Kauf eines Zertifikats kannst du eine individuelle Nachverfolgung anfordern, inklusive regelmäßiger Fotos, Gesundheitszustand und Fortschritten."
+        },
+        "donation_registration": {
+          "question": "Muss ich mich registrieren, um zu spenden?",
+          "answer": "Nein. Für freie Spenden ist keine Registrierung oder Anmeldung erforderlich. Einfach Betrag wählen und fertig."
+        },
+        "purchase_registration": {
+          "question": "Und zum Kauf eines Zertifikats?",
+          "answer": "Ja. Der Kauf von Zertifikaten erfordert ein Konto oder eine Anmeldung, da ein Verlauf erstellt und die Zertifikate zugewiesen werden."
+        },
+        "gift_certificate": {
+          "question": "Kann ich ein Zertifikat verschenken?",
+          "answer": "Ja. Du kannst ein Zertifikat kaufen und den Namen der beschenkten Person angeben. Bald wird es auch möglich sein, eine persönliche Nachricht hinzuzufügen."
+        },
+        "certificate_delivery_time": {
+          "question": "Erhalte ich das Zertifikat sofort?",
+          "answer": "Du erhältst dein digitales Zertifikat, sobald deine Zahlung verarbeitet wurde. In manchen Fällen kann es ein paar Minuten dauern."
+        },
+        "physical_certificate": {
+          "question": "Gibt es auch ein physisches Zertifikat?",
+          "answer": "Derzeit stellen wir nur digitale Zertifikate aus. Wir arbeiten daran, in Zukunft eine physische Version optional anzubieten."
+        }
+      },
+      "details": {
+        "includes": "Enthält:"
+      },
+      "cta": {
+        "title": "Nicht gefunden, was du suchst?",
+        "description": "Wir haben weitere häufig gestellte Fragen und eine Suchfunktion, um dir besser zu helfen",
+        "viewAllQuestions": "Alle Fragen anzeigen",
+        "contactSupport": "Support kontaktieren"
+      },
+      "stats": {
+        "certificatePrice": {
+          "value": "$350",
+          "label": "MXN pro Zertifikat"
+        },
+        "careGuarantee": {
+          "value": "1+",
+          "label": "Jahr garantierte Pflege"
+        },
+        "nativeSpecies": {
+          "value": "100%",
+          "label": "Maya-Heimische Arten"
+        }
+      }
+    }
+  },
+  "Metadata": {
+    "title": "Pixan Chenes",
+    "description": "Mehrsprachige Webanwendung erstellt mit Next.js und next-intl. Vollständige Unterstützung für Spanisch, Englisch und Deutsch.",
+    "keywords": "Webanwendung, mehrsprachig, Next.js, Internationalisierung, deutsch",
+    "about": {
+      "title": "Über uns - Meine mehrsprachige App",
+      "description": "Erfahren Sie mehr über unsere mehrsprachige Webanwendung und unser Entwicklungsteam."
+    }
+  }
+}

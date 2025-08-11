@@ -1,0 +1,314 @@
+{
+  "HomePage": {
+    "title": "Welcome to Pixan Chenes!"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+
+    "products": {
+      "title": "Products",
+      "certificates": "Certificates",
+      "honey": "Honey",
+      "wine": "Wine"
+    },
+
+    "projects": {
+      "title": "Projects",
+      "nodess": "Nodess",
+      "seminaries": "Seminar Repensar la cultura maya",
+      "businesses": "Businesses",
+      "artificialIntelligence": "Artificial Intelligence and Apiculture"
+    },
+
+    "culture": {
+      "title": "Culture",
+      "stories": "Stories and Legends",
+      "events": "World Bee Day Event",
+      "forum": "UPIIT Environment Forum"
+    },
+
+    "aboutUs": "About Us",
+
+    "viewCertificates": "View Certificates",
+    "requestCertificate": "Request Certificate",
+    "faq": "Frequently Asked Questions",
+
+    "login": "Login",
+    "register": "Register",
+    "registerFree": "Register Free",
+    "logout": "Logout",
+    "account": "Account",
+    "options": "Options",
+    "language": "Language",
+    "menu": "Menu"
+  },
+  "Auth": {
+    "login": {
+      "title": "Sign In",
+      "description": "Enter your email below to sign in to your account",
+      "email": {
+        "label": "Email",
+        "placeholder": "m@example.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "forgotPassword": "Forgot your password?",
+      "loginButton": "Sign In",
+      "googleButton": "Continue with Google",
+      "orContinueWith": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up"
+    },
+    "logout": {
+      "success": "Logged out successfully",
+      "error": "Error logging out. Please try again."
+    }
+  },
+  "Certificates": {
+    "hero": {
+      "heroTitle": "We help save the",
+      "heroSubtitle": "Maya forest",
+      "communitySupport": "With community support we have achieved",
+      "treesPlanted": "Trees planted",
+      "certificatesIssued": "Certificates issued",
+      "issued": "issued",
+      "planted": "planted",
+      "contribute": "Contribute"
+    },
+    "testimonials": {
+      "title": "Community Contributor",
+      "description": "These people are already part of the rescue of the Selva Maya. You can be one of them too."
+    },
+    "explanation": {
+      "title": "What is a Seed Certificate?",
+      "description": "A Seed Certificate is a document that certifies that a plant has been planted in a specific location.",
+      "subtitle": "What does a certificate look like?",
+      "benefit_reforestation": {
+        "title": "Direct reforestation",
+        "description": "Contributes directly to the reforestation of endemic species."
+      },
+      "benefit_certificate": {
+        "title": "Verifiable certificate",
+        "description": "You get a verifiable digital recognition, with a unique code."
+      },
+      "benefit_cultural_preservation": {
+        "title": "Cultural preservation",
+        "description": "You contribute to preserving the traditional Mayan house, fresher and more sustainable."
+      },
+      "benefit_beekeeping_support": {
+        "title": "Beekeeping support",
+        "description": "Promotes local beekeeping and sustainable economy."
+      }
+    },
+    "timeline": {
+      "title": "Certificate Process",
+      "description": "Each certificate represents a real process that takes more than a year and requires daily effort. This is how it happens:",
+
+      "step_1": {
+        "title": "Seed Selection",
+        "description": "The best seeds of native trees are selected, chosen for their value in honey production and traditional Maya housing."
+      },
+      "step_2": {
+        "title": "Nursery Care",
+        "subtitle": "10 months",
+        "description": "Trees are watered daily, cared for, moved, bagged, and transported when ready."
+      },
+      "step_3": {
+        "title": "Transport and Planting",
+        "description": "When the rains arrive, the trees are carried to reforestation zones—rugged terrain with challenging conditions."
+      },
+      "step_4": {
+        "title": "Monitoring and Replacement",
+        "subtitle": "12 months",
+        "description": "Each tree is monitored to ensure it survives. If it doesn’t, it is replanted."
+      }
+    },
+    "map": {
+      "title": "What did the areas look like before deforestation?",
+      "description": "Move the bar to compare what the area looked like in 2000 before deforestation and compared to now 2025"
+    },
+    "donationPlans": {
+      "header": {
+        "location": "Maya Reforestation - Campeche, Mexico",
+        "title": "Certificate Acquisition Options",
+        "description": "Choose the way that suits you best to contribute to our reforestation project and help plant trees in the Mayan lands of Campeche."
+      },
+      "plans": {
+        "donation": {
+          "name": "Free Donation",
+          "description": "Support the project hassle-free",
+          "price": "From $1",
+          "priceDetail": "MXN - You choose the amount",
+          "features": {
+            "symbolic_thanks": "Symbolic thanks",
+            "project_support": "Support for the general care of the project",
+            "community_monitoring": "Contribution to community monitoring",
+            "no_registration": "No registration required",
+            "digital_certificate": "Personalized digital certificate",
+            "tree_tracking": "Individual tree tracking",
+            "unique_code": "Unique identification code",
+            "tax_deductible": "Tax deductible"
+          },
+          "buttonText": "Donate Now",
+          "idealFor": "Those who just want to support without complications"
+        },
+        "certificate": {
+          "name": "Tree Certificate",
+          "description": "Your tree, your certificate, your impact",
+          "price": "$350",
+          "priceDetail": "MXN per certificate",
+          "popular": "⭐ Most Popular",
+          "quantityLabel": "Number of certificates",
+          "features": {
+            "digital_certificate": "Personalized digital certificate",
+            "unique_code": "Unique identification code",
+            "geographic_location": "General geographic location",
+            "tree_species": "Specified tree species",
+            "donor_name": "Donor name (optional)",
+            "direct_participation": "Direct participation in Maya reforestation",
+            "multiple_purchase": "Multiple purchase (1-100 certificates)",
+            "tax_deductible": "Tax deductible"
+          },
+          "extras": {
+            "title": "Optional Extras:",
+            "photo_tracking": "Photographic tracking of the tree",
+            "gps_location": "Detailed GPS location",
+            "health_reports": "Tree health reports",
+            "tree_naming": "Option to name your tree"
+          },
+          "buttonText": "Get Certificate",
+          "idealFor": "Businesses, meaningful gifts, direct connection with the cause",
+          "idealForTitle": "Ideal for:"
+        }
+      },
+      "additionalInfo": {
+        "location": {
+          "title": "Project Location",
+          "description": "All trees are planted in Mayan lands of Campeche, Mexico, contributing to local reforestation and the well-being of indigenous communities.",
+          "verified": "Verified project • Care guaranteed for over a year"
+        }
+      }
+    },
+    "FAQ": {
+      "header": {
+        "badge": "Frequently Asked Questions",
+        "title": "Do you have questions about the project?",
+        "description": "Here you’ll find answers to the most common questions about our reforestation project in Campeche."
+      },
+      "categories": {
+        "all": "All questions",
+        "donation": "Donations",
+        "certificate": "Certificates",
+        "trees": "Trees",
+        "general": "General"
+      },
+      "text": {
+        "clearFilters": "Clear filters",
+        "showingAllQuestions": "Showing all {count} questions",
+        "showingQuestions": "Showing {count} of {total} questions",
+        "noQuestionsFound": "No questions found",
+        "noQuestionsFoundDescription": "No questions found that match your search. Try with other terms or check all categories.",
+        "viewAllQuestions": "View all questions",
+        "contactSupport": "Contact support"
+      },
+      "questions": {
+        "difference": {
+          "question": "What’s the difference between donating and buying a certificate?",
+          "answer": "Donating is a free contribution, with no need to register or receive anything in return. On the other hand, buying a certificate means you acquire a digital document representing a real planted tree, with tracking and personalization options."
+        },
+        "cost": {
+          "question": "How much does a certificate cost?",
+          "answer": "Each certificate costs $350 MXN, which covers the full process from seed selection to over a year of tree monitoring."
+        },
+        "what_receive": {
+          "question": "What do I receive when I buy a certificate?",
+          "answer": "You’ll receive a personalized digital certificate that includes all your tree’s information and tracking options.",
+          "details": [
+            "Unique tree code",
+            "Planted species",
+            "General location",
+            "Your name (optional)",
+            "Personalized tracking option"
+          ]
+        },
+        "tree_types": {
+          "question": "What types of trees are planted?",
+          "answer": "We plant endemic species that are useful to the Maya community, carefully selected to support biodiversity, honey production, and traditional construction."
+        },
+        "money_destination": {
+          "question": "Where does my money go?",
+          "answer": "Your contribution is used transparently across the entire reforestation and community development process.",
+          "details": [
+            "Tree production (seeds, nurseries)",
+            "Fair payment to the community caring for them",
+            "Monitoring and tracking",
+            "Environmental education and local empowerment"
+          ]
+        },
+        "multiple_certificates": {
+          "question": "Can I buy more than one certificate at a time?",
+          "answer": "Yes, you can purchase as many certificates as you want in a single transaction. You’ll receive an individual certificate for each tree acquired."
+        },
+        "tree_tracking": {
+          "question": "Can I track my tree?",
+          "answer": "Yes. When you buy a certificate, you can request personalized tracking that includes periodic photos, health status, and progress updates."
+        },
+        "donation_registration": {
+          "question": "Do I need to register to donate?",
+          "answer": "No. Free donations don’t require registration or login. Just choose the amount and that’s it."
+        },
+        "purchase_registration": {
+          "question": "And to buy a certificate?",
+          "answer": "Yes. Buying certificates requires creating an account or logging in, since a purchase history is generated and certificates are assigned to you."
+        },
+        "gift_certificate": {
+          "question": "Can I give a certificate as a gift?",
+          "answer": "Yes. You can buy a certificate and enter the name of the person you want to give it to. Soon you'll be able to include a personalized message."
+        },
+        "certificate_delivery_time": {
+          "question": "Will I receive the certificate immediately?",
+          "answer": "You’ll receive your digital certificate as soon as your payment is processed. In some cases, it might take a few minutes."
+        },
+        "physical_certificate": {
+          "question": "Can I get a physical certificate?",
+          "answer": "For now, we only issue digital certificates. We’re working on offering an optional physical version in the future."
+        }
+      },
+      "details": {
+        "includes": "Includes:"
+      },
+      "cta": {
+        "title": "Didn't find what you were looking for?",
+        "description": "We have more frequently asked questions and a search function to help you better",
+        "viewAllQuestions": "View all questions",
+        "contactSupport": "Contact support"
+      },
+      "stats": {
+        "certificatePrice": {
+          "value": "$350",
+          "label": "MXN per certificate"
+        },
+        "careGuarantee": {
+          "value": "1+",
+          "label": "Year of guaranteed care"
+        },
+        "nativeSpecies": {
+          "value": "100%",
+          "label": "Native Mayan species"
+        }
+      }
+    }
+  },
+  "Metadata": {
+    "title": "Pixan Chenes",
+    "description": "Multi-language web application built with Next.js and next-intl. Full support for Spanish, English, and German.",
+    "keywords": "web application, multilingual, Next.js, internationalization, english",
+    "about": {
+      "title": "About - My Multi-language App",
+      "description": "Learn more about our multi-language web application and our development team."
+    }
+  }
+}

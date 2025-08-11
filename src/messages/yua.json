@@ -1,0 +1,312 @@
+{
+  "HomePage": {
+    "title": "Bix a k'áaba', ti' le Chenes Pixan"
+  },
+  "Navigation": {
+    "home": "Káajal",
+    "about": "Yóok'ol",
+
+    "products": {
+      "title": "Ba'ax ku ts'aik",
+      "certificates": "Tz'uulilo'ob",
+      "honey": "Kaab",
+      "wine": "T'aanil u k'i'ik'el"
+    },
+
+    "projects": {
+      "title": "Meyajilo'ob",
+      "nodess": "Nodess",
+      "seminaries": "Seminario: Tu jats'uts k'áat le k'ultura maya",
+      "businesses": "Meyajo'ob ku beetik ba'ax",
+      "artificialIntelligence": "Na'atil máakilo'ob yéetel kaab meyaj"
+    },
+
+    "culture": {
+      "title": "K'ultura",
+      "stories": "T'àanilo'ob yéetel u jach k'áat chi'ob",
+      "events": "Evento ti' k'iinil le kaab",
+      "forum": "Foro UPIIT tu yáanal le lu'um"
+    },
+
+    "viewCertificates": "Wilik certificados",
+    "requestCertificate": "K'áat chi' ti' certificado",
+    "faq": "K'áat chi'oba' frecuentes",
+
+    "aboutUs": "To'on",
+    "login": "Jach'a'aj t'aan",
+    "register": "T'aan ts'áak",
+    "registerFree": "T'aan ts'áak mixba'al",
+    "logout": "Ts'o'ok t'aan",
+    "account": "K'áat chi' kuenta",
+    "options": "Jach ma'alob",
+    "language": "T'aan",
+    "menu": "Menu'"
+  },
+  "Auth": {
+    "login": {
+      "title": "Jach'a'aj t'aan",
+      "description": "Tak u email a k'ajóoltik kuenta",
+      "email": {
+        "label": "Correo Electrónico",
+        "placeholder": "correo@ejemplo.com"
+      },
+      "password": {
+        "label": "Tz'íibtsilil",
+        "placeholder": "Tak a tz'íibtsilil"
+      },
+      "forgotPassword": "Ma' a k'áatik a tz'íibtsilil?",
+      "loginButton": "Jach'a'aj t'aan",
+      "googleButton": "T'aan Google",
+      "orContinueWith": "Wa báax k'ajóoltik",
+      "noAccount": "Mix a kuenta?",
+      "signUpLink": "T'aan ts'áak"
+    },
+    "logout": {
+      "success": "T'aan ts'o'ok tu ka'ajo'ob",
+      "error": "Ts'o'ok'oba' ma'alob. K'áat chi' ka'a bin."
+    }
+  },
+  "Certificates": {
+    "hero": {
+      "heroTitle": "K'áatik ku bin wilik",
+      "heroSubtitle": "le K'áax Maya",
+      "communitySupport": "Tu meyajil le ko'olelo'ob ku ts'aik",
+      "treesPlanted": "Che'o'ob pak'atalo'ob",
+      "certificatesIssued": "Certificados emitidos",
+      "issued": "emitidos",
+      "planted": "pak'atalo'ob",
+      "contribute": "Ts'aik meyaj"
+    },
+    "testimonials": {
+      "title": "Ko'olelo'ob ts'aikbalo'ob",
+      "description": "Le máako'ob ku beetik juntúul parte tu k'uchul le K'áax Maya. A wáaj a beyo'ob."
+    },
+    "explanation": {
+      "title": "Ba'ax le Certificado tu Pak'atal?",
+      "description": "Certificado tu Pak'atal je'el jump'éel papel ku meentik u k'áat u pak'atalil jump'éel che' tu juntúul lugar. Le papel le juntéene' tu máako'ob ku k'áat ts'aik meyaj ku báa'ax ku beetik ti' le lu'um.",
+      "subtitle": "Ba'ax je'el jump'éel certificado?",
+      "benefit_reforestation": {
+        "title": "Pak'atalil tu jaats'utsil",
+        "description": "A ts'aik meyaj tu pak'atalil le che'o'ob ku lu'umilo'ob."
+      },
+      "benefit_certificate": {
+        "title": "Certificado ku jach k'áat",
+        "description": "A k'áat jump'éel reconocimiento digital ku jach tuukul, tu kódigo jump'éel."
+      },
+      "benefit_cultural_preservation": {
+        "title": "Jach meyajil le k'áat chi'ob",
+        "description": "A ts'aik meyaj tu jats'utsil naj maya, ku jaats'utsil yéetel sustentable."
+      },
+      "benefit_beekeeping_support": {
+        "title": "Ts'aik meyaj tu kaabalo'ob",
+        "description": "A k'uchul u ts'aik tu kaabalo'ob yéetel le economía sustentable."
+      }
+    },
+    "timeline": {
+      "title": "Ts'áakil le Certificado",
+      "description": "Ba'ax túumben jump'éel certificado ku meentik jump'éel meyajil tu jaats'utsil ku túun ja'ab yéetel k'áat chi' meyaj k'iinil. Beyo' ku bin:",
+      "step_1": {
+        "title": "Tsolk'il bu'uts'o'ob",
+        "description": "K'áat chi'ob le bu'uts'o'ob jaats'utsilo'ob le che'o'ob ku útil tu kaab yéetel najil maya."
+      },
+      "step_2": {
+        "title": "Puksi'ik'alil tu k'áanche'",
+        "subtitle": "10 ja'ab",
+        "description": "K'áat chi' u ja', u jach meyajil, u wóolts'ik, u ts'uuts'ik tu túul, yéetel u k'uchul."
+      },
+      "step_3": {
+        "title": "K'uchul yéetel pak'atal",
+        "description": "Tu k'áat le ja'aso', le che'o'ob ku k'uchul ti' le lu'um pak'atalo'ob, tu lu'um ku beetik k'uchil yéetel ku beetik u jach ma'alo'ob k'uchil."
+      },
+      "step_4": {
+        "title": "Ichil ts'íib yéetel k'áat chi' tu meyaj",
+        "subtitle": "12 ja'ab",
+        "description": "Wilik tu meyaj jump'éel che' ka'aj u yila'al ku k'a'abesik. Wa ma' uts', ku pak'atal túumben."
+      }
+    },
+    "map": {
+      "title": "Ba'ax je'el le k'uchilo'ob tu beetaj le lu'um antes le deforestación?",
+      "description": "Ts'aik le barra ka wilik ba'ax je'el le k'uchil tu 2000 antes le deforestación yéetel ku comparación tu 2025"
+    },
+    "donationPlans": {
+      "header": {
+        "location": "Pak'atal Maya - Campeche, México",
+        "title": "Meyajo'ob tu k'áat chi' Certificados",
+        "description": "Tsolk'a le ba'ax ku beetik teech u meyaj tu pak'atalil yéetel a ts'aik meyaj tu pak'atalil che'o'ob tu lu'umil maya ti' Campeche."
+      },
+      "plans": {
+        "donation": {
+          "name": "Meyajil le k'áat chi'ob",
+          "description": "A ts'aik meyaj tu k'áat chi'ob ku báa'ax ku beetik ti' le lu'um.",
+          "price": "K'áat chi' k'áat",
+          "priceDetail": "MXN - Tu eliges el monto",
+          "features": {
+            "symbolic_thanks": "T'aan bo'otikilil",
+            "project_support": "Ku ts'aik juntúul bo'otik le meyajilo'ob",
+            "community_monitoring": "Ku meyaj tu jats'uts k'áat chi'obil kaambalil",
+            "no_registration": "Ma' k'áat registrarse",
+            "digital_certificate": "Tz'uulil digital a k'aaba'",
+            "tree_tracking": "Ts'íibta'anil u meyajil le ché'",
+            "unique_code": "Ba'alil ts'íib ts'ook",
+            "tax_deductible": "Deducible de impuesto"
+          },
+          "buttonText": "Donar Ahora",
+          "idealFor": "Quienes solo quieren apoyar sin complicaciones"
+        },
+        "certificate": {
+          "name": "Certificado de Árbol",
+          "description": "A ché', a tz'uulil, a bo'otik",
+          "price": "$350",
+          "priceDetail": "MXN tu'ux ka meyaj le tz'uulil",
+          "popular": "⭐ Más Popular",
+          "quantityLabel": "Jo'olil tz'uulilo'ob",
+          "features": {
+            "digital_certificate": "Tz'uulil digital a k'aaba'",
+            "unique_code": "Ba'alil ts'íib ts'ook",
+            "geographic_location": "Tu'uxil ichil kaajil",
+            "tree_species": "U na'atikil le ché'",
+            "donor_name": "K'aaba' u ts'aikba'al (opcional)",
+            "direct_participation": "Jach tu meyajil reforestación maya",
+            "multiple_purchase": "To'on ku meyaj (1-100 tz'uulilo'ob)",
+            "tax_deductible": "Deducible de impuesto"
+          },
+          "extras": {
+            "title": "Extras Opcionales:",
+            "photo_tracking": "Tu ts'íibtal ichil ba'axil le ché'",
+            "gps_location": "Tu'uxil GPS tu yo'olil",
+            "health_reports": "Tu ts'íib k'aaba'il u kuxtal le ché'",
+            "tree_naming": "K'a'aba'an a ché'"
+          },
+          "buttonText": "Obtener Certificado",
+          "idealFor": "Empresas, regalos significativos, conexión directa con la causa",
+          "idealForTitle": "Ideal para:"
+        }
+      },
+      "additionalInfo": {
+        "location": {
+          "title": "Tu'uxil le Meyajil",
+          "description": "Te' le ché'ob ku pak'atalo'ob ichil lu'umil maya ti' Campeche, México, ku ts'aik bo'otik tu jach reforestación yéetel u meyajilil le j'ilo'ob ichil kaajilo'ob mayao'ob.",
+          "verified": "Meyajil ts'aik tsikbalo'ob • Ku meyaj ts'o'okil tu jump'éel ja'ab"
+        }
+      }
+    },
+    "FAQ": {
+      "header": {
+        "badge": "Ts'íibta'anil Ba'ax Tu K'áat",
+        "title": "¿Tú k'áat a taan ichil le meyajil?",
+        "description": "Te' ku ts'íib a beeta'ob u meyajilo'ob ti' le reforestación ichil Campeche."
+      },
+      "categories": {
+        "all": "Tuláakal le ts'íibta'anilo'ob",
+        "donation": "Donacióno'ob",
+        "certificate": "Tz'uulilo'ob",
+        "trees": "Ché'o'ob",
+        "general": "Jela'an"
+      },
+      "text": {
+        "clearFilters": "Ts'u'uts u filtros",
+        "showingAllQuestions": "Táan u wilik tuláakal {count} ts'íibta'anilo'ob",
+        "showingQuestions": "Táan u wilik {count} tu {total} ts'íibta'anilo'ob",
+        "noQuestionsFound": "Ma' ts'o'ok ts'íibta'anilo'ob",
+        "noQuestionsFoundDescription": "Ma' ts'o'ok ts'íibta'an ku ts'aik tu meyajil busca. K'áat a jats'uts ba'ax wa wilik tuláakal le categorías.",
+        "viewAllQuestions": "Wilik tuláakal le ts'íibta'anilo'ob",
+        "contactSupport": "K'áat ayuda"
+      },
+      "questions": {
+        "difference": {
+          "question": "Ba'ax ku ts'ook ti' le donación yéetel le compra le tz'uulil?",
+          "answer": "Le donación ku ts'aik ba'ax tu yóok'ol kaab, ma' k'áat u registro, ma' chéen a ts'aik. Pero tu ka meyaj le tz'uulil, ku meyaj jump'éel papel digital le ché' jach ku pak'atalo'ob, yéetel k posibilidad tu ts'íibta'anil yéetel a k'aaba'."
+        },
+        "cost": {
+          "question": "¿Jach bix ku ts'o'okol jump'éel tz'uulil?",
+          "answer": "Jump'éel tz'uulil ku ts'o'okol $350 MXN, ku ts'aik ba'ax ichil u meyajil tu jilu' le semilla ka hasta u ts'íibta'anil le ché' tu más de jump'éel ja'ab."
+        },
+        "what_receive": {
+          "question": "¿Ba'ax ku k'áat tech tu ka meyaj le tz'uulil?",
+          "answer": "Ku k'áat tech jump'éel tz'uulil digital ti' a k'aaba', tu yóok'ol ku ts'íibtal u ba'axil le ché' yéetel tu ts'íibta'anil.",
+          "details": [
+            "Ba'alil ts'íib ts'ook le ché'",
+            "U especie le ché' ku pak'atalo'ob",
+            "Tu'uxil ichil kaajil",
+            "A k'aaba' (opcional)",
+            "Opción tu ts'íibta'anil a k'áajóoltbil"
+          ]
+        },
+        "tree_types": {
+          "question": "¿Ba'ax especies le ché'o' ku pak'atalo'ob?",
+          "answer": "Ku pak'atalo'ob especies ku yila'al ichil lu'umil maya, útiles ichil u jila' kaab, u jats'uts k'áax yéetel le meyajilil traditional."
+        },
+        "money_destination": {
+          "question": "¿Tu'ux ku bin in wu'uyaj (dinero)?",
+          "answer": "A ts'aik ku meyaj ichil u jach jats'utsilil ichil le reforestación yéetel le meyajililil kaajil.",
+          "details": [
+            "K'áat u jats'uts le ché'o' (semillas, viveros)",
+            "Paga jach justo ti' le jilo'ob ku cuidajo'ob",
+            "Monitoreo y ts'íibta'anil",
+            "Na'at ichil ba'axil le lu'um yéetel u k'áat chi'ob le kaaj"
+          ]
+        },
+        "multiple_certificates": {
+          "question": "¿In bin in meyaj tu'ux ba'ax más jump'éel tz'uulil?",
+          "answer": "Ja', bin in meyaj túumben ku ts'aik ba'ax jela'an le tz'uulilo'ob ichil jump'éel meyaj. Tu ts'o'ok u compra, ku k'áat tech jump'éel tz'uulil tu'ux le ché' ku pak'atalo'ob."
+        },
+        "tree_tracking": {
+          "question": "¿In bin in ts'íibtal bix ku bin in ché'?",
+          "answer": "Ja'. Tu ka meyaj le tz'uulil bin a k'áat u ts'íibta'anil ti' a k'aaba', tu yóok'ol ku ts'íibtal u ba'axil (foto), u kuxtal yéetel u jela'an u meyaj."
+        },
+        "donation_registration": {
+          "question": "¿K'áat in registro tech tu ka ts'aik ba'ax (donar)?",
+          "answer": "Ma'. Le donación ma' k'áat u registro wa iniciar sesión. Chéen a k'áat le ba'ax ku ts'o'ok."
+        },
+        "purchase_registration": {
+          "question": "¿Ka je'el tu ka meyaj le tz'uulil?",
+          "answer": "Ja'. Tu ka meyaj le tz'uulil, k'áat in k'áat u cuenta wa iniciar sesión, chéen ba'ale' ku ts'íibtal u historia yéetel ku asigna'ab le tz'uulilo'ob."
+        },
+        "gift_certificate": {
+          "question": "¿Bin in ts'aik ba'ax (regalo) jump'éel tz'uulil?",
+          "answer": "Ja'. Bin in meyaj jump'éel tz'uulil yéetel a k'áat a ts'íib le k'aaba' le máak a k'áat a ts'aik. To'on bin in meyaj u mensaje a k'aaba' túumben."
+        },
+        "certificate_delivery_time": {
+          "question": "¿Bin in k'áat in tz'uulil tu jach ichil jump'éel k'iin?",
+          "answer": "Bin a k'áat a tz'uulil digital tu ts'o'ok u meyaj a pago. Tu jela'an k'iino', bin u beet u jats'uts jump'éel minuto."
+        },
+        "physical_certificate": {
+          "question": "¿Bin in k'áat jump'éel tz'uulil ichil papel?",
+          "answer": "Tu jump'éel ja'ab chéen ku ts'aik tz'uulilo'ob digitales. To'on ku meyaj u versión física opcional."
+        }
+      },
+      "details": {
+        "includes": "Ku ts'aik:"
+      },
+      "cta": {
+        "title": "¿Ma' a k'áat ba'ax ku bisik tech?",
+        "description": "To'on ku yojel ba'axil túumben ts'íibtal yéetel jump'éel meyajil busca ku beetik ayuda tech jach.",
+        "viewAllQuestions": "Wilik tuláakal le ts'íibta'anilo'ob",
+        "contactSupport": "K'áat ayuda"
+      },
+      "stats": {
+        "certificatePrice": {
+          "value": "$350",
+          "label": "MXN tu jump'éel tz'uulil"
+        },
+        "careGuarantee": {
+          "value": "1+",
+          "label": "Ja'abil jats'uts meyajil ku ts'aik"
+        },
+        "nativeSpecies": {
+          "value": "100%",
+          "label": "Especies nativas maya'o'ob"
+        }
+      }
+    }
+  },
+  "Metadata": {
+    "title": "Pixan Chenes",
+    "description": "Web aplicación tu jela'an t'aan, meyaj ti' Next.js",
+    "keywords": "web aplicación, jela'an t'aan, Next.js, internacionalización, español",
+    "about": {
+      "title": "Tu yáanal - In Web Aplicación Jela'an T'aan",
+      "description": "K'áat a na'atik ba'ax ku beetik le web aplicación jela'an t'aan yéetel k'áat chi'ob le meyajo'ob ku beetik ti'."
+    }
+  }
+}
