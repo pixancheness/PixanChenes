@@ -13,9 +13,9 @@ export default function Hero() {
       <div className="flex justify-center items-center">
         <SplitText
           text={t("title")}
-          className="text-4xl font-bold py-5  text-yellow-950 "
-          delay={100}
-          duration={0.2}
+          className="text-4xl font-bold py-5  text-darkkkk "
+          delay={60}
+          duration={0.8}
           ease="power3.out"
           splitType="chars"
           from={{ opacity: 0, y: 40 }}

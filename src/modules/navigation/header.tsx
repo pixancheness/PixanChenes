@@ -23,19 +23,19 @@ const Header = () => {
     <header className="bg-transparent fixed top-0 left-0 right-0 z-50">
       {/* Large Desktop view (1700px+) - Full layout with AuthButtons */}
       <div className="hidden 2xl:flex w-full px-32 mx-auto">
-        <div className="flex items-center h-16 relative w-full">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center h-16 w-full gap-4">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-start">
             <Logo size="large" />
           </div>
 
-          {/* Desktop Navigation - Flexible center */}
-          <div className="flex-1 flex justify-center px-8">
+          {/* Desktop Navigation - True center */}
+          <div className="flex justify-center">
             <DesktopNavigation />
           </div>
 
           {/* Auth Buttons - Desktop */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-end">
             <TabletAuthDropdown />
           </div>
         </div>
@@ -43,19 +43,19 @@ const Header = () => {
 
       {/* Medium Desktop view (1280px - 1535px) - Navigation + Auth Dropdown */}
       <div className="hidden xl:flex 2xl:hidden w-full px-16 mx-auto">
-        <div className="flex items-center h-16 relative w-full">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center h-16 w-full gap-4">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-start">
             <Logo size="large" />
           </div>
 
-          {/* Desktop Navigation - Flexible center */}
-          <div className="flex-1 flex justify-center px-6">
+          {/* Desktop Navigation - True center */}
+          <div className="flex justify-center">
             <DesktopNavigation />
           </div>
 
           {/* Auth Dropdown for tablets */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-end">
             <TabletAuthDropdown />
           </div>
         </div>
@@ -63,19 +63,19 @@ const Header = () => {
 
       {/* Large Tablet view (1024px - 1279px) - Navigation + Auth Dropdown */}
       <div className="hidden lg:flex xl:hidden w-full px-8 mx-auto">
-        <div className="flex items-center h-16 relative w-full">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center h-16 w-full gap-4">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-start">
             <Logo size="large" />
           </div>
 
-          {/* Desktop Navigation - Flexible center */}
-          <div className="flex-1 flex justify-center px-4">
+          {/* Desktop Navigation - True center */}
+          <div className="flex justify-center">
             <DesktopNavigation />
           </div>
 
           {/* Auth Dropdown for tablets */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-end">
             <TabletAuthDropdown />
           </div>
         </div>
@@ -83,19 +83,19 @@ const Header = () => {
 
       {/* Medium Tablet view (768px - 1023px) - Compact navigation + Mobile menu */}
       <div className="hidden md:flex lg:hidden w-full px-6 mx-auto">
-        <div className="flex items-center h-16 relative w-full">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center h-16 w-full gap-4">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-start">
             <Logo size="large" />
           </div>
 
-          {/* Desktop Navigation - Flexible center (smaller) */}
-          <div className="flex-1 flex justify-center px-3">
+          {/* Desktop Navigation - True center (smaller) */}
+          <div className="flex justify-center">
             <DesktopNavigation variant="compact" />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex-shrink-0">
+          <div className="flex justify-end">
             <MobileMenuButton isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
           </div>
         </div>

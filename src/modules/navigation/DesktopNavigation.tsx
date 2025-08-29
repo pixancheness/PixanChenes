@@ -88,8 +88,8 @@ const DesktopNavigation = ({ variant = "default" }: DesktopNavigationProps) => {
       <nav
         className={`hidden lg:flex items-center bg-dark rounded-full ${
           isCompact
-            ? "space-x-2 px-3 py-1"
-            : "space-x-4 xl:space-x-6 px-4 xl:px-6 py-1"
+            ? "space-x-1 px-2 py-1"
+            : "space-x-2 xl:space-x-3 px-3 xl:px-4 py-1"
         }`}
       >
         {navigationItems.map((item, index) => {
@@ -103,7 +103,7 @@ const DesktopNavigation = ({ variant = "default" }: DesktopNavigationProps) => {
                 <Link
                   href={item.href}
                   className={`flex items-center space-x-1 transition-colors duration-200 py-2 ${
-                    isCompact ? "px-2" : "px-3"
+                    isCompact ? "px-1.5" : "px-2"
                   } rounded-2xl ${
                     isActive
                       ? "bg-white text-black hover:text-yellow-950"
@@ -112,10 +112,10 @@ const DesktopNavigation = ({ variant = "default" }: DesktopNavigationProps) => {
                   onMouseEnter={() => handleButtonMouseEnter(index)}
                   onMouseLeave={handleButtonMouseLeave}
                 >
-                  <item.icon size={isCompact ? 16 : 18} />
+                  <item.icon size={isCompact ? 14 : 16} />
                   <span
                     className={`font-medium ${
-                      isCompact ? "text-xs" : "text-xs xl:text-sm"
+                      isCompact ? "text-xs" : "text-xs"
                     }`}
                   >
                     {t(item.name)}
@@ -130,7 +130,7 @@ const DesktopNavigation = ({ variant = "default" }: DesktopNavigationProps) => {
                     }}
                   >
                     <IconChevronDown
-                      size={isCompact ? 14 : 16}
+                      size={isCompact ? 12 : 14}
                       className={`transition-transform duration-200 ${
                         isDropdownOpen ? "rotate-180" : ""
                       }`}
@@ -142,17 +142,17 @@ const DesktopNavigation = ({ variant = "default" }: DesktopNavigationProps) => {
                 <Link
                   href={item.href}
                   className={`flex items-center space-x-1 transition-colors duration-200 py-2 ${
-                    isCompact ? "px-2" : "px-3"
+                    isCompact ? "px-1.5" : "px-2"
                   } rounded-2xl ${
                     isActive
                       ? "bg-white text-black hover:text-yellow-950"
                       : "text-white hover:text-yellow-200"
                   }`}
                 >
-                  <item.icon size={isCompact ? 16 : 18} />
+                  <item.icon size={isCompact ? 14 : 16} />
                   <span
                     className={`font-medium ${
-                      isCompact ? "text-xs" : "text-xs xl:text-sm"
+                      isCompact ? "text-xs" : "text-xs"
                     }`}
                   >
                     {t(item.name)}

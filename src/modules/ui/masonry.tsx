@@ -1,3 +1,5 @@
+"use client";
+
 import React, {
   useEffect,
   useLayoutEffect,
@@ -57,7 +59,7 @@ const useMeasure = <T extends HTMLElement>() => {
     if (!ref.current) return;
     const ro = new ResizeObserver(([entry]) => {
       const { width, height } = entry.contentRect;
-      setSize({ width, height });
+      setSize({ width: Math.floor(width), height: Math.floor(height) });
     });
     ro.observe(ref.current);
     return () => ro.disconnect();
@@ -171,55 +173,71 @@ const Masonry: React.FC<MasonryProps> = ({
   }, [items]);
 
   const grid = useMemo<GridItem[]>(() => {
-    if (!width) return [];
+    if (!width || width === 0 || !items.length) return [];
+
     const colHeights = new Array(columns).fill(0);
     const gap = 16;
     const totalGaps = (columns - 1) * gap;
-    const columnWidth = (width - totalGaps) / columns;
+    const availableWidth = Math.max(width - totalGaps, 0);
+    const columnWidth = Math.max(availableWidth / columns, 0);
 
-    return items.map((child) => {
+    if (columnWidth === 0) return [];
+
+    const gridItems = items.map((child) => {
       const col = colHeights.indexOf(Math.min(...colHeights));
       const x = col * (columnWidth + gap);
-      const height = child.height / 2;
+      const height = Math.max(child.height / 2, 100); // Ensure minimum height
       const y = colHeights[col];
 
       colHeights[col] += height + gap;
       return { ...child, x, y, w: columnWidth, h: height };
     });
+
+    return gridItems;
   }, [columns, items, width]);
+
+  // Calculate total height needed for the container
+  const totalHeight = useMemo(() => {
+    if (grid.length === 0) return 0;
+    return Math.max(...grid.map((item) => item.y + item.h));
+  }, [grid]);
 
   const hasMounted = useRef(false);
 
   useLayoutEffect(() => {
-    if (!imagesReady) return;
+    if (!imagesReady || grid.length === 0) return;
 
     grid.forEach((item, index) => {
       const selector = `[data-key="${item.id}"]`;
+      const element = document.querySelector(selector);
+      if (!element) return;
+
       const animProps = { x: item.x, y: item.y, width: item.w, height: item.h };
 
       if (!hasMounted.current) {
         const start = getInitialPosition(item);
-        gsap.fromTo(
-          selector,
-          {
-            opacity: 0,
-            x: start.x,
-            y: start.y,
-            width: item.w,
-            height: item.h,
-            ...(blurToFocus && { filter: "blur(10px)" }),
-          },
-          {
-            opacity: 1,
-            ...animProps,
-            ...(blurToFocus && { filter: "blur(0px)" }),
-            duration: 0.8,
-            ease: "power3.out",
-            delay: index * stagger,
-          }
-        );
+        gsap.set(element, {
+          opacity: 0,
+          x: start.x,
+          y: start.y,
+          width: item.w,
+          height: item.h,
+          ...(blurToFocus && { filter: "blur(10px)" }),
+        });
+
+        gsap.to(element, {
+          opacity: 1,
+          x: item.x,
+          y: item.y,
+          width: item.w,
+          height: item.h,
+          ...(blurToFocus && { filter: "blur(0px)" }),
+          duration: 0.8,
+          ease: "power3.out",
+          delay: index * stagger,
+        });
       } else {
-        gsap.to(selector, {
+        gsap.to(element, {
           ...animProps,
           duration,
           ease,
@@ -260,32 +278,44 @@ const Masonry: React.FC<MasonryProps> = ({
   };
 
   return (
-    <div ref={containerRef} className="relative w-full h-full">
-      {grid.map((item) => (
-        <div
-          key={item.id}
-          data-key={item.id}
-          className="absolute box-content"
-          style={{ willChange: "transform, width, height, opacity" }}
-          onMouseEnter={(e) => handleMouseEnter(item.id, e.currentTarget)}
-          onMouseLeave={(e) => handleMouseLeave(item.id, e.currentTarget)}
-        >
-          <div className="relative w-full h-full rounded-[10px] shadow-[0px_10px_50px_-10px_rgba(0,0,0,0.2)] overflow-hidden">
-            <Image
-              src={item.img}
-              alt={`Imagen ${item.id}`}
-              fill
-              placeholder="blur"
-              className="object-cover rounded-[10px]"
-              sizes="(max-width: 400px) 100vw, (max-width: 600px) 50vw, (max-width: 1000px) 33vw, (max-width: 1500px) 25vw, 20vw"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyBckliyjqTzSlT54b6bk+h0R//2Q=="
-            />
-            {colorShiftOnHover && (
-              <div className="color-overlay absolute inset-0 rounded-[10px] bg-gradient-to-tr from-pink-500/50 to-sky-500/50 opacity-0 pointer-events-none" />
-            )}
+    <div
+      ref={containerRef}
+      className="relative w-full"
+      style={{
+        height: totalHeight > 0 ? `${totalHeight}px` : "auto",
+      }}
+    >
+      {imagesReady &&
+        grid.length > 0 &&
+        grid.map((item) => (
+          <div
+            key={item.id}
+            data-key={item.id}
+            className="absolute"
+            style={{
+              willChange: "transform, width, height, opacity",
+              width: item.w,
+              height: item.h,
+            }}
+            onMouseEnter={(e) => handleMouseEnter(item.id, e.currentTarget)}
+            onMouseLeave={(e) => handleMouseLeave(item.id, e.currentTarget)}
+          >
+            <div className="relative w-full h-full rounded-[10px] shadow-[0px_10px_50px_-10px_rgba(0,0,0,0.2)] overflow-hidden">
+              <Image
+                src={item.img}
+                alt={`Imagen ${item.id}`}
+                fill
+                placeholder="blur"
+                className="object-cover rounded-[10px]"
+                sizes="(max-width: 400px) 100vw, (max-width: 600px) 50vw, (max-width: 1000px) 33vw, (max-width: 1500px) 25vw, 20vw"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyBckliyjqTzSlT54b6bk+h0R//2Q=="
+              />
+              {colorShiftOnHover && (
+                <div className="color-overlay absolute inset-0 rounded-[10px] bg-gradient-to-tr from-pink-500/50 to-sky-500/50 opacity-0 pointer-events-none" />
+              )}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
     </div>
   );
 };

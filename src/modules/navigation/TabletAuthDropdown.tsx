@@ -41,7 +41,7 @@ const TabletAuthDropdown = ({ onItemClick }: TabletAuthDropdownProps) => {
       {/* Trigger Button */}
       <button className="flex items-center space-x-2 bg-dark text-white px-3 py-2 rounded-lg hover:text-yellow-200 hover:bg-gray-800 transition-colors duration-200 mt-4 ">
         <IconUser size={18} />
-        <span className="font-normal text-sm">{t("Navigation.options")}</span>
+        <span className="font-normal text-xs">{t("Navigation.options")}</span>
         <IconChevronDown
           size={16}
           className={`transition-transform duration-200 ${
