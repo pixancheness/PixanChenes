@@ -2,51 +2,40 @@
 import { useTranslations } from "next-intl";
 
 import Masonry from "../ui/masonry";
+import SplitText from "../ui/SplitText";
+import { mansoyItems } from "./constants/mansoy";
 
 export default function Hero() {
   const t = useTranslations("HomePage");
-  const items = [
-    {
-      id: "1",
-      img: "https://picsum.photos/id/1015/600/900?grayscale",
-      url: "https://example.com/one",
-      height: 400,
-    },
-    {
-      id: "2",
-      img: "https://picsum.photos/id/1011/600/750?grayscale",
-      url: "https://example.com/two",
-      height: 200,
-    },
-    {
-      id: "3",
-      img: "https://picsum.photos/id/1020/600/800?grayscale",
-      url: "https://example.com/three",
-      height: 600,
-    },
-    // ... more items
-  ];
+
   return (
-    <div>
-      <div>
-        {/* Título a la izquierda */}
-        <div className="flex flex-col justify-center lg:order-1">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center lg:text-left leading-tight">
-            {t("title")}
-          </h1>
-        </div>
-        <Masonry
-          items={items}
+    <div className="pt-16">
+      <div className="flex justify-center items-center">
+        <SplitText
+          text={t("title")}
+          className="text-4xl font-bold py-5  text-yellow-950 "
+          delay={100}
+          duration={0.2}
           ease="power3.out"
-          duration={0.6}
-          stagger={0.05}
-          animateFrom="bottom"
-          scaleOnHover={true}
-          hoverScale={0.95}
-          blurToFocus={true}
-          colorShiftOnHover={false}
+          splitType="chars"
+          from={{ opacity: 0, y: 40 }}
+          to={{ opacity: 1, y: 0 }}
+          threshold={0.1}
+          rootMargin="-100px"
+          textAlign="center"
         />
       </div>
+      <Masonry
+        items={mansoyItems}
+        ease="power3.out"
+        duration={0.6}
+        stagger={0.05}
+        animateFrom="bottom"
+        scaleOnHover={true}
+        hoverScale={0.95}
+        blurToFocus={true}
+        colorShiftOnHover={false}
+      />
     </div>
   );
 }

@@ -6,25 +6,45 @@ import React, {
   useState,
 } from "react";
 import { gsap } from "gsap";
+import Image from "next/image";
 
 const useMedia = (
   queries: string[],
   values: number[],
   defaultValue: number
 ): number => {
-  const get = () =>
-    values[queries.findIndex((q) => matchMedia(q).matches)] ?? defaultValue;
+  const [value, setValue] = useState<number>(defaultValue);
 
-  const [value, setValue] = useState<number>(get);
+  const getValue = () => {
+    // Check if we're in the browser and matchMedia is available
+    if (typeof window !== "undefined" && window.matchMedia) {
+      const index = queries.findIndex((q) => window.matchMedia(q).matches);
+      return values[index] ?? defaultValue;
+    }
+    return defaultValue;
+  };
 
   useEffect(() => {
-    const handler = () => setValue(get);
-    queries.forEach((q) => matchMedia(q).addEventListener("change", handler));
+    // Only run on client side
+    if (typeof window === "undefined" || !window.matchMedia) return;
+
+    const handler = () => setValue(getValue);
+
+    // Set initial value
+    setValue(getValue);
+
+    // Add listeners
+    queries.forEach((q) => {
+      const mediaQuery = window.matchMedia(q);
+      mediaQuery.addEventListener("change", handler);
+    });
+
     return () =>
-      queries.forEach((q) =>
-        matchMedia(q).removeEventListener("change", handler)
-      );
-  }, [queries]);
+      queries.forEach((q) => {
+        const mediaQuery = window.matchMedia(q);
+        mediaQuery.removeEventListener("change", handler);
+      });
+  }, [queries, defaultValue]);
 
   return value;
 };
@@ -51,7 +71,7 @@ const preloadImages = async (urls: string[]): Promise<void> => {
     urls.map(
       (src) =>
         new Promise<void>((resolve) => {
-          const img = new Image();
+          const img = new window.Image();
           img.src = src;
           img.onload = img.onerror = () => resolve();
         })
@@ -62,7 +82,6 @@ const preloadImages = async (urls: string[]): Promise<void> => {
 interface Item {
   id: string;
   img: string;
-  url: string;
   height: number;
 }
 
@@ -126,11 +145,17 @@ const Masonry: React.FC<MasonryProps> = ({
       case "top":
         return { x: item.x, y: -200 };
       case "bottom":
-        return { x: item.x, y: window.innerHeight + 200 };
+        return {
+          x: item.x,
+          y: (typeof window !== "undefined" ? window.innerHeight : 1000) + 200,
+        };
       case "left":
         return { x: -200, y: item.y };
       case "right":
-        return { x: window.innerWidth + 200, y: item.y };
+        return {
+          x: (typeof window !== "undefined" ? window.innerWidth : 1920) + 200,
+          y: item.y,
+        };
       case "center":
         return {
           x: containerRect.width / 2 - item.w / 2,
@@ -242,14 +267,19 @@ const Masonry: React.FC<MasonryProps> = ({
           data-key={item.id}
           className="absolute box-content"
           style={{ willChange: "transform, width, height, opacity" }}
-          onClick={() => window.open(item.url, "_blank", "noopener")}
           onMouseEnter={(e) => handleMouseEnter(item.id, e.currentTarget)}
           onMouseLeave={(e) => handleMouseLeave(item.id, e.currentTarget)}
         >
-          <div
-            className="relative w-full h-full bg-cover bg-center rounded-[10px] shadow-[0px_10px_50px_-10px_rgba(0,0,0,0.2)] uppercase text-[10px] leading-[10px]"
-            style={{ backgroundImage: `url(${item.img})` }}
-          >
+          <div className="relative w-full h-full rounded-[10px] shadow-[0px_10px_50px_-10px_rgba(0,0,0,0.2)] overflow-hidden">
+            <Image
+              src={item.img}
+              alt={`Imagen ${item.id}`}
+              fill
+              placeholder="blur"
+              className="object-cover rounded-[10px]"
+              sizes="(max-width: 400px) 100vw, (max-width: 600px) 50vw, (max-width: 1000px) 33vw, (max-width: 1500px) 25vw, 20vw"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyBckliyjqTzSlT54b6bk+h0R//2Q=="
+            />
             {colorShiftOnHover && (
               <div className="color-overlay absolute inset-0 rounded-[10px] bg-gradient-to-tr from-pink-500/50 to-sky-500/50 opacity-0 pointer-events-none" />
             )}
