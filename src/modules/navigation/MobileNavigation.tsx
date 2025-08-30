@@ -185,7 +185,7 @@ const MobileNavigation = ({
           </div>
 
           {/* Mobile Auth Buttons */}
-          <AuthButtons variant="mobile" onItemClick={onMenuClose} />
+          {/* <AuthButtons variant="mobile" onItemClick={onMenuClose} /> */}
         </div>
       </div>
     </>

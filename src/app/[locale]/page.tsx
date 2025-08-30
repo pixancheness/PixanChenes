@@ -1,5 +1,5 @@
-import Hero from "@/modules/home/hero";
+import PixanChenesHome from "@/modules/home/PixanChenesHome";
 
 export default function HomePage() {
-  return <Hero />;
+  return <PixanChenesHome />;
 }

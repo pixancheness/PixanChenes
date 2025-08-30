@@ -65,7 +65,8 @@ const TabletAuthDropdown = ({ onItemClick }: TabletAuthDropdownProps) => {
           </div>
 
           {/* Auth Buttons Section */}
-          <div className="p-4 space-y-3">
+
+          {/* <div className="p-4 space-y-3">
             <LoginLogoutButton variant="tablet" onItemClick={handleItemClick} />
             {!user && (
               <Link
@@ -77,7 +78,7 @@ const TabletAuthDropdown = ({ onItemClick }: TabletAuthDropdownProps) => {
                 <span>{t("Navigation.registerFree")}</span>
               </Link>
             )}
-          </div>
+          </div> */}
         </div>
       )}
     </div>
