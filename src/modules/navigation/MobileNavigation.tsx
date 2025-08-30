@@ -2,7 +2,6 @@ import { useState } from "react";
 import { navigationItems } from "@/constants/navigation";
 import { Link } from "@/i18n/navigation";
 import { IconChevronDown } from "@tabler/icons-react";
-import AuthButtons from "./AuthButtons";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/navigation";

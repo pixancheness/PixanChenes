@@ -7,7 +7,6 @@ import { generatePageMetadata } from "@/lib/metadata";
 import "./globals.css";
 import Header from "@/modules/navigation/header";
 import { Toaster } from "sonner";
-import { AuthProvider } from "@/providers/AuthProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,22 +36,80 @@ export default async function RootLayout({
   }
 
   // Datos estructurados para SEO
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "Pixan Chenes",
-    url: `${
-      process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
-    }/${locale}`,
-    inLanguage: locale,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Pixan Chenes",
+      alternateName: "Cooperativa Pixan Chenes",
+      url: `${
         process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
-      }/${locale}/search?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
+      }/${locale}`,
+      logo: `${
+        process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
+      }/img/logo_pixan.webp`,
+      description:
+        locale === "es"
+          ? "Cooperativa maya en Campeche que protege la selva, practica apicultura sustentable y ofrece certificados de reforestación."
+          : "Maya cooperative in Campeche that protects the jungle, practices sustainable beekeeping and offers reforestation certificates.",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Hopelchén",
+        addressRegion: "Campeche",
+        addressCountry: "México",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: "19.7491",
+        longitude: "-89.8315",
+      },
+      sameAs: ["https://www.pixanchenes.org"],
+      founder: {
+        "@type": "Person",
+        name: "Mujeres indígenas mayas",
+        description:
+          locale === "es"
+            ? "Liderazgo comunitario de mujeres indígenas mayas"
+            : "Community leadership of indigenous Maya women",
+      },
     },
-  };
+    {
+      "@context": "https://schema.org",
+      "@type": "NonprofitOrganization",
+      name: "Pixan Chenes",
+      mission:
+        locale === "es"
+          ? "Proteger la selva maya, promover el desarrollo sustentable y preservar la cultura indígena mediante la apicultura y la reforestación."
+          : "Protect the Maya jungle, promote sustainable development and preserve indigenous culture through beekeeping and reforestation.",
+      areaServed: {
+        "@type": "Place",
+        name: "Hopelchén, Campeche, México",
+      },
+      knowsAbout: [
+        "Apicultura maya",
+        "Reforestación",
+        "Desarrollo sustentable",
+        "Conservación ambiental",
+        "Cultura maya",
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Pixan Chenes",
+      url: `${
+        process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
+      }/${locale}`,
+      inLanguage: locale,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${
+          process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
+        }/${locale}/search?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ];
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -72,12 +129,15 @@ export default async function RootLayout({
           href="/apple-touch-icon.png"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData),
-          }}
-        />
+        {structuredData.map((data, index) => (
+          <script
+            key={index}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(data),
+            }}
+          />
+        ))}
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -88,17 +148,15 @@ export default async function RootLayout({
       </head>
       <body className={inter.className + " bg-[#EFE8DC]"}>
         <NextIntlClientProvider locale={locale}>
-          <AuthProvider>
-            <Header />
-            <Toaster
-              position="bottom-right"
-              richColors
-              closeButton
-              duration={4000}
-              theme="light"
-            />
-            {children}
-          </AuthProvider>
+          <Header />
+          <Toaster
+            position="bottom-right"
+            richColors
+            closeButton
+            duration={4000}
+            theme="light"
+          />
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>

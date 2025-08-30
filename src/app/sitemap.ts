@@ -5,7 +5,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
   
   // Páginas disponibles
-  const pages = ['', '/about']; // '' representa la página principal
+  const pages = [
+    '', // página principal
+    '/about',
+    '/certificados',
+    '/certificados/donacion', 
+    '/certificados/solicitar',
+    '/certificados/FAQ',
+    '/miel',
+    '/vino'
+  ];
   
   const sitemap: MetadataRoute.Sitemap = [];
   

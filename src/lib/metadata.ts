@@ -37,7 +37,7 @@ export async function generateMetadata(
     // Twitter Card
     twitter: {
       card: 'summary_large_image',
-      title: 'title' ,
+      title: page === 'home' ? t('title') : t(`${page}.title`),
       description: page === 'home' ? t('description') : t(`${page}.description`),
       images: [`${baseUrl}/og-image.jpg`],
     },
@@ -61,8 +61,19 @@ export async function generateMetadata(
       languages: {
         'es': `${baseUrl}/es`,
         'en': `${baseUrl}/en`,
-        'de': `${baseUrl}/de`,
+        'de': `${baseUrl}/de`,  
       },
+    },
+    
+    // Información adicional de SEO
+    category: 'sustainability',
+    classification: 'cooperative, environmental, indigenous',
+    
+    // Otros metadatos útiles
+    other: {
+      'apple-mobile-web-app-capable': 'yes',
+      'apple-mobile-web-app-status-bar-style': 'default',
+      'format-detection': 'telephone=no',
     },
   };
 

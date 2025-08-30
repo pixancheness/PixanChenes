@@ -1,12 +1,9 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { Link } from "@/i18n/navigation";
-import { IconUser, IconChevronDown, IconUserPlus } from "@tabler/icons-react";
+import { IconUser, IconChevronDown } from "@tabler/icons-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslations } from "next-intl";
-import LoginLogoutButton from "../ui/LoginLogoutButton";
-import { useAuth } from "@/hooks/useAuth";
 
 interface TabletAuthDropdownProps {
   onItemClick?: () => void;
@@ -16,7 +13,6 @@ const TabletAuthDropdown = ({ onItemClick }: TabletAuthDropdownProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const t = useTranslations();
-  const { user } = useAuth();
 
   const handleMouseEnter = () => {
     setIsOpen(true);

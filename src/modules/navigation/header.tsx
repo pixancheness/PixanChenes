@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Logo from "./Logo";
 import DesktopNavigation from "./DesktopNavigation";
-import AuthButtons from "./AuthButtons";
 import TabletAuthDropdown from "./TabletAuthDropdown";
 import MobileMenuButton from "./MobileMenuButton";
 import MobileNavigation from "./MobileNavigation";
