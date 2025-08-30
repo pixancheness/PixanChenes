@@ -1,7 +1,7 @@
 import {
   IconFileCertificate,
   IconCoffee,
-  IconGlassFullFilled,
+  IconHeartHandshake,
   IconUsers,
 } from "@tabler/icons-react";
 
@@ -45,7 +45,7 @@ export const navigationItems = [
   {
     name: "Navigation.culture.title",
     href: "/cuentos-y-leyendas",
-    icon: IconGlassFullFilled,
+    icon: IconHeartHandshake,
     hasDropdown: true,
     dropdownItems: [
       { name: "Navigation.culture.stories", href: "/cuentos-y-leyendas" },

@@ -1,6 +1,92 @@
 {
   "HomePage": {
-    "title": "Willkommen bei Pixan Chenes!"
+    "hero": {
+      "title": "Pixan Chenes",
+      "subtitle": "Wirtschaft mit Seele, Gemeinschaft mit Zukunft.",
+      "description": "Pixan Chenes ist eine Maya-Kooperative, die den Dschungel schützt, Bienen pflegt und eine würdige Zukunft für unsere Gemeinden aufbaut.",
+      "galleryButton": "Fotogalerie",
+      "supportButton": "Unterstützen Sie unser Projekt"
+    },
+    "aboutUs": {
+      "title": "Wer sind wir?",
+      "description": "Pixan bedeutet 'Seele' in der Maya-Sprache und Chenes bezieht sich auf die Brunnen unserer Region. Wir wurden 2020 mit der Überzeugung geboren, dass wir von der Gemeinschaft aus unser Schicksal ändern können. Wir sind fünf Maya-Gemeinden, die zusammenarbeiten, um Leben, Kultur und die Zukunft unseres Volkes zu verteidigen."
+    },
+    "purpose": {
+      "title": "Unser Zweck",
+      "description": "Wir möchten, dass unsere Maya-Gemeinden in Würde leben, ohne ihr Land oder ihre Kultur aufzugeben. Wir träumen von einem nachhaltigen Entwicklungsmodell, in dem Tradition und Innovation Hand in Hand gehen. Wenn Sie Pixan Chenes kennenlernen, werden Sie den Herzschlag eines Volkes spüren, das widersteht, sorgt und standhaft bleibt."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "items": [
+        "Respekt vor Leben, Land und unserer Identität",
+        "Gleichheit als Grundlage der Entwicklung",
+        "Gemeinschaftliche Beteiligung",
+        "Solidarische Verbindungen",
+        "Ökologische Pflege",
+        "Würde"
+      ]
+    },
+    "communities": {
+      "title": "Gemeinden, die Pixan Chenes bilden",
+      "description": "Fünf indigene Maya-Gemeinden in Hopelchén, Campeche:",
+      "list": "San Francisco Suc Tuc, Sahcabchén, Yakché Akal, Xcupil und Oxá."
+    },
+    "activities": {
+      "title": "Was machen wir?",
+      "items": [
+        "Traditionelle und technifizierte Bienenzucht",
+        "Zitronen- und Waldbäume pflanzen",
+        "Verwaltung von Gemeinschaftsgärtnereien",
+        "Herstellung und Verkauf von Grundprodukten",
+        "Maya-Honig-Route (lebendiges Erlebnis)",
+        "Projekte des Gemeinschaftsökotourismus",
+        "Verarbeitung von wertschöpfenden Produkten",
+        "Wiederherstellung des kulturellen Erbes",
+        "Ausbildungswerkstätten für Jugendliche und Frauen"
+      ]
+    },
+    "leadership": {
+      "title": "Gemeinschaftliche Führung",
+      "description": "Die Kooperative wird von indigenen Maya-Frauen geleitet, die die Organisation mit Engagement, Weisheit und Vision führen. Sie sind das Herz des Projekts und ein Beispiel für Transformation aus dem Kollektiven."
+    },
+    "achievements": {
+      "title": "Unsere Errungenschaften",
+      "description": "Wir haben die Kooperative gegründet, NODESS zusammen mit IPN und anderen Institutionen artikuliert und innovative Projekte wie eine Anwendung zur Honigernte-Verwaltung entwickelt. Diese Allianzen haben unsere produktiven und organisatorischen Kapazitäten gestärkt."
+    },
+    "future": {
+      "title": "Unsere Zukunft",
+      "description": "In 5 Jahren träumen wir davon, eine Modellgemeinschaft der Entwicklung mit Identität zu sein, Produkte mit Maya-Herkunftsnachverfolgung zu exportieren, in Aufforstung und Kohlenstoffanleihen zu führen, verantwortungsbewussten Tourismus, gemeinschaftliche Biotechnologie und transformative Bildung."
+    },
+    "allies": {
+      "title": "Verbindungen und Verbündete",
+      "description": "Institutionen wie das Nationale Polytechnische Institut, die Gemeinschaftsoberschule Suc Tuc, Fruchtbares Land und der Kommissar von Xcupil begleiten und stärken unter anderem unseren Weg."
+    },
+    "joinUs": {
+      "title": "Schließen Sie sich Pixan Chenes an",
+      "description": "Wir möchten, dass diejenigen, die uns besuchen, aktiv teilnehmen: unsere Produkte erwerben, Umweltzertifikate kaufen und so die Aufforstung und die Gemeinschaftsentwicklung unterstützen.",
+      "button": "Treten Sie unserer Sache bei"
+    },
+    "additionalInfo": {
+      "title": "Zusätzliche Informationen",
+      "items": {
+        "quality": {
+          "title": "Qualität und Authentizität",
+          "description": "Handwerkliche Prozesse und traditionelles Wissen mit technischer Begleitung."
+        },
+        "technology": {
+          "title": "Technologien",
+          "description": "Kombination traditioneller Praktiken und technologischer Werkzeuge."
+        },
+        "benefits": {
+          "title": "Vorteile",
+          "description": "Im Implementierungsprozess, mit wachsendem Einfluss."
+        },
+        "recipients": {
+          "title": "Empfänger",
+          "description": "Gemeinden, Jugendliche, Frauen, Institutionen, Unternehmen und bewusste Verbraucher."
+        }
+      }
+    }
   },
   "Navigation": {
     "home": "Startseite",

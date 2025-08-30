@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import {
   Heart,
   Users,
@@ -39,6 +40,8 @@ const staggerContainer = {
 };
 
 const PixanChenesHome = () => {
+  const t = useTranslations("HomePage");
+
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -52,7 +55,7 @@ const PixanChenesHome = () => {
             className="mb-8"
           >
             <SplitText
-              text="Pixan Chenes"
+              text={t("hero.title")}
               className="text-6xl md:text-8xl font-bold text-yellow-800 mb-6"
               tag="h1"
               delay={100}
@@ -71,11 +74,10 @@ const PixanChenesHome = () => {
             className="mb-8"
           >
             <h2 className="text-2xl md:text-4xl text-yellow-700 font-semibold mb-6">
-              Economía con alma, comunidad con futuro.
+              {t("hero.subtitle")}
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              Pixan Chenes es una cooperativa maya que protege la selva, cuida a
-              las abejas y construye un futuro digno para nuestras comunidades.
+              {t("hero.description")}
             </p>
           </motion.div>
 
@@ -87,11 +89,11 @@ const PixanChenesHome = () => {
           >
             <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2">
               <Sparkles className="w-5 h-5" />
-              Galeria de fotos
+              {t("hero.galleryButton")}
             </button>
             <button className="border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
               <Heart className="w-5 h-5" />
-              Apoya nuestro proyecto
+              {t("hero.supportButton")}
             </button>
           </motion.div>
         </div>
@@ -109,7 +111,7 @@ const PixanChenesHome = () => {
           >
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="¿Quiénes somos?"
+                text={t("aboutUs.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -121,11 +123,7 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              Pixan significa 'alma' en lengua maya y Chenes hace referencia a
-              los pozos de nuestra región. Nacimos en 2020 con la convicción de
-              que, desde la comunidad, podemos cambiar nuestro destino. Somos
-              cinco comunidades mayas que trabajan juntas para defender la vida,
-              la cultura y el futuro de nuestro pueblo.
+              {t("aboutUs.description")}
             </motion.p>
           </motion.div>
         </div>
@@ -149,7 +147,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Nuestro propósito"
+                text={t("purpose.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -161,11 +159,7 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              Queremos que nuestras comunidades mayas vivan con dignidad, sin
-              abandonar su tierra ni su cultura. Soñamos con un modelo de
-              desarrollo sustentable donde tradición e innovación caminen
-              juntas. Al conocer Pixan Chenes, sentirás el latido de un pueblo
-              que resiste, cuida y sigue de pie.
+              {t("purpose.description")}
             </motion.p>
           </motion.div>
         </div>
@@ -183,7 +177,7 @@ const PixanChenesHome = () => {
           >
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Nuestros valores"
+                text={t("values.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-12"
                 tag="h2"
                 delay={80}
@@ -200,33 +194,28 @@ const PixanChenesHome = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
           >
-            {[
-              "Respeto a la vida, la tierra y nuestra identidad",
-              "Equidad como base del desarrollo",
-              "Participación comunitaria",
-              "Vinculación solidaria",
-              "Cuidado ecológico",
-              "Dignidad",
-            ].map((valor, index) => (
-              <motion.div
-                key={index}
-                variants={fadeInVariants}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
-              >
-                <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
-                  <p className="text-gray-700 font-medium leading-relaxed">
-                    {valor}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
+            {(t.raw("values.items") as string[]).map(
+              (valor: string, index: number) => (
+                <motion.div
+                  key={index}
+                  variants={fadeInVariants}
+                  className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                >
+                  <div className="flex items-start gap-4">
+                    <CheckCircle className="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <p className="text-gray-700 font-medium leading-relaxed">
+                      {valor}
+                    </p>
+                  </div>
+                </motion.div>
+              )
+            )}
           </motion.div>
         </div>
       </section>
 
       {/* Comunidades */}
-      <section className="py-20 px-6 bg-yellow-50">
+      <section className="py-20 px-6 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <motion.div
             variants={staggerContainer}
@@ -243,7 +232,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Comunidades que conforman Pixan Chenes"
+                text={t("communities.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -255,10 +244,10 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              Cinco comunidades indígenas mayas en Hopelchén, Campeche:
+              {t("communities.description")}
               <span className="font-semibold text-yellow-700">
                 {" "}
-                San Francisco Suc Tuc, Sahcabchén, Yakché Akal, Xcupil y Oxá.
+                {t("communities.list")}
               </span>
             </motion.p>
           </motion.div>
@@ -283,7 +272,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="¿Qué hacemos?"
+                text={t("activities.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-12"
                 tag="h2"
                 delay={80}
@@ -300,30 +289,22 @@ const PixanChenesHome = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
           >
-            {[
-              "Apicultura tradicional y tecnificada",
-              "Siembra de limón y árboles forestales",
-              "Manejo de viveros comunitarios",
-              "Elaboración y venta de productos básicos",
-              "Ruta de la Miel Maya (experiencia vivencial)",
-              "Proyectos de ecoturismo comunitario",
-              "Procesamiento de productos con valor agregado",
-              "Recuperación del patrimonio cultural",
-              "Talleres de formación para jóvenes y mujeres",
-            ].map((actividad, index) => (
-              <motion.div
-                key={index}
-                variants={fadeInVariants}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-l-4 border-yellow-500"
-              >
-                <div className="flex items-start gap-4">
-                  <Leaf className="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
-                  <p className="text-gray-700 font-medium leading-relaxed">
-                    {actividad}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
+            {(t.raw("activities.items") as string[]).map(
+              (actividad: string, index: number) => (
+                <motion.div
+                  key={index}
+                  variants={fadeInVariants}
+                  className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-l-4 border-yellow-500"
+                >
+                  <div className="flex items-start gap-4">
+                    <Leaf className="w-6 h-6 text-yellow-500 flex-shrink-0 mt-1" />
+                    <p className="text-gray-700 font-medium leading-relaxed">
+                      {actividad}
+                    </p>
+                  </div>
+                </motion.div>
+              )
+            )}
           </motion.div>
         </div>
       </section>
@@ -346,7 +327,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Liderazgo comunitario"
+                text={t("leadership.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -358,10 +339,7 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              La cooperativa está liderada por mujeres indígenas mayas, quienes
-              encabezan la organización con compromiso, sabiduría y visión. Son
-              el corazón del proyecto y ejemplo de transformación desde lo
-              colectivo.
+              {t("leadership.description")}
             </motion.p>
           </motion.div>
         </div>
@@ -385,7 +363,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Nuestros logros"
+                text={t("achievements.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -397,11 +375,7 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              Hemos constituido la cooperativa, articulado el NODESS junto al
-              IPN y otras instituciones, y desarrollado proyectos innovadores
-              como una aplicación para el manejo del acopio de miel. Estas
-              alianzas han fortalecido nuestras capacidades productivas y
-              organizativas.
+              {t("achievements.description")}
             </motion.p>
           </motion.div>
         </div>
@@ -425,7 +399,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Nuestro futuro"
+                text={t("future.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -437,10 +411,7 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              En 5 años soñamos con ser una comunidad modelo de desarrollo con
-              identidad, exportando productos con trazabilidad maya, liderando
-              en reforestación y bonos de carbono, turismo responsable,
-              biotecnología comunitaria y educación transformadora.
+              {t("future.description")}
             </motion.p>
           </motion.div>
         </div>
@@ -464,7 +435,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Vinculación y aliados"
+                text={t("allies.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-8"
                 tag="h2"
                 delay={80}
@@ -476,10 +447,7 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
             >
-              Instituciones como el Instituto Politécnico Nacional,
-              Telebachillerato Comunitario de Suc Tuc, Tierra Fértil y el
-              Comisariado de Xcupil, entre otras, acompañan y fortalecen nuestro
-              camino.
+              {t("allies.description")}
             </motion.p>
           </motion.div>
         </div>
@@ -503,7 +471,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Súmate a Pixan Chenes"
+                text={t("joinUs.title")}
                 className="text-4xl md:text-5xl font-bold text-white mb-8"
                 tag="h2"
                 delay={80}
@@ -515,16 +483,14 @@ const PixanChenesHome = () => {
               variants={fadeInVariants}
               className="text-xl text-yellow-100 leading-relaxed max-w-4xl mx-auto mb-12 font-semibold"
             >
-              Queremos que quienes nos visitan participen activamente:
-              adquiriendo nuestros productos, comprando certificados ambientales
-              y apoyando así la reforestación y el desarrollo comunitario.
+              {t("joinUs.description")}
             </motion.p>
             <motion.button
               variants={fadeInVariants}
               className="bg-white text-yellow-500 hover:bg-yellow-50 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2 mx-auto"
             >
               <ArrowRight className="w-5 h-5" />
-              Únete a nuestra causa
+              {t("joinUs.button")}
             </motion.button>
           </motion.div>
         </div>
@@ -548,7 +514,7 @@ const PixanChenesHome = () => {
             </motion.div>
             <motion.div variants={fadeInVariants}>
               <SplitText
-                text="Información adicional"
+                text={t("additionalInfo.title")}
                 className="text-4xl md:text-5xl font-bold text-yellow-800 mb-12"
                 tag="h2"
                 delay={80}
@@ -567,25 +533,22 @@ const PixanChenesHome = () => {
           >
             {[
               {
-                title: "Calidad y autenticidad",
-                content:
-                  "Procesos artesanales y saberes ancestrales con acompañamiento técnico.",
+                title: t("additionalInfo.items.quality.title"),
+                description: t("additionalInfo.items.quality.description"),
               },
               {
-                title: "Tecnologías",
-                content:
-                  "Combinación de prácticas tradicionales y herramientas tecnológicas.",
+                title: t("additionalInfo.items.technology.title"),
+                description: t("additionalInfo.items.technology.description"),
               },
               {
-                title: "Beneficios",
-                content: "En proceso de implementación, con impacto creciente.",
+                title: t("additionalInfo.items.benefits.title"),
+                description: t("additionalInfo.items.benefits.description"),
               },
               {
-                title: "Destinatarios",
-                content:
-                  "Comunidades, juventudes, mujeres, instituciones, empresas y consumidores conscientes.",
+                title: t("additionalInfo.items.recipients.title"),
+                description: t("additionalInfo.items.recipients.description"),
               },
-            ].map((item, index) => (
+            ].map((item: any, index: number) => (
               <motion.div
                 key={index}
                 variants={fadeInVariants}
@@ -594,7 +557,9 @@ const PixanChenesHome = () => {
                 <h3 className="text-xl font-bold text-yellow-800 mb-4">
                   {item.title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed">{item.content}</p>
+                <p className="text-gray-700 leading-relaxed">
+                  {item.description}
+                </p>
               </motion.div>
             ))}
           </motion.div>

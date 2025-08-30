@@ -1,6 +1,92 @@
 {
   "HomePage": {
-    "title": "¡Bienvenido a Pixan Chenes!"
+    "hero": {
+      "title": "Pixan Chenes",
+      "subtitle": "Economía con alma, comunidad con futuro.",
+      "description": "Pixan Chenes es una cooperativa maya que protege la selva, cuida a las abejas y construye un futuro digno para nuestras comunidades.",
+      "galleryButton": "Galeria de fotos",
+      "supportButton": "Apoya nuestro proyecto"
+    },
+    "aboutUs": {
+      "title": "¿Quiénes somos?",
+      "description": "Pixan significa 'alma' en lengua maya y Chenes hace referencia a los pozos de nuestra región. Nacimos en 2020 con la convicción de que, desde la comunidad, podemos cambiar nuestro destino. Somos cinco comunidades mayas que trabajan juntas para defender la vida, la cultura y el futuro de nuestro pueblo."
+    },
+    "purpose": {
+      "title": "Nuestro propósito",
+      "description": "Queremos que nuestras comunidades mayas vivan con dignidad, sin abandonar su tierra ni su cultura. Soñamos con un modelo de desarrollo sustentable donde tradición e innovación caminen juntas. Al conocer Pixan Chenes, sentirás el latido de un pueblo que resiste, cuida y sigue de pie."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "items": [
+        "Respeto a la vida, la tierra y nuestra identidad",
+        "Equidad como base del desarrollo",
+        "Participación comunitaria",
+        "Vinculación solidaria",
+        "Cuidado ecológico",
+        "Dignidad"
+      ]
+    },
+    "communities": {
+      "title": "Comunidades que conforman Pixan Chenes",
+      "description": "Cinco comunidades indígenas mayas en Hopelchén, Campeche:",
+      "list": "San Francisco Suc Tuc, Sahcabchén, Yakché Akal, Xcupil y Oxá."
+    },
+    "activities": {
+      "title": "¿Qué hacemos?",
+      "items": [
+        "Apicultura tradicional y tecnificada",
+        "Siembra de limón y árboles forestales",
+        "Manejo de viveros comunitarios",
+        "Elaboración y venta de productos básicos",
+        "Ruta de la Miel Maya (experiencia vivencial)",
+        "Proyectos de ecoturismo comunitario",
+        "Procesamiento de productos con valor agregado",
+        "Recuperación del patrimonio cultural",
+        "Talleres de formación para jóvenes y mujeres"
+      ]
+    },
+    "leadership": {
+      "title": "Liderazgo comunitario",
+      "description": "La cooperativa está liderada por mujeres indígenas mayas, quienes encabezan la organización con compromiso, sabiduría y visión. Son el corazón del proyecto y ejemplo de transformación desde lo colectivo."
+    },
+    "achievements": {
+      "title": "Nuestros logros",
+      "description": "Hemos constituido la cooperativa, articulado el NODESS junto al IPN y otras instituciones, y desarrollado proyectos innovadores como una aplicación para el manejo del acopio de miel. Estas alianzas han fortalecido nuestras capacidades productivas y organizativas."
+    },
+    "future": {
+      "title": "Nuestro futuro",
+      "description": "En 5 años soñamos con ser una comunidad modelo de desarrollo con identidad, exportando productos con trazabilidad maya, liderando en reforestación y bonos de carbono, turismo responsable, biotecnología comunitaria y educación transformadora."
+    },
+    "allies": {
+      "title": "Vinculación y aliados",
+      "description": "Instituciones como el Instituto Politécnico Nacional, Telebachillerato Comunitario de Suc Tuc, Tierra Fértil y el Comisariado de Xcupil, entre otras, acompañan y fortalecen nuestro camino."
+    },
+    "joinUs": {
+      "title": "Súmate a Pixan Chenes",
+      "description": "Queremos que quienes nos visitan participen activamente: adquiriendo nuestros productos, comprando certificados ambientales y apoyando así la reforestación y el desarrollo comunitario.",
+      "button": "Únete a nuestra causa"
+    },
+    "additionalInfo": {
+      "title": "Información adicional",
+      "items": {
+        "quality": {
+          "title": "Calidad y autenticidad",
+          "description": "Procesos artesanales y saberes ancestrales con acompañamiento técnico."
+        },
+        "technology": {
+          "title": "Tecnologías",
+          "description": "Combinación de prácticas tradicionales y herramientas tecnológicas."
+        },
+        "benefits": {
+          "title": "Beneficios",
+          "description": "En proceso de implementación, con impacto creciente."
+        },
+        "recipients": {
+          "title": "Destinatarios",
+          "description": "Comunidades, juventudes, mujeres, instituciones, empresas y consumidores conscientes."
+        }
+      }
+    }
   },
   "Navigation": {
     "home": "Inicio",

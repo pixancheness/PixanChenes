@@ -1,6 +1,92 @@
 {
   "HomePage": {
-    "title": "Welcome to Pixan Chenes!"
+    "hero": {
+      "title": "Pixan Chenes",
+      "subtitle": "Economy with soul, community with future.",
+      "description": "Pixan Chenes is a Maya cooperative that protects the jungle, cares for bees and builds a dignified future for our communities.",
+      "galleryButton": "Photo Gallery",
+      "supportButton": "Support our project"
+    },
+    "aboutUs": {
+      "title": "Who are we?",
+      "description": "Pixan means 'soul' in the Maya language and Chenes refers to the wells of our region. We were born in 2020 with the conviction that, from the community, we can change our destiny. We are five Maya communities working together to defend life, culture and the future of our people."
+    },
+    "purpose": {
+      "title": "Our purpose",
+      "description": "We want our Maya communities to live with dignity, without abandoning their land or culture. We dream of a sustainable development model where tradition and innovation walk together. When you get to know Pixan Chenes, you will feel the heartbeat of a people that resists, cares and stands firm."
+    },
+    "values": {
+      "title": "Our values",
+      "items": [
+        "Respect for life, land and our identity",
+        "Equity as the basis of development",
+        "Community participation",
+        "Solidary linkage",
+        "Ecological care",
+        "Dignity"
+      ]
+    },
+    "communities": {
+      "title": "Communities that make up Pixan Chenes",
+      "description": "Five indigenous Maya communities in Hopelchén, Campeche:",
+      "list": "San Francisco Suc Tuc, Sahcabchén, Yakché Akal, Xcupil and Oxá."
+    },
+    "activities": {
+      "title": "What do we do?",
+      "items": [
+        "Traditional and technified beekeeping",
+        "Lemon and forest tree planting",
+        "Management of community nurseries",
+        "Elaboration and sale of basic products",
+        "Maya Honey Route (living experience)",
+        "Community ecotourism projects",
+        "Processing of value-added products",
+        "Recovery of cultural heritage",
+        "Training workshops for youth and women"
+      ]
+    },
+    "leadership": {
+      "title": "Community leadership",
+      "description": "The cooperative is led by indigenous Maya women, who head the organization with commitment, wisdom and vision. They are the heart of the project and an example of transformation from the collective."
+    },
+    "achievements": {
+      "title": "Our achievements",
+      "description": "We have constituted the cooperative, articulated NODESS together with IPN and other institutions, and developed innovative projects such as an application for honey collection management. These alliances have strengthened our productive and organizational capacities."
+    },
+    "future": {
+      "title": "Our future",
+      "description": "In 5 years we dream of being a model community of development with identity, exporting products with Maya traceability, leading in reforestation and carbon bonds, responsible tourism, community biotechnology and transformative education."
+    },
+    "allies": {
+      "title": "Linkage and allies",
+      "description": "Institutions such as the National Polytechnic Institute, Suc Tuc Community High School, Fertile Land and the Xcupil Comisariado, among others, accompany and strengthen our path."
+    },
+    "joinUs": {
+      "title": "Join Pixan Chenes",
+      "description": "We want those who visit us to participate actively: acquiring our products, buying environmental certificates and thus supporting reforestation and community development.",
+      "button": "Join our cause"
+    },
+    "additionalInfo": {
+      "title": "Additional information",
+      "items": {
+        "quality": {
+          "title": "Quality and authenticity",
+          "description": "Artisanal processes and ancestral knowledge with technical accompaniment."
+        },
+        "technology": {
+          "title": "Technologies",
+          "description": "Combination of traditional practices and technological tools."
+        },
+        "benefits": {
+          "title": "Benefits",
+          "description": "In implementation process, with growing impact."
+        },
+        "recipients": {
+          "title": "Recipients",
+          "description": "Communities, youth, women, institutions, companies and conscious consumers."
+        }
+      }
+    }
   },
   "Navigation": {
     "home": "Home",
