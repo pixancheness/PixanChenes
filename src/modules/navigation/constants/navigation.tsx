@@ -24,7 +24,7 @@ export const navigationItems = [
         name: "Navigation.products.wine",
         href: "/vino",
       },
-      { name: "Navigation.faq", href: "/certificados/FAQ" },
+      { name: "Navigation.faq", href: "/FAQ" },
     ],
   },
   {

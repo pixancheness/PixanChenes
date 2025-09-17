@@ -13,14 +13,14 @@ const data = (t: any) => [
         </p>
         <div className="grid grid-cols-2 gap-4">
           <img
-            src="/img/timeline/semilla1.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077349/semilla1_kd58mv.jpg"
             alt="startup template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/semilla2.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/semilla2_qjufxi.jpg"
             alt="startup template"
             width={500}
             height={500}
@@ -39,28 +39,28 @@ const data = (t: any) => [
         </p>
         <div className="grid grid-cols-2 gap-4">
           <img
-            src="/img/timeline/cria1.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077349/cria1_ztd0ek.jpg"
             alt="hero template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/cria2.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077349/cria2_l8995w.jpg"
             alt="feature template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/cria3.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077349/cria3_qcnmky.jpg"
             alt="feature template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/cria4.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077349/cria4_wefv5h.jpg"
             alt="feature template"
             width={500}
             height={500}
@@ -79,28 +79,28 @@ const data = (t: any) => [
         </p>
         <div className="grid grid-cols-2 gap-4">
           <img
-            src="/img/timeline/siembra1.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/siembra1_xadfh5.jpg"
             alt="hero template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/siembra2.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/siembra2_fv00wn.jpg"
             alt="feature template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/siembra3.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/siembra3_gadeso.jpg"
             alt="bento template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/siembra4.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/siembra4_asypei.jpg"
             alt="cards template"
             width={500}
             height={500}
@@ -119,14 +119,14 @@ const data = (t: any) => [
         </p>
         <div className="grid grid-cols-2 gap-4">
           <img
-            src="/img/timeline/supervision1.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/supervision1_jmfccn.jpg"
             alt="hero template"
             width={500}
             height={500}
             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
           />
           <img
-            src="/img/timeline/supervision2.jpg"
+            src="https://res.cloudinary.com/danv3godx/image/upload/v1758077350/supervision2_eybwus.jpg"
             alt="feature template"
             width={500}
             height={500}

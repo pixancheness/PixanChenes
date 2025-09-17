@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Compare } from "@/modules/ui/compare";
+import { Compare } from "@/components/ui/compare";
 
 export default function ComparateMap() {
   const t = useTranslations("Certificates.map");
@@ -18,11 +18,11 @@ export default function ComparateMap() {
 
       <div className="p-4 border rounded-3xl dark:bg-neutral-900 bg-neutral-100  border-neutral-200 dark:border-neutral-800 px-4">
         <Compare
-          firstImage="/img/map/map2000.jpg"
-          secondImage="/img/map/map2025.jpg"
+          firstImage="https://res.cloudinary.com/danv3godx/image/upload/v1758077596/map2000_ro5jzy.jpg"
+          secondImage="https://res.cloudinary.com/danv3godx/image/upload/v1758077596/map2025_xrfqlb.jpg"
           firstImageClassName="object-cover object-left-top"
           secondImageClassname="object-cover object-left-top"
-          className="w-[300px] h-[350px] sm:w-[600px] sm:h-[700px] md:h-[650px] md:w-[750px] lg:h-[700px] lg:w-[1000px] xl:h-[900px] xl:w-[1200px] max-w-full"
+          className="w-[300px] h-[350px] sm:w-[600px] sm:h-[700px] md:h-[650px] md:w-[750px] lg:h-[700px] lg:w-[1000px] xl:h-[700px] xl:w-[1200px] max-w-full"
           slideMode="hover"
         />
       </div>

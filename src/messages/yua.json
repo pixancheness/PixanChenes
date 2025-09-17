@@ -9,7 +9,45 @@
     },
     "aboutUs": {
       "title": "¿Máax ku beetik?",
-      "description": "Pixan ku jach 'pixan' ti' t'aan maya yéetel Chenes ku jach 'chenes' le nojoch k'iino'ob. Ku beetik ti' 2020 tu jach k'áat ku ts'aik to'on ku beetik u jach k'áat. To'on jela'an nojoch k'áat chi'ob ku beetik u jach k'áat le kuxtal, k'ultura yéetel u yáanal le máako'ob."
+      "description": "Pixan ku jach 'pixan' ti' t'aan maya yéetel Chenes ku jach 'chenes' le nojoch k'iino'ob. Ku beetik ti' 2020 tu jach k'áat ku ts'aik to'on ku beetik u jach k'áat. To'on jela'an nojoch k'áat chi'ob ku beetik u jach k'áat le kuxtal, k'ultura yéetel u yáanal le máako'ob.",
+      "gallery": {
+        "conferences": {
+          "category": "Conferencias",
+          "title": "Presencia en escuelas y exposiciones"
+        },
+        "preservation": {
+          "category": "Preservación",
+          "title": "Creación de viveros"
+        },
+        "community": {
+          "category": "Ko'olel",
+          "title": "Unión de diferentes comunidades"
+        },
+        "environment": {
+          "category": "K'áax",
+          "title": "Reforestación de la selva Maya"
+        },
+        "gastronomy": {
+          "category": "Ko'olel",
+          "title": "K'iinil ja'ach' k'óoben"
+        },
+        "products": {
+          "category": "Productos",
+          "title": "Cab Maya"
+        },
+        "crafts": {
+          "category": "K'áajtal",
+          "title": "Manualidades maya"
+        },
+        "dance": {
+          "category": "K'áajtal",
+          "title": "Okot"
+        },
+        "beekeeping": {
+          "category": "K'áax",
+          "title": "Kaabnáalo'ob"
+        }
+      }
     },
     "purpose": {
       "title": "In jach k'áat",
@@ -394,5 +432,15 @@
       "title": "U beel Pixan Chenes",
       "description": "Pixan Chenes kooperativa indígena maya ku formada por cinco comunidades tu Hopelchén, Campeche. K’a’ajsik selva, k’a’ajsik abejas y ku ofrece certificados ambientales digitales y productos con identidad cultural."
     }
+  },
+  "NotFound": {
+    "title": "Ma' ts'o'ok le página",
+    "subtitle": "Le página ku bisik ma' yaan",
+    "description": "Ko'ox, le página ku k'áat a wilik ma' ts'o'ok beetbalo'ob wa ku ts'o'ok tu jela'an tu'ux. Tu k'iinil le, bin a páajtal a wilik le contenido ku yaan.",
+    "backHome": "Súut ti' káajal",
+    "exploreProjects": "Wilik in meyajilo'ob",
+    "viewCertificates": "Wilik tz'uulilo'ob",
+    "contactUs": "K'áat a t'aan to'on",
+    "errorCode": "Ts'o'ok'oba' 404"
   }
 }

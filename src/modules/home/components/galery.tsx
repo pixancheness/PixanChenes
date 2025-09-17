@@ -1,11 +1,11 @@
 "use client";
 import { useTranslations } from "next-intl";
 
-import Masonry from "../ui/masonry";
-import SplitText from "../ui/SplitText";
-import { mansoyItems } from "./constants/mansoy";
+import Masonry from "@/components/ui/masonry";
+import SplitText from "@/components/ui/SplitText";
+import { mansoyItems } from "@/modules/home/constants/mansoy";
 
-export default function Hero() {
+export default function Galery() {
   const t = useTranslations("HomePage");
 
   return (

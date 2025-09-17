@@ -52,11 +52,7 @@ const TreeDonationPlans: React.FC = () => {
           text: t("plans.donation.features.community_monitoring"),
           included: true,
         },
-        {
-          text: t("plans.donation.features.no_registration"),
-          included: true,
-          highlight: true,
-        },
+
         {
           text: t("plans.donation.features.tax_deductible"),
           included: true,

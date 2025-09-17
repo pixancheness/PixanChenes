@@ -1,5 +1,5 @@
 import React from "react";
-import { BentoGrid, BentoGridItem } from "@/modules/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 
 import { useTranslations } from "next-intl";
 
@@ -26,7 +26,7 @@ const items = (t: any) => [
     description: t("benefit_reforestation.description"),
     header: (
       <img
-        src="/img/certificado/1.jpg"
+        src="https://res.cloudinary.com/danv3godx/image/upload/v1758077155/1_oca9vj.jpg"
         alt="Reforestación directa"
         className="object-cover w-full h-full rounded-xl min-h-[18rem] md:min-h-[24rem]"
       />
@@ -38,7 +38,7 @@ const items = (t: any) => [
     description: t("benefit_certificate.description"),
     header: (
       <img
-        src="/img/certificado/2.jpg"
+        src="https://res.cloudinary.com/danv3godx/image/upload/v1758077155/2_yd6mfc.jpg"
         alt="Certificado verificable"
         className="object-cover w-full h-full rounded-xl min-h-[18rem] md:min-h-[24rem]"
       />
@@ -50,7 +50,7 @@ const items = (t: any) => [
     description: t("benefit_beekeeping_support.description"),
     header: (
       <img
-        src="/img/certificado/3.jpg"
+        src="https://res.cloudinary.com/danv3godx/image/upload/v1758077155/3_swutdm.jpg"
         alt="Apoyo a la apicultura"
         className="object-cover w-full h-full rounded-xl min-h-[18rem] md:min-h-[24rem]"
       />
@@ -62,7 +62,7 @@ const items = (t: any) => [
     description: t("benefit_cultural_preservation.description"),
     header: (
       <img
-        src="/img/certificado/4.jpg"
+        src="https://res.cloudinary.com/danv3godx/image/upload/v1758077155/4_hjy3lv.jpg"
         alt="Preservación cultural"
         className="object-cover w-full h-full rounded-xl min-h-[18rem] md:min-h-[24rem]"
       />

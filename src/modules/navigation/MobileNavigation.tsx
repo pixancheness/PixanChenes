@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { navigationItems } from "@/constants/navigation";
+import { navigationItems } from "@/modules/navigation/constants/navigation";
 import { Link } from "@/i18n/navigation";
 import { IconChevronDown } from "@tabler/icons-react";
 import LanguageSwitcher from "./LanguageSwitcher";

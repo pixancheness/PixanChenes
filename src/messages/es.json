@@ -9,7 +9,45 @@
     },
     "aboutUs": {
       "title": "¿Quiénes somos?",
-      "description": "Pixan significa 'alma' en lengua maya y Chenes hace referencia a los pozos de nuestra región. Nacimos en 2020 con la convicción de que, desde la comunidad, podemos cambiar nuestro destino. Somos cinco comunidades mayas que trabajan juntas para defender la vida, la cultura y el futuro de nuestro pueblo."
+      "description": "Pixan significa 'alma' en lengua maya y Chenes hace referencia a los pozos de nuestra región. Nacimos en 2020 con la convicción de que, desde la comunidad, podemos cambiar nuestro destino. Somos cinco comunidades mayas que trabajan juntas para defender la vida, la cultura y el futuro de nuestro pueblo.",
+      "gallery": {
+        "conferences": {
+          "category": "Conferencias",
+          "title": "Presencia en escuelas y exposiciones"
+        },
+        "preservation": {
+          "category": "Preservación",
+          "title": "Creación de viveros"
+        },
+        "community": {
+          "category": "Comunidad",
+          "title": "Unión de diferentes comunidades."
+        },
+        "environment": {
+          "category": "Ambiente",
+          "title": "Reforestación de la selva Maya"
+        },
+        "gastronomy": {
+          "category": "Comunidad",
+          "title": "Gastronomía tradicional"
+        },
+        "products": {
+          "category": "Productos",
+          "title": "Miel Maya"
+        },
+        "crafts": {
+          "category": "Tradición",
+          "title": "Manualidades maya"
+        },
+        "dance": {
+          "category": "Tradición",
+          "title": "Danza"
+        },
+        "beekeeping": {
+          "category": "Ambiente",
+          "title": "Colmenas de abejas"
+        }
+      }
     },
     "purpose": {
       "title": "Nuestro propósito",
@@ -400,5 +438,15 @@
       "title": "Acerca de Pixan Chenes",
       "description": "Pixan Chenes es una cooperativa indígena maya conformada por cinco comunidades en Hopelchén, Campeche. Defendemos la selva, cuidamos a las abejas y ofrecemos alternativas sustentables como certificados ambientales digitales y productos con identidad cultural."
     }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for doesn't exist",
+    "description": "Sorry, the page you're trying to visit hasn't been created yet or has been moved to another location. In the meantime, you can explore our available content.",
+    "backHome": "Back to home",
+    "exploreProjects": "Explore our projects",
+    "viewCertificates": "View certificates",
+    "contactUs": "Contact us",
+    "errorCode": "Error 404"
   }
 }

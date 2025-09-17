@@ -8,7 +8,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import FAQ from "@/modules/ui/FAQ";
+import FAQ from "@/components/ui/FAQ";
 import { Link } from "@/i18n/navigation";
 
 const FAQSection: React.FC = () => {
@@ -103,7 +103,7 @@ const FAQSection: React.FC = () => {
           </h3>
           <p className="text-gray-600 mb-6">{t("cta.description")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/certificados/FAQ">
+            <Link href="/FAQ">
               <button className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold rounded-xl transition-colors">
                 <HelpCircle className="w-5 h-5" />
                 {t("cta.viewAllQuestions")}

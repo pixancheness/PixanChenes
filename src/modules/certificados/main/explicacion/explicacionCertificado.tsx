@@ -21,7 +21,7 @@ export default function ExplicacionCertificado() {
         {t("subtitle")}
       </h3>
       <Image
-        src="/img/certificado/certificado1.jpg"
+        src="https://res.cloudinary.com/danv3godx/image/upload/v1758077155/certificado1_ewhbzj.jpg"
         alt="Reforestación directa"
         width="1100"
         height="1100"

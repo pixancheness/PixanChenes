@@ -16,7 +16,7 @@ import {
   Filter,
   X,
 } from "lucide-react";
-import FAQ from "@/modules/ui/FAQ";
+import FAQ from "@/components/ui/FAQ";
 import { useState, useMemo } from "react";
 
 const mainFAQs = (t: any) => [

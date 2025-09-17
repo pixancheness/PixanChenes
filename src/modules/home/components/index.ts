@@ -1,0 +1,13 @@
+export { default as HeroSection } from "./heroSection";
+export { default as SobreNosotros } from "./sobreNosotros/sobreNosotros";
+export { default as MisionVision } from "./misionVision";
+export { default as Galery } from "./galery";
+export { default as Valores } from "./valores";
+export { default as Comunidades } from "./comunidades";
+export { default as Actividades } from "./actividades";
+export { default as Equipo } from "./equipo";
+export { default as Logros } from "./logros";
+export { default as Suenos } from "./suenos";
+export { default as Aliados } from "./aliados";
+export { default as Apoyo } from "./apoyo";
+export { default as Adicional } from "./adicional";

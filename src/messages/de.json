@@ -9,7 +9,45 @@
     },
     "aboutUs": {
       "title": "Wer sind wir?",
-      "description": "Pixan bedeutet 'Seele' in der Maya-Sprache und Chenes bezieht sich auf die Brunnen unserer Region. Wir wurden 2020 mit der Überzeugung geboren, dass wir von der Gemeinschaft aus unser Schicksal ändern können. Wir sind fünf Maya-Gemeinden, die zusammenarbeiten, um Leben, Kultur und die Zukunft unseres Volkes zu verteidigen."
+      "description": "Pixan bedeutet 'Seele' in der Maya-Sprache und Chenes bezieht sich auf die Brunnen unserer Region. Wir wurden 2020 mit der Überzeugung geboren, dass wir von der Gemeinschaft aus unser Schicksal ändern können. Wir sind fünf Maya-Gemeinden, die zusammenarbeiten, um Leben, Kultur und die Zukunft unseres Volkes zu verteidigen.",
+      "gallery": {
+        "conferences": {
+          "category": "Konferenzen",
+          "title": "Präsenz in Schulen und Ausstellungen"
+        },
+        "preservation": {
+          "category": "Erhaltung",
+          "title": "Anlage von Baumschulen"
+        },
+        "community": {
+          "category": "Gemeinschaft",
+          "title": "Vereinigung verschiedener Gemeinschaften"
+        },
+        "environment": {
+          "category": "Umwelt",
+          "title": "Aufforstung des Maya-Dschungels"
+        },
+        "gastronomy": {
+          "category": "Gemeinschaft",
+          "title": "Traditionelle Gastronomie"
+        },
+        "products": {
+          "category": "Produkte",
+          "title": "Maya-Honig"
+        },
+        "crafts": {
+          "category": "Tradition",
+          "title": "Maya-Handwerk"
+        },
+        "dance": {
+          "category": "Tradition",
+          "title": "Tanz"
+        },
+        "beekeeping": {
+          "category": "Umwelt",
+          "title": "Bienenstöcke"
+        }
+      }
     },
     "purpose": {
       "title": "Unser Zweck",
@@ -391,5 +429,15 @@
       "title": "Über Pixan Chenes",
       "description": "Pixan Chenes ist eine indigene Maya-Kooperative aus fünf Gemeinden in Hopelchén, Campeche. Wir schützen den Regenwald, kümmern uns um die Bienen und bieten nachhaltige Alternativen wie digitale Umweltzertifikate und kulturell verwurzelte Produkte an."
     }
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "subtitle": "Die gesuchte Seite existiert nicht",
+    "description": "Entschuldigung, die Seite, die Sie besuchen möchten, wurde noch nicht erstellt oder an einen anderen Ort verschoben. In der Zwischenzeit können Sie unsere verfügbaren Inhalte erkunden.",
+    "backHome": "Zurück zur Startseite",
+    "exploreProjects": "Unsere Projekte erkunden",
+    "viewCertificates": "Zertifikate anzeigen",
+    "contactUs": "Kontaktieren Sie uns",
+    "errorCode": "Fehler 404"
   }
 }

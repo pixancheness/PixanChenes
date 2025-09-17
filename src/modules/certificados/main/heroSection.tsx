@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
       <Image
-        src="/img/certificado/main.jpg"
+        src="https://res.cloudinary.com/danv3godx/image/upload/v1758077155/main_w9ybkm.jpg"
         alt="Imagen principal de certificados"
         fill
         style={{

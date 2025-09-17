@@ -9,7 +9,45 @@
     },
     "aboutUs": {
       "title": "Who are we?",
-      "description": "Pixan means 'soul' in the Maya language and Chenes refers to the wells of our region. We were born in 2020 with the conviction that, from the community, we can change our destiny. We are five Maya communities working together to defend life, culture and the future of our people."
+      "description": "Pixan means 'soul' in the Maya language and Chenes refers to the wells of our region. We were born in 2020 with the conviction that, from the community, we can change our destiny. We are five Maya communities working together to defend life, culture and the future of our people.",
+      "gallery": {
+        "conferences": {
+          "category": "Conferences",
+          "title": "Presence in schools and exhibitions"
+        },
+        "preservation": {
+          "category": "Preservation",
+          "title": "Creation of nurseries"
+        },
+        "community": {
+          "category": "Community",
+          "title": "Union of different communities"
+        },
+        "environment": {
+          "category": "Environment",
+          "title": "Reforestation of the Mayan jungle"
+        },
+        "gastronomy": {
+          "category": "Community",
+          "title": "Traditional gastronomy"
+        },
+        "products": {
+          "category": "Products",
+          "title": "Mayan honey"
+        },
+        "crafts": {
+          "category": "Tradition",
+          "title": "Mayan crafts"
+        },
+        "dance": {
+          "category": "Tradition",
+          "title": "Dance"
+        },
+        "beekeeping": {
+          "category": "Environment",
+          "title": "Beehives"
+        }
+      }
     },
     "purpose": {
       "title": "Our purpose",
@@ -396,5 +434,15 @@
       "title": "About Pixan Chenes",
       "description": "Pixan Chenes is a Mayan indigenous cooperative formed by five communities in Hopelchén, Campeche. We defend the rainforest, care for bees, and offer sustainable alternatives such as digital environmental certificates and culturally rooted products."
     }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for doesn't exist",
+    "description": "Sorry, the page you're trying to visit hasn't been created yet or has been moved to another location. In the meantime, you can explore our available content.",
+    "backHome": "Back to home",
+    "exploreProjects": "Explore our projects",
+    "viewCertificates": "View certificates",
+    "contactUs": "Contact us",
+    "errorCode": "Error 404"
   }
 }
