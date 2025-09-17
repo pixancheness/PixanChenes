@@ -126,6 +126,10 @@
       }
     }
   },
+  "Gallery": {
+    "title": "Galería de fotos",
+    "description": "Galería de fotos de Pixan Chenes"
+  },
   "Navigation": {
     "home": "Inicio",
     "about": "Acerca de",
@@ -149,6 +153,7 @@
       "events": "Evento del día mundial de la abeja",
       "forum": "Foro UPIIT medio ambiente."
     },
+    "gallery": "Galería",
 
     "aboutUs": "Sobre Nosotros",
 

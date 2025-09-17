@@ -126,6 +126,10 @@
       }
     }
   },
+  "Gallery": {
+    "title": "Photo Gallery",
+    "description": "Photo gallery of Pixan Chenes"
+  },
   "Navigation": {
     "home": "Home",
     "about": "About",
@@ -153,7 +157,7 @@
     },
 
     "aboutUs": "About Us",
-
+    "gallery": "Gallery",
     "viewCertificates": "View Certificates",
     "requestCertificate": "Request Certificate",
     "faq": "Frequently Asked Questions",

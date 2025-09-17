@@ -126,10 +126,14 @@
       }
     }
   },
+  "Gallery": {
+    "title": "Galería de fotos",
+    "description": "Galería de fotos de Pixan Chenes"
+  },
   "Navigation": {
     "home": "Káajal",
     "about": "Yóok'ol",
-
+    "gallery": "Galería",
     "products": {
       "title": "Ba'ax ku ts'aik",
       "certificates": "Tz'uulilo'ob",

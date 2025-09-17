@@ -126,6 +126,10 @@
       }
     }
   },
+  "Gallery": {
+    "title": "Foto Galerie",
+    "description": "Foto Galerie von Pixan Chenes"
+  },
   "Navigation": {
     "home": "Startseite",
     "about": "Über uns",
@@ -142,6 +146,7 @@
       "businesses": "Businesses",
       "artificialIntelligence": "Artificial Intelligence and Apiculture"
     },
+    "gallery": "Galerie",
     "culture": {
       "title": "Kultur",
       "stories": "Geschichten und Legenden",

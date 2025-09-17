@@ -55,7 +55,12 @@ export const navigationItems = [
   },
   {
     name: "Navigation.aboutUs",
-    href: "/sobre-nosotros",
+    href: "/about",
     icon: IconUsers,
+    hasDropdown: true,
+    dropdownItems: [
+      { name: "Navigation.about", href: "/about" },
+      { name: "Navigation.gallery", href: "/galeria" },
+    ],
   },
 ];

@@ -1,7 +1,6 @@
 export { default as HeroSection } from "./heroSection";
 export { default as SobreNosotros } from "./sobreNosotros/sobreNosotros";
 export { default as MisionVision } from "./misionVision";
-export { default as Galery } from "./galery";
 export { default as Valores } from "./valores";
 export { default as Comunidades } from "./comunidades";
 export { default as Actividades } from "./actividades";
