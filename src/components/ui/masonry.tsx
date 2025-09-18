@@ -9,6 +9,8 @@ import React, {
 } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
+import ImageModal from "./image-modal";
+import { useImageModal } from "../hooks/use-image-modal";
 
 const useMedia = (
   queries: string[],
@@ -104,6 +106,15 @@ interface MasonryProps {
   hoverScale?: number;
   blurToFocus?: boolean;
   colorShiftOnHover?: boolean;
+  enableImageModal?: boolean;
+  showModalNavigation?: boolean;
+  showDownloadButton?: boolean;
+  modalClassName?: string;
+  // Props para paginación dinámica del modal
+  totalImages?: number;
+  hasMore?: boolean;
+  isLoading?: boolean;
+  onLoadMore?: () => void;
 }
 
 const Masonry: React.FC<MasonryProps> = ({
@@ -116,6 +127,14 @@ const Masonry: React.FC<MasonryProps> = ({
   hoverScale = 0.95,
   blurToFocus = true,
   colorShiftOnHover = false,
+  enableImageModal = true,
+  showModalNavigation = true,
+  showDownloadButton = false,
+  modalClassName,
+  totalImages,
+  hasMore = false,
+  isLoading = false,
+  onLoadMore,
 }) => {
   const columns = useMedia(
     [
@@ -130,6 +149,27 @@ const Masonry: React.FC<MasonryProps> = ({
 
   const [containerRef, { width }] = useMeasure<HTMLDivElement>();
   const [imagesReady, setImagesReady] = useState(false);
+
+  // Preparar datos para el modal
+  const modalImages = useMemo(
+    () =>
+      items.map((item) => ({
+        id: item.id,
+        img: item.img,
+        alt: `Imagen ${item.id}`,
+        title: `Imagen ${item.id}`,
+      })),
+    [items]
+  );
+
+  // Hook del modal
+  const imageModal = useImageModal({
+    images: modalImages,
+    totalImages,
+    hasMore,
+    isLoading,
+    loadMore: onLoadMore,
+  });
 
   const getInitialPosition = (item: GridItem) => {
     const containerRect = containerRef.current?.getBoundingClientRect();
@@ -299,14 +339,28 @@ const Masonry: React.FC<MasonryProps> = ({
             }}
             onMouseEnter={(e) => handleMouseEnter(item.id, e.currentTarget)}
             onMouseLeave={(e) => handleMouseLeave(item.id, e.currentTarget)}
+            onClick={
+              enableImageModal
+                ? () => {
+                    const imageIndex = items.findIndex(
+                      (img) => img.id === item.id
+                    );
+                    imageModal.openModal(imageIndex);
+                  }
+                : undefined
+            }
           >
-            <div className="relative w-full h-full rounded-[10px] shadow-[0px_10px_50px_-10px_rgba(0,0,0,0.2)] overflow-hidden">
+            <div
+              className={`relative w-full h-full rounded-[10px] shadow-[0px_10px_50px_-10px_rgba(0,0,0,0.2)] overflow-hidden ${
+                enableImageModal ? "cursor-pointer" : ""
+              }`}
+            >
               <Image
                 src={item.img}
                 alt={`Imagen ${item.id}`}
                 fill
                 placeholder="blur"
-                className="object-cover rounded-[10px] transition-opacity duration-300"
+                className="object-cover rounded-[10px] transition-all duration-300 hover:scale-105"
                 sizes="(max-width: 400px) 100vw, (max-width: 600px) 50vw, (max-width: 1000px) 33vw, (max-width: 1500px) 25vw, 20vw"
                 blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyBckliyjqTzSlT54b6bk+h0R//2Q=="
                 priority={false}
@@ -318,6 +372,23 @@ const Masonry: React.FC<MasonryProps> = ({
             </div>
           </div>
         ))}
+
+      {/* Modal de imágenes */}
+      {enableImageModal && (
+        <ImageModal
+          images={modalImages}
+          isOpen={imageModal.isOpen}
+          currentIndex={imageModal.currentIndex}
+          onClose={imageModal.closeModal}
+          onNavigate={imageModal.navigateToIndex}
+          showNavigation={showModalNavigation}
+          showDownloadButton={showDownloadButton}
+          className={modalClassName}
+          totalImages={imageModal.totalImages}
+          hasMore={imageModal.hasMore}
+          isLoading={imageModal.isLoading}
+        />
+      )}
     </div>
   );
 };

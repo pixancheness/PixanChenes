@@ -18,12 +18,18 @@ const optimizedMansoyItems = mansoyItems.map((item) => ({
 export default function Galery() {
   const t = useTranslations("Gallery");
 
-  const { displayedItems, isLoading, hasMore, totalItems, displayedCount } =
-    useInfiniteScroll(optimizedMansoyItems, {
-      initialItems: 16,
-      itemsPerLoad: 8,
-      threshold: 1000, // Cargar más cuando esté a 1000px del final
-    });
+  const {
+    displayedItems,
+    isLoading,
+    hasMore,
+    loadMore,
+    totalItems,
+    displayedCount,
+  } = useInfiniteScroll(optimizedMansoyItems, {
+    initialItems: 16,
+    itemsPerLoad: 8,
+    threshold: 1000, // Cargar más cuando esté a 1000px del final
+  });
 
   return (
     <div className="pt-16 bg-gradient-to-br from-yellow-400/30 via-yellow-300/10 to-amber-400/10 min-h-screen">
@@ -69,6 +75,13 @@ export default function Galery() {
           hoverScale={0.95}
           blurToFocus={true}
           colorShiftOnHover={false}
+          enableImageModal={true}
+          showModalNavigation={true}
+          showDownloadButton={false}
+          totalImages={totalItems}
+          hasMore={hasMore}
+          isLoading={isLoading}
+          onLoadMore={loadMore}
         />
 
         {/* Indicador de carga */}
