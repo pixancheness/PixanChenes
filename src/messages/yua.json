@@ -128,7 +128,21 @@
   },
   "Gallery": {
     "title": "Galería de fotos",
-    "description": "Galería de fotos de Pixan Chenes"
+    "description": "Galería de fotos de Pixan Chenes",
+    "pagination": {
+      "previous": "Ich'kaajal",
+      "next": "Yokol",
+      "goToPage": "Xíimbal tu láak':",
+      "of": "ti'",
+      "totalImages": "wíiniko'ob yóok'ol",
+      "page": "Láak'"
+    },
+    "infiniteScroll": {
+      "scrollHint": "Síijil ich kaajal utial u yil má'alob",
+      "loading": "U kánik má'alo'ob wíiniko'ob...",
+      "allLoaded": "¡Ya a wilech tuláakal wíiniko'ob!",
+      "backToTop": "Suut ich kaajal"
+    }
   },
   "Navigation": {
     "home": "Káajal",

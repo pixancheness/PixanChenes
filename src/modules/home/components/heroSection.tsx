@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import SplitText from "@/components/ui/SplitText";
 import { Sparkles, Heart } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
 export default function HeroSection() {
   const t = useTranslations("HomePage");
@@ -51,10 +52,13 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2">
+          <Link
+            className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
+            href="/galeria"
+          >
             <Sparkles className="w-5 h-5" />
             {t("hero.galleryButton")}
-          </button>
+          </Link>
           <button className="border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
             <Heart className="w-5 h-5" />
             {t("hero.supportButton")}

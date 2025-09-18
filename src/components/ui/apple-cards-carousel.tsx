@@ -227,35 +227,35 @@ export const Card = ({
               exit={{ opacity: 0 }}
               ref={containerRef}
               layoutId={layout ? `card-${card.title}` : undefined}
-              className="relative z-[60] mx-auto my-4 flex flex-col max-w-[40vw] max-h-[100vh] min-h-[80vh] rounded-3xl bg-white/95 backdrop-blur-sm p-4 font-sans dark:bg-neutral-900/95"
+              className="relative z-[60] mx-auto my-2 md:my-4 flex flex-col w-[95vw] md:max-w-[50vw] lg:max-w-[40vw] max-h-[95vh] md:max-h-[90vh] min-h-[85vh] md:min-h-[80vh] rounded-3xl bg-white/95 backdrop-blur-sm p-3 md:p-4 font-sans dark:bg-neutral-900/95"
             >
               <button
-                className="absolute top-4 right-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/80 backdrop-blur-sm dark:bg-white/80"
+                className="absolute top-3 right-3 md:top-4 md:right-4 z-10 flex h-8 w-8 md:h-10 md:w-10 items-center justify-center rounded-full bg-black/80 backdrop-blur-sm dark:bg-white/80"
                 onClick={handleClose}
               >
-                <IconX className="h-6 w-6 text-white dark:text-black" />
+                <IconX className="h-5 w-5 md:h-6 md:w-6 text-white dark:text-black" />
               </button>
-              <div className="mb-4 pr-12">
+              <div className="mb-3 md:mb-4 pr-10 md:pr-12">
                 <motion.p
                   layoutId={layout ? `category-${card.title}` : undefined}
-                  className="text-base font-medium text-black dark:text-white"
+                  className="text-sm md:text-base font-medium text-black dark:text-white"
                 >
                   {card.category}
                 </motion.p>
                 <motion.p
                   layoutId={layout ? `title-${card.title}` : undefined}
-                  className="text-2xl font-semibold text-neutral-700 dark:text-white"
+                  className="text-xl md:text-2xl font-semibold text-neutral-700 dark:text-white"
                 >
                   {card.title}
                 </motion.p>
               </div>
-              <div className="flex-1 relative min-h-0">
+              <div className="flex-1 relative min-h-0 rounded-lg overflow-hidden">
                 <Image
                   src={card.src}
                   alt={card.title}
                   fill
-                  className="object-contain"
-                  sizes="(max-width: 768px) 90vw, 80vw"
+                  className="object-contain hover:object-cover transition-all duration-300"
+                  sizes="(max-width: 768px) 95vw, (max-width: 1024px) 50vw, 40vw"
                 />
               </div>
             </motion.div>

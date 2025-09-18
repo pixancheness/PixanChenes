@@ -128,7 +128,21 @@
   },
   "Gallery": {
     "title": "Photo Gallery",
-    "description": "Photo gallery of Pixan Chenes"
+    "description": "Photo gallery of Pixan Chenes",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "goToPage": "Go to page:",
+      "of": "of",
+      "totalImages": "total images",
+      "page": "Page"
+    },
+    "infiniteScroll": {
+      "scrollHint": "Continue scrolling to see more",
+      "loading": "Loading more images...",
+      "allLoaded": "You've seen all the images!",
+      "backToTop": "Back to top"
+    }
   },
   "Navigation": {
     "home": "Home",

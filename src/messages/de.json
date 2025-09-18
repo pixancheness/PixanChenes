@@ -128,7 +128,21 @@
   },
   "Gallery": {
     "title": "Foto Galerie",
-    "description": "Foto Galerie von Pixan Chenes"
+    "description": "Foto Galerie von Pixan Chenes",
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "goToPage": "Zur Seite:",
+      "of": "von",
+      "totalImages": "Bilder insgesamt",
+      "page": "Seite"
+    },
+    "infiniteScroll": {
+      "scrollHint": "Scrollen Sie weiter nach unten für mehr",
+      "loading": "Lade weitere Bilder...",
+      "allLoaded": "Sie haben alle Bilder gesehen!",
+      "backToTop": "Zurück nach oben"
+    }
   },
   "Navigation": {
     "home": "Startseite",
