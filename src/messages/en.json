@@ -5,7 +5,7 @@
       "subtitle": "Economy with soul, community with future.",
       "description": "Pixan Chenes is a Maya cooperative that protects the jungle, cares for bees and builds a dignified future for our communities.",
       "galleryButton": "Photo Gallery",
-      "supportButton": "Support our project"
+      "supportButton": "About us"
     },
     "aboutUs": {
       "title": "Who are we?",
@@ -160,7 +160,8 @@
       "nodess": "Nodess",
       "seminaries": "Seminar Repensar la cultura maya",
       "businesses": "Businesses",
-      "artificialIntelligence": "Artificial Intelligence and Apiculture"
+      "artificialIntelligence": "Artificial Intelligence and Apiculture",
+      "grandparentsAndYoungPeople": "We learn from our grandparents, we emprend with our young people from the school"
     },
 
     "culture": {
@@ -462,5 +463,111 @@
     "viewCertificates": "View certificates",
     "contactUs": "Contact us",
     "errorCode": "Error 404"
+  },
+  "Nodess": {
+    "title": "NODESS",
+    "definition": {
+      "title": "What is NODESS?",
+      "description": "NODESS (Node for Promoting Social and Solidarity Economy) is an initiative of the National Institute of Social Economy (INAES) that seeks to create collaboration networks between communities, educational institutions and organizations to strengthen productive projects with social and cultural impact."
+    },
+    "integration": {
+      "title": "NODESS Integration",
+      "description": "In our case, NODESS is made up of the Pixan Chenes Cooperative, UPIIT of the National Polytechnic Institute, the Suc Tuc Community High School, the Xcupil Commissariat in Campeche, and the Tierra Fértil Civil Association of Tlaxcala."
+    },
+    "objective": {
+      "title": "Our Objective",
+      "description": "Together we work to unite academic knowledge, community organization and social solidarity, in order to generate development opportunities that respect cultural identity, boost the local economy and promote collective well-being."
+    },
+    "documentation": {
+      "title": "Official Documentation",
+      "description": "Learn more details about the NODESS project and its implementation in our community.",
+      "buttonText": "View PDF Document"
+    },
+    "projects": {
+      "title": "Projects",
+      "apitoxin": {
+        "title": "Device for Apitoxin Extraction",
+        "intro": "Within the NODESS framework, this project represents an exceptional example of collaboration between academia, community, and the Pixan Chenes cooperative.",
+        "imageAlt": "Apitoxin extraction device developed by UPIIT student",
+        "developer": {
+          "title": "Developer",
+          "name": "Harold Bryan Espinoza Sánchez - Student at the Interdisciplinary Professional Unit of Engineering Tlaxcala campus"
+        },
+        "benefits": {
+          "title": "Innovations and Benefits:",
+          "list": "Safe and efficient method for obtaining apitoxin|Substance with pharmaceutical and cosmetic applications|Strengthens local productive chain|Diversifies economic opportunities|Promotes sustainability of Mayan beekeeping"
+        },
+        "impact": {
+          "title": "Community Impact",
+          "description": "This project demonstrates how UPIIT and the Pixan Chenes cooperative foster entrepreneurial spirit, promoting innovative solutions that link scientific knowledge with community development."
+        }
+      },
+      "website": {
+        "title": "Pixan Chenes Website",
+        "intro": "A digital tool that gives greater visibility to the cooperative's activities and strengthens the online presence of Mayan communities.",
+        "developer": {
+          "title": "Developer",
+          "name": "Diego Castro Elvira - Graduate student in Artificial Intelligence, UPIIT Tlaxcala"
+        },
+        "features": {
+          "title": "Main features:",
+          "list": "Spreading achievements and activities|Strengthening community communication|Product sales channel|Platform for receiving donations|Global visibility for the cooperative"
+        },
+        "impact": {
+          "title": "Project Impact",
+          "description": "Reflects how NODESS fosters entrepreneurial spirit and collaboration, leveraging technology to drive economic and social growth of Mayan communities."
+        }
+      }
+    }
+  },
+  "GrandparentsAndYoungPeople": {
+    "title": "We learn from our grandparents, we emprend with our young people from the school",
+    "subtitle": "Dr. Yadira Rivera Espinoza",
+    "doctor": {
+      "title": "About Dr. Yadira Rivera Espinoza",
+      "description": "Dr. Yadira Rivera Espinoza is a biotechnologist, researcher and academic from the National Polytechnic Institute, specialist in training Engineers, Masters and Doctors in Sciences. With more than two decades of experience, she has promoted innovative projects that link science and entrepreneurship with social impact.",
+      "commitment": "Her commitment to the Mayan community arises from the direct call of the founders of Pixan Chenes, who invited her to put her knowledge and love for the community at the service of their needs and aspirations."
+    },
+    "program": {
+      "title": "The Program",
+      "description": "Within the framework of the Node for Promoting Social and Solidarity Economy (NODESS), Dr. Rivera Espinoza will teach this innovative program that seeks to strengthen intergenerational learning and promote community entrepreneurship."
+    },
+    "communities": {
+      "title": "Benefited Communities",
+      "description": "The program will be developed in the communities of Suc Tuc and Xcupil, strengthening intergenerational bonds and promoting sustainable local development."
+    },
+    "modules": {
+      "title": "Program Modules",
+      "list": "Human development and leadership: Self-knowledge and purpose|Community work and project design: Research of family/community needs and Social Canvas|Artificial intelligence tools: Information search, idea generation and support materials|Calls and financing: Reading foundations, requirements and file preparation|Project execution and monitoring: Implementation, follow-up and alliances|Impact evaluation and socialization: Community fair, systematization of learning and success stories"
+    },
+    "objective": {
+      "title": "Program Objective",
+      "description": "This Program seeks to rescue the knowledge of grandparents, enhance the talent of young people and consolidate sustainable productive projects, reaffirming the academy's commitment to social transformation and the preservation of Mayan cultural identity."
+    }
+  },
+  "Seminario": {
+    "title": "Seminar: Rethinking Maya Culture",
+    "importance": {
+      "title": "Seminar Importance",
+      "description": "The Seminar Rethinking Maya Culture emerges as a space for dialogue and reflection within the framework of participatory action-research, where the voice of Maya communities from Hopelchén, Campeche, takes center stage. Its importance lies in allowing recognition and visibility of the current role of Maya culture in sustainability, understood not only as environmental care, but also as the preservation of identity, community practices and ancestral knowledge."
+    },
+    "approach": {
+      "title": "Co-creation Approach",
+      "description": "The relevance of the seminar lies in its knowledge co-creation approach: community representatives, academics and social actors meet in a horizontal dialogue space that promotes the collective construction of alternatives for the country's economic, cultural and social development."
+    },
+    "themes": {
+      "title": "Proposed Themes",
+      "list": "community strengths, bee challenges, indigenous development, Campeche identity, Hanal Pixan"
+    },
+    "mission": {
+      "title": "Strengthening NODESS Mission",
+      "description": "This seminar strengthens the NODESS mission by articulating efforts between educational institutions, cooperatives, local authorities and civil organizations, consolidating a support and mutual learning network that enriches both academic and community life."
+    },
+    "future": {
+      "title": "Rethinking the Future",
+      "description": "In this way, it becomes a means to rethink the future from the roots of Maya culture, valuing its contribution as a living heritage and as an engine of social innovation."
+    },
+    "imageAlt": "Rethinking Maya Culture Seminar - Maya communities in dialogue",
+    "imageCaption": "Meeting of ancestral knowledge and academic knowledge for sustainable development"
   }
 }

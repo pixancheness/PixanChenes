@@ -5,7 +5,7 @@
       "subtitle": "Ekonomia tu pixan, k'áat chi' tu yáanal.",
       "description": "Pixan Chenes ku ts'aik u jach k'áat le kaajo'ob, ku ch'a'aj le kaabo'ob yéetel ku beetik u jach k'áat tu yáanal le k'áat chi'ob.",
       "galleryButton": "K'áat chi' ta'ano'ob",
-      "supportButton": "Ka'aj a k'a'ajsik in meyaj"
+      "supportButton": "To'on"
     },
     "aboutUs": {
       "title": "¿Máax ku beetik?",
@@ -160,7 +160,8 @@
       "nodess": "Nodess",
       "seminaries": "Seminario: Tu jats'uts k'áat le k'ultura maya",
       "businesses": "Meyajo'ob ku beetik ba'ax",
-      "artificialIntelligence": "Na'atil máakilo'ob yéetel kaab meyaj"
+      "artificialIntelligence": "Na'atil máakilo'ob yéetel kaab meyaj",
+      "grandparentsAndYoungPeople": "T'aanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj"
     },
 
     "culture": {
@@ -460,5 +461,111 @@
     "viewCertificates": "Wilik tz'uulilo'ob",
     "contactUs": "K'áat a t'aan to'on",
     "errorCode": "Ts'o'ok'oba' 404"
+  },
+  "Nodess": {
+    "title": "NODESS",
+    "definition": {
+      "title": "Ba'ax le NODESS?",
+      "description": "Le NODESS (Nodo de Impulso a la Economía Social y Solidaria) jump'éel meyaj le Instituto Nacional de la Economía Social (INAES) ku k'áat u yúuchul redes de colaboración ichil kaajo'ob, instituciones educativas yéetel organizaciones utial u múuch'meyajkuntik proyectos productivos yéetel impacto social yéetel cultural."
+    },
+    "integration": {
+      "title": "Integración le NODESS",
+      "description": "Ichil k to'on, le NODESS yaan tu'ux le Cooperativa Pixan Chenes, le UPIIT le Instituto Politécnico Nacional, le Telebachillerato comunitario Suc Tuc, le Comisariado Xcupil, Campeche, yéetel le Asociación Civil Tierra Fértil Tlaxcala."
+    },
+    "objective": {
+      "title": "K Beetik",
+      "description": "Juntúul k meyaj utial k ts'aik u na'atal le conocimiento académico, le organización comunitaria yéetel le solidaridad social, utial k yúuchul oportunidades de desarrollo ku respeten le identidad cultural, ku impulsent le economía local yéetel ku promuevan le bienestar colectivo."
+    },
+    "documentation": {
+      "title": "Documentación Oficial",
+      "description": "Náatej uláak' detalles yóok'ol le proyecto NODESS yéetel u implementación k kaajil.",
+      "buttonText": "Ilik Documento PDF"
+    },
+    "projects": {
+      "title": "Meyajilo'ob",
+      "apitoxin": {
+        "title": "Máakina utial u jets'al le apitoxina",
+        "intro": "Tu beetik le NODESS, le meyaj leti' kíinsaj jump'éel jach ma'alob xoklil le meyajkúunsajil ichil academia, kaaj yéetel le cooperativa Pixan Chenes.",
+        "imageAlt": "Máakina utial u jets'al apitoxina ku yúuchul tumen xok UPIIT",
+        "developer": {
+          "title": "Beykech ku meyajtik",
+          "name": "Harold Bryan Espinoza Sánchez - Xok u meyaj tu Unidad Profesional Interdisciplinaria de Ingenierías campus Tlaxcala"
+        },
+        "benefits": {
+          "title": "Innovaciones yéetel u Ma'aloob:",
+          "list": "Meyaj jach ma'alob utial u jets'al apitoxina|Ba'al ku meyajtik ichil farmacéutica yéetel cosmética|Ku múuch'kintik le cadena productiva le kaajil|Ku yúuchul uláak' oportunidades económicas|Ku jach le meyaj le kaabo'ob mayao'ob"
+        },
+        "impact": {
+          "title": "U Beetik tu Kaajil",
+          "description": "Le meyaj leti' ku kíinsaj bix, tak le UPIIT yéetel le cooperativa Pixan Chenes, ku múuch'kintik le espíritu emprendedor, ku jach meyajilo'ob innovadores ku ts'aik u na'atal le na'atil científico yéetel le u múuch'besajil le kaajil."
+        }
+      },
+      "website": {
+        "title": "U k'uchul le Pixan Chenes",
+        "intro": "Jump'éel ba'al digital ku ts'aik uláak' wilik tu meyajilo'ob le cooperativa yéetel ku múuch'kintik u yáantik le kaajo'ob mayao'ob ichil internet.",
+        "developer": {
+          "title": "Beykech ku meyajtik",
+          "name": "Diego Castro Elvira - Xok u k'aaba' tu carrera Inteligencia Artificial, UPIIT Tlaxcala"
+        },
+        "features": {
+          "title": "U jach ba'alo'ob:",
+          "list": "U ts'áabal ba'ax u yúuchul yéetel meyajilo'ob|Múuch'kintik le t'aanil kaajil|U na'akil utial u ko'onelex ba'alo'ob|K'uch utial u k'amik donaciones|Yáantik tu yóok'ol kaab utial le cooperativa"
+        },
+        "impact": {
+          "title": "U Beetik le Meyaj",
+          "description": "Ku kíinsaj bix, tak le NODESS, ku múuch'kintik le espíritu emprendedor yéetel le meyajkúunsajil, ku yúuchul tecnología utial u jach u múuch'besajil económico yéetel social le kaajo'ob mayao'ob."
+        }
+      }
+    }
+  },
+  "GrandparentsAndYoungPeople": {
+    "title": "T'aanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj",
+    "subtitle": "Doctora Yadira Rivera Espinoza",
+    "doctor": {
+      "title": "Yóok'ol le Doctora Yadira Rivera Espinoza",
+      "description": "Le Doctora Yadira Rivera Espinoza, leti' biotecnóloga, investigadora yéetel académica tu Instituto Politécnico Nacional, especialista tu u ka'ansaj Ingenieras e Ingenieros, Maestros yéetel Doctores tu Ciencias. Yéetel uláak' ka'a k'iino'ob experiencia, ku impulsado proyectos innovadores ku na'atal ciencia yéetel emprendimiento yéetel impacto social.",
+      "commitment": "U compromiso yéetel le kaajil maya ku síijil tu u k'áatik directo le fundadoreso'ob Pixan Chenes, leti'obo' ku k'áataj u ts'aik u na'atil yéetel u yakunaj le kaajil tu u meyajil u necesidades yéetel u aspiraciones."
+    },
+    "program": {
+      "title": "Le Programa",
+      "description": "Tu beetik le Nodo de Impulso a la Economía Social y Solidaria (NODESS), le Doctora Rivera Espinoza ku ka'ansik le programa innovador leti' ku k'áat u múuch'kintik le u kanaj intergeneracional yéetel ku fomentar le emprendimiento comunitario."
+    },
+    "communities": {
+      "title": "Kaajo'ob ku Ma'aloob",
+      "description": "Le programa ku yúuchul tu kaajo'ob Suc Tuc yéetel Xcupil, ku múuch'kintik le vínculos ichil generaciones yéetel ku promueven le desarrollo local sustentable."
+    },
+    "modules": {
+      "title": "Módulos le Programa",
+      "list": "Desarrollo humano yéetel liderazgo: Autoconocimiento yéetel propósito|Meyaj comunitario yéetel diseño proyectos: Investigación necesidades ichil familia/kaajil yéetel Canvas Social|Ba'alo'ob inteligencia artificial: U k'áatik información, generación ideas yéetel ba'alo'ob apoyo|Convocatorias yéetel financiamiento: U xook bases, requisitos yéetel armado expedientes|Ejecución yéetel monitoreo proyectos: Implementación, seguimiento yéetel alianzas|Evaluación impacto yéetel socialización: Feria comunitaria, sistematización aprendizajes yéetel casos de éxito"
+    },
+    "objective": {
+      "title": "Objetivo le Programa",
+      "description": "Yéetel le Programa leti' ku k'áat u rescatar le na'atilo'ob le náatso'ob, u potenciar le talento le paalalo'ob yéetel u consolidar proyectos productivos sustentables, ku reafirmar le compromiso le academia yéetel le transformación social yéetel le preservación le identidad cultural maya."
+    }
+  },
+  "Seminario": {
+    "title": "Seminario: Tu ka'a na'atik le k'ultura maya",
+    "importance": {
+      "title": "U k'áat chi' le Seminario",
+      "description": "Le Seminario Tu ka'a na'atik le k'ultura maya ku síijil jump'éel k'uch utial t'aan yéetel na'atik tu k'ambesajil le investigación-acción participativa, tu'ux le u t'aanil le kaaj mayao'ob ti' Hopelchén, Campeche, ku yáantik jump'éel k'uch je'etel. U k'áat chi' yaan tumen ku ts'aik u na'atal yéetel u wilal u meyajil le k'ultura maya ti' le meyaj ku chéej, ma' chéen tu chukul le lu'um, ba'ale' je'el bix tu chukul le identidad, le meyajilo'ob kaajil yéetel le na'atilo'ob náats'."
+    },
+    "approach": {
+      "title": "Meyajil Tu beetaj Juntúul",
+      "description": "U k'áat chi'il le seminario yaan tu u meyajil tu beetaj juntúul le na'atilo'ob: máako'ob kaajilo'ob, académicos yéetel máako'ob ku meyajo'ob ti' kaajil ku taakpajalo'ob tu jump'éel k'uch ti' t'aan ku chukbesik u meyaj juntúul tu beetik ba'alilo'ob utial u jach le desarrollo económico, cultural yéetel social le lu'umo'."
+    },
+    "themes": {
+      "title": "T'aanilo'ob ku ts'aik",
+      "list": "u yáax k'áat le kaajo'ob, u k'óojilo'ob le kaabo'ob, desarrollo indígena, campechaneidad, Hanal Pixan"
+    },
+    "mission": {
+      "title": "Tu yáax k'áatik le Meyajil NODESS",
+      "description": "Le seminario leti' ku yáax k'áatik u meyajil le NODESS tumen ku ts'aik u na'atal le meyajilo'ob ichil le instituciones educativas, cooperativas, autoridades locales yéetel organizaciones civiles, ku yáax k'áatik jump'éel red de apoyo yéetel u kanaj juntúul ku jach le kuxtal académico yéetel le kaajil."
+    },
+    "future": {
+      "title": "Tu ka'a na'atik le Yáanal",
+      "description": "Beyo', ku beetik jump'éel meyaj utial u ka'a na'atik le yáanal tu yáax le k'ultura maya, ku na'atik u ka'ansaj bix u patrimonio kuxtal yéetel bix u motor innovación social."
+    },
+    "imageAlt": "Seminario Tu ka'a na'atik le k'ultura maya - Kaaj mayao'ob ti' t'aan",
+    "imageCaption": "Taanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj"
   }
 }

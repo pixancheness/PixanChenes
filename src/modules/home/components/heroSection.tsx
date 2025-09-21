@@ -59,10 +59,13 @@ export default function HeroSection() {
             <Sparkles className="w-5 h-5" />
             {t("hero.galleryButton")}
           </Link>
-          <button className="border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+          <Link
+            href="/about"
+            className="border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          >
             <Heart className="w-5 h-5" />
             {t("hero.supportButton")}
-          </button>
+          </Link>
         </motion.div>
       </div>
     </section>

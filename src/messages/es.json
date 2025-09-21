@@ -5,7 +5,7 @@
       "subtitle": "Economía con alma, comunidad con futuro.",
       "description": "Pixan Chenes es una cooperativa maya que protege la selva, cuida a las abejas y construye un futuro digno para nuestras comunidades.",
       "galleryButton": "Galeria de fotos",
-      "supportButton": "Apoya nuestro proyecto"
+      "supportButton": "Sobre nosotros"
     },
     "aboutUs": {
       "title": "¿Quiénes somos?",
@@ -159,7 +159,8 @@
       "nodess": "Nodess",
       "seminaries": "Seminario Repensar la cultura maya",
       "businesses": "Emprendimientos",
-      "artificialIntelligence": "Inteligencia artificial y apicultura"
+      "artificialIntelligence": "Inteligencia artificial y apicultura",
+      "grandparentsAndYoungPeople": "De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela"
     },
     "culture": {
       "title": "Cultura",
@@ -448,6 +449,112 @@
         }
       }
     }
+  },
+  "Nodess": {
+    "title": "NODESS",
+    "definition": {
+      "title": "¿Qué es NODESS?",
+      "description": "El NODESS (Nodo de Impulso a la Economía Social y Solidaria) es una iniciativa del Instituto Nacional de la Economía Social (INAES) que busca crear redes de colaboración entre comunidades, instituciones educativas y organizaciones para fortalecer proyectos productivos con impacto social y cultural."
+    },
+    "integration": {
+      "title": "Integración del NODESS",
+      "description": "En nuestro caso, el NODESS está integrado por la Cooperativa Pixan Chenes, la UPIIT del Instituto Politécnico Nacional, el Telebachillerato comunitario de Suc Tuc, el Comisariado de Xcupil, Campeche, y la Asociación Civil Tierra Fértil de Tlaxcala."
+    },
+    "objective": {
+      "title": "Nuestro Objetivo",
+      "description": "Juntos trabajamos para unir el conocimiento académico, la organización comunitaria y la solidaridad social, con el fin de generar oportunidades de desarrollo que respeten la identidad cultural, impulsen la economía local y promuevan el bienestar colectivo."
+    },
+    "documentation": {
+      "title": "Documentación Oficial",
+      "description": "Conoce más detalles sobre el proyecto NODESS y su implementación en nuestra comunidad.",
+      "buttonText": "Ver Documento PDF"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "apitoxin": {
+        "title": "Dispositivo para la extracción de la Apitoxina",
+        "intro": "En el marco del NODESS, este proyecto representa un ejemplo excepcional de colaboración entre academia, comunidad y la cooperativa Pixan Chenes.",
+        "imageAlt": "Dispositivo para extracción de apitoxina desarrollado por estudiante de UPIIT",
+        "developer": {
+          "title": "Desarrollador",
+          "name": "Harold Bryan Espinoza Sánchez - Estudiante de la Unidad Profesional Interdisciplinaria de Ingenierías campus Tlaxcala"
+        },
+        "benefits": {
+          "title": "Innovaciones y Beneficios:",
+          "list": "Método seguro y eficiente para obtener apitoxina|Sustancia con aplicaciones farmacéuticas y cosméticas|Fortalece la cadena productiva local|Diversifica oportunidades económicas|Promueve la sostenibilidad de la apicultura maya"
+        },
+        "impact": {
+          "title": "Impacto Comunitario",
+          "description": "Este proyecto demuestra cómo desde la UPIIT y la cooperativa Pixan Chenes se fomenta el espíritu emprendedor, impulsando soluciones innovadoras que vinculan el conocimiento científico con el desarrollo comunitario."
+        }
+      },
+      "website": {
+        "title": "Página web Pixan Chenes",
+        "intro": "Una herramienta digital que da mayor visibilidad a las actividades de la cooperativa y fortalece la presencia online de las comunidades mayas.",
+        "developer": {
+          "title": "Desarrollador",
+          "name": "Diego Castro Elvira - Pasante de la carrera en Inteligencia Artificial, UPIIT Tlaxcala"
+        },
+        "features": {
+          "title": "Características principales:",
+          "list": "Difusión de logros y actividades|Fortalecimiento de la comunicación comunitaria|Canal de venta de productos|Plataforma para recepción de donaciones|Visibilidad global para la cooperativa"
+        },
+        "impact": {
+          "title": "Impacto del Proyecto",
+          "description": "Refleja cómo desde el NODESS se fomenta el espíritu emprendedor y la colaboración, aprovechando la tecnología para impulsar el crecimiento económico y social de las comunidades mayas."
+        }
+      }
+    }
+  },
+  "GrandparentsAndYoungPeople": {
+    "title": "De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela",
+    "subtitle": "Dra. Yadira Rivera Espinoza",
+    "doctor": {
+      "title": "Sobre la Dra. Yadira Rivera Espinoza",
+      "description": "La Dra. Yadira Rivera Espinoza, es biotecnóloga, investigadora y académica del Instituto Politécnico Nacional, especialista formación de Ingenieras e Ingenieros, Maestros y Doctores en Ciencias. Con más de dos décadas de experiencia, ha impulsado proyectos innovadores que vinculan ciencia y emprendimiento con impacto social.",
+      "commitment": "Su compromiso con la comunidad maya surge del llamado directo de los fundadores de Pixan Chenes, quienes la invitaron a poner sus conocimientos y su amor por la comunidad al servicio de sus necesidades y aspiraciones."
+    },
+    "program": {
+      "title": "El Programa",
+      "description": "En el marco del Nodo de Impulso a la Economía Social y Solidaria (NODESS), la Dra. Rivera Espinoza impartirá este programa innovador que busca fortalecer el aprendizaje intergeneracional y fomentar el emprendimiento comunitario."
+    },
+    "communities": {
+      "title": "Comunidades Beneficiadas",
+      "description": "El programa se desarrollará en las comunidades de Suc Tuc y Xcupil, fortaleciendo los vínculos entre generaciones y promoviendo el desarrollo local sostenible."
+    },
+    "modules": {
+      "title": "Módulos del Programa",
+      "list": "Desarrollo humano y liderazgo: Autoconocimiento y propósito|Trabajo comunitario y diseño de proyectos: Investigación de necesidades en familia/comunidad y Canvas Social|Herramientas de inteligencia artificial: Búsqueda de información, generación de ideas y materiales de apoyo|Convocatorias y financiamiento: Lectura de bases, requisitos y armado de expedientes|Ejecución y monitoreo de proyectos: Implementación, seguimiento y alianzas|Evaluación de impacto y socialización: Feria comunitaria, sistematización de aprendizajes y casos de éxito"
+    },
+    "objective": {
+      "title": "Objetivo del Programa",
+      "description": "Con este Programa se busca rescatar los saberes de los abuelos, potenciar el talento de los jóvenes y consolidar proyectos productivos sostenibles, reafirmando el compromiso de la academia con la transformación social y la preservación de la identidad cultural maya."
+    }
+  },
+  "Seminario": {
+    "title": "Seminario Repensar la Cultura Maya",
+    "importance": {
+      "title": "Importancia del Seminario",
+      "description": "El Seminario Repensar la Cultura Maya surge como un espacio de diálogo y reflexión en el marco de la investigación-acción participativa, donde la voz de las comunidades mayas de Hopelchén, Campeche, ocupa un lugar central. Su importancia radica en que permite reconocer y visibilizar el papel actual de la cultura maya en la sostenibilidad, entendida no solo como el cuidado del medio ambiente, sino también como la preservación de la identidad, las prácticas comunitarias y los saberes ancestrales."
+    },
+    "approach": {
+      "title": "Enfoque de Co-creación",
+      "description": "La pertinencia del seminario está en su enfoque de co-creación de conocimiento: representantes comunitarios, académicos y actores sociales se encuentran en un espacio horizontal de diálogo que impulsa la construcción colectiva de alternativas para el desarrollo económico, cultural y social del país."
+    },
+    "themes": {
+      "title": "Temas Propuestos",
+      "list": "fortalezas comunitarias, los retos de la abeja, desarrollo indígena, campechaneidad, Hanal Pixan"
+    },
+    "mission": {
+      "title": "Fortalecimiento de la Misión NODESS",
+      "description": "Este seminario fortalece la misión de los NODESS al articular esfuerzos entre instituciones educativas, cooperativas, autoridades locales y organizaciones civiles, consolidando una red de apoyo y aprendizaje mutuo que enriquece tanto la vida académica como la comunitaria."
+    },
+    "future": {
+      "title": "Repensar el Futuro",
+      "description": "De esta forma, se convierte en un medio para repensar el futuro desde la raíz de la cultura maya, valorando su aporte como patrimonio vivo y como motor de innovación social."
+    },
+    "imageAlt": "Seminario Repensar la Cultura Maya - Comunidades mayas en diálogo",
+    "imageCaption": "Encuentro de saberes ancestrales y conocimiento académico para el desarrollo sostenible"
   },
   "Metadata": {
     "title": "Pixan Chenes - Cooperativa Maya | Certificados Ambientales, Reforestación y Desarrollo Sustentable",

@@ -28,17 +28,22 @@ export const navigationItems = [
   },
   {
     name: "Navigation.projects.title",
-    href: "/miel",
+    href: "/nodess",
     icon: IconCoffee,
     hasDropdown: true,
     dropdownItems: [
       { name: "Navigation.projects.nodess", href: "/nodess" },
-      { name: "Navigation.projects.seminaries", href: "/seminarios" },
-      { name: "Navigation.projects.businesses", href: "/emprendimientos" },
+      { name: "Navigation.projects.seminaries", href: "/seminario" },
+
       {
-        name: "Navigation.projects.artificialIntelligence",
-        href: "/inteligencia-artificial-y-apicultura",
+        name: "Navigation.projects.grandparentsAndYoungPeople",
+        href: "/grandparentsAndYoungPeople",
       },
+      // { name: "Navigation.projects.businesses", href: "/emprendimientos" },
+      // {
+      //   name: "Navigation.projects.artificialIntelligence",
+      //   href: "/inteligencia-artificial-y-apicultura",
+      // },
     ],
   },
   {
