@@ -16,15 +16,14 @@ export const navigationItems = [
         name: "Navigation.products.certificates",
         href: "/certificados",
       },
-      {
-        name: "Navigation.products.honey",
-        href: "/miel",
-      },
-      {
-        name: "Navigation.products.wine",
-        href: "/vino",
-      },
-      { name: "Navigation.faq", href: "/FAQ" },
+      // {
+      //   name: "Navigation.products.honey",
+      //   href: "/miel",
+      // },
+      // {
+      //   name: "Navigation.products.wine",
+      //   href: "/vino",
+      // },
     ],
   },
   {
@@ -61,6 +60,7 @@ export const navigationItems = [
     dropdownItems: [
       { name: "Navigation.about", href: "/about" },
       { name: "Navigation.gallery", href: "/galeria" },
+      { name: "Navigation.faq", href: "/FAQ" },
     ],
   },
 ];

@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
+import { SobreNosotros } from "@/modules/sobreNosotros";
 
 export async function generateMetadata({
   params,
@@ -12,12 +13,5 @@ export async function generateMetadata({
 }
 
 export default function AboutPage() {
-  const t = useTranslations("Navigation");
-
-  return (
-    <div>
-      <h1>{t("about")}</h1>
-      <p>Esta es la página "Acerca de".</p>
-    </div>
-  );
+  return <SobreNosotros />;
 }
