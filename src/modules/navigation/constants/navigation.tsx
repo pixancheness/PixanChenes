@@ -53,8 +53,8 @@ export const navigationItems = [
     hasDropdown: true,
     dropdownItems: [
       { name: "Navigation.culture.stories", href: "/cuentos-y-leyendas" },
-      { name: "Navigation.culture.events", href: "/eventos" },
-      { name: "Navigation.culture.forum", href: "/foro" },
+      // { name: "Navigation.culture.events", href: "/eventos" },
+      // { name: "Navigation.culture.forum", href: "/foro" },
     ],
   },
   {

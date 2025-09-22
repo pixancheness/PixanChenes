@@ -15,7 +15,7 @@ import {
 } from "./components";
 const PixanChenesHome = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen  bg-gradient-to-br from-yellow-100 to-yellow-50 font-sans">
       {/* Hero Section */}
       <HeroSection />
 
@@ -50,7 +50,6 @@ const PixanChenesHome = () => {
       <Apoyo />
 
       {/* FAQ / Información adicional */}
-      <Adicional />
     </div>
   );
 };

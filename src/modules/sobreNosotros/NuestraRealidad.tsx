@@ -1,15 +1,17 @@
 "use client";
 
 import React from "react";
+import { useTranslations } from "next-intl";
 
 const NuestraRealidad = () => {
+  const t = useTranslations("AboutUs.OurReality");
   return (
     <section className="py-16 px-4 md:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         {/* Título principal */}
         <div className="text-center mb-10">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-800 mb-8">
-            Nuestra Realidad: El Reto que Convertimos en Oportunidad
+            {t("title")}: {t("subtitle")}
           </h1>
         </div>
 
@@ -17,9 +19,7 @@ const NuestraRealidad = () => {
         <div className="mb-16">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <p className="text-xl  text-gray-700  leading-relaxed">
-              Vivir en la región de los Chenes es una lucha diaria por la
-              dignidad. Somos una comunidad donde más del 80% de la población es
-              indígena y enfrentamos realidades crudas:
+              {t("contextDescription")}
             </p>
           </div>
 
@@ -28,50 +28,60 @@ const NuestraRealidad = () => {
             {/* Estadística 1 */}
             <div className="bg-red-50  rounded-xl p-6 border border-red-200 text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-red-500 rounded-full flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">80%</span>
+                <span className="text-2xl font-bold text-white">
+                  {t("stats.indigenous.percentage")}
+                </span>
               </div>
               <h3 className="font-bold text-red-800  mb-2">
-                Población Indígena
+                {t("stats.indigenous.title")}
               </h3>
               <p className="text-sm text-red-700 ">
-                Más del 80% de nuestra comunidad es indígena
+                {t("stats.indigenous.description")}
               </p>
             </div>
 
             {/* Estadística 2 */}
             <div className="bg-orange-50  rounded-xl p-6 border border-orange-200 text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-orange-500 rounded-full flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">70%</span>
+                <span className="text-2xl font-bold text-white">
+                  {t("stats.poverty.percentage")}
+                </span>
               </div>
               <h3 className="font-bold text-orange-800  mb-2">
-                Pobreza Multidimensional
+                {t("stats.poverty.title")}
               </h3>
               <p className="text-sm text-orange-700 ">
-                Supera el 70% en nuestra región
+                {t("stats.poverty.description")}
               </p>
             </div>
 
             {/* Estadística 3 */}
             <div className="bg-red-50  rounded-xl p-6 border border-red-200 text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-red-600 rounded-full flex items-center justify-center">
-                <span className="text-lg font-bold text-white">1/5</span>
+                <span className="text-lg font-bold text-white">
+                  {t("stats.extremePoverty.ratio")}
+                </span>
               </div>
-              <h3 className="font-bold text-red-800  mb-2">Pobreza Extrema</h3>
+              <h3 className="font-bold text-red-800  mb-2">
+                {t("stats.extremePoverty.title")}
+              </h3>
               <p className="text-sm text-red-700 ">
-                Afecta a 1 de cada 5 familias
+                {t("stats.extremePoverty.description")}
               </p>
             </div>
 
             {/* Estadística 4 */}
             <div className="bg-yellow-50  rounded-xl p-6 border border-yellow-200 text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-yellow-500 rounded-full flex items-center justify-center">
-                <span className="text-lg font-bold text-white">6+</span>
+                <span className="text-lg font-bold text-white">
+                  {t("stats.drought.months")}
+                </span>
               </div>
               <h3 className="font-bold text-yellow-800  mb-2">
-                Meses de Sequía
+                {t("stats.drought.title")}
               </h3>
               <p className="text-sm text-yellow-700 ">
-                Más de seis meses al año sin agua suficiente
+                {t("stats.drought.description")}
               </p>
             </div>
           </div>
@@ -88,29 +98,24 @@ const NuestraRealidad = () => {
                 className="object-cover w-full h-64 md:h-80 rounded-lg mb-4"
               />
               <h3 className="text-xl font-bold text-yellow-800  mb-2">
-                La Sequía
+                {t("challenges.title")}
               </h3>
-              <p className="text-yellow-700 ">
-                Nuestro enemigo constante durante más de seis meses al año
-              </p>
+              <p className="text-yellow-700 ">{t("challenges.description")}</p>
             </div>
 
             {/* Texto descriptivo de desafíos */}
             <div className=" rounded-xl p-8   flex flex-col justify-center">
               <h3 className="text-2xl font-bold text-gray-800  mb-6">
-                Desafíos Diarios
+                {t("challenges.dailyChallenges.title")}
               </h3>
               <p className="text-gray-700  leading-relaxed mb-4 text-lg">
-                La sequía es nuestro enemigo constante durante más de seis meses
-                al año. No contamos con sistemas de riego suficientes y llevar
-                agua a nuestras casas es una tarea exhaustiva.
+                {t("challenges.dailyChallenges.description1")}
               </p>
               <p className="text-gray-700 leading-relaxed text-lg">
-                Esta realidad afecta a nuestra tierra, nuestra fauna y sustento.
+                {t("challenges.dailyChallenges.description2")}
               </p>
               <p className="text-sm text-gray-600  mt-4 italic">
-                La lucha constante por recursos básicos que determina nuestro
-                día a día
+                {t("challenges.dailyChallenges.note")}
               </p>
             </div>
           </div>
@@ -121,7 +126,7 @@ const NuestraRealidad = () => {
           <div className="absolute inset-0 bg-gradient-to-r  rounded-2xl transform -rotate-1 opacity-10"></div>
           <div className="relative rounded-2xl p-8 md:p-12 border-yellow-200 ">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-900  text-center ">
-              Pero frente a la adversidad, se levanta una oportunidad histórica.
+              {t("opportunity.title")}
             </h2>
           </div>
         </div>
@@ -133,17 +138,17 @@ const NuestraRealidad = () => {
             <div className="text-center">
               <div className="inline-block bg-yellow-500 rounded-2xl p-6 mb-6">
                 <div className="text-4xl md:text-6xl font-bold text-white mb-2">
-                  5M+
+                  {t("opportunity.mayaTrain.tourists")}
                 </div>
-                <p className="text-yellow-100 font-semibold">Turistas al año</p>
+                <p className="text-yellow-100 font-semibold">
+                  {t("opportunity.mayaTrain.touristsLabel")}
+                </p>
               </div>
               <h3 className="text-lg font-bold text-yellow-800  mb-4">
-                Tren Maya
+                {t("opportunity.mayaTrain.title")}
               </h3>
               <p className="text-yellow-700 text-lg  leading-relaxed">
-                La proyección del Tren Maya anticipa la llegada de más de 5
-                millones de turistas al año. La pregunta no es si el cambio
-                llegará, sino quién se beneficiará de él.
+                {t("opportunity.mayaTrain.description")}
               </p>
             </div>
 
@@ -157,7 +162,7 @@ const NuestraRealidad = () => {
                     className="object-cover w-full h-full rounded-xl"
                   />
                   <p className="text-yellow-700 py-4 font-medium">
-                    Imagen del proyecto Tren Maya y su impacto en la región
+                    {t("opportunity.mayaTrain.imageCaption")}
                   </p>
                 </div>
               </div>
@@ -169,7 +174,7 @@ const NuestraRealidad = () => {
         <div className="mt-16">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-yellow-800  mb-6">
-              Nosotros Tenemos la Respuesta
+              {t("ourResponse.title")}
             </h2>
           </div>
 
@@ -192,11 +197,10 @@ const NuestraRealidad = () => {
                 </svg>
               </div>
               <h3 className="font-bold text-yellow-800  mb-3">
-                Tesoro Natural
+                {t("ourResponse.cards.naturalTreasure.title")}
               </h3>
               <p className="text-yellow-700  text-sm">
-                Extensiones de tierra dentro de la selva que son un tesoro de
-                conservación y cultura
+                {t("ourResponse.cards.naturalTreasure.description")}
               </p>
             </div>
 
@@ -218,11 +222,10 @@ const NuestraRealidad = () => {
                 </svg>
               </div>
               <h3 className="font-bold text-yellow-800  mb-3">
-                Con Responsabilidad
+                {t("ourResponse.cards.responsibility.title")}
               </h3>
               <p className="text-yellow-700  text-sm">
-                Listos para recibir al mundo con responsabilidad y respeto por
-                nuestra cultura
+                {t("ourResponse.cards.responsibility.description")}
               </p>
             </div>
 
@@ -244,11 +247,10 @@ const NuestraRealidad = () => {
                 </svg>
               </div>
               <h3 className="font-bold text-yellow-800  mb-3">
-                Alianza Estratégica
+                {t("ourResponse.cards.strategicAlliance.title")}
               </h3>
               <p className="text-yellow-700  text-sm">
-                Para quien quiera invertir en un desarrollo verdadero,
-                sustentable y justo
+                {t("ourResponse.cards.strategicAlliance.description")}
               </p>
             </div>
           </div>
@@ -256,11 +258,7 @@ const NuestraRealidad = () => {
           {/* Mensaje final poderoso */}
           <div className="mt-12 bg-gradient-to-r from-yellow-100 to-green-50 rounded-2xl p-8 text-center">
             <p className="text-lg  text-gray-900  leading-relaxed">
-              Pixan Chenes es nuestra respuesta organizada. Transformamos la
-              dificultad en propósito y la amenaza en determinación.{" "}
-              <span className="font-bold">
-                No pedimos limosna; ofrecemos una alianza estratégica.
-              </span>
+              {t("ourResponse.finalMessage")}
             </p>
           </div>
         </div>

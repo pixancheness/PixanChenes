@@ -11,7 +11,7 @@ import CalendarioEventos from "./CalendarioEventos";
 
 const SobreNosotros = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-amber-50 to-orange-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 font-sans">
+    <div className="min-h-screen  bg-yellow-50 font-sans">
       {/* Componente Nuestra Esencia */}
       <NuestraEsencia />
 

@@ -2,7 +2,8 @@
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils";
 import { fadeInVariants } from "../utils";
-import { Trophy } from "lucide-react";
+import { Heart, Trophy } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import SplitText from "@/components/ui/SplitText";
 import { useTranslations } from "next-intl";
 export default function Logros() {
@@ -40,6 +41,15 @@ export default function Logros() {
             {t("achievements.description")}
           </motion.p>
         </motion.div>
+        <div className="flex flex-col sm:flex-row justify-center items-center mt-5">
+          <Link
+            href="/nodess"
+            className="border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          >
+            <Heart className="w-5 h-5" />
+            {t("achievements.button")}
+          </Link>
+        </div>
       </div>
     </section>
   );

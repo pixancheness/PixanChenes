@@ -7,6 +7,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 import "./globals.css";
 import Header from "@/modules/navigation/header";
 import { Toaster } from "sonner";
+import Footer from "@/modules/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -146,7 +147,7 @@ export default async function RootLayout({
           crossOrigin="anonymous"
         />
       </head>
-      <body className={inter.className + " bg-[#EFE8DC]"}>
+      <body className={inter.className + "  bg-yellow-50 font-sans"}>
         <NextIntlClientProvider locale={locale}>
           <Header />
           <Toaster
@@ -157,6 +158,7 @@ export default async function RootLayout({
             theme="light"
           />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

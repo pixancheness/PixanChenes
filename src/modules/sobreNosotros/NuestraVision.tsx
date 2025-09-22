@@ -2,15 +2,78 @@
 
 import React from "react";
 import { SplitText } from "@/components/ui";
+import { useTranslations } from "next-intl";
+
+const createVisionElements = (t: (key: string) => string) => [
+  {
+    title: t("elements.selfDetermination.title"),
+    description: t("elements.selfDetermination.description"),
+    icon: (
+      <svg
+        className="w-10 h-10 text-white"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: t("elements.naturalHarmony.title"),
+    description: t("elements.naturalHarmony.description"),
+    icon: (
+      <svg
+        className="w-10 h-10 text-white"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: t("elements.flourishingCulture.title"),
+    description: t("elements.flourishingCulture.description"),
+    icon: (
+      <svg
+        className="w-10 h-10 text-white"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+        />
+      </svg>
+    ),
+  },
+];
 
 const NuestraVision = () => {
+  const t = useTranslations("AboutUs.OurVision");
+
   return (
     <section className="py-16 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Título principal con efecto */}
         <div className="text-center mb-16">
           <SplitText
-            text="Nuestra Visión"
+            text={t("title")}
             tag="h1"
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-800 mb-8"
             splitType="words"
@@ -21,7 +84,7 @@ const NuestraVision = () => {
           {/* Frase principal de la visión */}
           <div className="relative mx-auto mb-12">
             <SplitText
-              text="Soñamos con una región de los Chenes próspera, donde las comunidades indígenas ejerzan su libre determinación, vivan en armonía con la naturaleza y su cultura florezca con orgullo."
+              text={t("mainPhrase")}
               tag="h2"
               className="text-2xl  text-yellow-900 italic max-w-5xl mx-auto"
               splitType="words"
@@ -37,29 +100,23 @@ const NuestraVision = () => {
           <div className="order-2 md:order-1">
             <img
               src="https://res.cloudinary.com/danv3godx/image/upload/v1758089555/vivero08_s4xw9k.jpg"
-              alt="Visión de prosperidad comunitaria"
+              alt={t("imageAlt")}
               className="object-cover w-full h-80 md:h-96 rounded-xl shadow-lg"
             />
           </div>
           <div className="order-1 md:order-2">
             <h3 className="text-2xl md:text-3xl font-bold text-yellow-800 mb-6">
-              Un Faro de Esperanza
+              {t("lighthouseTitle")}
             </h3>
             <p className="text-yellow-700 leading-relaxed text-lg mb-4">
-              Aspiramos a ser un faro replicable de autogestión comunitaria para
-              México y el mundo, demostrando que otro modelo de desarrollo es
-              posible.
-            </p>
-            <p className="text-yellow-700 leading-relaxed text-lg">
-              Un modelo que sea socialmente justo, culturalmente sustentable y
-              ecológicamente regenerativo.
+              {t("lighthouseDescription")}
             </p>
           </div>
         </div>
 
         {/* Elementos clave de la visión */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {visionElements.map((element, i) => (
+          {createVisionElements(t).map((element, i) => (
             <div
               key={i}
               className="bg-gradient-to-br from-yellow-50/80 to-amber-50/60 border border-yellow-200/40 rounded-xl p-8 text-center hover:shadow-lg transition-all duration-300"
@@ -81,15 +138,14 @@ const NuestraVision = () => {
         <div className="bg-gradient-to-br from-green-50 to-yellow-50 rounded-3xl p-8 md:p-12 border border-yellow-200">
           <div className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-yellow-800 mb-4">
-              Colaboración para el Cambio
+              {t("collaborationTitle")}
             </h3>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-yellow-700 leading-relaxed text-lg mb-6 text-center">
-                Esperamos la colaboración de la sociedad, empresas y ONG,
-                contribuyendo al Plan México.
+                {t("collaborationDescription")}
               </p>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div className="rounded-lg p-4 ">
@@ -109,7 +165,7 @@ const NuestraVision = () => {
                     </svg>
                   </div>
                   <p className="text-yellow-800 font-semibold text-sm">
-                    Sociedad
+                    {t("collaborationLabels.society")}
                   </p>
                 </div>
                 <div className="p-4 ">
@@ -129,7 +185,7 @@ const NuestraVision = () => {
                     </svg>
                   </div>
                   <p className="text-yellow-800 font-semibold text-sm">
-                    Empresas
+                    {t("collaborationLabels.businesses")}
                   </p>
                 </div>
                 <div className=" p-4 ">
@@ -148,18 +204,19 @@ const NuestraVision = () => {
                       />
                     </svg>
                   </div>
-                  <p className="text-yellow-800 font-semibold text-sm">ONG</p>
+                  <p className="text-yellow-800 font-semibold text-sm">
+                    {t("collaborationLabels.ngo")}
+                  </p>
                 </div>
               </div>
             </div>
             <div>
               <div className=" p-6 ">
                 <h4 className="font-bold text-yellow-800 mb-4 text-2xl text-center">
-                  Plan México
+                  {t("mexicoPlanTitle")}
                 </h4>
                 <p className="text-yellow-700 text-center leading-relaxed text-lg">
-                  Contribuyendo activamente al desarrollo nacional a través de
-                  modelos comunitarios sustentables y replicables.
+                  {t("mexicoPlanDescription")}
                 </p>
               </div>
             </div>
@@ -169,68 +226,5 @@ const NuestraVision = () => {
     </section>
   );
 };
-
-const visionElements = [
-  {
-    title: "Libre Determinación",
-    description:
-      "Las comunidades indígenas ejerciendo plenamente su derecho a la libre determinación y autogobierno.",
-    icon: (
-      <svg
-        className="w-10 h-10 text-white"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Armonía Natural",
-    description:
-      "Vida en perfecta armonía con la naturaleza, respetando y regenerando nuestro entorno.",
-    icon: (
-      <svg
-        className="w-10 h-10 text-white"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Cultura Floreciente",
-    description:
-      "Nuestra cultura maya floreciendo con orgullo y transmitiéndose a las nuevas generaciones.",
-    icon: (
-      <svg
-        className="w-10 h-10 text-white"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-        />
-      </svg>
-    ),
-  },
-];
 
 export default NuestraVision;

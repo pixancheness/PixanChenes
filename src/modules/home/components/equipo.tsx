@@ -34,12 +34,25 @@ export default function Equipo() {
               splitType="words"
             />
           </motion.div>
-          <motion.p
+          <motion.div
             variants={fadeInVariants}
-            className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
+            className="grid md:grid-cols-2 gap-8 items-center"
           >
-            {t("leadership.description")}
-          </motion.p>
+            <div>
+              <img
+                src="https://res.cloudinary.com/danv3godx/image/upload/v1756431603/19_pevqjh.jpg"
+                alt="Valores en práctica comunitaria"
+                className="object-cover w-full h-80 rounded-xl shadow-lg"
+              />
+            </div>
+            <div>
+              <div className="space-y-6">
+                <p className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
+                  {t("leadership.description")}
+                </p>
+              </div>
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </section>

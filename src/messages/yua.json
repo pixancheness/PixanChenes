@@ -10,6 +10,7 @@
     "aboutUs": {
       "title": "¿Máax ku beetik?",
       "description": "Pixan ku jach 'pixan' ti' t'aan maya yéetel Chenes ku jach 'chenes' le nojoch k'iino'ob. Ku beetik ti' 2020 tu jach k'áat ku ts'aik to'on ku beetik u jach k'áat. To'on jela'an nojoch k'áat chi'ob ku beetik u jach k'áat le kuxtal, k'ultura yéetel u yáanal le máako'ob.",
+      "button": "To'on",
       "gallery": {
         "conferences": {
           "category": "Conferencias",
@@ -55,14 +56,51 @@
     },
     "values": {
       "title": "In jach k'áat",
+      "subtitle": "Le báaxal ku kanantik in beel",
       "items": [
-        "Jach k'áat le kuxtal, lu'um yéetel in identidad",
-        "Equidad ku jach k'áat le meyaj",
-        "Participación comunitaria",
-        "Vinculación solidaria",
-        "Cuidado ecológico",
-        "Dignidad"
-      ]
+        {
+          "title": "Jach k'áat le kuxtal, lu'um yéetel in identidad",
+          "description": "Ku cháantik tuláakal u kuxtal yéetel ku canantik in cultura maya, ku ts'o'ok vivo le zuhuy t'aan yéetel le na' lu'um."
+        },
+        {
+          "title": "Ma'alob ku jach k'áat le meyaj",
+          "description": "Ku tukultik je'el tuláakal máax yan u páajtal u meyaj yéetel u kuxtal ma'alob."
+        },
+        {
+          "title": "Participación comunitaria",
+          "description": "Ku kanantik u meentik tuláakal le t'aan tu decidir ba'ax ku yúuchul tin kaajal."
+        },
+        {
+          "title": "Vinculación solidaria",
+          "description": "Ku beetik puentes ti' meyaj yéetel áantaj u yáanal le kaajo'ob, ku múuch'kintik in red solidaridad."
+        },
+        {
+          "title": "Cuidado ecológico",
+          "description": "Ku canantik yéetel ku regenerar in ecosistema, ku meyaj ti' jun ma'alob t'aan yéetel le naturaleza."
+        },
+        {
+          "title": "Dignidad",
+          "description": "Ku kanantik u derechoj tuláakal máax u kuxtal yéetel respeto yéetel tuláakal ba'ax k'abéet ti' jun ma'alob kuxtal."
+        }
+      ],
+      "liveValues": {
+        "title": "K'áat ku kuxtal",
+        "description": "Le k'áato'ob ma' chen ideales, ba'ale' ku na'atal ti' tuláakal in meyaj yéetel decisiones comunitarias. Le o'olal ku pulsik ti' tuláakal proyecto yéetel le brújula ku kanantik in meyaj.",
+        "practices": [
+          {
+            "title": "Ti' tuláakal decisión",
+            "description": "In k'áat ku kanantik tuláakal ba'ax ku decidir bix kaaj, tu yáanal yéetel tu nojoch."
+          },
+          {
+            "title": "Ti' tuláakal proyecto",
+            "description": "Tuláakal ba'ax ku beetik ku yáanal le principios, ku asegurar coherencia entre ba'ax ku tukul yéetel ba'ax ku meyaj."
+          },
+          {
+            "title": "Ti' le k'iin ku taal",
+            "description": "Ku meyaj tumen le k'áato'ob u herencia tin wáalkilo'ob u k'iin ku taal tin kaaj maya."
+          }
+        ]
+      }
     },
     "communities": {
       "title": "K'áat chi'ob ku beetik Pixan Chenes",
@@ -89,7 +127,8 @@
     },
     "achievements": {
       "title": "In logros",
-      "description": "Ku beetik le meyaj, ku ts'aik NODESS tu IPN yéetel u jach k'áat, yéetel ku beetik meyajo'ob innovadores ku beetik aplicación ku beetik u k'áat le kaab. Le alianzas ku beetik u jach k'áat in capacidades productivas yéetel organizativas."
+      "description": "Ku beetik le meyaj, ku ts'aik NODESS tu IPN yéetel u jach k'áat, yéetel ku beetik meyajo'ob innovadores ku beetik aplicación ku beetik u k'áat le kaab. Le alianzas ku beetik u jach k'áat in capacidades productivas yéetel organizativas.",
+      "button": "Wilik NODESS"
     },
     "future": {
       "title": "In yáanal",
@@ -126,6 +165,330 @@
       }
     }
   },
+  "AboutUs": {
+    "OurEssence": {
+      "title": "To'on Esencia",
+      "description": "To'on u yóol le kaaj maya tu lu'umil Chenes.",
+      "title1": "Kanantako'ob le Lu'umil",
+      "title2": "To'on K'aaba'",
+      "title3": "Museo Ku Kuxtal",
+      "title4": "Na'atil Náats'",
+      "description1": "Pixan Chenes ku síijil tu yáanal ko'olelo'ob mayao'ob, kanantako'ob tu lu'umil nojoch. Ku síijil bix jump'éel íits'in k'aaba'nil tu yóok'ol le k'óojilo'ob.",
+      "description2": "Ku yantal k'aaba' ku beetik to'on u ts'íibtal to'on destino tumen u meyajkúunsajil, u jach k'aaba' to'on na' lu'um yéetel u k'uchul u na'atil histórico.",
+      "description3": "Ma' chen jump'éel cooperativa; to'on jump'éel museo ku kuxtal, jump'éel k'uch utial u kanantik k'ultur yéetel jump'éel modelo ku páajtal u wilik tu meyajil comunitario regenerativo.",
+      "description4": "Ku ts'aik juntúul u na'atil náats' to'on abuelos yéetel le na'atil moderno yéetel le principios tu economía social, utial u yúuchul abundancia yéetel ma'alob kuxtal tu tuláakal familia."
+    },
+    "OurReality": {
+      "title": "To'on Realidad",
+      "subtitle": "Le K'óojanil Ku Ka'a Beetaj Oportunidad",
+      "contextDescription": "U kuxtal tu lu'umil Chenes jump'éel meyajil k'iinil utial dignidad. To'on jump'éel kaaj tu'ux ma' jach 80% le máako'ob mayao'ob yéetel ku yila'al le realidades ku t'aan:",
+      "stats": {
+        "indigenous": {
+          "title": "Máako'ob Maya",
+          "description": "Ma' jach 80% tu kaajil to'on mayao'ob",
+          "percentage": "80%"
+        },
+        "poverty": {
+          "title": "Pobreza Multidimensional",
+          "description": "Ku ts'o'ok 70% tu kaajil to'on",
+          "percentage": "70%"
+        },
+        "extremePoverty": {
+          "title": "Pobreza Extrema",
+          "description": "Ku beetik 1 tu 5 familia",
+          "ratio": "1/5"
+        },
+        "drought": {
+          "title": "Ja'abo'ob Sek'",
+          "description": "Ma' jach ja'abil tu ja'ab ma' yan ja' suficiente",
+          "months": "6+"
+        }
+      },
+      "challenges": {
+        "title": "Le Sek'",
+        "description": "To'on enemigo constante tu ma' jach ja'abil tu ja'ab",
+        "dailyChallenges": {
+          "title": "K'óojilo'ob K'iinil",
+          "description1": "Le sek' to'on enemigo constante tu ma' jach ja'abil tu ja'ab. Ma' yan sistemas riego suficientes yéetel u k'uchul ja' ti' to'on najil jump'éel meyajil exhaustivo.",
+          "description2": "Le realidad leti' ku beetik to'on lu'um, to'on ba'alo'ob yéetel to'on sustento.",
+          "note": "Le meyajil constante utial recursos básicos ku beetik to'on k'iinil"
+        }
+      },
+      "opportunity": {
+        "title": "Pero frente a la adversidad, se levanta una oportunidad histórica.",
+        "mayaTrain": {
+          "title": "Tren Maya",
+          "description": "Le proyecto Tren Maya ku na'atik u k'uchul ma' jach 5 millones turistas tu ja'ab. Le ts'íib ma' le ba'ax ku bin, ba'ale' máax ku ka'aj ma'alob.",
+          "tourists": "5M+",
+          "touristsLabel": "Turistas tu ja'ab",
+          "imageCaption": "Wíinik le proyecto Tren Maya yéetel u impacto tu kaajil"
+        }
+      },
+      "ourResponse": {
+        "title": "To'on Yan To'on Respuesta",
+        "cards": {
+          "naturalTreasure": {
+            "title": "Tesoro Natural",
+            "description": "Extensiones lu'um ichil k'áax ku tesoro conservación yéetel k'ultur"
+          },
+          "responsibility": {
+            "title": "Tu Responsabilidad",
+            "description": "Listos utial u k'amik le kaab yéetel responsabilidad yéetel respeto utial to'on k'ultur"
+          },
+          "strategicAlliance": {
+            "title": "Alianza Estratégica",
+            "description": "Utial máax ku k'áat invertir tu desarrollo verdadero, sustentable yéetel justo"
+          }
+        },
+        "finalMessage": "Pixan Chenes to'on respuesta organizada. Ku ts'aik u jach k'áat le k'óojanil yéetel le amenaza tu determinación. Ma' ku k'áat limosna; ku ts'aik alianza estratégica."
+      }
+    },
+    "OurMission": {
+      "title": "To'on Misión",
+      "mainDescription": "To'on misión ku ts'aik u jach k'áat le meyajil integral yéetel sustentable tu kaajo'ob mayao'ob tu lu'umil Chenes.",
+      "dailyWorkTitle": "Ku meyaj k'iinil utial:",
+      "commitment": {
+        "title": "Compromiso K'iinil",
+        "description1": "Tuláakal k'iin ku ka'a ts'íibtal to'on compromiso yéetel le lu'um, yéetel to'on kaaj yéetel le wáalkilo'ob.",
+        "description2": "To'on misión ma' chen jump'éel ideal, ba'ale' jump'éel meyajil k'iinil ku ts'aik u jach k'áat le kuxtal yéetel territorios."
+      },
+      "goals": {
+        "regeneration": {
+          "title": "Regeneración",
+          "description": "Ku regenerar to'on lu'um yéetel che'o'ob tumen sistemas agroforestales sintrópicos."
+        },
+        "protection": {
+          "title": "Protección",
+          "description": "Ku canantik le ba'alo'ob silvestre yéetel to'on sagradas kaabo'ob Meliponas."
+        },
+        "localEconomy": {
+          "title": "Economía Local",
+          "description": "Ku múuch'kintik le economía local tumen turismo comunitario yéetel u ko'onelex to'on ba'alo'ob."
+        },
+        "livingCulture": {
+          "title": "K'ultur Ku Kuxtal",
+          "description": "Ku revitalizar to'on k'ultur, t'aan yéetel tradiciones utial le wáalkilo'ob."
+        },
+        "foodSovereignty": {
+          "title": "Soberanía Alimentaria",
+          "description": "Ku ts'aik soberanía alimentaria tu to'on familia."
+        }
+      },
+      "imageAlt": "Kaaj ku meyaj tu desarrollo sustentable"
+    },
+    "OurVision": {
+      "title": "To'on Visión",
+      "mainPhrase": "Ku tsikbaltik u yáanal jun p'éel k'áat chi' tu yáanal Chenes, tu'ux ku yúuchul le kaajo'ob indígenas ku beetik u jach k'áat, ku kaxtik u páajtal tu yáanal le k'áax yéetel ku ts'íibil u k'ultur le kaajo'ob.",
+      "lighthouseTitle": "Jun P'éel Nojoch Ts'íib",
+      "lighthouseDescription": "Tu yáanal jun p'éel ka'ansaj ku ya'alkab u k'áat, Pixan Chenes ku ts'aik u jach k'áat te' jach tu yáanal u nojoch ts'íib yéetel jun p'éel modelo ku ts'aabal u beetik tu yáanal le kaajo'ob tu yáanal identidad.",
+      "sustainableFutureTitle": "Yáanal ku Ts'íibil",
+      "sustainableFutureDescription": "Ku kaxtik u páajtal jun p'éel yáanal tu'ux ku ts'íibil le k'áax yéetel le kaajo'ob, tu'ux ku meyaj le tecnología tu yáanal le k'áajtal yéetel tu'ux ku ts'aik u jach k'áat te' tu yáanal ichil le máako'ob.",
+      "commitmentTitle": "To'on Compromiso",
+      "commitmentDescription": "Ku ts'aik u jach k'áat te' u beetik u guardianes activos tu yáanal to'on k'ultur, u ch'a'aj le lu'um yéetel u beetik u constructores tu yáanal jun p'éel yáanal digno tu yáanal le próximos generaciones.",
+      "legacyTitle": "Legado Vivo",
+      "legacyDescription": "Más que una visión, es nuestro compromiso diario: demostrar que es posible un desarrollo que respete la identidad cultural, proteja el medio ambiente y genere bienestar colectivo.",
+      "elements": {
+        "selfDetermination": {
+          "title": "Libre Determinación",
+          "description": "Le kaajo'ob indígenas ku yúuchul u jach k'áat tu yáanal u derecho tu yáanal libre determinación yéetel autogobierno."
+        },
+        "naturalHarmony": {
+          "title": "Armonía Natural",
+          "description": "Vida tu yáanal perfecta armonía tu yáanal le k'áax, ku ch'a'aj yéetel ku regenerar to'on lu'um."
+        },
+        "flourishingCulture": {
+          "title": "Cultura Floreciente",
+          "description": "To'on k'ultur maya ku ts'íibil tu yáanal orgullo yéetel ku ts'aabal u jach k'áat tu yáanal le nuevas generaciones."
+        }
+      },
+      "collaborationTitle": "Colaboración tu yáanal le Cambio",
+      "collaborationDescription": "Ku kaxtik le colaboración tu yáanal le sociedad, empresas yéetel ONG, ku ts'aik u jach k'áat tu yáanal le Plan México.",
+      "mexicoPlanTitle": "Plan México",
+      "mexicoPlanDescription": "Ku ts'aik u jach k'áat activamente tu yáanal le desarrollo nacional tu yáanal modelos kaaj sustentables yéetel replicables.",
+      "collaborationLabels": {
+        "society": "Sociedad",
+        "businesses": "Empresas",
+        "ngo": "ONG"
+      },
+      "imageAlt": "Visión tu yáanal prosperidad kaaj"
+    },
+    "OurPilares": {
+      "title": "To'on Pilares",
+      "subtitle": "Le Valores ku ts'aik u yáanal",
+      "valuesInActionTitle": "Valores tu Acción",
+      "valuesInActionDescription": "Le pilares ma' jach k'iinil t'aan; ku ts'aik u jach k'áat te' tu yáanal ichil u decisión ku beetik yéetel ichil u acción ku beetik tu yáanal to'on kaaj.",
+      "dailyPracticeTitle": "Práctica Diaria",
+      "dailyPracticeDescription": "Ichil u k'iin ku meyaj le valores tu yáanal to'on meyaj kaaj yéetel familia.",
+      "consciousDecisionsTitle": "Decisiones Conscientes",
+      "consciousDecisionsDescription": "To'on pilares ku ts'aik u yáanal ichil u decisión importante tu yáanal le organización.",
+      "lastingLegacyTitle": "Legado Duradero",
+      "lastingLegacyDescription": "Ku meyaj tu yáanal le valores ku ts'aik u jach k'áat tu yáanal le próximos generaciones.",
+      "valuesInPracticeAlt": "Valores tu yáanal práctica kaaj",
+      "pillars": {
+        "selfManagement": {
+          "title": "Autogestión Sintrópica",
+          "description": "Ku k'áat le organización kaaj te' jach k'áat tu yáanal u beetik orden, abundancia yéetel resiliencia, ku imitar le k'áax."
+        },
+        "ancestralWisdom": {
+          "title": "Sabiduría Ancestral",
+          "description": "To'on punto de partida ku ts'aik u jach k'áat tu yáanal le conocimiento ku kaxtal tu yáanal to'on pueblo maya. Ku ts'aik to'on brújula yéetel to'on jach k'áat."
+        },
+        "regeneration": {
+          "title": "Regeneración",
+          "description": "Ma' jach ku kaxtik u ch'a'aj, ku kaxtik u sanar yéetel u mejorar to'on lu'um tu yáanal u ka'a u beetik mejor te' u kaxtal."
+        },
+        "genderEquity": {
+          "title": "Equidad de Género",
+          "description": "To'on directiva ku ts'aik u jach k'áat yéetel ku ts'aik u yáanal tu yáanal mujeres. Ku k'áat u poder transformador tu yáanal le mujer indígena."
+        },
+        "transparency": {
+          "title": "Transparencia yéetel Confianza",
+          "description": "Ku meyaj tu yáanal honestidad yéetel ku ts'aik cuentas claras tu yáanal to'on kaaj yéetel tu'ux ku k'áat te' to'on."
+        }
+      }
+    },
+    "OurProjects": {
+      "title": "To'on Proyectos",
+      "subtitle": "Impacto yéetel ODS",
+      "introDescription1": "To'on proyectos ku jach ligado tu yáanal le cosmovisión maya, le conservación yéetel le recuperación tu yáanal le memoria histórica.",
+      "introDescription2": "Le empleo digno ku ts'aik u jach k'áat tu yáanal le ch'a'aj le k'áax.",
+      "projects": {
+        "beekeeping": {
+          "title": "Apicultura Maya",
+          "description": "To'on kaab ku ts'aik u jach k'áat tu yáanal guardianes tu yáanal le biodiversidad yéetel productoras tu yáanal cab tu yáanal propiedades únicas gracias tu yáanal le diversidad floral tu yáanal to'on k'áax.",
+          "features": {
+            "0": "30 hectáreas",
+            "1": "Bebederos fauna",
+            "2": "Semillas melíferas"
+          }
+        },
+        "forest": {
+          "title": "Ruta tu yáanal le K'áax",
+          "description": "Proyecto tu yáanal ecoturismo kaaj ku ts'aik u jach k'áat tu yáanal le visitantes ku kaxtik u páajtal le k'áax maya tu yáanal jun p'éel manera responsable yéetel educativa.",
+          "features": {
+            "0": "Cultivos orgánicos",
+            "1": "Miel certificada",
+            "2": "Vino artesanal",
+            "3": "Artesanías"
+          }
+        },
+        "reforestation": {
+          "title": "Reforestación Kaaj",
+          "description": "Programa tu yáanal reforestación ku involucra tu yáanal ichil le kaaj tu yáanal le recuperación yéetel le protección tu yáanal to'on k'áax.",
+          "features": {
+            "0": "Rituales auténticos",
+            "1": "Capacitación turística",
+            "2": "Experiencias culturales"
+          }
+        },
+        "crafts": {
+          "title": "Artesanías Tradicionales",
+          "description": "Creación tu yáanal artesanías ku ch'a'aj le técnicas ancestrales maya yéetel ku ts'aik ingresos dignos tu yáanal to'on familias.",
+          "features": {
+            "0": "Construcción sustentable",
+            "1": "Manejo residuos",
+            "2": "Vivienda artesanal"
+          }
+        },
+        "agriculture": {
+          "title": "Agricultura Sintrópica",
+          "description": "Sistema agrícola ku imita le k'áax, ku combina cultivos tradicionales tu yáanal técnicas modernas sustentables.",
+          "features": [
+            "Producción orgánica",
+            "Técnicas ancestrales",
+            "Sostenibilidad ambiental"
+          ]
+        },
+        "education": {
+          "title": "Educación Kaaj",
+          "description": "Programas educativos ku ts'aik k'áat tu yáanal le identidad cultural maya yéetel ku ts'aik u yáanal le nuevas generaciones tu yáanal le yáanal.",
+          "features": [
+            "Identidad cultural",
+            "Conocimiento ancestral",
+            "Desarrollo comunitario"
+          ]
+        }
+      },
+      "sdgSection": {
+        "title": "Objetivos tu yáanal le Desarrollo Sostenible",
+        "description": "Ku meyaj directamente tu yáanal le Objetivos tu yáanal le Desarrollo Sostenible tu yáanal le ONU, ku ts'aik u jach k'áat tu yáanal jun p'éel kaab ma' jach justo yéetel sustentable.",
+        "ods": {
+          "0": { "number": "1", "title": "Fin tu yáanal le Pobreza" },
+          "1": { "number": "2", "title": "Hambre Cero" },
+          "2": { "number": "5", "title": "Igualdad tu yáanal Género" },
+          "3": { "number": "8", "title": "Trabajo Decente" },
+          "4": { "number": "11", "title": "Ciudades Sostenibles" },
+          "5": { "number": "12", "title": "Consumo Responsable" },
+          "6": { "number": "13", "title": "Acción Clima" },
+          "7": { "number": "15", "title": "Vida Terrestre" },
+          "8": { "number": "17", "title": "Alianzas ODS" }
+        }
+      },
+      "impactSection": {
+        "title": "Impacto Real, Cambio Duradero",
+        "description1": "Ichil to'on proyectos ku ts'aik jun p'éel impacto ku medible tu yáanal le kuxtal tu yáanal to'on familias yéetel tu yáanal le conservación tu yáanal to'on territorio.",
+        "description2": "Ma' chen proyectos económicos; ku ts'aik expresiones tu yáanal to'on cosmovisión yéetel herramientas tu yáanal le recuperación tu yáanal to'on memoria histórica.",
+        "quote": "Le desarrollo verdadero ku síijil tu yáanal adentro, tu yáanal respeto yéetel tu yáanal armonía"
+      },
+      "imageAlt": "Proyectos kaaj tu yáanal acción"
+    },
+    "OurEvents": {
+      "title": "Calendario tu yáanal Eventos",
+      "description": "To'on ja'ab ku tejido tu yáanal eventos ku celebran to'on cultura yéetel ku ts'aik economía local",
+      "events": {
+        "womenDay": {
+          "title": "Marzo - Día Internacional tu yáanal le Mujer",
+          "month": "Marzo",
+          "description": "Jun p'éel evento tu yáanal reconocer yéetel ku ts'aik k'áat tu yáanal le liderazgo tu yáanal le mujeres tu yáanal le zona, tu yáanal foros yéetel actividades culturales."
+        },
+        "beeDay": {
+          "title": "Mayo - Evento Internacional Día Mundial tu yáanal le Kab",
+          "month": "Mayo",
+          "subtitle": "To'on evento emblemático (20-24 Mayo, 2026)",
+          "description": "Jun p'éel serie tu yáanal actividades culturales, recreativas, económicas, folclóricas, ceremoniales, gastronómicas yéetel deportivas tu yáanal ku ts'aik k'áat tu yáanal le tejido social yéetel vincularnos tu yáanal le mundo.",
+          "activities": {
+            "sports": {
+              "title": "Actividades Deportivas",
+              "description": "\"Minimundialito\" tu yáanal fútbol tu yáanal todas le edades yéetel escuelas tu yáanal más de 10 comunidades, baloncesto, voleibol yéetel juegos tradicionales."
+            },
+            "culture": {
+              "title": "Expresión Cultural",
+              "description": "Bandas tu yáanal guerra, batucada, bailes tradicionales, competencias tu yáanal fuerza yéetel evento ceremonial."
+            },
+            "academic": {
+              "title": "Espacio Académico",
+              "description": "Conferencias tu yáanal apicultura maya, economía solidaria yéetel desarrollo kaaj."
+            },
+            "gastronomy": {
+              "title": "Gastronomía Tradicional",
+              "description": "Muestra tu yáanal le cocina maya tu yáanal ingredientes locales yéetel técnicas ancestrales."
+            }
+          }
+        },
+        "ancestorsDay": {
+          "title": "Noviembre - Día tu yáanal le Muertos (Hanal Pixán)",
+          "month": "Noviembre",
+          "description": "Ceremonia ancestral maya tu yáanal honrar le antepasados yéetel mantener vivo to'on tradición cultural."
+        },
+        "treeDay": {
+          "title": "Junio - Día Internacional tu yáanal le Che'",
+          "month": "Junio",
+          "description": "Jun p'éel llamada tu yáanal acción tu yáanal trabajos tu yáanal reforestación tu yáanal to'on región, abierto tu yáanal voluntarios."
+        },
+        "hanalPixan": {
+          "title": "Octubre/Noviembre - Hannal Pixan",
+          "month": "Oct/Nov",
+          "description": "Jun p'éel experiencia profunda yéetel respetuosa tu yáanal le tradición maya tu yáanal Día tu yáanal le Muertos, abierta tu yáanal le kaaj yéetel visitantes."
+        },
+        "christmasFair": {
+          "title": "Diciembre - Feria Navideña",
+          "month": "Diciembre",
+          "description": "Jun p'éel celebración kaaj (2025) ku evolucionará tu yáanal jun p'éel feria abierta tu yáanal le público (2026) tu yáanal le venta tu yáanal productos yéetel artesanías locales."
+        }
+      }
+    }
+  },
+
   "Gallery": {
     "title": "Galería de fotos",
     "description": "Galería de fotos de Pixan Chenes",
@@ -567,5 +930,36 @@
     },
     "imageAlt": "Seminario Tu ka'a na'atik le k'ultura maya - Kaaj mayao'ob ti' t'aan",
     "imageCaption": "Taanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj"
+  },
+  "Footer": {
+    "description": "Cooperativa maya ti' Campeche ku kanantik le k'áaxo', ku meyaj tu jach ma'alob yéetel kaab yéetel ku ts'aik certificados de reforestación.",
+    "quickLinks": {
+      "title": "Enlaces jáak'ab",
+      "home": "Najil",
+      "aboutUs": "To'on",
+      "certificates": "Certificados",
+      "donate": "Ts'aik",
+      "gallery": "Galería",
+      "faq": "K'áata'an"
+    },
+    "projects": {
+      "title": "K to'on meyajo'ob",
+      "nodess": "NODESS",
+      "seminario": "Seminario maya",
+      "grandparents": "Jmeen yéetel chan xi'pal"
+    },
+    "contact": {
+      "title": "Taanxel",
+      "email": "pixancheness@gmail.com",
+      "socialMedia": "Síik tech redes sociales",
+      "tiktok": "TikTok"
+    },
+    "communities": {
+      "title": "K to'on kaajo'ob",
+      "description": "San Francisco Suc Tuc, Sahcabchén, Yakché Akal, Xcupil yéetel Oxá",
+      "location": "Hopelchén, Campeche, México"
+    },
+    "copyright": "© 2024 Pixan Chenes. Cooperativa maya tu meyajil u kanantej k'ultura yéetel kaab.",
+    "madeWith": "Beetaal tu yakunaj ❤️ tumen le kaaj maya"
   }
 }

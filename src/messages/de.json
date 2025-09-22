@@ -10,6 +10,7 @@
     "aboutUs": {
       "title": "Wer sind wir?",
       "description": "Pixan bedeutet 'Seele' in der Maya-Sprache und Chenes bezieht sich auf die Brunnen unserer Region. Wir wurden 2020 mit der Überzeugung geboren, dass wir von der Gemeinschaft aus unser Schicksal ändern können. Wir sind fünf Maya-Gemeinden, die zusammenarbeiten, um Leben, Kultur und die Zukunft unseres Volkes zu verteidigen.",
+      "button": "Mehr erfahren",
       "gallery": {
         "conferences": {
           "category": "Konferenzen",
@@ -55,14 +56,51 @@
     },
     "values": {
       "title": "Unsere Werte",
+      "subtitle": "Die Prinzipien, die unseren Weg leiten",
       "items": [
-        "Respekt vor Leben, Land und unserer Identität",
-        "Gleichheit als Grundlage der Entwicklung",
-        "Gemeinschaftliche Beteiligung",
-        "Solidarische Verbindungen",
-        "Ökologische Pflege",
-        "Würde"
-      ]
+        {
+          "title": "Respekt vor Leben, Land und unserer Identität",
+          "description": "Wir ehren alle Lebensformen und schützen unser Maya-Kulturerbe, indem wir die heilige Verbindung zur Mutter Erde lebendig halten."
+        },
+        {
+          "title": "Gleichheit als Grundlage der Entwicklung",
+          "description": "Wir glauben, dass wahrer Fortschritt nur möglich ist, wenn alle die gleichen Möglichkeiten haben zu wachsen und zu gedeihen."
+        },
+        {
+          "title": "Gemeinschaftliche Beteiligung",
+          "description": "Wir fördern die aktive Teilnahme aller Stimmen bei Entscheidungen, die unsere gemeinsame Zukunft betreffen."
+        },
+        {
+          "title": "Solidarische Verbindungen",
+          "description": "Wir bauen Brücken der Zusammenarbeit und gegenseitigen Unterstützung zwischen Gemeinden und stärken unser Netzwerk der Solidarität."
+        },
+        {
+          "title": "Ökologische Pflege",
+          "description": "Wir schützen und regenerieren unser Ökosystem und praktizieren eine harmonische Beziehung mit der Natur, die uns erhält."
+        },
+        {
+          "title": "Würde",
+          "description": "Wir verteidigen das Recht jedes Menschen, mit Ehre, Respekt und den notwendigen Bedingungen für ein erfülltes Leben zu leben."
+        }
+      ],
+      "liveValues": {
+        "title": "Gelebte Werte",
+        "description": "Diese Werte sind nicht nur Ideale, sondern spiegeln sich in jeder unserer täglichen Handlungen und Gemeinschaftsentscheidungen wider. Sie sind das Herz, das in jedem Projekt schlägt, und der Kompass, der unsere Arbeit leitet.",
+        "practices": [
+          {
+            "title": "In jeder Entscheidung",
+            "description": "Unsere Werte leiten jede Entscheidung, die wir als Gemeinschaft treffen, von der kleinsten bis zur bedeutendsten."
+          },
+          {
+            "title": "In jedem Projekt",
+            "description": "Jede Initiative, die wir ergreifen, ist von diesen Prinzipien durchdrungen und gewährleistet Kohärenz zwischen dem, was wir glauben, und dem, was wir tun."
+          },
+          {
+            "title": "Für die Zukunft",
+            "description": "Wir arbeiten dafür, dass diese Werte das Erbe sind, das wir den nächsten Generationen unserer Maya-Gemeinschaft hinterlassen."
+          }
+        ]
+      }
     },
     "communities": {
       "title": "Gemeinden, die Pixan Chenes bilden",
@@ -89,7 +127,8 @@
     },
     "achievements": {
       "title": "Unsere Errungenschaften",
-      "description": "Wir haben die Kooperative gegründet, NODESS zusammen mit IPN und anderen Institutionen artikuliert und innovative Projekte wie eine Anwendung zur Honigernte-Verwaltung entwickelt. Diese Allianzen haben unsere produktiven und organisatorischen Kapazitäten gestärkt."
+      "description": "Wir haben die Kooperative gegründet, NODESS zusammen mit IPN und anderen Institutionen artikuliert und innovative Projekte wie eine Anwendung zur Honigernte-Verwaltung entwickelt. Diese Allianzen haben unsere produktiven und organisatorischen Kapazitäten gestärkt.",
+      "button": "NODESS ansehen"
     },
     "future": {
       "title": "Unsere Zukunft",
@@ -126,6 +165,330 @@
       }
     }
   },
+  "AboutUs": {
+    "OurEssence": {
+      "title": "Unsere Essenz",
+      "description": "Wir sind der Herzschlag des Maya-Volkes in der Chenes-Region.",
+      "title1": "Hüter des Territoriums",
+      "title2": "Unser Zweck",
+      "title3": "Lebendes Museum",
+      "title4": "Uralte Weisheit",
+      "description1": "Pixan Chenes ist die Frucht der Vereinigung indigener Frauen und Männer, Hüter eines uralten Territoriums. Wir entstehen als Samen der Hoffnung angesichts der Herausforderungen.",
+      "description2": "Wir haben den festen Zweck, unser eigenes Schicksal durch Selbstverwaltung, Respekt vor unserer Mutter Erde und die Wiederherstellung unseres historischen Gedächtnisses zu schreiben.",
+      "description3": "Wir sind nicht nur eine Genossenschaft; wir sind ein lebendiges Museum, ein Raum des kulturellen Widerstands und ein greifbares Modell regenerativer Gemeindeentwicklung.",
+      "description4": "Wir verschmelzen das tiefe angestammte Wissen unserer Großeltern mit der modernen Wissenschaft und den Prinzipien der Sozialwirtschaft, um Überfluss und Wohlbefinden für alle Familien zu schaffen."
+    },
+    "OurReality": {
+      "title": "Unsere Realität",
+      "subtitle": "Die Herausforderung, die wir in eine Chance verwandeln",
+      "contextDescription": "Das Leben in der Chenes-Region ist ein täglicher Kampf um Würde. Wir sind eine Gemeinschaft, in der mehr als 80% der Bevölkerung indigen sind und wir harten Realitäten gegenüberstehen:",
+      "stats": {
+        "indigenous": {
+          "title": "Indigene Bevölkerung",
+          "description": "Mehr als 80% unserer Gemeinschaft sind indigen",
+          "percentage": "80%"
+        },
+        "poverty": {
+          "title": "Multidimensionale Armut",
+          "description": "Übersteigt 70% in unserer Region",
+          "percentage": "70%"
+        },
+        "extremePoverty": {
+          "title": "Extreme Armut",
+          "description": "Betrifft 1 von 5 Familien",
+          "ratio": "1/5"
+        },
+        "drought": {
+          "title": "Monate der Dürre",
+          "description": "Mehr als sechs Monate im Jahr ohne ausreichend Wasser",
+          "months": "6+"
+        }
+      },
+      "challenges": {
+        "title": "Dürre",
+        "description": "Unser ständiger Feind für mehr als sechs Monate im Jahr",
+        "dailyChallenges": {
+          "title": "Tägliche Herausforderungen",
+          "description1": "Dürre ist unser ständiger Feind für mehr als sechs Monate im Jahr. Wir verfügen nicht über ausreichende Bewässerungssysteme und Wasser zu unseren Häusern zu bringen ist eine erschöpfende Aufgabe.",
+          "description2": "Diese Realität betrifft unser Land, unsere Tierwelt und unseren Lebensunterhalt.",
+          "note": "Der ständige Kampf um grundlegende Ressourcen, der unseren Alltag bestimmt"
+        }
+      },
+      "opportunity": {
+        "title": "Aber angesichts der Widrigkeiten erhebt sich eine historische Chance.",
+        "mayaTrain": {
+          "title": "Maya-Zug",
+          "description": "Die Projektion des Maya-Zugs erwartet die Ankunft von mehr als 5 Millionen Touristen pro Jahr. Die Frage ist nicht, ob Veränderung kommen wird, sondern wer davon profitieren wird.",
+          "tourists": "5M+",
+          "touristsLabel": "Touristen pro Jahr",
+          "imageCaption": "Bild des Maya-Zug-Projekts und seiner Auswirkungen auf die Region"
+        }
+      },
+      "ourResponse": {
+        "title": "Wir haben die Antwort",
+        "cards": {
+          "naturalTreasure": {
+            "title": "Natürlicher Schatz",
+            "description": "Landflächen innerhalb des Dschungels, die ein Schatz der Erhaltung und Kultur sind"
+          },
+          "responsibility": {
+            "title": "Mit Verantwortung",
+            "description": "Bereit, die Welt mit Verantwortung und Respekt für unsere Kultur zu empfangen"
+          },
+          "strategicAlliance": {
+            "title": "Strategische Allianz",
+            "description": "Für alle, die in eine wahre, nachhaltige und gerechte Entwicklung investieren wollen"
+          }
+        },
+        "finalMessage": "Pixan Chenes ist unsere organisierte Antwort. Wir verwandeln Schwierigkeiten in Zweck und Bedrohung in Entschlossenheit. Wir bitten nicht um Almosen; wir bieten eine strategische Allianz an."
+      }
+    },
+    "OurMission": {
+      "title": "Unsere Mission",
+      "mainDescription": "Unsere Mission ist es, die integrale und nachhaltige Entwicklung der indigenen Gemeinschaften in der Chenes-Region voranzutreiben.",
+      "dailyWorkTitle": "Wir arbeiten Tag für Tag daran:",
+      "commitment": {
+        "title": "Tägliches Engagement",
+        "description1": "Jeden Tag erneuern wir unser Engagement für das Land, für unsere Gemeinschaft und für zukünftige Generationen.",
+        "description2": "Unsere Mission ist nicht nur ein Ideal, sondern eine tägliche Praxis, die Leben und Territorien verändert."
+      },
+      "goals": {
+        "regeneration": {
+          "title": "Regeneration",
+          "description": "Regenerierung unserer Böden und Wälder durch syntrope Agroforstsysteme."
+        },
+        "protection": {
+          "title": "Schutz",
+          "description": "Schutz der Tierwelt und unserer heiligen Melipona-Bienen."
+        },
+        "localEconomy": {
+          "title": "Lokale Wirtschaft",
+          "description": "Stärkung der lokalen Wirtschaft durch Gemeindetourismus und Vermarktung unserer Produkte."
+        },
+        "livingCulture": {
+          "title": "Lebende Kultur",
+          "description": "Wiederbelebung unserer Kultur, Sprache und Traditionen für zukünftige Generationen."
+        },
+        "foodSovereignty": {
+          "title": "Lebensmittelsouveränität",
+          "description": "Gewährleistung der Lebensmittelsouveränität für unsere Familien."
+        }
+      },
+      "imageAlt": "Gemeinschaft arbeitet an nachhaltiger Entwicklung"
+    },
+    "OurVision": {
+      "title": "Unsere Vision",
+      "mainPhrase": "Wir träumen von einer blühenden Chenes-Region, in der indigene Gemeinschaften ihre Selbstbestimmung ausüben, in Harmonie mit der Natur leben und ihre Kultur stolz gedeiht.",
+      "lighthouseTitle": "Ein Leuchtturm der Hoffnung",
+      "lighthouseDescription": "In einer Welt des beschleunigten Wandels steht Pixan Chenes als Leuchtturm der Hoffnung und als replizierbares Modell der Gemeindeentwicklung mit Identität.",
+      "sustainableFutureTitle": "Nachhaltige Zukunft",
+      "sustainableFutureDescription": "Wir stellen uns eine Zukunft vor, in der Dschungel und Gemeinschaften zusammen wachsen, in der Technologie der Tradition dient und in der Fortschritt allen gleichermaßen zugutekommt.",
+      "commitmentTitle": "Unser Engagement",
+      "commitmentDescription": "Wir verpflichten uns, aktive Hüter unserer Kultur, Beschützer unseres Landes und Erbauer einer würdigen Zukunft für die nächsten Generationen zu sein.",
+      "legacyTitle": "Lebendes Erbe",
+      "legacyDescription": "Mehr als eine Vision ist es unser tägliches Engagement: zu zeigen, dass eine Entwicklung möglich ist, die die kulturelle Identität respektiert, die Umwelt schützt und kollektives Wohlergehen schafft.",
+      "elements": {
+        "selfDetermination": {
+          "title": "Selbstbestimmung",
+          "description": "Indigene Gemeinschaften, die ihr Recht auf Selbstbestimmung und Selbstverwaltung voll ausüben."
+        },
+        "naturalHarmony": {
+          "title": "Natürliche Harmonie",
+          "description": "Leben in perfekter Harmonie mit der Natur, Respektierung und Regeneration unserer Umwelt."
+        },
+        "flourishingCulture": {
+          "title": "Blühende Kultur",
+          "description": "Unsere Maya-Kultur gedeiht stolz und wird an neue Generationen weitergegeben."
+        }
+      },
+      "collaborationTitle": "Zusammenarbeit für den Wandel",
+      "collaborationDescription": "Wir erwarten Zusammenarbeit von Gesellschaft, Unternehmen und NGOs, die zum Mexiko-Plan beitragen.",
+      "mexicoPlanTitle": "Mexiko-Plan",
+      "mexicoPlanDescription": "Aktiver Beitrag zur nationalen Entwicklung durch nachhaltige und replizierbare Gemeindemodelle.",
+      "collaborationLabels": {
+        "society": "Gesellschaft",
+        "businesses": "Unternehmen",
+        "ngo": "NGO"
+      },
+      "imageAlt": "Vision des gemeinschaftlichen Wohlstands"
+    },
+    "OurPilares": {
+      "title": "Unsere Säulen",
+      "subtitle": "Die Werte, die uns leiten",
+      "valuesInActionTitle": "Werte in Aktion",
+      "valuesInActionDescription": "Diese Säulen sind nicht nur schöne Worte; sie sind die Grundlage jeder Entscheidung, die wir treffen, und jeder Aktion, die wir in unserer Gemeinschaft unternehmen.",
+      "dailyPracticeTitle": "Tägliche Praxis",
+      "dailyPracticeDescription": "Jeden Tag wenden wir diese Werte in unserer Gemeinschafts- und Familienarbeit an.",
+      "consciousDecisionsTitle": "Bewusste Entscheidungen",
+      "consciousDecisionsDescription": "Unsere Säulen leiten jede wichtige Entscheidung in der Organisation.",
+      "lastingLegacyTitle": "Dauerhaftes Erbe",
+      "lastingLegacyDescription": "Wir arbeiten daran, dass diese Werte das Erbe für zukünftige Generationen sind.",
+      "valuesInPracticeAlt": "Werte in der Gemeinschaftspraxis",
+      "pillars": {
+        "selfManagement": {
+          "title": "Syntropische Selbstverwaltung",
+          "description": "Wir glauben an die Gemeindeorganisation als Weg, um Ordnung, Fülle und Widerstandsfähigkeit zu schaffen, indem wir die Natur nachahmen."
+        },
+        "ancestralWisdom": {
+          "title": "Ahnenweisheit",
+          "description": "Unser Ausgangspunkt ist das Wissen, das von unserem Maya-Volk vererbt wurde. Es ist unser Kompass und unsere größte Stärke."
+        },
+        "regeneration": {
+          "title": "Regeneration",
+          "description": "Wir wollen nicht nur erhalten, wir wollen unsere Umwelt heilen und verbessern, um sie besser zu hinterlassen, als wir sie vorgefunden haben."
+        },
+        "genderEquity": {
+          "title": "Geschlechtergerechtigkeit",
+          "description": "Unsere Direktion ist von Frauen integriert und geleitet. Wir glauben an die transformative Kraft indigener Frauen."
+        },
+        "transparency": {
+          "title": "Transparenz und Vertrauen",
+          "description": "Wir handeln ehrlich und geben klare Rechenschaft gegenüber unserer Gemeinschaft und denen, die an uns glauben."
+        }
+      }
+    },
+    "OurProjects": {
+      "title": "Unsere Projekte",
+      "subtitle": "Einfluss und SDGs",
+      "introDescription1": "Unsere Projekte sind eng mit der Maya-Weltanschauung, der Erhaltung und der Wiederherstellung des historischen Gedächtnisses verbunden.",
+      "introDescription2": "Würdige Beschäftigung bedeutet Hingabe an die Pflege des Dschungels.",
+      "projects": {
+        "beekeeping": {
+          "title": "Maya-Imkerei",
+          "description": "Unsere Bienen sind Wächter der Biodiversität und Produzenten von Honig mit einzigartigen Eigenschaften dank der floralen Vielfalt unseres Dschungels.",
+          "features": {
+            "0": "30 Hektar",
+            "1": "Wildlife-Tränken",
+            "2": "Honigbienen-Samen"
+          }
+        },
+        "forest": {
+          "title": "Dschungel-Route",
+          "description": "Gemeinschaftliches Ökotourismus-Projekt, das es Besuchern ermöglicht, den Maya-Dschungel auf verantwortungsvolle und lehrreiche Weise kennenzulernen.",
+          "features": {
+            "0": "Bio-Anbau",
+            "1": "Zertifizierter Honig",
+            "2": "Kunsthandwerkswein",
+            "3": "Handwerkskunst"
+          }
+        },
+        "reforestation": {
+          "title": "Gemeinschaftliche Aufforstung",
+          "description": "Aufforstungsprogramm, das die gesamte Gemeinschaft in die Wiederherstellung und den Schutz unserer Wälder einbezieht.",
+          "features": {
+            "0": "Authentische Rituale",
+            "1": "Touristische Ausbildung",
+            "2": "Kulturelle Erfahrungen"
+          }
+        },
+        "crafts": {
+          "title": "Traditionelle Handwerkskunst",
+          "description": "Schaffung von Handwerkskunst, die angestammte Maya-Techniken bewahrt und würdige Einkommen für unsere Familien generiert.",
+          "features": {
+            "0": "Nachhaltiger Bau",
+            "1": "Abfallwirtschaft",
+            "2": "Handwerkliches Wohnen"
+          }
+        },
+        "agriculture": {
+          "title": "Syntropische Landwirtschaft",
+          "description": "Landwirtschaftliches System, das die Natur nachahmt und traditionelle Kulturen mit modernen nachhaltigen Techniken kombiniert.",
+          "features": [
+            "Bio-Produktion",
+            "Angestammte Techniken",
+            "Umweltverträglichkeit"
+          ]
+        },
+        "education": {
+          "title": "Gemeinschaftliche Bildung",
+          "description": "Bildungsprogramme, die die Maya-Kulturidentität stärken und neue Generationen auf die Zukunft vorbereiten.",
+          "features": [
+            "Kulturelle Identität",
+            "Ahnenwissen",
+            "Gemeindeentwicklung"
+          ]
+        }
+      },
+      "sdgSection": {
+        "title": "Nachhaltige Entwicklungsziele",
+        "description": "Wir arbeiten direkt an den Nachhaltigen Entwicklungszielen der UN, um zu einer gerechteren und nachhaltigeren Welt beizutragen.",
+        "ods": {
+          "0": { "number": "1", "title": "Keine Armut" },
+          "1": { "number": "2", "title": "Kein Hunger" },
+          "2": { "number": "5", "title": "Geschlechtergleichheit" },
+          "3": { "number": "8", "title": "Menschenwürdige Arbeit" },
+          "4": { "number": "11", "title": "Nachhaltige Städte" },
+          "5": { "number": "12", "title": "Verantwortungsvoller Konsum" },
+          "6": { "number": "13", "title": "Klimaschutz" },
+          "7": { "number": "15", "title": "Leben an Land" },
+          "8": { "number": "17", "title": "SDG-Partnerschaften" }
+        }
+      },
+      "impactSection": {
+        "title": "Echter Einfluss, Dauerhafter Wandel",
+        "description1": "Jedes unserer Projekte erzeugt messbaren Einfluss im Leben unserer Familien und in der Erhaltung unseres Territoriums.",
+        "description2": "Es sind nicht nur wirtschaftliche Projekte; sie sind Ausdrücke unserer Weltanschauung und Werkzeuge zur Wiederherstellung unseres historischen Gedächtnisses.",
+        "quote": "Echte Entwicklung kommt von innen, mit Respekt und Harmonie"
+      },
+      "imageAlt": "Gemeinschaftliche Projekte in Aktion"
+    },
+    "OurEvents": {
+      "title": "Veranstaltungskalender",
+      "description": "Unser Jahr ist um Ereignisse gewoben, die unsere Kultur feiern und die lokale Wirtschaft ankurbeln",
+      "events": {
+        "womenDay": {
+          "title": "März - Internationaler Frauentag",
+          "month": "März",
+          "description": "Eine Veranstaltung zur Anerkennung und Stärkung der Führungsrolle von Frauen in der Region mit Foren und kulturellen Aktivitäten."
+        },
+        "beeDay": {
+          "title": "Mai - Internationale Bienentag-Veranstaltung",
+          "month": "Mai",
+          "subtitle": "Unsere emblematische Veranstaltung (20.-24. Mai 2026)",
+          "description": "Eine Reihe kultureller, rekreativer, wirtschaftlicher, volkstümlicher, zeremonieller, gastronomischer und sportlicher Aktivitäten zur Stärkung des sozialen Gefüges und zur Verbindung mit der Welt.",
+          "activities": {
+            "sports": {
+              "title": "Sportaktivitäten",
+              "description": "\"Minimundialito\" Fußball für alle Altersgruppen und Schulen aus mehr als 10 Gemeinden, Basketball, Volleyball und traditionelle Spiele."
+            },
+            "culture": {
+              "title": "Kultureller Ausdruck",
+              "description": "Kriegskapellen, Batucada, traditionelle Tänze, Kraftwettkämpfe und zeremonielle Veranstaltung."
+            },
+            "academic": {
+              "title": "Akademischer Raum",
+              "description": "Konferenzen über Maya-Imkerei, Solidarwirtschaft und Gemeindeentwicklung."
+            },
+            "gastronomy": {
+              "title": "Traditionelle Gastronomie",
+              "description": "Vorführung der Maya-Küche mit lokalen Zutaten und angestammten Techniken."
+            }
+          }
+        },
+        "ancestorsDay": {
+          "title": "November - Tag der Toten (Hanal Pixán)",
+          "month": "November",
+          "description": "Angestammte Maya-Zeremonie, um Vorfahren zu ehren und unsere kulturelle Tradition lebendig zu halten."
+        },
+        "treeDay": {
+          "title": "Juni - Internationaler Tag des Baumes",
+          "month": "Juni",
+          "description": "Ein Aufruf zur Aktion für Aufforstungsarbeiten in unserer Region, offen für Freiwillige."
+        },
+        "hanalPixan": {
+          "title": "Oktober/November - Hannal Pixan",
+          "month": "Okt/Nov",
+          "description": "Ein tiefgründiges und respektvolles Erlebnis über die Maya-Tages-der-Toten-Tradition, offen für die Gemeinschaft und Besucher."
+        },
+        "christmasFair": {
+          "title": "Dezember - Weihnachtsmarkt",
+          "month": "Dezember",
+          "description": "Eine Gemeinschaftsfeier (2025), die sich zu einem öffentlichen Markt (2026) für den Verkauf lokaler Produkte und Kunsthandwerke entwickeln wird."
+        }
+      }
+    }
+  },
+
   "Gallery": {
     "title": "Foto Galerie",
     "description": "Foto Galerie von Pixan Chenes",
@@ -565,5 +928,36 @@
     },
     "imageAlt": "Seminar Maya-Kultur neu denken - Maya-Gemeinden im Dialog",
     "imageCaption": "Begegnung zwischen Ahnen-Wissen und akademischem Wissen für nachhaltige Entwicklung"
+  },
+  "Footer": {
+    "description": "Maya-Kooperative in Campeche, die den Dschungel schützt, nachhaltige Bienenzucht praktiziert und Aufforstungszertifikate anbietet.",
+    "quickLinks": {
+      "title": "Schnelle Links",
+      "home": "Startseite",
+      "aboutUs": "Über uns",
+      "certificates": "Zertifikate",
+      "donate": "Spenden",
+      "gallery": "Galerie",
+      "faq": "FAQ"
+    },
+    "projects": {
+      "title": "Unsere Projekte",
+      "nodess": "NODESS",
+      "seminario": "Maya-Seminar",
+      "grandparents": "Großeltern und Jugend"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "pixancheness@gmail.com",
+      "socialMedia": "Folgen Sie uns in sozialen Medien",
+      "tiktok": "TikTok"
+    },
+    "communities": {
+      "title": "Unsere Gemeinden",
+      "description": "San Francisco Suc Tuc, Sahcabchén, Yakché Akal, Xcupil und Oxá",
+      "location": "Hopelchén, Campeche, Mexiko"
+    },
+    "copyright": "© 2024 Pixan Chenes. Maya-Kooperative für Kultur- und Umweltschutz.",
+    "madeWith": "Gemacht mit ❤️ von der Maya-Gemeinde"
   }
 }
