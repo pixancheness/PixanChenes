@@ -969,5 +969,37 @@
     },
     "copyright": "© 2024 Pixan Chenes. Maya cooperative dedicated to cultural and environmental preservation.",
     "madeWith": "Made with ❤️ by the Maya community"
+  },
+  "Stories": {
+    "title": "Stories and Legends",
+    "subtitle": "Discover the ancestral stories of Maya culture",
+    "description": "Each legend carries the wisdom of past generations",
+    "tabs": {
+      "story": "Story",
+      "narrate": "Narrate Story"
+    },
+    "info": {
+      "narrator": "Narrator",
+      "narrators": "Narrators",
+      "students": "Students",
+      "origin": "Origin",
+      "summary": "Summary",
+      "characters": "Characters",
+      "date": "Recording date",
+      "keywords": "Keywords"
+    },
+    "content": {
+      "watchVideo": "Watch Video",
+      "readStory": "Read Story",
+      "narrateStory": "Narrate Story",
+      "fullScript": "Complete script for narration",
+      "fullText": "Complete text of the legend",
+      "videoNotAvailable": "Video not available",
+      "audioNotAvailable": "Audio not available"
+    },
+    "backToStories": "← Back to Stories and Legends",
+    "shareStory": "Share story",
+    "loading": "Loading...",
+    "error": "Error loading the story"
   }
 }

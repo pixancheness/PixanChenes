@@ -652,6 +652,38 @@
     "copyright": "© 2024 Pixan Chenes. Cooperativa maya dedicada a la preservación cultural y ambiental.",
     "madeWith": "Hecho con ❤️ por la comunidad maya"
   },
+  "Stories": {
+    "title": "Cuentos y Leyendas",
+    "subtitle": "Descubre las historias ancestrales de la cultura maya",
+    "description": "Cada leyenda lleva consigo la sabiduría de generaciones pasadas",
+    "tabs": {
+      "story": "Cuento",
+      "narrate": "Narrar cuento"
+    },
+    "info": {
+      "narrator": "Narrador",
+      "narrators": "Narradores",
+      "students": "Estudiantes",
+      "origin": "Origen",
+      "summary": "Resumen",
+      "characters": "Personajes",
+      "date": "Fecha de grabación",
+      "keywords": "Palabras clave"
+    },
+    "content": {
+      "watchVideo": "Ver Video",
+      "readStory": "Leer Historia",
+      "narrateStory": "Narrar Historia",
+      "fullScript": "Guión completo para narración",
+      "fullText": "Texto completo de la leyenda",
+      "videoNotAvailable": "Video no disponible",
+      "audioNotAvailable": "Audio no disponible"
+    },
+    "backToStories": "← Volver a Cuentos y Leyendas",
+    "shareStory": "Compartir historia",
+    "loading": "Cargando...",
+    "error": "Error al cargar la historia"
+  },
   "AboutUs": {
     "OurEssence": {
       "title": "Nuestra Esencia",

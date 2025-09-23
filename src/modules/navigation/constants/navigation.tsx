@@ -48,11 +48,11 @@ export const navigationItems = [
   },
   {
     name: "Navigation.culture.title",
-    href: "/cuentos-y-leyendas",
+    href: "/cuentos_leyendas",
     icon: IconHeartHandshake,
     hasDropdown: true,
     dropdownItems: [
-      { name: "Navigation.culture.stories", href: "/cuentos-y-leyendas" },
+      { name: "Navigation.culture.stories", href: "/cuentos_leyendas" },
       // { name: "Navigation.culture.events", href: "/eventos" },
       // { name: "Navigation.culture.forum", href: "/foro" },
     ],
