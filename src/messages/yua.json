@@ -5,7 +5,9 @@
       "subtitle": "Ekonomia tu pixan, k'áat chi' tu yáanal.",
       "description": "Pixan Chenes ku ts'aik u jach k'áat le kaajo'ob, ku ch'a'aj le kaabo'ob yéetel ku beetik u jach k'áat tu yáanal le k'áat chi'ob.",
       "galleryButton": "K'áat chi' ta'ano'ob",
-      "supportButton": "To'on"
+      "supportButton": "To'on",
+      "visitors": "Maya ki' yéetel le sitio",
+      "loading": "Kánik..."
     },
     "aboutUs": {
       "title": "¿Máax ku beetik?",
@@ -930,6 +932,10 @@
     },
     "imageAlt": "Seminario Tu ka'a na'atik le k'ultura maya - Kaaj mayao'ob ti' t'aan",
     "imageCaption": "Taanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj"
+  },
+  "VisitorCounter": {
+    "visitors": "Visitantes",
+    "loading": "Kánik..."
   },
   "Footer": {
     "description": "Cooperativa maya ti' Campeche ku kanantik le k'áaxo', ku meyaj tu jach ma'alob yéetel kaab yéetel ku ts'aik certificados de reforestación.",

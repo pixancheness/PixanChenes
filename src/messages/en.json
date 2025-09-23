@@ -5,7 +5,9 @@
       "subtitle": "Economy with soul, community with future.",
       "description": "Pixan Chenes is a Maya cooperative that protects the jungle, cares for bees and builds a dignified future for our communities.",
       "galleryButton": "Photo Gallery",
-      "supportButton": "About us"
+      "supportButton": "About us",
+      "visitors": "People who have visited the site",
+      "loading": "Loading..."
     },
     "aboutUs": {
       "title": "Who are we?",
@@ -932,6 +934,10 @@
     },
     "imageAlt": "Rethinking Maya Culture Seminar - Maya communities in dialogue",
     "imageCaption": "Meeting of ancestral knowledge and academic knowledge for sustainable development"
+  },
+  "VisitorCounter": {
+    "visitors": "Visitors",
+    "loading": "Loading..."
   },
   "Footer": {
     "description": "Maya cooperative in Campeche that protects the jungle, practices sustainable beekeeping and offers reforestation certificates.",

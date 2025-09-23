@@ -10,3 +10,4 @@ export { default as FAQ } from './FAQ';
 export { Carousel, Card as CarouselCard, BlurImage } from './apple-cards-carousel';
 export { default as CardSwap } from './CardSwap';
 export { default as NotFound } from './404';
+export { default as CountUp } from './CountUp';

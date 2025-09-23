@@ -8,6 +8,7 @@ import "./globals.css";
 import Header from "@/modules/navigation/header";
 import { Toaster } from "sonner";
 import Footer from "@/modules/footer/footer";
+import { VisitCounterWrapper } from "@/components/hooks/visit-counter-wrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -149,16 +150,18 @@ export default async function RootLayout({
       </head>
       <body className={inter.className + "  bg-yellow-50 font-sans"}>
         <NextIntlClientProvider locale={locale}>
-          <Header />
-          <Toaster
-            position="bottom-right"
-            richColors
-            closeButton
-            duration={4000}
-            theme="light"
-          />
-          {children}
-          <Footer />
+          <VisitCounterWrapper>
+            <Header />
+            <Toaster
+              position="bottom-right"
+              richColors
+              closeButton
+              duration={4000}
+              theme="light"
+            />
+            {children}
+            <Footer />
+          </VisitCounterWrapper>
         </NextIntlClientProvider>
       </body>
     </html>

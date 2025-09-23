@@ -3,10 +3,14 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import SplitText from "@/components/ui/SplitText";
-import { Sparkles, Heart } from "lucide-react";
+import { CountUp } from "@/components/ui";
+import { Sparkles, Heart, Users } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { useVisitCounter } from "@/components/hooks/use-visit-counter";
 
 export default function HeroSection() {
+  const { totalVisits, isLoading } = useVisitCounter();
+
   const t = useTranslations("HomePage");
 
   return (
@@ -50,10 +54,35 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
+        >
+          <div className="flex items-center justify-center">
+            <div className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2">
+              <Users className="w-6 h-6 " />
+              <span className=" font-semibold sm:text-base text-lg ">
+                {t("hero.visitors")}
+              </span>
+              <span className="font-bold text-xl min-w-[2rem]">
+                <CountUp
+                  from={0}
+                  to={totalVisits}
+                  separator=","
+                  direction="up"
+                  duration={1.5}
+                  className="count-up-text"
+                />
+              </span>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <Link
-            className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
+            className="border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
             href="/galeria"
           >
             <Sparkles className="w-5 h-5" />

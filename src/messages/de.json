@@ -1,11 +1,17 @@
 {
+  "VisitorCounter": {
+    "visitors": "Besucher",
+    "loading": "Laden..."
+  },
   "HomePage": {
     "hero": {
       "title": "Pixan Chenes",
       "subtitle": "Wirtschaft mit Seele, Gemeinschaft mit Zukunft.",
       "description": "Pixan Chenes ist eine Maya-Kooperative, die den Dschungel schützt, Bienen pflegt und eine würdige Zukunft für unsere Gemeinden aufbaut.",
       "galleryButton": "Fotogalerie",
-      "supportButton": "Über uns"
+      "supportButton": "Über uns",
+      "visitors": "Personen, die den Standort besucht haben",
+      "loading": "Laden..."
     },
     "aboutUs": {
       "title": "Wer sind wir?",

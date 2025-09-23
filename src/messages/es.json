@@ -5,7 +5,9 @@
       "subtitle": "Economía con alma, comunidad con futuro.",
       "description": "Pixan Chenes es una cooperativa maya que protege la selva, cuida a las abejas y construye un futuro digno para nuestras comunidades.",
       "galleryButton": "Galeria de fotos",
-      "supportButton": "Sobre nosotros"
+      "supportButton": "Sobre nosotros",
+      "visitors": "Personas que han visitado el sitio",
+      "loading": "Cargando..."
     },
     "aboutUs": {
       "title": "¿Quiénes somos?",
@@ -614,6 +616,10 @@
     "viewCertificates": "View certificates",
     "contactUs": "Contact us",
     "errorCode": "Error 404"
+  },
+  "VisitorCounter": {
+    "visitors": "Visitantes",
+    "loading": "Cargando..."
   },
   "Footer": {
     "description": "Cooperativa maya en Campeche que protege la selva, practica apicultura sustentable y ofrece certificados de reforestación.",
