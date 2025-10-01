@@ -113,7 +113,7 @@ Los dioses, al ver lo que el humilde Toh había hecho, bajaron a la tierra para 
 —No buscaste fama ni gloria —le dijeron—, pero fuiste el único que actuó con verdadero  corazón. Como recompensa, te otorgamos un plumaje brillante en la cola, como símbolo de  tu sabiduría y humildad. 
 
 Desde entonces, el pájaro Toh vive en las profundidades de la selva y los cenotes, lejos de la  vanidad del cielo abierto. No canta para ser escuchado, no presume su belleza, pero si te  acercas con respeto y atención, lo verás agitando su cola azul y verde como un péndulo,  guiando a quienes se pierden en la oscuridad hacia la luz de lo sagrado.`,
-      audioUrl: "/audios/pajaro-toh.mp3"
+      audioUrl: "https://jawtdsvsgowidjmyzqby.supabase.co/storage/v1/object/public/cuentos/pajarotoh.m4a"
     }
   };
   

@@ -39,6 +39,8 @@ export const navigationItems = [
         name: "Navigation.projects.grandparentsAndYoungPeople",
         href: "/grandparentsAndYoungPeople",
       },
+      { name: "Navigation.projects.ctc", href: "/ctc" },
+
       // { name: "Navigation.projects.businesses", href: "/emprendimientos" },
       // {
       //   name: "Navigation.projects.artificialIntelligence",
@@ -66,6 +68,7 @@ export const navigationItems = [
       { name: "Navigation.about", href: "/about" },
       { name: "Navigation.gallery", href: "/galeria" },
       { name: "Navigation.faq", href: "/FAQ" },
+      { name: "Navigation.documents", href: "/documents" },
     ],
   },
 ];

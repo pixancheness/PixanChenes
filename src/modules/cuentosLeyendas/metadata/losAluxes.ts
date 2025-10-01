@@ -99,7 +99,7 @@ Son los guardianes de los montes. Son como dueños de los montes, del monte. Que
 Ahí estábamos allá llorando que el  niño no aparece. De pronto que se alza mi cabeza y veo a mi nene que está paradito atrás de la  casa. Y fuimos corriendo a verlo, está todo lastimado y raspado su manito, su cara, su ropita  está roto. Y como no insultamos, esos niños nos lo mataron. Porque si nosotros viéramos  insultado, sí lo vamos a buscar al niño, pero muerto. Por eso yo digo que esos niños sí existen,  porque yo ya pasé esa experiencia._
 
 `,
-      audioUrl: "/audios/los-aluxes.mp3"
+      audioUrl: "https://jawtdsvsgowidjmyzqby.supabase.co/storage/v1/object/public/cuentos/aluxes.m4a"
     }
   };
   

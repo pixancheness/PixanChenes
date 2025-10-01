@@ -142,7 +142,7 @@ export default function Footer() {
                       className="flex items-center gap-2 text-gray-600 hover:text-pink-500 transition-colors text-sm"
                     >
                       <IconBrandTiktok className="h-5 w-5" />
-                      <span className="sr-only">{t("contact.tiktok")}</span>
+                      <span>@yadirariveraespinoza</span>
                     </a>
                   </div>
                 </div>

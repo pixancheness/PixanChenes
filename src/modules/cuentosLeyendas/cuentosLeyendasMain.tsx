@@ -2,15 +2,17 @@
 
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { getAllLegends } from "./constants/legends";
 import { Legend } from "./types/legend";
 
 interface LegendCardProps {
   legend: Legend;
   locale: string;
+  t: any;
 }
 
-function LegendCard({ legend, locale }: LegendCardProps) {
+function LegendCard({ legend, locale, t }: LegendCardProps) {
   return (
     <Link href={`/${locale}${legend.url}`} className="group block">
       <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100  overflow-hidden">
@@ -55,7 +57,7 @@ function LegendCard({ legend, locale }: LegendCardProps) {
                       d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                     />
                   </svg>
-                  <span>Narrador</span>
+                  <span>{t("Stories.narrator")}</span>
                 </span>
               )}
 
@@ -74,13 +76,15 @@ function LegendCard({ legend, locale }: LegendCardProps) {
                       d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.5a2.5 2.5 0 011.414.586l.775.776a2.5 2.5 0 001.414.586H15"
                     />
                   </svg>
-                  <span>Video</span>
+                  <span>{t("Stories.video")}</span>
                 </span>
               )}
             </div>
 
             <div className="text-right">
-              <span className="text-green-600  font-medium">Leer más →</span>
+              <span className="text-green-600  font-medium">
+                {t("Stories.readMore")}
+              </span>
             </div>
           </div>
         </div>
@@ -91,22 +95,18 @@ function LegendCard({ legend, locale }: LegendCardProps) {
 
 export default function CuentosLeyendasMain() {
   const t = useTranslations();
+  const locale = useLocale();
   const legends = getAllLegends();
-
-  // Por ahora usaremos 'es' como locale por defecto, pero esto se puede mejorar
-  const locale = "es";
 
   return (
     <div className="min-h-screen font-sans pt-16">
       <div className="text-center pt-9 pb-4">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-900 mb-4 leading-tight">
-          Cuentos y Leyendas
+          {t("Stories.title")}
         </h1>
         <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
         <p className="text-lg text-gray-600  max-w-3xl mx-auto pt-4">
-          Descubre las historias ancestrales de la cultura maya, contadas por
-          las voces de nuestra comunidad. Cada leyenda lleva consigo la
-          sabiduría de generaciones pasadas.
+          {t("Stories.description")}
         </p>
       </div>
 
@@ -115,7 +115,12 @@ export default function CuentosLeyendasMain() {
         {legends.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {legends.map((legend) => (
-              <LegendCard key={legend.id} legend={legend} locale={locale} />
+              <LegendCard
+                key={legend.id}
+                legend={legend}
+                locale={locale}
+                t={t}
+              />
             ))}
           </div>
         ) : (
@@ -131,11 +136,10 @@ export default function CuentosLeyendasMain() {
               </svg>
             </div>
             <h3 className="text-lg font-medium text-gray-900 mb-2">
-              Próximamente más historias
+              {t("Stories.comingSoonTitle")}
             </h3>
             <p className="text-gray-500 ">
-              Estamos trabajando en recopilar más cuentos y leyendas para
-              compartir contigo.
+              {t("Stories.comingSoonDescription")}
             </p>
           </div>
         )}

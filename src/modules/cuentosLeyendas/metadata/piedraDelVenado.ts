@@ -64,7 +64,7 @@ Se relata el caso de un cazador que, por vanidad y debido a su éxito constante,
 
 Al día siguiente, consciente del error cometido, el cazador fue a devolver la piedra al monte,  siguiendo la tradición que indica que debe colocarse volteada para que los venados puedan  “comerla”. Esta historia es una advertencia sobre la humildad, el respeto hacia la naturaleza  y la importancia de seguir las normas ancestrales
 `,
-      audioUrl: "/audios/piedra-del-venado.mp3"
+      audioUrl: "https://jawtdsvsgowidjmyzqby.supabase.co/storage/v1/object/public/cuentos/venado.m4a"
     }
   };
   

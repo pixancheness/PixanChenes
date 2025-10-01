@@ -35,10 +35,43 @@ export default function Aliados() {
           </motion.div>
           <motion.p
             variants={fadeInVariants}
-            className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto"
+            className="text-xl text-gray-700 leading-relaxed max-w-7xl mx-auto mb-12"
           >
             {t("allies.description")}
           </motion.p>
+          <motion.div
+            variants={fadeInVariants}
+            className="grid grid-cols-1 md:grid-cols-4  "
+          >
+            <div className="flex items-center justify-center p-6 transition-shadow duration-300">
+              <img
+                src="https://res.cloudinary.com/danv3godx/image/upload/v1759270194/sinca_nodess_iphvda.png"
+                alt="SINCA NODES"
+                className="w-full h-auto max-w-[600px] object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center  transition-shadow duration-300">
+              <img
+                src="https://res.cloudinary.com/danv3godx/image/upload/v1759269687/ipn-min_yns4oh.png"
+                alt="IPN"
+                className="w-full h-auto max-w-[180px] md:max-w-[220px] object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6  transition-shadow duration-300">
+              <img
+                src="https://res.cloudinary.com/danv3godx/image/upload/v1759269431/telebachillerato_rmhqnw.png"
+                alt="Telebachillerato"
+                className="w-full h-auto max-w-[180px] md:max-w-[220px] object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6  transition-shadow duration-300">
+              <img
+                src="https://res.cloudinary.com/danv3godx/image/upload/v1759269431/uppit_min_e9rhxy.png"
+                alt="UPPIT"
+                className="w-full h-auto max-w-[600px] object-contain"
+              />
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </section>

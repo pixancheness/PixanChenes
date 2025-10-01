@@ -195,12 +195,13 @@
       "honey": "Miel",
       "wine": "Vino"
     },
-
+    "documents": "Documentos",
     "projects": {
       "title": "Proyectos",
       "nodess": "Nodess",
       "seminaries": "Seminario Repensar la cultura maya",
       "businesses": "Emprendimientos",
+      "ctc": "Consejo Técnico Consultivo",
       "artificialIntelligence": "Inteligencia artificial y apicultura",
       "grandparentsAndYoungPeople": "De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela"
     },
@@ -217,7 +218,6 @@
     "viewCertificates": "Ver Certificados",
     "requestCertificate": "Solicitar Certificado",
     "faq": "Preguntas Frecuentes",
-
     "honeyProducts": "Productos de Miel",
     "productionProcess": "Proceso de Producción",
     "qualityCertification": "Calidad y Certificación",
@@ -511,6 +511,9 @@
       "description": "Conoce más detalles sobre el proyecto NODESS y su implementación en nuestra comunidad.",
       "buttonText": "Ver Documento PDF"
     },
+    "partners": {
+      "title": "Vinculación y aliados"
+    },
     "projects": {
       "title": "Proyectos",
       "apitoxin": {
@@ -545,6 +548,44 @@
           "title": "Impacto del Proyecto",
           "description": "Refleja cómo desde el NODESS se fomenta el espíritu emprendedor y la colaboración, aprovechando la tecnología para impulsar el crecimiento económico y social de las comunidades mayas."
         }
+      },
+      "pajaroToh": {
+        "title": "La Leyenda del Pájaro Toh",
+        "intro": "Video elaborado en el marco del NODESS: Conexión PIXAN–UPIIT. Desarrollo y Empoderamiento de la Mujer y de las Comunidades Indígenas Mayas, una alianza entre la UPIIT, la cooperativa Pixan Chenes, el Telebachillerato Comunitario de Suc Tuc, el Comisariado de Xcupil y la Asociación Civil Tierra Fértil.",
+        "videoUrl": "https://www.youtube.com/watch?v=pHQjop0wRIQ",
+        "participants": {
+          "title": "Participaciones Directas",
+          "students": {
+            "title": "Estudiantes del Telebachillerato Comunitario:",
+            "list": "Julissa Itzel Ramírez Mendoza|Aura Daniela León Naal|Suri Saddai Dzul Cuencas"
+          },
+          "legend": {
+            "title": "Leyenda:",
+            "name": "Hadasa Abigail Ramírez Mendoza (Habitante de la comunidad maya)",
+            "date": "Fecha de recopilación: 9 de junio de 2025"
+          },
+          "aiStudents": {
+            "title": "Estudiantes de la carrera IA de la UPIIT:",
+            "list": "Samuel Alejandro Torres Oropeza – Estudiante de la carrera de Inteligencia Artificial|Navil Pineda Rugerio – Pasante en Inteligencia Artificial, UPIIT–IPN"
+          },
+          "narrator": {
+            "title": "Narradora:",
+            "name": "Lorena Oropeza Ramos",
+            "date": "Fecha de elaboración: 8 de julio de 2025"
+          }
+        },
+        "callToAction": {
+          "description": "Descubre la historia completa de la Leyenda del Pájaro Toh con narración tradicional maya."
+        },
+        "culturalValue": {
+          "title": "🎯 Valor Cultural",
+          "description": "Esta colaboración demuestra cómo la tecnología y la tradición pueden unirse para preservar y difundir el patrimonio cultural maya."
+        },
+        "impact": {
+          "title": "Impacto Comunitario",
+          "description": "Esto es una muestra que a través de la colaboración interinstitucional y comunitaria, integrando a estudiantes, docentes, organizaciones sociales y autoridades locales se puede impulsar la revalorización cultural, el desarrollo sostenible y el aprendizaje colectivo, creando oportunidades reales de empoderamiento para las comunidades, valores alineados con el PDI del Instituto Politécnico Nacional."
+        },
+        "legendButton": "Ver Leyenda Completa"
       }
     }
   },
@@ -553,25 +594,62 @@
     "subtitle": "Dra. Yadira Rivera Espinoza",
     "doctor": {
       "title": "Sobre la Dra. Yadira Rivera Espinoza",
-      "description": "La Dra. Yadira Rivera Espinoza, es biotecnóloga, investigadora y académica del Instituto Politécnico Nacional, especialista formación de Ingenieras e Ingenieros, Maestros y Doctores en Ciencias. Con más de dos décadas de experiencia, ha impulsado proyectos innovadores que vinculan ciencia y emprendimiento con impacto social.",
-      "commitment": "Su compromiso con la comunidad maya surge del llamado directo de los fundadores de Pixan Chenes, quienes la invitaron a poner sus conocimientos y su amor por la comunidad al servicio de sus necesidades y aspiraciones."
+      "description": "La Dra. Yadira Rivera Espinoza, **exdirectora de la Escuela Nacional de Ciencias Biológicas (ENCB) del Instituto Politécnico Nacional**, es biotecnóloga, emprendedora, investigadora y académica de la **Unidad Profesional Interdisciplinaria de Ingenierías Campus Tlaxcala (IPN)**. Ha contribuido a la formación de cientos de estudiantes de **Ingeniería Bioquímica, Biotecnológica, Inteligencia Artificial y Ciencia de Datos**, además de dirigir tesis de maestría y doctorado en ciencias. Con su experiencia, ha impulsado proyectos innovadores que vinculan ciencia y emprendimiento con impacto social.",
+      "commitment": "Su compromiso con la comunidad maya surge del llamado directo de los fundadores de la cooperativa **Pixan Chenes**, quienes la invitaron a poner sus conocimientos y su propuesta **'Amor por la Comunidad'** (presentada a la Presidencia de la República durante su gestión en la ENCB) al servicio de las comunidades mayas."
     },
     "program": {
       "title": "El Programa",
-      "description": "En el marco del Nodo de Impulso a la Economía Social y Solidaria (NODESS), la Dra. Rivera Espinoza impartirá este programa innovador que busca fortalecer el aprendizaje intergeneracional y fomentar el emprendimiento comunitario."
+      "description": "En el marco del **Nodo de Impulso a la Economía Social y Solidaria (NODESS)** surge el programa De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela, diseñado por la Dra. Yadira Rivera Espinoza. **El programa dará inicio en octubre del 2025**."
     },
     "communities": {
       "title": "Comunidades Beneficiadas",
-      "description": "El programa se desarrollará en las comunidades de Suc Tuc y Xcupil, fortaleciendo los vínculos entre generaciones y promoviendo el desarrollo local sostenible."
+      "description": "El programa iniciará con estudiantes de las comunidades de **Suc Tuc y Xcupil**, fortaleciendo los vínculos entre generaciones y promoviendo el desarrollo local sostenible."
     },
     "modules": {
-      "title": "Módulos del Programa",
-      "list": "Desarrollo humano y liderazgo: Autoconocimiento y propósito|Trabajo comunitario y diseño de proyectos: Investigación de necesidades en familia/comunidad y Canvas Social|Herramientas de inteligencia artificial: Búsqueda de información, generación de ideas y materiales de apoyo|Convocatorias y financiamiento: Lectura de bases, requisitos y armado de expedientes|Ejecución y monitoreo de proyectos: Implementación, seguimiento y alianzas|Evaluación de impacto y socialización: Feria comunitaria, sistematización de aprendizajes y casos de éxito"
+      "title": "Módulos del Programa (6 Módulos)",
+      "list": "Desarrollo humano y liderazgo: Autoconocimiento y propósito|Trabajo comunitario y diseño de proyectos: Investigación de necesidades en familia/comunidad y Canvas Social| Investigación con Inteligencia Artificial: Búsqueda de información, generación de ideas y materiales de apoyo|Convocatorias y financiamiento: Lectura de bases, requisitos y armado de expedientes|Ejecución y monitoreo de proyectos: Implementación, seguimiento y alianzas|Evaluación de impacto y socialización: Feria comunitaria, sistematización de aprendizajes y casos de éxito"
     },
     "objective": {
       "title": "Objetivo del Programa",
-      "description": "Con este Programa se busca rescatar los saberes de los abuelos, potenciar el talento de los jóvenes y consolidar proyectos productivos sostenibles, reafirmando el compromiso de la academia con la transformación social y la preservación de la identidad cultural maya."
+      "description": "Su objetivo es fortalecer el aprendizaje intergeneracional, fomentar el emprendimiento comunitario y brindar preparación para la gestión de proyectos acordes a las necesidades de cada familia maya."
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "description": "Si tu comunidad se interesa por este programa mándanos un correo a **pixancheness@gmail.com** o a **yriverae@ipn.com**."
     }
+  },
+  "CTC": {
+    "title": "Consejo Técnico Consultivo (CTC) Pixan Chenes",
+    "subtitle": "Órgano multidisciplinario de acompañamiento y fortalecimiento comunitario",
+    "description": "El Consejo Técnico Consultivo (CTC) Pixan Chenes es un órgano multidisciplinario integrado por personas de diversas especialidades que colaboran de manera voluntaria, a invitación de la cooperativa, para acompañar y fortalecer el desarrollo de las comunidades mayas de Campeche.",
+    "intro": {
+      "description1": "Su labor combina conocimientos científicos, tecnológicos, ancestrales y sociales, lo que permite generar propuestas con pertinencia cultural y rigor académico.",
+      "description2": "El CTC cuenta con el aval interno de la Asamblea y del Consejo Comunitario de Saberes y Desarrollo de la Cooperativa, así como con el reconocimiento externo del NODESS del INAES, lo que garantiza legitimidad social e institucional."
+    },
+    "origin": {
+      "title": "¿Por qué surge?",
+      "description": "Surge como una respuesta a la necesidad de contar con un espacio de asesoría y apoyo técnico que oriente las acciones de la cooperativa Pixan Chenes y de sus aliados estratégicos. Su finalidad es impulsar proyectos sostenibles que generen bienestar social, fortalezcan la economía solidaria y preserven la identidad cultural maya."
+    },
+    "importance": {
+      "title": "Importancia del CTC",
+      "description": "El CTC es importante porque:",
+      "list": "Aporta una visión multidisciplinaria que combina biotecnología, energías renovables, matemáticas, economía social, administración, normatividad sanitaria y saberes locales.|Genera soluciones prácticas que responden a las necesidades reales de la comunidad.|Fortalece el trabajo colectivo, asegurando que los proyectos sean viables, sostenibles y con impacto social."
+    },
+    "alignment": {
+      "title": "Alineación con NODESS e INAES",
+      "description": "El CTC Pixan Chenes se alinea con el NODESS del INAES y los ODS.",
+      "list": "El CTC refleja la multidisciplinariedad, intergeneracionalidad y enfoque de sostenibilidad que exige el INAES y la Agenda 2030.|Está preparado para impulsar proyectos de alimentación, salud, energía, medio ambiente y desarrollo económico, todos con pertinencia comunitaria y potencial de escalamiento."
+    },
+    "functions": {
+      "title": "Funciones principales",
+      "list": "Asesoría técnica y científica: En biotecnología, energías, procesos productivos y desarrollo comunitario.|Acompañamiento en formación: De jóvenes, mujeres y productores mayas.|Promoción de proyectos sustentables: Que respeten el medio ambiente y fortalezcan la identidad cultural.|Vinculación institucional: Entre la comunidad maya, la academia, el gobierno y la sociedad civil.|Innovación social y productiva: Generando modelos replicables para otras comunidades."
+    },
+    "members": {
+      "title": "Integrantes del CTC",
+      "description": "El CTC Pixan Chenes está conformado por un grupo diverso de académicos, investigadores, inventores, especialistas, técnicos y jóvenes estudiantes que representan distintas disciplinas y trayectorias, todos unidos por el compromiso de aportar sus conocimientos y experiencias al servicio de la comunidad maya.",
+      "list": "Dra. Yadira Rivera Espinoza: Impulsa la unión entre ciencia, la tecnología y desarrollo social. Su visión une la academia y las comunidades para abrir caminos de empoderamiento. Coordina las actividades del Nodo.|Dr. Filiberto Vázquez Dávila: Inventor de la tinta para votar, reconocido mundialmente, símbolo de la ciencia al servicio de la sociedad. Su legado científico demuestra que la innovación puede transformar la vida democrática.|M.C. Yoja Gallardo Navarro: Pionera en tecnología de alimentos con impacto social internacional. Su vocación de servicio la ha llevado a transformar comunidades en México y Cuba.|Dra. Edén Cano Sampedro: Científica apasionada por los alimentos funcionales y su impacto social. Promueve un conocimiento con aplicación práctica para el bienestar colectivo.|Dra. Astrid Delfina Toache Pérez: Investigadora enfocada en procesos industriales sostenibles. Destaca por su compromiso con la reutilización de materiales electrónicos.|Dra. Steffanie Jiménez Flores: Académica dedicada al aprovechamiento de la energía solar. Cree en la energía limpia como motor de desarrollo sustentable.|M. en C. Silvia Sánchez Márquez: Experta en modelos matemáticos que explican la complejidad del mundo real. Une ciencia y predicción para anticipar escenarios de desarrollo.|Dra. Marina Olivia Franco Hernández: Formadora de generaciones de estudiantes y defensora del medio ambiente. Su trayectoria combina docencia e investigación con un fuerte compromiso ambiental.|Ing. Carlos Cahuic Tzel: Con experiencia en programas sociales como Sembrando Vida, ha acompañado a las comunidades mayas en la construcción de proyectos colectivos. Es uno de los pilares en la formación de la Cooperativa Pixan Chenes.|Lic. Nelson Sarabia Huchín: Con raíces mayas, encarna los valores de la economía social y solidaria. Reconocido líder comunitario comprometido con su tierra.|Lic. Yamili Sarabia Huchín: Emprendedora y académica que representa el espíritu de innovación local. Su liderazgo se enfoca en fortalecer la organización comunitaria.|IBQ Noé Lizárraga Camacho: Académico con amplia experiencia en regulación sanitaria. Su acompañamiento constante desde la fundación de Pixan Chenes garantiza solidez y profesionalismo en cada etapa.|M. en A. Víctor Hugo Luna Acevedo: Maestro en Administración en Gestión y Desarrollo de la Educación e Ingeniero Bioquímico. Su visión estructurada y capacidad organizativa han fortalecido las actividades de la Cooperativa Pixan Chenes y el Seminario Repensar la Cultura Maya.|ISA Nelson Castillo Alemán: Ingeniero ambiental con experiencia en el sector energético y educativo. Comprometido con la sociedad, impulsa el trabajo en equipo y la sostenibilidad.|LM Tito Alberto Huerta Espinoza: Vinculador y diseñador del logo de la cooperativa Pixan Chenes. Aporta experiencia en capacitación y acompañamiento institucional.|Diego Castro Elvira: Joven emprendedor de Inteligencia Artificial. Desarrolla y gestiona la página web de la cooperativa con innovación digital.|Samuel Alejandro Torres Oropeza: Estudiante creativo de Inteligencia Artificial. Co-creador del video del pájaro Toh, une tecnología y tradición.|Harold Bryan Espinosa Sánchez: Inventor y estudiante de biotecnología. Diseña un dispositivo para la extracción de apitoxina al servicio de apicultores."
+    },
+    "closingMessage": "El CTC Pixan Chenes: Donde la ciencia y la tradición se unen para construir un futuro sustentable."
   },
   "Seminario": {
     "title": "Seminario Repensar la Cultura Maya",
@@ -652,6 +730,21 @@
     "copyright": "© 2024 Pixan Chenes. Cooperativa maya dedicada a la preservación cultural y ambiental.",
     "madeWith": "Hecho con ❤️ por la comunidad maya"
   },
+  "Documents": {
+    "title": "Documentos",
+    "description": "Documentos de la cooperativa Pixan Chenes",
+    "economia": {
+      "title": "Documento de Economía",
+      "description": "Registro Público de Comercio.",
+      "viewDocument": "Ver Documento"
+    },
+    "notariaDocument": {
+      "title": "Notaría 43",
+      "description": "Documentación notarial oficial de la cooperativa.",
+      "viewDocument": "Ver Documento"
+    },
+    "footerNote": "Los documentos se abrirán en una nueva pestaña del navegador."
+  },
   "Stories": {
     "title": "Cuentos y Leyendas",
     "subtitle": "Descubre las historias ancestrales de la cultura maya",
@@ -672,17 +765,25 @@
     },
     "content": {
       "watchVideo": "Ver Video",
+      "listenAudio": "Escuchar Audio",
       "readStory": "Leer Historia",
       "narrateStory": "Narrar Historia",
       "fullScript": "Guión completo para narración",
       "fullText": "Texto completo de la leyenda",
       "videoNotAvailable": "Video no disponible",
-      "audioNotAvailable": "Audio no disponible"
+      "audioNotAvailable": "Audio no disponible",
+      "audioDescription": "Escucha la narración completa de esta historia ancestral"
     },
     "backToStories": "← Volver a Cuentos y Leyendas",
     "shareStory": "Compartir historia",
     "loading": "Cargando...",
-    "error": "Error al cargar la historia"
+    "error": "Error al cargar la historia",
+    "narrator": "Narrador",
+    "video": "Video",
+    "readMore": "Leer más →",
+    "comingSoon": "Próximamente más historias",
+    "comingSoonTitle": "Próximamente más historias",
+    "comingSoonDescription": "Estamos trabajando en recopilar más cuentos y leyendas para compartir contigo."
   },
   "AboutUs": {
     "OurEssence": {

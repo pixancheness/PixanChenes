@@ -513,6 +513,21 @@
     "home": "Káajal",
     "about": "Yóok'ol",
     "gallery": "Galería",
+    "documents": "Documentos",
+    "documentsPage": {
+      "title": "Documentos",
+      "description": "K'a'atik u ts'íibto'ob yéetel u tz'uulilo'ob k'a'abeto'ob.",
+      "economiaDocument": {
+        "title": "Ts'íib Economía",
+        "description": "Ts'íib ku ts'áaik u yóok'ol yéetel u táak'in Pixan Chenes.",
+        "viewDocument": "Il ts'íib"
+      },
+      "notariaDocument": {
+        "title": "Notaría 43",
+        "description": "Ts'íib notarial oficial u kaajil.",
+        "viewDocument": "Il ts'íib"
+      }
+    },
     "products": {
       "title": "Ba'ax ku ts'aik",
       "certificates": "Tz'uulilo'ob",
@@ -523,6 +538,7 @@
     "projects": {
       "title": "Meyajilo'ob",
       "nodess": "Nodess",
+      "ctc": "Consejo Técnico Consultivo",
       "seminaries": "Seminario: Tu jats'uts k'áat le k'ultura maya",
       "businesses": "Meyajo'ob ku beetik ba'ax",
       "artificialIntelligence": "Na'atil máakilo'ob yéetel kaab meyaj",
@@ -846,6 +862,9 @@
       "description": "Náatej uláak' detalles yóok'ol le proyecto NODESS yéetel u implementación k kaajil.",
       "buttonText": "Ilik Documento PDF"
     },
+    "partners": {
+      "title": "Vinculación y aliados"
+    },
     "projects": {
       "title": "Meyajilo'ob",
       "apitoxin": {
@@ -880,33 +899,123 @@
           "title": "U Beetik le Meyaj",
           "description": "Ku kíinsaj bix, tak le NODESS, ku múuch'kintik le espíritu emprendedor yéetel le meyajkúunsajil, ku yúuchul tecnología utial u jach u múuch'besajil económico yéetel social le kaajo'ob mayao'ob."
         }
+      },
+      "pajaroToh": {
+        "title": "U T'aanil le Ch'íich' Toh",
+        "intro": "Jump'éel video ku beeta'al te' marco NODESS: U Yúuchul PIXAN–UPIIT. U beeta'al yéetel u líik'sik le ch'upalo'ob yéetel le kaajo'ob mayao'ob ku máan tu yóok'ol kaab, jump'éel múuch'ulob yéetel UPIIT, le cooperativa Pixan Chenes, le najil xooko' múuch'ul Suc Tuc, le comisariado Xcupil yéetel le Asociación Civil Tierra Fértil.",
+        "videoUrl": "https://www.youtube.com/watch?v=pHQjop0wRIQ",
+        "participants": {
+          "title": "U Yáantajil Jóok'ol",
+          "students": {
+            "title": "Xooko'ob le najil xooko' múuch'ul:",
+            "list": "Julissa Itzel Ramírez Mendoza|Aura Daniela León Naal|Suri Saddai Dzul Cuencas"
+          },
+          "legend": {
+            "title": "T'aan:",
+            "name": "Hadasa Abigail Ramírez Mendoza (Jump'éel maaya ku k'aaba' ti' le kaajo')",
+            "date": "K'iin u kaxta'al: 9 junio 2025"
+          },
+          "aiStudents": {
+            "title": "Xooko'ob u carrera IA UPIIT:",
+            "list": "Samuel Alejandro Torres Oropeza – Xook u carrera Inteligencia Artificial|Navil Pineda Rugerio – Interno ti' Inteligencia Artificial, UPIIT–IPN"
+          },
+          "narrator": {
+            "title": "Bey tu t'aan:",
+            "name": "Lorena Oropeza Ramos",
+            "date": "K'iin u beeta'al: 8 julio 2025"
+          }
+        },
+        "callToAction": {
+          "description": "K'áat le t'aanil jóok'ol le T'aanil le Ch'íich' Toh yéetel t'aanil tradicional maaya."
+        },
+        "culturalValue": {
+          "title": "🎯 U K'iinil Cultural",
+          "description": "Le meyaj leti' ku kíinsaj bix, tak le tecnología yéetel le tradicion ku múuch' máan utial u ts'a'abal yéetel u ts'áabal le kaajil maaya."
+        },
+        "impact": {
+          "title": "U Beetik Kaajil",
+          "description": "Le je'el jump'éel ejemplo bix, tak u múuch'ulob ku meyajilo'ob yéetel le kaajo'ob, ku ts'a'abal xooko'ob, maestroo'ob, organizaciones sociales yéetel u yóol máak kaajo'ob, ku líik'sik u k'iinil u t'aanil cultural, u ma'alob kuxtal yéetel u ka'ansaj múuch'ul, ku síijil jump'éel ba'al ma'alob utial u líik'sik le kaajo'obo', ba'alo'ob ma'alob yéetel le PDI tu Instituto Politécnico Nacional."
+        },
+        "legendButton": "Il le T'aanil Jach Jóok'ol"
       }
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "T'aanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj",
-    "subtitle": "Doctora Yadira Rivera Espinoza",
+    "title": "Ti' le nojoch máako'obo' kaxtik k-ka'ansaj, yéetel le táankelem paalalo'obo' **emprendemos** te' najil xooko'",
+    "subtitle": "Dra. Yadira Rivera Espinoza",
     "doctor": {
-      "title": "Yóok'ol le Doctora Yadira Rivera Espinoza",
-      "description": "Le Doctora Yadira Rivera Espinoza, leti' biotecnóloga, investigadora yéetel académica tu Instituto Politécnico Nacional, especialista tu u ka'ansaj Ingenieras e Ingenieros, Maestros yéetel Doctores tu Ciencias. Yéetel uláak' ka'a k'iino'ob experiencia, ku impulsado proyectos innovadores ku na'atal ciencia yéetel emprendimiento yéetel impacto social.",
-      "commitment": "U compromiso yéetel le kaajil maya ku síijil tu u k'áatik directo le fundadoreso'ob Pixan Chenes, leti'obo' ku k'áataj u ts'aik u na'atil yéetel u yakunaj le kaajil tu u meyajil u necesidades yéetel u aspiraciones."
+      "title": "Yo'olal Dra. Yadira Rivera Espinoza",
+      "description": "Le Dra. Yadira Rivera Espinoza, **j-ka'ansaj u noj 'óolal le Escuela Nacional de Ciencias Biológicas (ENCB) tu Instituto Politécnico Nacional**, ku biotecnóloga, j- **emprendedora**, j- **investigadora** yéetel j-ka'ansaj tu **Unidad Profesional Interdisciplinaria de Ingenierías Campus Tlaxcala (IPN)**. Ts'o'ok u ts'áaik u yáantaj ti' ya'abach xooko'ob ti' **Ingeniería Bioquímica, Biotecnológica, Inteligencia Artificial y Ciencia de Datos**, beyxan u nu'uktik tesis de maestría yéetel doctorado ti' ciencia. Yéetel u na'at yéetel u yilik, ts'o'ok u péeksik túumben meyajo'ob ku tso'okolo'ob ciencia yéetel **emprendimiento** yéetel u yáantaj ti' le kaajo'.",
+      "commitment": "U yóol u yáantik le Maaya kaajo' ku taal ti' u t'aanil u nu'ukulo'ob le cooperativa **Pixan Chenes**, leti'ob a'alajti' ka u ts'áa u na'at yéetel u nu'uktik **“Yaakunaj yo'olal le Kaajo'”** (le ku ts'a'abal ti' le Presidencia de la República ka'ach u nu'uktik le ENCB) u meyaj ti' le maaya kaajo'obo'."
     },
     "program": {
-      "title": "Le Programa",
-      "description": "Tu beetik le Nodo de Impulso a la Economía Social y Solidaria (NODESS), le Doctora Rivera Espinoza ku ka'ansik le programa innovador leti' ku k'áat u múuch'kintik le u kanaj intergeneracional yéetel ku fomentar le emprendimiento comunitario."
+      "title": "Le Programao'",
+      "description": "Te' **Nodo de Impulso a la Economía Social y Solidaria (NODESS)** ku síijil le programaa' 'Ti' le nojoch máako'obo' kaxtik k-ka'ansaj, yéetel le táankelem paalalo'obo' **emprendemos** te' najil xooko'', tu beeta'al tumen Dra. Yadira Rivera Espinoza. **Le programao' ku káajal ti' u mesil octubre ti' le ja'abil 2025**."
     },
     "communities": {
-      "title": "Kaajo'ob ku Ma'aloob",
-      "description": "Le programa ku yúuchul tu kaajo'ob Suc Tuc yéetel Xcupil, ku múuch'kintik le vínculos ichil generaciones yéetel ku promueven le desarrollo local sustentable."
+      "title": "Kaajo'ob Yaan u K'amik u Yáantaj",
+      "description": "Le programao' ku káajal yéetel le xooko'ob ti' le kaajo'ob **Suc Tuc yéetel Xcupil**, ku líik'sik u yáaxil le máako'ob múuch'ulob yéetel ku péeksik u ma'alob kuxtal le kaajo'."
     },
     "modules": {
-      "title": "Módulos le Programa",
-      "list": "Desarrollo humano yéetel liderazgo: Autoconocimiento yéetel propósito|Meyaj comunitario yéetel diseño proyectos: Investigación necesidades ichil familia/kaajil yéetel Canvas Social|Ba'alo'ob inteligencia artificial: U k'áatik información, generación ideas yéetel ba'alo'ob apoyo|Convocatorias yéetel financiamiento: U xook bases, requisitos yéetel armado expedientes|Ejecución yéetel monitoreo proyectos: Implementación, seguimiento yéetel alianzas|Evaluación impacto yéetel socialización: Feria comunitaria, sistematización aprendizajes yéetel casos de éxito"
+      "title": "U Xookil le Programao' (6 Xooko'ob)",
+      "list": "U beeta'al máak yéetel nu'uktaj: U yojéelta'al máak yéetel u p'atiko'ob u beeta'al|Meyaj múuch'ul yéetel u beeta'al proyectos: U yilik ba'ax k'a'ana'an ti' le familiao'/kaajo' yéetel **Canvas Social**| Investigación yéetel **Inteligencia Artificial**: U kaxta'al t'ano'ob, u síijil túumben tuukulo'ob yéetel u nu'ukulil u yáantaj|Convocatorias y **financiamiento**: U xookil u ts'íibil, ba'ax k'a'ana'an yéetel u ts'a'abal u k'aaba' máak|U beeta'al yéetel u yila'al le proyectoso': U beeta'al, u yila'al beyxan u múuch'ul u yóol máak|U p'isa'al u yilik yéetel u ts'a'abal ti' u kaajil: U k'iini'il u múuch'ul le kaajo', u beeta'al u xookil ba'ax líik' yéetel ba'ax ma'alob u beeta'al"
     },
     "objective": {
-      "title": "Objetivo le Programa",
-      "description": "Yéetel le Programa leti' ku k'áat u rescatar le na'atilo'ob le náatso'ob, u potenciar le talento le paalalo'ob yéetel u consolidar proyectos productivos sustentables, ku reafirmar le compromiso le academia yéetel le transformación social yéetel le preservación le identidad cultural maya."
+      "title": "U T'aanil le Programao'",
+      "description": "U t'aanil u líik'sik le ka'ansaj ku náak'tal tu beel le máako'ob, u líik'sik le **emprendimiento** ti' le kaajo' yéetel u ts'áa yáantaj yo'olal u nu'ukta'al proyectos ma'alob yo'olal ba'ax k'a'ana'an ti' tuláakal maaya familia."
+    },
+    "contact": {
+      "title": "U Yáantajil Ti' Máax Ku T'aan",
+      "description": "Wa k'a'ana'an tech le programaa' ti' a kaajo' túuxtikto'on junp'éel correo ti' **pixancheness@gmail.com** wa ti' **yriverae@ipn.com**."
     }
+  },
+  "CTC": {
+    "title": "Consejo Técnico Consultivo (CTC) Pixan Chenes - **O'olbejil Yéetel No'oja'an K'ajóolal**",
+    "subtitle": "**Múuch'ulil** **multidisciplinario** ti' **áantaj** yéetel **tso'olol** ti' u **kaajil** **máasewal**",
+    "description": "Le Consejo Técnico Consultivo (CTC) Pixan Chenes'o' leti' jun **múuch'ulil multidisciplinario** yéetel **máako'ob** ti' **jejeláas** **k'ajóolal** ku **báaxal** **yéetel** **óotsilil**, **t'aana'an** tumen le **kooperativa**'o', uti'al u **áantik** yéetel u **tso'olol** u **beeta'al** le **kaajo'ob** **maya'ob** ti' **Campeche**'o'.",
+    "intro": {
+      "description1": "U **meyaj** ku **náachkunsik** **k'ajóolal científico**, **tecnológico**, **táanxelak** (ancestrales) yéetel **social**, le **je'ela'** ku **cha'ik** u **beeta'al** **t'aano'ob** yéetel **p'íisib** **cultural** yéetel **ma'alob** **ka'ansaj** (rigor académico).",
+      "description2": "Le CTC'o' yaan u **k'a'ana'anil** (aval) **ichil** ti' u **Múuch'ulil** (Asamblea) yéetel u **Consejo Comunitario** ti' **Na'at** yéetel **Jóok'sa'al** (Desarrollo) ti' le **Kooperativa**'o', **beyxan** **yéetel** u **k'ajóolal** **paachil** ti' le **NODESS** ti' le **INAES**'o', le **je'ela'** ku **ts'áaik** u **jaajil** **social** yéetel **institucional**."
+    },
+    "origin": {
+      "title": "¿Ba'ax **óoxol** u **jóok'ol**?",
+      "description": "U **jóok'ol** bey jun **núuk'il** (respuesta) ti' u **k'a'ana'anil** u **ya'ala'al** jun **lu'umil** ti' **áantaj** yéetel **no'oja'an k'ajóolal** (asesoría y apoyo técnico) ku **túuxtik** u **beeta'al** le **kooperativa** **Pixan Chenes** yéetel u **láak'o'ob** **k'a'ana'ano'ob**'o' (aliados estratégicos). U **k'áat** u **k'a'ana'an** **beeta'al** **proyectos sostenibles** ku **ts'áaik** **ma'alob** **kuxtal** **social**, ku **tso'olol** le **economía solidaria**'o' yéetel ku **kalaantik** u **wíinklil** (identidad) **maya**."
+    },
+    "importance": {
+      "title": "U **k'a'ana'anil** le CTC'o'",
+      "description": "Le CTC'o' **k'a'ana'an** tumen:",
+      "list": "Ku **ts'áaik** jun **na'at multidisciplinaria** ku **náachkunsik** **biotecnología**, **energías renovables**, **matemáticas**, **economía social**, **administración**, **normatividad sanitaria** yéetel **k'ajóolal** **local**.|Ku **jóok'sik** **núuk'ulo'ob** **je'el** u **báaxal** **ku** **núukik** u **jaajil** **k'a'ana'anil** ti' le **kaajil**'o'.|Ku **tso'olol** u **meyaj** **múuch'ulil**, **asegurando** **u** **beeta'al** **proyectos** **je'el** **u** **páajtal** **u** **beeta'al** (**viables**), **sostenibles** yéetel **yáax** **táan** (impacto) **social**."
+    },
+    "alignment": {
+      "title": "**Tso'olol** **yéetel** **NODESS** **yéetel** **INAES**",
+      "description": "Le CTC Pixan Chenes'o' ku **tso'olol** **yéetel** le **NODESS** ti' le **INAES** yéetel le **ODS**'o'.",
+      "list": "Le CTC'o' ku **paklan** **k'ajóoltik** (refleja) le **multidisciplinariedad**, **intergeneracionalidad** yéetel **búuk'ul** ti' **sostenibilidad** ku **k'áata'al** tumen le **INAES** yéetel le **Agenda** 2030'o'.|Yaan u **p'íis** (preparado) uti'al u **k'a'ana'an** **beeta'al** **proyectos** ti' **xanbal** (alimentación), **ts'aak** (salud), **je'ets'el** **ich** (energía), **kab** (medio ambiente) yéetel **jóok'sa'al** **ekonomía** (desarrollo económico), **tuláakal** **yéetel** **p'íisib** **comunitaria** yéetel **u** **páajtalil** **u** **máan** **máas** **náach** (**potencial de escalamiento**)."
+    },
+    "functions": {
+      "title": "U **meyajo'ob** **k'a'ana'ano'ob**",
+      "list": "**Áantaj** **técnica** **yéetel** **científica**: Ti' **biotecnología**, **energías**, **procesos productivos** yéetel **jóok'sa'al** **kaajil**.|**Áantaj** ti' **ka'ansaj**: Ti' **táankabalo'ob**, **ko'olelo'ob** yéetel **máako'ob** **ku** **meyajo'ob** **maya'ob** (productores mayas).|**Tso'olol** ti' **proyectos sustentables**: Ku **respetarik** (respeten) le **kab**'o' yéetel ku **tso'olol** u **wíinklil** **cultural**.|**Vinculación institucional**: **Ichil** le **kaajil** **maya**'o', le **ka'ansaj** **no'oja'an**'o' (**academia**), le **gobernación**'o' yéetel le **sociedad civil**'o'.|**Innovación social y productiva**: **Jóok'sa'al** **modele'elo'ob** **je'el** **u** **páajtal** **u** **pakla'al** (**replicables**) ti' uláak' **kaajo'ob**."
+    },
+    "members": {
+      "title": "U **máako'ob** le CTC'o'",
+      "description": "Le CTC Pixan Chenes'o' **beeta'an** **yéetel** jun **múuch'ulil** **jejeláas** ti' **académicos**, **investigadores**, **inventores**, **especialistas**, **técnicos** yéetel **táankabalo'ob** **xookna'alo'ob** (jóvenes estudiantes) ku **t'aanik** **jejeláas** **k'ajóolalo'ob** (disciplinas) yéetel **bejo'ob** (**trayectorias**), **tuláakal** **múuch'ulil** **yéetel** le **óotsilil** (compromiso) u **ts'áaik** u **k'ajóolal** yéetel u **báaxal** (experiencias) ti' u **meyaj** le **kaajil** **maya**'o'.",
+      "list": "Dra. Yadira Rivera Espinoza: Ku **tso'olol** u **múuch'ulil** **ichil** **ciencia**, **tecnología** yéetel **jóok'sa'al** **social**. U **na'at** ku **náachkunsik** le **academia** yéetel le **kaajo'ob**'o' uti'al u **je'el** **bejo'ob** ti' u **páajtalil** (**empoderamiento**). Ku **ts'áaik** **ool** u **meyaj** le **Nodo**'o'.|Dr. Filiberto Vázquez Dávila: **Inventor** ti' u **tinta** uti'al u **boota'al**, **k'ajóolta'an** **tuláakal** **lu'umil** (mundialmente), jun **símbolo** ti' le **ciencia** ti' u **meyaj** le **sociedad**'o'. U **herencia científica** ku **k'a'ana'an** **u** **páajtalil** **le** **innovación** **u** **k'e'exik** **u** **kuxtal** **democrática**.|M.C. Yoja Gallardo Navarro: **Pionera** ti' **tecnología** ti' **xanbal** **yéetel** **impacto social** **internacional**. U **vocación** ti' **servicio** **k'uchik** **u** **k'e'exik** **kaajo'ob** **ti'** **México** **yéetel** **Cuba**.|Dra. Edén Cano Sampedro: **Científica** **yéetel** **yaak'il** (apasionada) ti' le **xanbal** **funcional**'o' yéetel u **impacto social**. Ku **tso'olol** jun **k'ajóolal** **yéetel** **aplicación práctica** uti'al u **ma'alob** **kuxtal** **múuch'ulil**.|Dra. Astrid Delfina Toache Pérez: **Investigadora** **fokusa'an** ti' **procesos industriales sostenibles**. Ku **jóok'ol** **táan** **yéetel** u **óotsilil** ti' u **paklan** **báaxal** (reutilización) **materiales electrónicos**.|Dra. Steffanie Jiménez Flores: **Académica** **dedicada** ti' u **ts'a'abal** **ich** (aprovechamiento) le **energía solar**'o'. Ku **creerik** **ti'** **le** **energía limpia** **bey** **jun** **motor** ti' **desarrollo sustentable**.|M. en C. Silvia Sánchez Márquez: **Experta** ti' **modelos matemáticos** ku **ya'alik** u **ma'a'lob** **kuxtal** (complejidad) ti' le **jaajil** **lu'umil**'o'. Ku **náachkunsik** **ciencia** **yéetel** **predicción** uti'al u **ilik** **táanil** **bejo'ob** **jóok'sa'al**.|Dra. Marina Olivia Franco Hernández: **Jóok'sik** **generaciones** ti' **xookna'alo'ob** yéetel **defensora** ti' le **kab**'o'. U **bejel** **ku** **náachkunsik** **ka'ansaj** (docencia) yéetel **investigación** **yéetel** jun **óotsilil** **ambiental** **no'oja'an**.|Ing. Carlos Cahuic Tzel: **Yéetel** **báaxal** ti' **programas sociales** **bey** **Sembrando Vida**, **k'uchik** **u** **áantik** le **kaajo'ob** **maya'ob**'o' ti' u **beeta'al** **proyectos colectivos**. Leti' jun ti' le **k'a'ana'an** **muul**'o' (pilares) ti' u **beeta'al** le **Kooperativa** **Pixan Chenes**'o'.|Lic. Nelson Sarabia Huchín: **Yéetel** **moots** **maya**, ku **t'aanik** u **k'a'ana'anil** le **economía social y solidaria**'o'. **Líider comunitario** **k'ajóolta'an** **yéetel** **óotsilil** ti' u **lu'umil**.|Lic. Yamili Sarabia Huchín: **Emprendedora** yéetel **académica** ku **t'aanik** u **óotsilil** (espíritu) **innovación local**. U **t'aan** (liderazgo) ku **fokusa'al** ti' u **tso'olol** le **organización comunitaria**'o'.|IBQ Noé Lizárraga Camacho: **Académico** **yéetel** **no'oja'an** **báaxal** ti' **regulación sanitaria**. U **áantaj** **je'ets'el** **desde** u **fundación** ti' Pixan Chenes ku **ts'áaik** **solidez** yéetel **profesionalismo** ti' **tuláakal** **k'iin**.|M. en A. Víctor Hugo Luna Acevedo: **Maestro** **en** **Administración** **en** **Gestión** **y** **Desarrollo** **de** **la** **Educación** **e** **Ingeniero** **Bioquímico**. U **na'at** **estructurada** yéetel u **páajtalil** **u** **beetik** **organización** **k'uchik** **u** **tso'olol** u **meyaj** le **Kooperativa** **Pixan Chenes** yéetel le **Seminario** **Repensar** **la** **Cultura** **Maya**'o'.|ISA Nelson Castillo Alemán: **Ingeniero** **ambiental** **yéetel** **báaxal** ti' le **sector energético** yéetel **educativo**'o'. **Óotsil** ti' le **sociedad**'o', ku **tso'olol** u **meyaj** **múuch'ulil** yéetel le **sostenibilidad**'o'.|LM Tito Alberto Huerta Espinoza: **Vinculador** yéetel **diseñador** ti' u **logo** le **kooperativa** Pixan Chenes'o'. Ku **ts'áaik** **báaxal** ti' **capacitación** yéetel **áantaj** **institucional**.|Diego Castro Elvira: **Táankabal** **emprendedor** ti' **Inteligencia** **Artificial**. Ku **jóok'sik** yéetel ku **mankunsik** (gestiona) u **página** **web** le **kooperativa**'o' **yéetel** **innovación digital**.|Samuel Alejandro Torres Oropeza: **Xookna'al** **creatividad** ti' **Inteligencia** **Artificial**. **Co-creador** ti' u **video** le **ch'íich'** **Toh**'o', ku **náachkunsik** **tecnología** yéetel **tradición**.|Harold Bryan Espinosa Sánchez: **Inventor** yéetel **xookna'al** ti' **biotecnología**. Ku **diseñar** jun **dispositivo** uti'al u **jóok'sa'al** **apitoxina** ti' u **meyaj** le **kaanalo'ob** (apicultores)."
+    },
+    "closingMessage": "Le CTC Pixan Chenes: Tu'ux ku náachkunsik le ciencia yéetel le tradición uti'al u beetik jun futuro sustentable."
+  },
+  "Documents": {
+    "title": "Documentos",
+    "description": "Documentos de la cooperativa Pixan Chenes",
+    "economia": {
+      "title": "Documento de Economía",
+      "description": "Registro Público de Comercio.",
+      "viewDocument": "Ver Documento"
+    },
+    "notariaDocument": {
+      "title": "Notaría 43",
+      "description": "Documentación notarial oficial de la cooperativa.",
+      "viewDocument": "Ver Documento"
+    },
+    "footerNote": "Los documentos se abrirán en una nueva pestaña del navegador."
   },
   "Seminario": {
     "title": "Seminario: Tu ka'a na'atik le k'ultura maya",
@@ -967,5 +1076,45 @@
     },
     "copyright": "© 2024 Pixan Chenes. Cooperativa maya tu meyajil u kanantej k'ultura yéetel kaab.",
     "madeWith": "Beetaal tu yakunaj ❤️ tumen le kaaj maya"
+  },
+  "Stories": {
+    "title": "Ts'íibo'ob yéetel U ts'íibo'ob",
+    "subtitle": "K ts'íib le historia antiguo'ob ti' le k'ultura maya",
+    "description": "Uchben ts'íib k'oja'an tu ka'anal yo'olal le meyajil sijnale'",
+    "tabs": {
+      "story": "Ts'íib",
+      "narrate": "Ka ts'íib u ts'íib"
+    },
+    "info": {
+      "narrator": "Ts'íib",
+      "narrators": "Ts'íibo'ob",
+      "students": "Estudiantes",
+      "origin": "U k'iinil",
+      "summary": "U resumen",
+      "characters": "Personajes",
+      "date": "U fecha de grabación",
+      "keywords": "Palabras clave"
+    },
+    "content": {
+      "watchVideo": "Il video",
+      "listenAudio": "U'yik audio",
+      "readStory": "Ka ts'íib u ts'íib",
+      "narrateStory": "Ka ts'íib u ts'íib",
+      "fullScript": "U ts'íib completo tu ka ts'íib",
+      "fullText": "U texto completo ti' le ts'íib",
+      "videoNotAvailable": "Video ma' disponible",
+      "audioNotAvailable": "Audio ma' disponible",
+      "audioDescription": "U'yik le narración completo ti' le historia antiguo"
+    },
+    "backToStories": "← Suut ka'anal tu Ts'íibo'ob yéetel U ts'íibo'ob",
+    "shareStory": "Ka ts'aik u ts'íib",
+    "loading": "Cargando...",
+    "error": "Error tu ka ts'íib u ts'íib",
+    "narrator": "Ts'íib",
+    "video": "Video",
+    "readMore": "Ka ts'íib más →",
+    "comingSoon": "Ma'alo'ob jump'éel más historias",
+    "comingSoonTitle": "Ma'alo'ob jump'éel más historias",
+    "comingSoonDescription": "Tan k meyaj ti' ka muk'ul más ts'íibo'ob yéetel u ts'íibo'ob tu ka ts'aik a beetik."
   }
 }

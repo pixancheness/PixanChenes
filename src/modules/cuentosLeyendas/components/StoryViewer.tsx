@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Legend } from "../types/legend";
@@ -82,6 +81,39 @@ function StoryContent({ legend, t }: StoryContentProps) {
               allowFullScreen
               className="rounded-lg"
             />
+          </div>
+        </div>
+      )}
+
+      {/* Audio Section */}
+      {legend.content.audioUrl && (
+        <div className="bg-orange-50 rounded-xl p-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+            <svg
+              className="w-5 h-5 text-orange-500 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"
+              />
+            </svg>
+            {t("Stories.content.listenAudio")}
+          </h3>
+          <div className="bg-white rounded-lg p-4 border border-orange-200">
+            <audio controls className="w-full" preload="metadata">
+              <source src={legend.content.audioUrl} type="audio/mpeg" />
+              <source src={legend.content.audioUrl} type="audio/wav" />
+              <source src={legend.content.audioUrl} type="audio/ogg" />
+              Tu navegador no soporta el elemento de audio.
+            </audio>
+            <p className="text-sm text-gray-600 mt-2">
+              {t("Stories.content.audioDescription")}
+            </p>
           </div>
         </div>
       )}

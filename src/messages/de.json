@@ -526,11 +526,13 @@
       "title": "Projekte",
       "nodess": "Nodess",
       "seminaries": "Seminar Repensar la cultura maya",
+      "ctc": "Technischer Beirat",
       "businesses": "Businesses",
       "artificialIntelligence": "Artificial Intelligence and Apiculture",
       "grandparentsAndYoungPeople": "Wir lernen von unseren Großeltern, wir emprenden mit unseren jungen Leuten von der Schule"
     },
     "gallery": "Galerie",
+    "documents": "Dokumente",
     "culture": {
       "title": "Kultur",
       "stories": "Geschichten und Legenden",
@@ -541,7 +543,6 @@
     "viewCertificates": "Zertifikate anzeigen",
     "requestCertificate": "Zertifikat beantragen",
     "faq": "Häufig gestellte Fragen",
-
     "login": "Anmelden",
     "register": "Registrieren",
     "registerFree": "Registrieren",
@@ -848,6 +849,9 @@
       "description": "Erfahren Sie mehr Details über das NODESS-Projekt und seine Umsetzung in unserer Gemeinde.",
       "buttonText": "PDF-Dokument ansehen"
     },
+    "partners": {
+      "title": "Partners and Allies"
+    },
     "projects": {
       "title": "Projekte",
       "apitoxin": {
@@ -882,33 +886,123 @@
           "title": "Projektwirkung",
           "description": "Spiegelt wider, wie NODESS unternehmerischen Geist und Zusammenarbeit fördert, indem Technologie genutzt wird, um das wirtschaftliche und soziale Wachstum der Maya-Gemeinden zu fördern."
         }
+      },
+      "pajaroToh": {
+        "title": "Die Legende des Toh-Vogels",
+        "intro": "Video produziert im Rahmen von NODESS: PIXAN–UPIIT Verbindung. Entwicklung und Stärkung von Frauen und Indigenen Maya-Gemeinschaften, eine Allianz zwischen UPIIT, der Pixan Chenes-Genossenschaft, der Suc Tuc Gemeinschaftsschule, dem Xcupil-Kommissariat und der Tierra Fértil Bürgervereinigung.",
+        "videoUrl": "https://www.youtube.com/watch?v=pHQjop0wRIQ",
+        "participants": {
+          "title": "Direkte Beteiligungen",
+          "students": {
+            "title": "Gemeinschaftsschulstudenten:",
+            "list": "Julissa Itzel Ramírez Mendoza|Aura Daniela León Naal|Suri Saddai Dzul Cuencas"
+          },
+          "legend": {
+            "title": "Legende:",
+            "name": "Hadasa Abigail Ramírez Mendoza (Maya-Gemeindebewohnerin)",
+            "date": "Erfassungsdatum: 9. Juni 2025"
+          },
+          "aiStudents": {
+            "title": "UPIIT KI-Karriere Studenten:",
+            "list": "Samuel Alejandro Torres Oropeza – Künstliche Intelligenz Student|Navil Pineda Rugerio – Künstliche Intelligenz Praktikant, UPIIT–IPN"
+          },
+          "narrator": {
+            "title": "Erzähler:",
+            "name": "Lorena Oropeza Ramos",
+            "date": "Produktionsdatum: 8. Juli 2025"
+          }
+        },
+        "callToAction": {
+          "description": "Entdecken Sie die vollständige Geschichte der Toh-Vogel-Legende mit traditioneller Maya-Erzählung."
+        },
+        "culturalValue": {
+          "title": "🎯 Kultureller Wert",
+          "description": "Diese Zusammenarbeit zeigt, wie Technologie und Tradition sich vereinen können, um das Maya-Kulturerbe zu bewahren und zu verbreiten."
+        },
+        "impact": {
+          "title": "Gemeinschaftswirkung",
+          "description": "Dies ist ein Beispiel dafür, dass durch interinstitutionelle und gemeinschaftliche Zusammenarbeit, die Studenten, Lehrer, soziale Organisationen und lokale Behörden integriert, die kulturelle Neubewertung, nachhaltige Entwicklung und kollektives Lernen gefördert werden können, wodurch reale Stärkungsmöglichkeiten für Gemeinschaften geschaffen werden, Werte, die mit dem PDI des Nationalen Polytechnischen Instituts übereinstimmen."
+        },
+        "legendButton": "Vollständige Legende Anzeigen"
       }
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "Wir lernen von unseren Großeltern, wir emprenden mit unseren jungen Leuten von der Schule",
+    "title": "Wir lernen von den Großeltern, wir gründen mit den Jugendlichen von der Schule aus",
     "subtitle": "Dr. Yadira Rivera Espinoza",
     "doctor": {
       "title": "Über Dr. Yadira Rivera Espinoza",
-      "description": "Dr. Yadira Rivera Espinoza ist Biotechnologin, Forscherin und Akademikerin am Nationalen Polytechnischen Institut, Spezialistin in der Ausbildung von Ingenieuren, Magistern und Doktoren der Wissenschaften. Mit mehr als zwei Jahrzehnten Erfahrung hat sie innovative Projekte gefördert, die Wissenschaft und Unternehmertum mit sozialer Wirkung verbinden.",
-      "commitment": "Ihr Engagement für die Maya-Gemeinschaft entsteht aus dem direkten Ruf der Gründer von Pixan Chenes, die sie einluden, ihr Wissen und ihre Liebe zur Gemeinschaft in den Dienst ihrer Bedürfnisse und Aspirationen zu stellen."
+      "description": "Dr. Yadira Rivera Espinoza, **ehemalige Direktorin der Nationalen Schule für Biologische Wissenschaften (ENCB) des Nationalen Polytechnischen Instituts**, ist Biotechnologin, Unternehmerin, Forscherin und Akademikerin an der **Interdisziplinären Fachhochschule für Ingenieurwesen Campus Tlaxcala (IPN)**. Sie hat zur Ausbildung von Hunderten von Studenten in **Biochemie-, Biotechnologie-, Künstliche Intelligenz- und Datenwissenschafts-Ingenieurwesen** beigetragen und betreut Master- und Doktorarbeiten in den Naturwissenschaften. Mit ihrer Erfahrung hat sie innovative Projekte gefördert, die Wissenschaft und Unternehmertum mit sozialer Wirkung verbinden.",
+      "commitment": "Ihr Engagement für die Maya-Gemeinschaft entstand durch die direkte Aufforderung der Gründer der Genossenschaft **Pixan Chenes**, die sie einluden, ihr Wissen und ihren Vorschlag **„Liebe zur Gemeinschaft“** (der während ihrer Amtszeit an der ENCB dem Präsidialamt der Republik vorgelegt wurde) in den Dienst der Maya-Gemeinschaften zu stellen."
     },
     "program": {
       "title": "Das Programm",
-      "description": "Im Rahmen des Knotens zur Förderung der Sozial- und Solidarwirtschaft (NODESS) wird Dr. Rivera Espinoza dieses innovative Programm unterrichten, das darauf abzielt, intergenerationales Lernen zu stärken und Gemeinschaftsunternehmertum zu fördern."
+      "description": "Das Programm 'Wir lernen von den Großeltern, wir gründen mit den Jugendlichen von der Schule aus', entworfen von Dr. Yadira Rivera Espinoza, entsteht im Rahmen des **Knotenpunkts zur Förderung der Sozialen und Solidarischen Wirtschaft (NODESS)**. **Das Programm startet im Oktober 2025**."
     },
     "communities": {
-      "title": "Begünstigte Gemeinden",
-      "description": "Das Programm wird in den Gemeinden Suc Tuc und Xcupil entwickelt, stärkt intergenerationale Bindungen und fördert nachhaltige lokale Entwicklung."
+      "title": "Begünstigte Gemeinschaften",
+      "description": "Das Programm beginnt mit Studenten aus den Gemeinschaften **Suc Tuc und Xcupil**, um die Bindungen zwischen den Generationen zu stärken und eine nachhaltige lokale Entwicklung zu fördern."
     },
     "modules": {
-      "title": "Programmmodule",
-      "list": "Menschliche Entwicklung und Führung: Selbsterkenntnis und Zweck|Gemeinschaftsarbeit und Projektgestaltung: Forschung von Familien-/Gemeindebedürfnissen und Social Canvas|Werkzeuge der künstlichen Intelligenz: Informationssuche, Ideengenerierung und Unterstützungsmaterialien|Aufrufe und Finanzierung: Lesen von Grundlagen, Anforderungen und Dateivorbereitung|Projektdurchführung und Überwachung: Implementierung, Nachverfolgung und Allianzen|Wirkungsevaluierung und Sozialisierung: Gemeindemarkt, Systematisierung des Lernens und Erfolgsgeschichten"
+      "title": "Programmmodule (6 Module)",
+      "list": "Menschliche Entwicklung und Führung: Selbsterkenntnis und Zweck|Gemeinschaftsarbeit und Projektdesign: Bedarfsermittlung in Familie/Gemeinschaft und Soziales Canvas| Forschung mit Künstlicher Intelligenz: Informationssuche, Ideenfindung und Unterstützungsmaterialien|Ausschreibungen und Finanzierung: Lesen von Grundlagen, Anforderungen und Zusammenstellung von Unterlagen|Projektdurchführung und -überwachung: Implementierung, Nachverfolgung und Allianzen|Auswertung der Wirkung und Sozialisierung: Gemeinschaftsmesse, Systematisierung des Gelernten und Erfolgsgeschichten"
     },
     "objective": {
-      "title": "Programmziel",
-      "description": "Dieses Programm versucht, das Wissen der Großeltern zu retten, das Talent junger Menschen zu stärken und nachhaltige produktive Projekte zu konsolidieren, und bekräftigt das Engagement der Akademie für soziale Transformation und die Bewahrung der Maya-Kulturidentität."
+      "title": "Ziel des Programms",
+      "description": "Das Ziel ist die Stärkung des generationenübergreifenden Lernens, die Förderung des gemeinschaftlichen Unternehmertums und die Vorbereitung auf das Management von Projekten, die den Bedürfnissen jeder Maya-Familie entsprechen."
+    },
+    "contact": {
+      "title": "Kontaktinformationen",
+      "description": "Wenn Ihre Gemeinschaft Interesse an diesem Programm hat, senden Sie uns eine E-Mail an **pixancheness@gmail.com** oder **yriverae@ipn.com**."
     }
+  },
+  "CTC": {
+    "title": "Technischer Beratungsausschuss (CTC) Pixan Chenes",
+    "subtitle": "Multidisziplinäres Gremium zur Begleitung und Stärkung der Gemeinschaft",
+    "description": "Der Technische Beratungsausschuss (CTC) Pixan Chenes ist ein multidisziplinäres Gremium, das sich aus Personen verschiedener Fachrichtungen zusammensetzt, die auf Einladung der Kooperative freiwillig zusammenarbeiten, um die Entwicklung der Maya-Gemeinschaften in Campeche zu begleiten und zu stärken.",
+    "intro": {
+      "description1": "Ihre Arbeit kombiniert wissenschaftliche, technologische, angestammte und soziale Kenntnisse, was die Erstellung von Vorschlägen mit kultureller Relevanz und akademischer Strenge ermöglicht.",
+      "description2": "Das CTC hat die interne Zustimmung der Versammlung und des Gemeindekonsils für Wissen und Entwicklung der Kooperative sowie die externe Anerkennung durch das NODESS des INAES, was soziale und institutionelle Legitimität gewährleistet."
+    },
+    "origin": {
+      "title": "Warum ist es entstanden?",
+      "description": "Es entstand als Antwort auf die Notwendigkeit eines Raumes für technische Beratung und Unterstützung, der die Aktionen der Kooperative Pixan Chenes und ihrer strategischen Partner leitet. Sein Zweck ist es, nachhaltige Projekte zu fördern, die soziales Wohlbefinden schaffen, die Solidarwirtschaft stärken und die kulturelle Identität der Maya bewahren."
+    },
+    "importance": {
+      "title": "Bedeutung des CTC",
+      "description": "Das CTC ist wichtig, weil es:",
+      "list": "Eine multidisziplinäre Vision bietet, die Biotechnologie, erneuerbare Energien, Mathematik, Sozialwirtschaft, Verwaltung, Gesundheitsvorschriften und lokales Wissen kombiniert.|Praktische Lösungen generiert, die auf die realen Bedürfnisse der Gemeinschaft eingehen.|Die kollektive Arbeit stärkt und sicherstellt, dass Projekte tragfähig, nachhaltig und mit sozialer Wirkung sind."
+    },
+    "alignment": {
+      "title": "Ausrichtung auf NODESS und INAES",
+      "description": "Das CTC Pixan Chenes richtet sich nach dem NODESS des INAES und den SDGs.",
+      "list": "Das CTC spiegelt die Multidisziplinarität, Intergenerationität und den Fokus auf Nachhaltigkeit wider, die vom INAES und der Agenda 2030 gefordert werden.|Es ist bereit, Projekte in den Bereichen Ernährung, Gesundheit, Energie, Umwelt und wirtschaftliche Entwicklung zu fördern, die alle eine gemeinschaftliche Relevanz und Skalierungspotenzial aufweisen."
+    },
+    "functions": {
+      "title": "Hauptfunktionen",
+      "list": "Technische und wissenschaftliche Beratung: In Biotechnologie, Energien, Produktionsprozessen und Gemeindeentwicklung.|Begleitung bei der Ausbildung: Von Maya-Jugendlichen, Frauen und Produzenten.|Förderung nachhaltiger Projekte: Die die Umwelt respektieren und die kulturelle Identität stärken.|Institutionelle Vernetzung: Zwischen der Maya-Gemeinschaft, der Akademie, der Regierung und der Zivilgesellschaft.|Soziale und produktive Innovation: Schaffung replizierbarer Modelle für andere Gemeinschaften."
+    },
+    "members": {
+      "title": "Mitglieder des CTC",
+      "description": "Das CTC Pixan Chenes besteht aus einer vielfältigen Gruppe von Akademikern, Forschern, Erfindern, Spezialisten, Technikern und jungen Studenten, die verschiedene Disziplinen und Hintergründe repräsentieren und alle durch das Engagement vereint sind, ihr Wissen und ihre Erfahrungen in den Dienst der Maya-Gemeinschaft zu stellen.",
+      "list": "Dra. Yadira Rivera Espinoza: Treibt die Verbindung zwischen Wissenschaft, Technologie und sozialer Entwicklung voran. Ihre Vision vereint die Akademie und die Gemeinschaften, um Wege zur Selbstermächtigung zu eröffnen. Sie koordiniert die Aktivitäten des Knotens.|Dr. Filiberto Vázquez Dávila: Erfinder der Wahltinte, weltweit anerkannt, ein Symbol der Wissenschaft im Dienste der Gesellschaft. Sein wissenschaftliches Erbe zeigt, dass Innovation das demokratische Leben verändern kann.|M.C. Yoja Gallardo Navarro: Pionierin in der Lebensmitteltechnologie mit internationaler sozialer Wirkung. Ihre Berufung zum Dienst hat sie dazu gebracht, Gemeinschaften in Mexiko und Kuba zu transformieren.|Dra. Edén Cano Sampedro: Wissenschaftlerin mit Leidenschaft für funktionelle Lebensmittel und ihre soziale Wirkung. Sie fördert Wissen mit praktischer Anwendung für das kollektive Wohlbefinden.|Dra. Astrid Delfina Toache Pérez: Forscherin, die sich auf nachhaltige Industrieprozesse konzentriert. Sie zeichnet sich durch ihr Engagement für die Wiederverwendung elektronischer Materialien aus.|Dra. Steffanie Jiménez Flores: Akademikerin, die sich der Nutzung der Sonnenenergie widmet. Sie glaubt an saubere Energie als Motor für nachhaltige Entwicklung.|M. en C. Silvia Sánchez Márquez: Expertin für mathematische Modelle, die die Komplexität der realen Welt erklären. Sie vereint Wissenschaft und Vorhersage, um Entwicklungsszenarien vorwegzunehmen.|Dra. Marina Olivia Franco Hernández: Ausbilderin von Studentengenerationen und Umweltschützerin. Ihre Karriere kombiniert Lehre und Forschung mit einem starken Umweltengagement.|Ing. Carlos Cahuic Tzel: Mit Erfahrung in Sozialprogrammen wie Sembrando Vida hat er die Maya-Gemeinschaften beim Aufbau kollektiver Projekte unterstützt. Er ist eine der Säulen bei der Gründung der Kooperative Pixan Chenes.|Lic. Nelson Sarabia Huchín: Mit Maya-Wurzeln verkörpert er die Werte der sozialen und solidarischen Wirtschaft. Anerkannter Gemeindevorsteher, der sich seiner Heimat verpflichtet fühlt.|Lic. Yamili Sarabia Huchín: Unternehmerin und Akademikerin, die den Geist lokaler Innovation repräsentiert. Ihre Führung konzentriert sich auf die Stärkung der Gemeinschaftsorganisation.|IBQ Noé Lizárraga Camacho: Akademiker mit umfangreicher Erfahrung in der Gesundheitsregulierung. Seine ständige Begleitung seit der Gründung von Pixan Chenes gewährleistet Solidität und Professionalität in jeder Phase.|M. en A. Víctor Hugo Luna Acevedo: Master in Verwaltung in Bildungsmanagement und -entwicklung und Bio-Chemiker. Seine strukturierte Vision und organisatorische Fähigkeit haben die Aktivitäten der Kooperative Pixan Chenes und des Seminars „Repensar la Cultura Maya“ gestärkt.|ISA Nelson Castillo Alemán: Umweltingenieur mit Erfahrung im Energie- und Bildungssektor. Er ist der Gesellschaft verpflichtet und fördert Teamarbeit und Nachhaltigkeit.|LM Tito Alberto Huerta Espinoza: Vernetzer und Designer des Logos der Kooperative Pixan Chenes. Bringt Erfahrung in Schulung und institutioneller Begleitung ein.|Diego Castro Elvira: Jungunternehmer im Bereich Künstliche Intelligenz. Entwickelt und verwaltet die Website der Kooperative mit digitaler Innovation.|Samuel Alejandro Torres Oropeza: Kreativer Student der Künstlichen Intelligenz. Co-Creator des Toh-Vogels-Videos, das Technologie und Tradition vereint.|Harold Bryan Espinosa Sánchez: Erfinder und Student der Biotechnologie. Entwirft ein Gerät zur Apitoxin-Extraktion im Dienste von Imkern."
+    },
+    "closingMessage": "Das CTC Pixan Chenes: Wo Wissenschaft und Tradition sich vereinen, um eine nachhaltige Zukunft aufzubauen."
+  },
+  "Documents": {
+    "title": "Dokumente",
+    "description": "Dokumente der Pixan Chenes-Kooperative",
+    "economia": {
+      "title": "Wirtschaftsdokument",
+      "description": "Wirtschaftsregister.",
+      "viewDocument": "Dokument ansehen"
+    },
+    "notariaDocument": {
+      "title": "Notar 43",
+      "description": "Offizielle Notar-Dokumentation der Kooperative.",
+      "viewDocument": "Dokument ansehen"
+    },
+    "footerNote": "Die Dokumente werden in einem neuen Browser-Tab geöffnet."
   },
   "Seminario": {
     "title": "Seminar: Maya-Kultur neu denken",
@@ -965,5 +1059,45 @@
     },
     "copyright": "© 2024 Pixan Chenes. Maya-Kooperative für Kultur- und Umweltschutz.",
     "madeWith": "Gemacht mit ❤️ von der Maya-Gemeinde"
+  },
+  "Stories": {
+    "title": "Geschichten und Legenden",
+    "subtitle": "Entdecken Sie die alten Geschichten der Maya-Kultur",
+    "description": "Jede Legende trägt die Weisheit vergangener Generationen in sich",
+    "tabs": {
+      "story": "Geschichte",
+      "narrate": "Geschichte erzählen"
+    },
+    "info": {
+      "narrator": "Erzähler",
+      "narrators": "Erzähler",
+      "students": "Studenten",
+      "origin": "Ursprung",
+      "summary": "Zusammenfassung",
+      "characters": "Charaktere",
+      "date": "Aufnahmedatum",
+      "keywords": "Schlüsselwörter"
+    },
+    "content": {
+      "watchVideo": "Video ansehen",
+      "listenAudio": "Audio anhören",
+      "readStory": "Geschichte lesen",
+      "narrateStory": "Geschichte erzählen",
+      "fullScript": "Vollständiges Drehbuch für die Erzählung",
+      "fullText": "Vollständiger Text der Legende",
+      "videoNotAvailable": "Video nicht verfügbar",
+      "audioNotAvailable": "Audio nicht verfügbar",
+      "audioDescription": "Hören Sie die vollständige Erzählung dieser alten Geschichte"
+    },
+    "backToStories": "← Zurück zu Geschichten und Legenden",
+    "shareStory": "Geschichte teilen",
+    "loading": "Laden...",
+    "error": "Fehler beim Laden der Geschichte",
+    "narrator": "Erzähler",
+    "video": "Video",
+    "readMore": "Mehr lesen →",
+    "comingSoon": "Bald mehr Geschichten",
+    "comingSoonTitle": "Bald mehr Geschichten",
+    "comingSoonDescription": "Wir arbeiten daran, mehr Geschichten und Legenden zu sammeln, um sie mit Ihnen zu teilen."
   }
 }

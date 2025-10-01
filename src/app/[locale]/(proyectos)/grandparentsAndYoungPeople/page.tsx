@@ -3,16 +3,29 @@ import { useTranslations } from "next-intl";
 export default function GrandparentsAndYoungPeoplePage() {
   const t = useTranslations("GrandparentsAndYoungPeople");
 
+  // Función para procesar texto con formato **negrita**
+  const processText = (text: string) => {
+    if (!text) return text;
+    // Reemplaza **texto** con <strong>texto</strong>
+    return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  };
+
   return (
     <div className=" font-sans ">
       <div className="container mx-auto px-4 py-8 sm:py-12 lg:py-16">
         {/* Hero Section */}
         <div className="text-center pt-9 pb-4">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-900 mb-4 leading-tight">
-            {t("title")}
+            <span
+              dangerouslySetInnerHTML={{ __html: processText(t("title")) }}
+            />
           </h1>
           <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
-          <p className="text-lg text-gray-600 mt-6 italic">{t("subtitle")}</p>
+          <p className="text-lg text-gray-600 mt-6 italic">
+            <span
+              dangerouslySetInnerHTML={{ __html: processText(t("subtitle")) }}
+            />
+          </p>
         </div>
 
         {/* Content Section */}
@@ -23,13 +36,25 @@ export default function GrandparentsAndYoungPeoplePage() {
                 {/* About Dr. Rivera */}
                 <div className="border-l-4 border-yellow-500 p-4 rounded-r-lg">
                   <p className="text-yellow-800 font-semibold mb-2 text-xl">
-                    {t("doctor.title")}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("doctor.title")),
+                      }}
+                    />
                   </p>
                   <p className="text-gray-800 leading-relaxed mb-4">
-                    {t("doctor.description")}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("doctor.description")),
+                      }}
+                    />
                   </p>
                   <p className="text-gray-800 leading-relaxed">
-                    {t("doctor.commitment")}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("doctor.commitment")),
+                      }}
+                    />
                   </p>
                 </div>
 
@@ -37,19 +62,35 @@ export default function GrandparentsAndYoungPeoplePage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className=" p-6 rounded-xl ">
                     <h3 className="text-xl font-bold text-center text-yellow-800 mb-3">
-                      {t("program.title")}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: processText(t("program.title")),
+                        }}
+                      />
                     </h3>
                     <p className="text-gray-800 leading-relaxed">
-                      {t("program.description")}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: processText(t("program.description")),
+                        }}
+                      />
                     </p>
                   </div>
 
                   <div className=" p-6 rounded-xl ">
                     <h3 className="text-xl font-bold text-center text-yellow-800 mb-3">
-                      {t("communities.title")}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: processText(t("communities.title")),
+                        }}
+                      />
                     </h3>
                     <p className="text-gray-800 leading-relaxed">
-                      {t("communities.description")}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: processText(t("communities.description")),
+                        }}
+                      />
                     </p>
                   </div>
                 </div>
@@ -58,7 +99,11 @@ export default function GrandparentsAndYoungPeoplePage() {
                 <div className="mt-12">
                   <div className="text-center mb-8">
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-yellow-900 mb-4">
-                      {t("modules.title")}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: processText(t("modules.title")),
+                        }}
+                      />
                     </h2>
                     <div className="w-16 h-1 bg-yellow-500 mx-auto rounded-full"></div>
                   </div>
@@ -79,11 +124,19 @@ export default function GrandparentsAndYoungPeoplePage() {
                                 {index + 1}
                               </div>
                               <h4 className="font-semibold text-yellow-800 text-sm">
-                                {moduleTitle.trim()}
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: processText(moduleTitle.trim()),
+                                  }}
+                                />
                               </h4>
                             </div>
                             <p className="text-gray-700 text-sm leading-relaxed">
-                              {moduleDescription.trim()}
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: processText(moduleDescription.trim()),
+                                }}
+                              />
                             </p>
                           </div>
                         );
@@ -94,10 +147,18 @@ export default function GrandparentsAndYoungPeoplePage() {
                 {/* Program Objective */}
                 <div className=" p-6 rounded-xl text-center">
                   <h3 className="text-xl font-bold text-yellow-800 mb-4">
-                    {t("objective.title")}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("objective.title")),
+                      }}
+                    />
                   </h3>
                   <p className="text-gray-800 leading-relaxed">
-                    {t("objective.description")}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("objective.description")),
+                      }}
+                    />
                   </p>
                 </div>
               </div>

@@ -512,18 +512,18 @@
   "Navigation": {
     "home": "Home",
     "about": "About",
-
     "products": {
       "title": "Products",
       "certificates": "Certificates",
       "honey": "Honey",
       "wine": "Wine"
     },
-
+    "documents": "Documents",
     "projects": {
       "title": "Projects",
       "nodess": "Nodess",
       "seminaries": "Seminar Repensar la cultura maya",
+      "ctc": "Technical Advisory Board",
       "businesses": "Businesses",
       "artificialIntelligence": "Artificial Intelligence and Apiculture",
       "grandparentsAndYoungPeople": "We learn from our grandparents, we emprend with our young people from the school"
@@ -848,6 +848,9 @@
       "description": "Learn more details about the NODESS project and its implementation in our community.",
       "buttonText": "View PDF Document"
     },
+    "partners": {
+      "title": "Partners and Allies"
+    },
     "projects": {
       "title": "Projects",
       "apitoxin": {
@@ -882,33 +885,123 @@
           "title": "Project Impact",
           "description": "Reflects how NODESS fosters entrepreneurial spirit and collaboration, leveraging technology to drive economic and social growth of Mayan communities."
         }
+      },
+      "pajaroToh": {
+        "title": "The Legend of the Toh Bird",
+        "intro": "Video produced within the framework of NODESS: PIXAN–UPIIT Connection. Development and Empowerment of Women and Indigenous Mayan Communities, an alliance between UPIIT, the Pixan Chenes cooperative, the Suc Tuc Community High School, the Xcupil Commissariat, and the Tierra Fértil Civil Association.",
+        "videoUrl": "https://www.youtube.com/watch?v=pHQjop0wRIQ",
+        "participants": {
+          "title": "Direct Participations",
+          "students": {
+            "title": "Community High School Students:",
+            "list": "Julissa Itzel Ramírez Mendoza|Aura Daniela León Naal|Suri Saddai Dzul Cuencas"
+          },
+          "legend": {
+            "title": "Legend:",
+            "name": "Hadasa Abigail Ramírez Mendoza (Maya community resident)",
+            "date": "Collection date: June 9, 2025"
+          },
+          "aiStudents": {
+            "title": "UPIIT AI Career Students:",
+            "list": "Samuel Alejandro Torres Oropeza – Artificial Intelligence student|Navil Pineda Rugerio – Artificial Intelligence intern, UPIIT–IPN"
+          },
+          "narrator": {
+            "title": "Narrator:",
+            "name": "Lorena Oropeza Ramos",
+            "date": "Production date: July 8, 2025"
+          }
+        },
+        "callToAction": {
+          "description": "Discover the complete story of the Toh Bird Legend with traditional Maya narration."
+        },
+        "culturalValue": {
+          "title": "🎯 Cultural Value",
+          "description": "This collaboration shows how technology and tradition can unite to preserve and disseminate Maya cultural heritage."
+        },
+        "impact": {
+          "title": "Community Impact",
+          "description": "This is an example showing that through inter-institutional and community collaboration, integrating students, teachers, social organizations, and local authorities, cultural revaluation, sustainable development, and collective learning can be promoted, creating real empowerment opportunities for communities, values aligned with the PDI of the National Polytechnic Institute."
+        },
+        "legendButton": "View Complete Legend"
       }
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "We learn from our grandparents, we emprend with our young people from the school",
+    "title": "We Learn from Grandparents, We Undertake with Young People from School",
     "subtitle": "Dr. Yadira Rivera Espinoza",
     "doctor": {
       "title": "About Dr. Yadira Rivera Espinoza",
-      "description": "Dr. Yadira Rivera Espinoza is a biotechnologist, researcher and academic from the National Polytechnic Institute, specialist in training Engineers, Masters and Doctors in Sciences. With more than two decades of experience, she has promoted innovative projects that link science and entrepreneurship with social impact.",
-      "commitment": "Her commitment to the Mayan community arises from the direct call of the founders of Pixan Chenes, who invited her to put her knowledge and love for the community at the service of their needs and aspirations."
+      "description": "Dr. Yadira Rivera Espinoza, **former director of the National School of Biological Sciences (ENCB) of the National Polytechnic Institute**, is a biotechnologist, entrepreneur, researcher, and academic at the **Interdisciplinary Professional Unit of Engineering Tlaxcala Campus (IPN)**. She has contributed to the training of hundreds of students in **Biochemical, Biotechnological, Artificial Intelligence, and Data Science Engineering**, in addition to supervising master's and doctoral theses in sciences. With her experience, she has promoted innovative projects that link science and entrepreneurship with social impact.",
+      "commitment": "Her commitment to the Mayan community arises from the direct call of the founders of the **Pixan Chenes** cooperative, who invited her to put her knowledge and her proposal **“Love for the Community”** (presented to the Presidency of the Republic during her tenure at the ENCB) at the service of the Mayan communities."
     },
     "program": {
       "title": "The Program",
-      "description": "Within the framework of the Node for Promoting Social and Solidarity Economy (NODESS), Dr. Rivera Espinoza will teach this innovative program that seeks to strengthen intergenerational learning and promote community entrepreneurship."
+      "description": "The program 'We Learn from Grandparents, We Undertake with Young People from School,' designed by Dr. Yadira Rivera Espinoza, emerges within the framework of the **Social and Solidarity Economy Promotion Hub (NODESS)**. **The program will start in October 2025**."
     },
     "communities": {
-      "title": "Benefited Communities",
-      "description": "The program will be developed in the communities of Suc Tuc and Xcupil, strengthening intergenerational bonds and promoting sustainable local development."
+      "title": "Beneficiary Communities",
+      "description": "The program will begin with students from the communities of **Suc Tuc and Xcupil**, strengthening intergenerational ties and promoting local sustainable development."
     },
     "modules": {
-      "title": "Program Modules",
-      "list": "Human development and leadership: Self-knowledge and purpose|Community work and project design: Research of family/community needs and Social Canvas|Artificial intelligence tools: Information search, idea generation and support materials|Calls and financing: Reading foundations, requirements and file preparation|Project execution and monitoring: Implementation, follow-up and alliances|Impact evaluation and socialization: Community fair, systematization of learning and success stories"
+      "title": "Program Modules (6 Modules)",
+      "list": "Human development and leadership: Self-awareness and purpose|Community work and project design: Needs assessment in family/community and Social Canvas| Research with Artificial Intelligence: Information search, idea generation, and support materials|Calls and financing: Reading guidelines, requirements, and compiling files|Project execution and monitoring: Implementation, follow-up, and alliances|Impact evaluation and socialization: Community fair, systematization of learning, and success stories"
     },
     "objective": {
       "title": "Program Objective",
-      "description": "This Program seeks to rescue the knowledge of grandparents, enhance the talent of young people and consolidate sustainable productive projects, reaffirming the academy's commitment to social transformation and the preservation of Mayan cultural identity."
+      "description": "Its objective is to strengthen intergenerational learning, foster community entrepreneurship, and provide preparation for managing projects according to the needs of each Mayan family."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If your community is interested in this program, send us an email to **pixancheness@gmail.com** or **yriverae@ipn.com**."
     }
+  },
+  "CTC": {
+    "title": "Technical Advisory Council (CTC) Pixan Chenes",
+    "subtitle": "Multidisciplinary body for community support and strengthening",
+    "description": "The Technical Advisory Council (CTC) Pixan Chenes is a multidisciplinary body composed of individuals from various specialties who collaborate voluntarily, by invitation of the cooperative, to support and strengthen the development of the Mayan communities of Campeche.",
+    "intro": {
+      "description1": "Their work combines scientific, technological, ancestral, and social knowledge, which allows for the generation of proposals with cultural relevance and academic rigor.",
+      "description2": "The CTC has the internal endorsement of the Assembly and the Community Council of Knowledge and Development of the Cooperative, as well as external recognition from the NODESS of INAES, which guarantees social and institutional legitimacy."
+    },
+    "origin": {
+      "title": "Why was it created?",
+      "description": "It arose as a response to the need for a space for technical advice and support to guide the actions of the Pixan Chenes cooperative and its strategic allies. Its purpose is to promote sustainable projects that generate social well-being, strengthen the solidarity economy, and preserve the Mayan cultural identity."
+    },
+    "importance": {
+      "title": "Importance of the CTC",
+      "description": "The CTC is important because:",
+      "list": "It provides a multidisciplinary vision that combines biotechnology, renewable energy, mathematics, social economy, administration, health regulations, and local knowledge.|It generates practical solutions that respond to the real needs of the community.|It strengthens collective work, ensuring that projects are viable, sustainable, and have a social impact."
+    },
+    "alignment": {
+      "title": "Alignment with NODESS and INAES",
+      "description": "The CTC Pixan Chenes aligns with the NODESS of INAES and the SDGs.",
+      "list": "The CTC reflects the multidisciplinarity, intergenerationality, and sustainability focus required by INAES and the 2030 Agenda.|It is prepared to promote projects in food, health, energy, environment, and economic development, all with community relevance and scaling potential."
+    },
+    "functions": {
+      "title": "Main functions",
+      "list": "Technical and scientific advice: In biotechnology, energy, productive processes, and community development.|Support in training: For Mayan youth, women, and producers.|Promotion of sustainable projects: That respect the environment and strengthen cultural identity.|Institutional linkage: Between the Mayan community, academia, government, and civil society.|Social and productive innovation: Generating replicable models for other communities."
+    },
+    "members": {
+      "title": "CTC Members",
+      "description": "The CTC Pixan Chenes is made up of a diverse group of academics, researchers, inventors, specialists, technicians, and young students representing different disciplines and backgrounds, all united by the commitment to contribute their knowledge and experience to the service of the Mayan community.",
+      "list": "Dra. Yadira Rivera Espinoza: Drives the union between science, technology, and social development. Her vision unites academia and communities to open paths for empowerment. She coordinates the Node's activities.|Dr. Filiberto Vázquez Dávila: Inventor of the voting ink, recognized worldwide, a symbol of science at the service of society. His scientific legacy demonstrates that innovation can transform democratic life.|M.C. Yoja Gallardo Navarro: Pioneer in food technology with international social impact. Her vocation for service has led her to transform communities in Mexico and Cuba.|Dra. Edén Cano Sampedro: Scientist passionate about functional foods and their social impact. She promotes knowledge with practical application for collective well-being.|Dra. Astrid Delfina Toache Pérez: Researcher focused on sustainable industrial processes. She stands out for her commitment to the reuse of electronic materials.|Dra. Steffanie Jiménez Flores: Academic dedicated to harnessing solar energy. She believes in clean energy as an engine for sustainable development.|M. en C. Silvia Sánchez Márquez: Expert in mathematical models that explain the complexity of the real world. She unites science and prediction to anticipate development scenarios.|Dra. Marina Olivia Franco Hernández: Trainer of generations of students and environmental defender. Her career combines teaching and research with a strong environmental commitment.|Ing. Carlos Cahuic Tzel: With experience in social programs like Sembrando Vida, he has supported the Mayan communities in building collective projects. He is one of the pillars in the formation of the Pixan Chenes Cooperative.|Lic. Nelson Sarabia Huchín: With Mayan roots, he embodies the values of the social and solidarity economy. Recognized community leader committed to his land.|Lic. Yamili Sarabia Huchín: Entrepreneur and academic who represents the spirit of local innovation. Her leadership focuses on strengthening community organization.|IBQ Noé Lizárraga Camacho: Academic with extensive experience in health regulation. His constant support since the founding of Pixan Chenes ensures solidity and professionalism at every stage.|M. en A. Víctor Hugo Luna Acevedo: Master in Administration in Education Management and Development and Biochemical Engineer. His structured vision and organizational capacity have strengthened the activities of the Pixan Chenes Cooperative and the Rethinking Mayan Culture Seminar.|ISA Nelson Castillo Alemán: Environmental engineer with experience in the energy and educational sectors. Committed to society, he promotes teamwork and sustainability.|LM Tito Alberto Huerta Espinoza: Linkage manager and designer of the Pixan Chenes cooperative logo. Contributes experience in training and institutional support.|Diego Castro Elvira: Young entrepreneur in Artificial Intelligence. Develops and manages the cooperative's website with digital innovation.|Samuel Alejandro Torres Oropeza: Creative Artificial Intelligence student. Co-creator of the Toh bird video, uniting technology and tradition.|Harold Bryan Espinosa Sánchez: Inventor and biotechnology student. Designs a device for apitoxin extraction to serve beekeepers."
+    },
+    "closingMessage": "The CTC Pixan Chenes: Where science and tradition unite to build a sustainable future."
+  },
+  "Documents": {
+    "title": "Documents",
+    "description": "Documents of the Pixan Chenes cooperative",
+    "economia": {
+      "title": "Economics Document",
+      "description": "Public Trade Register.",
+      "viewDocument": "View Document"
+    },
+    "notariaDocument": {
+      "title": "Notary 43",
+      "description": "Official notary documentation of the cooperative.",
+      "viewDocument": "View Document"
+    },
+    "footerNote": "Documents will open in a new browser tab."
   },
   "Seminario": {
     "title": "Seminar: Rethinking Maya Culture",
@@ -990,16 +1083,24 @@
     },
     "content": {
       "watchVideo": "Watch Video",
+      "listenAudio": "Listen to Audio",
       "readStory": "Read Story",
       "narrateStory": "Narrate Story",
       "fullScript": "Complete script for narration",
       "fullText": "Complete text of the legend",
       "videoNotAvailable": "Video not available",
-      "audioNotAvailable": "Audio not available"
+      "audioNotAvailable": "Audio not available",
+      "audioDescription": "Listen to the complete narration of this ancestral story"
     },
     "backToStories": "← Back to Stories and Legends",
     "shareStory": "Share story",
     "loading": "Loading...",
-    "error": "Error loading the story"
+    "error": "Error loading the story",
+    "narrator": "Narrator",
+    "video": "Video",
+    "readMore": "Read more →",
+    "comingSoon": "More stories coming soon",
+    "comingSoonTitle": "More stories coming soon",
+    "comingSoonDescription": "We are working on collecting more stories and legends to share with you."
   }
 }
