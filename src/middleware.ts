@@ -15,9 +15,9 @@ export async function middleware(request: NextRequest) {
 export const config = {
   // Combinar ambos matchers para cubrir todas las rutas necesarias
   matcher: [
-    // Matcher para next-intl (excluye api, trpc, _next, _vercel y archivos con extensión)
-    "/((?!api|trpc|_next|_vercel|.*\\..*).*)",
+    // Matcher para next-intl (excluye api, trpc, _next, _vercel, sitemap, robots y archivos con extensión)
+    "/((?!api|trpc|_next|_vercel|sitemap.xml|robots.txt|.*\\..*).*)",
     // Matcher para Supabase (excluye archivos estáticos e imágenes)
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    '/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 };
