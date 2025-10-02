@@ -113,10 +113,23 @@ export default async function RootLayout({
     },
   ];
 
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Hreflang tags para SEO internacional */}
+        {routing.locales.map((loc) => (
+          <link
+            key={loc}
+            rel="alternate"
+            hrefLang={loc}
+            href={`${baseUrl}/${loc}`}
+          />
+        ))}
+        <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/es`} />
 
         {/* Favicon configuration */}
         <link rel="icon" href="/favicon.png" sizes="any" />

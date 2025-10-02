@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 export async function generateMetadata(
   locale: string,
@@ -7,8 +8,21 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-  const url = `${baseUrl}/${locale}`;
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  
+  // Validación: Si no existe baseUrl, usar localhost
+  if (!baseUrl) {
+    console.warn('⚠️ NEXT_PUBLIC_BASE_URL no está configurada. Usando localhost por defecto.');
+  }
+  
+  const finalBaseUrl = baseUrl || 'http://localhost:3000';
+  const url = `${finalBaseUrl}/${locale}`;
+  
+  // Generar alternates dinámicamente desde routing
+  const languages = routing.locales.reduce((acc, loc) => {
+    acc[loc] = `${finalBaseUrl}/${loc}`;
+    return acc;
+  }, {} as Record<string, string>);
   
   // Metadatos base
   const metadata: Metadata = {
@@ -26,7 +40,7 @@ export async function generateMetadata(
       type: 'website',
       images: [
         {
-          url: `${baseUrl}/og-image.jpg`,
+          url: `${finalBaseUrl}/img/logo_pixan.webp`,
           width: 1200,
           height: 630,
           alt: page === 'home' ? t('title') : t(`${page}.title`),
@@ -39,7 +53,7 @@ export async function generateMetadata(
       card: 'summary_large_image',
       title: page === 'home' ? t('title') : t(`${page}.title`),
       description: page === 'home' ? t('description') : t(`${page}.description`),
-      images: [`${baseUrl}/og-image.jpg`],
+      images: [`${finalBaseUrl}/img/logo_pixan.webp`],
     },
     
     // Robots
@@ -55,14 +69,10 @@ export async function generateMetadata(
       },
     },
     
-    // Canonical URL
+    // Canonical URL y alternativas de idioma (hreflang)
     alternates: {
       canonical: url,
-      languages: {
-        'es': `${baseUrl}/es`,
-        'en': `${baseUrl}/en`,
-        'de': `${baseUrl}/de`,  
-      },
+      languages,
     },
     
     // Información adicional de SEO
