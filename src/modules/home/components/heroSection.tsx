@@ -15,7 +15,7 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/30 via-yellow-300/10 to-amber-400/10"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-yellow-400/30 via-yellow-300/10 to-amber-400/10"></div>
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
