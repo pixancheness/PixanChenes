@@ -542,7 +542,7 @@
       "seminaries": "Seminario: Tu jats'uts k'áat le k'ultura maya",
       "businesses": "Meyajo'ob ku beetik ba'ax",
       "artificialIntelligence": "Na'atil máakilo'ob yéetel kaab meyaj",
-      "grandparentsAndYoungPeople": "T'aanxel le na'atilo'ob náats' yéetel le na'atil académico utial u jach meyaj"
+      "grandparentsAndYoungPeople": "Capacitación"
     },
 
     "culture": {
@@ -941,32 +941,32 @@
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "Ti' le nojoch máako'obo' kaxtik k-ka'ansaj, yéetel le táankelem paalalo'obo' **emprendemos** te' najil xooko'",
-    "subtitle": "Dra. Yadira Rivera Espinoza",
+    "title": "K'ajóoltbilil",
+    "subtitle": "Ti' nojoch máako'ob ka'ano'on, yéetel xi'ipalalo'ob ka'axtiko'on janalnaj ti' najil xook tumen Dra. Yadira Rivera Espinoza",
     "doctor": {
-      "title": "Yo'olal Dra. Yadira Rivera Espinoza",
-      "description": "Le Dra. Yadira Rivera Espinoza, **j-ka'ansaj u noj 'óolal le Escuela Nacional de Ciencias Biológicas (ENCB) tu Instituto Politécnico Nacional**, ku biotecnóloga, j- **emprendedora**, j- **investigadora** yéetel j-ka'ansaj tu **Unidad Profesional Interdisciplinaria de Ingenierías Campus Tlaxcala (IPN)**. Ts'o'ok u ts'áaik u yáantaj ti' ya'abach xooko'ob ti' **Ingeniería Bioquímica, Biotecnológica, Inteligencia Artificial y Ciencia de Datos**, beyxan u nu'uktik tesis de maestría yéetel doctorado ti' ciencia. Yéetel u na'at yéetel u yilik, ts'o'ok u péeksik túumben meyajo'ob ku tso'okolo'ob ciencia yéetel **emprendimiento** yéetel u yáantaj ti' le kaajo'.",
-      "commitment": "U yóol u yáantik le Maaya kaajo' ku taal ti' u t'aanil u nu'ukulo'ob le cooperativa **Pixan Chenes**, leti'ob a'alajti' ka u ts'áa u na'at yéetel u nu'uktik **“Yaakunaj yo'olal le Kaajo'”** (le ku ts'a'abal ti' le Presidencia de la República ka'ach u nu'uktik le ENCB) u meyaj ti' le maaya kaajo'obo'."
+      "title": "Yóok'lal Dra. Yadira Rivera Espinoza",
+      "description": "Le Dra. Yadira Rivera Espinoza, **nojoch jolpaat u najil xookil Ciencias Biológicas (ENCB) ti' le Instituto Politécnico Nacional**, leti'e' biotecnóloga, emprendedora, investigadora y académica ti' le **Unidad Profesional Interdisciplinaria de Ingenierías Campus Tlaxcala (IPN)**. Ts'o'ok u yáantik u ka'ansal cientos xooko'ob ti' **Ingeniería Bioquímica, Biotecnológica, Inteligencia Artificial y Ciencia de Datos**, bey xan u nu'uktik tesis de maestría y doctorado ti' ciencias. Yéetel u na'at, ts'o'ok u jets'ik proyectos innovadores ku k'a'astal ciencia y emprendimiento yéetel ma'alob bínaj ti' kajnáalo'ob.",
+      "commitment": "U jets'ik u yóol yéetel le comunidad maya ku jóok'ol ti' u t'aanil u nu'ukulo'ob le cooperativa **Pixan Chenes**, máaxo'ob k'a'amo'ob ka u ts'aa u na'at yéetel u t'aan **'Amor por la Comunidad'** (ku ts'a'abal ti' Presidencia de la República ti' u k'iinil u meyaj ti' ENCB) ti' u meyajil le kajnáalo'ob maya'ob."
     },
     "program": {
-      "title": "Le Programao'",
-      "description": "Te' **Nodo de Impulso a la Economía Social y Solidaria (NODESS)** ku síijil le programaa' 'Ti' le nojoch máako'obo' kaxtik k-ka'ansaj, yéetel le táankelem paalalo'obo' **emprendemos** te' najil xooko'', tu beeta'al tumen Dra. Yadira Rivera Espinoza. **Le programao' ku káajal ti' u mesil octubre ti' le ja'abil 2025**."
+      "title": "Le Programa",
+      "description": "Ti' u pak'il le **Nodo de Impulso a la Economía Social y Solidaria (NODESS)** ku jóok'ol le programa **Ti' nojoch máako'ob ka'ano'on, yéetel xi'ipalalo'ob ka'axtiko'on janalnaj ti' najil xook**, jets'a'an tumen Dra. Yadira Rivera Espinoza. **Le programa ku káajal ti' octubre ti' 2025**."
     },
     "communities": {
-      "title": "Kaajo'ob Yaan u K'amik u Yáantaj",
-      "description": "Le programao' ku káajal yéetel le xooko'ob ti' le kaajo'ob **Suc Tuc yéetel Xcupil**, ku líik'sik u yáaxil le máako'ob múuch'ulob yéetel ku péeksik u ma'alob kuxtal le kaajo'."
+      "title": "Kajnáalo'ob ku yáantikil",
+      "description": "Le programa ku káajal yéetel xooko'ob ti' le kajnáalo'ob **Suc Tuc y Xcupil**, ku mu'uk'a'an k'a'astalil ichil generaciones yéetel ku líik'sik ma'alob bínaj ti' le kaajo'."
     },
     "modules": {
-      "title": "U Xookil le Programao' (6 Xooko'ob)",
-      "list": "U beeta'al máak yéetel nu'uktaj: U yojéelta'al máak yéetel u p'atiko'ob u beeta'al|Meyaj múuch'ul yéetel u beeta'al proyectos: U yilik ba'ax k'a'ana'an ti' le familiao'/kaajo' yéetel **Canvas Social**| Investigación yéetel **Inteligencia Artificial**: U kaxta'al t'ano'ob, u síijil túumben tuukulo'ob yéetel u nu'ukulil u yáantaj|Convocatorias y **financiamiento**: U xookil u ts'íibil, ba'ax k'a'ana'an yéetel u ts'a'abal u k'aaba' máak|U beeta'al yéetel u yila'al le proyectoso': U beeta'al, u yila'al beyxan u múuch'ul u yóol máak|U p'isa'al u yilik yéetel u ts'a'abal ti' u kaajil: U k'iini'il u múuch'ul le kaajo', u beeta'al u xookil ba'ax líik' yéetel ba'ax ma'alob u beeta'al"
+      "title": "Módulos de le Programa (6 Módulos)",
+      "list": "Módulo 1. Desarrollo humano y liderazgo|Módulo 2. Meyaj ti' kaaj yéetel jets'ik proyectos|Módulo 3. Investigación yéetel IA|Módulo 4. Convocatorias y financiamiento|Módulo 5. Ejecución y monitoreo de proyectos|Módulo 6. Evaluación de impacto y socialización"
     },
     "objective": {
-      "title": "U T'aanil le Programao'",
-      "description": "U t'aanil u líik'sik le ka'ansaj ku náak'tal tu beel le máako'ob, u líik'sik le **emprendimiento** ti' le kaajo' yéetel u ts'áa yáantaj yo'olal u nu'ukta'al proyectos ma'alob yo'olal ba'ax k'a'ana'an ti' tuláakal maaya familia."
+      "title": "U jets'ikil le Programa",
+      "description": "U jets'ikil u mu'uk'a'antal le ka'ansajil ichil generaciones, u líik'sik emprendimiento comunitario yéetel u ts'aik preparación utia'al u jets'ik proyectos k'a'ana'an ti' u k'a'ana'anil cada familia maya."
     },
     "contact": {
-      "title": "U Yáantajil Ti' Máax Ku T'aan",
-      "description": "Wa k'a'ana'an tech le programaa' ti' a kaajo' túuxtikto'on junp'éel correo ti' **pixancheness@gmail.com** wa ti' **yriverae@ipn.com**."
+      "title": "U tsolajil utia'al t'aan",
+      "description": "Wa le comunidad ku k'áat le programa máanten jun p'éel correo ti' **pixancheness@gmail.com** wa ti' **yriverae@ipn.com**."
     }
   },
   "CTC": {

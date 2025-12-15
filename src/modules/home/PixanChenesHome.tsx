@@ -11,13 +11,16 @@ import {
   Suenos,
   Aliados,
   Apoyo,
-  Adicional,
+  Anuncios,
 } from "./components";
 const PixanChenesHome = () => {
   return (
-    <div className="min-h-screen  bg-gradient-to-br from-yellow-100 to-yellow-50 font-sans">
+    <div className="min-h-screen  bg-linear-to-br from-yellow-100 to-yellow-50 font-sans">
       {/* Hero Section */}
       <HeroSection />
+
+      {/* anuncio */}
+      <Anuncios />
 
       {/* Sobre Nosotros */}
       <SobreNosotros />

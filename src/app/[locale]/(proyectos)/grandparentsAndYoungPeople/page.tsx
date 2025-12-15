@@ -111,36 +111,25 @@ export default function GrandparentsAndYoungPeoplePage() {
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {t("modules.list")
                       .split("|")
-                      .map((module, index) => {
-                        const [moduleTitle, moduleDescription] =
-                          module.split(":");
-                        return (
-                          <div
-                            key={index}
-                            className=" p-4 rounded-xl border border-yellow-200 hover:border-yellow-400 transition-colors"
-                          >
-                            <div className="flex items-center mb-3">
-                              <div className="bg-yellow-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm mr-3">
-                                {index + 1}
-                              </div>
-                              <h4 className="font-semibold text-yellow-800 text-sm">
-                                <span
-                                  dangerouslySetInnerHTML={{
-                                    __html: processText(moduleTitle.trim()),
-                                  }}
-                                />
-                              </h4>
+                      .map((module, index) => (
+                        <div
+                          key={index}
+                          className=" p-4 rounded-xl border border-yellow-200 hover:border-yellow-400 transition-colors"
+                        >
+                          <div className="flex items-center mb-3">
+                            <div className="bg-yellow-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm mr-3">
+                              {index + 1}
                             </div>
-                            <p className="text-gray-700 text-sm leading-relaxed">
+                            <h4 className="font-semibold text-yellow-800 text-sm">
                               <span
                                 dangerouslySetInnerHTML={{
-                                  __html: processText(moduleDescription.trim()),
+                                  __html: processText(module.trim()),
                                 }}
                               />
-                            </p>
+                            </h4>
                           </div>
-                        );
-                      })}
+                        </div>
+                      ))}
                   </div>
                 </div>
 
@@ -157,6 +146,24 @@ export default function GrandparentsAndYoungPeoplePage() {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: processText(t("objective.description")),
+                      }}
+                    />
+                  </p>
+                </div>
+
+                {/* Contact Information */}
+                <div className="border-l-4 border-yellow-500 p-6 rounded-r-lg bg-yellow-50">
+                  <h3 className="text-xl font-bold text-yellow-800 mb-4">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("contact.title")),
+                      }}
+                    />
+                  </h3>
+                  <p className="text-gray-800 leading-relaxed">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: processText(t("contact.description")),
                       }}
                     />
                   </p>

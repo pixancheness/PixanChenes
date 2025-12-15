@@ -529,7 +529,7 @@
       "ctc": "Technischer Beirat",
       "businesses": "Businesses",
       "artificialIntelligence": "Artificial Intelligence and Apiculture",
-      "grandparentsAndYoungPeople": "Wir lernen von unseren Großeltern, wir emprenden mit unseren jungen Leuten von der Schule"
+      "grandparentsAndYoungPeople": "Ausbildung"
     },
     "gallery": "Galerie",
     "documents": "Dokumente",
@@ -928,32 +928,32 @@
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "Wir lernen von den Großeltern, wir gründen mit den Jugendlichen von der Schule aus",
-    "subtitle": "Dr. Yadira Rivera Espinoza",
+    "title": "Schulung",
+    "subtitle": "Von Großeltern lernen wir, mit jungen Leuten gründen wir Unternehmen von der Schule aus durch Dra. Yadira Rivera Espinoza",
     "doctor": {
-      "title": "Über Dr. Yadira Rivera Espinoza",
-      "description": "Dr. Yadira Rivera Espinoza, **ehemalige Direktorin der Nationalen Schule für Biologische Wissenschaften (ENCB) des Nationalen Polytechnischen Instituts**, ist Biotechnologin, Unternehmerin, Forscherin und Akademikerin an der **Interdisziplinären Fachhochschule für Ingenieurwesen Campus Tlaxcala (IPN)**. Sie hat zur Ausbildung von Hunderten von Studenten in **Biochemie-, Biotechnologie-, Künstliche Intelligenz- und Datenwissenschafts-Ingenieurwesen** beigetragen und betreut Master- und Doktorarbeiten in den Naturwissenschaften. Mit ihrer Erfahrung hat sie innovative Projekte gefördert, die Wissenschaft und Unternehmertum mit sozialer Wirkung verbinden.",
-      "commitment": "Ihr Engagement für die Maya-Gemeinschaft entstand durch die direkte Aufforderung der Gründer der Genossenschaft **Pixan Chenes**, die sie einluden, ihr Wissen und ihren Vorschlag **„Liebe zur Gemeinschaft“** (der während ihrer Amtszeit an der ENCB dem Präsidialamt der Republik vorgelegt wurde) in den Dienst der Maya-Gemeinschaften zu stellen."
+      "title": "Über Dra. Yadira Rivera Espinoza",
+      "description": "Dra. Yadira Rivera Espinoza, **ehemalige Direktorin der Nationalen Schule für Biologische Wissenschaften (ENCB) des Nationalen Polytechnischen Instituts**, ist Biotechnologin, Unternehmerin, Forscherin und Akademikerin an der **Interdisziplinären Berufseinheit für Ingenieurwesen Campus Tlaxcala (IPN)**. Sie hat zur Ausbildung Hunderter von Studenten in **Biochemischer, Biotechnologischer, Künstlicher Intelligenz und Datenwissenschaftlicher Ingenieurwissenschaft** beigetragen und Master- und Doktorarbeiten in Naturwissenschaften betreut. Mit ihrer Erfahrung hat sie innovative Projekte gefördert, die Wissenschaft und Unternehmertum mit sozialer Wirkung verbinden.",
+      "commitment": "Ihr Engagement für die Maya-Gemeinschaft entspringt dem direkten Aufruf der Gründer der Kooperative **Pixan Chenes**, die sie eingeladen haben, ihr Wissen und ihren Vorschlag **'Amor por la Comunidad'** (der während ihrer Amtszeit an der ENCB der Präsidentschaft der Republik präsentiert wurde) in den Dienst der Maya-Gemeinschaften zu stellen."
     },
     "program": {
       "title": "Das Programm",
-      "description": "Das Programm 'Wir lernen von den Großeltern, wir gründen mit den Jugendlichen von der Schule aus', entworfen von Dr. Yadira Rivera Espinoza, entsteht im Rahmen des **Knotenpunkts zur Förderung der Sozialen und Solidarischen Wirtschaft (NODESS)**. **Das Programm startet im Oktober 2025**."
+      "description": "Im Rahmen des **Knotenpunkts zur Förderung der Sozialen und Solidarischen Wirtschaft (NODESS)** entsteht das Programm **Von Großeltern lernen wir, mit jungen Leuten gründen wir Unternehmen von der Schule aus**, entworfen von Dra. Yadira Rivera Espinoza. **Das Programm beginnt im Oktober 2025**."
     },
     "communities": {
       "title": "Begünstigte Gemeinschaften",
-      "description": "Das Programm beginnt mit Studenten aus den Gemeinschaften **Suc Tuc und Xcupil**, um die Bindungen zwischen den Generationen zu stärken und eine nachhaltige lokale Entwicklung zu fördern."
+      "description": "Das Programm wird mit Studenten aus den Gemeinschaften **Suc Tuc und Xcupil** beginnen, um die Bindungen zwischen den Generationen zu stärken und eine nachhaltige lokale Entwicklung zu fördern."
     },
     "modules": {
       "title": "Programmmodule (6 Module)",
-      "list": "Menschliche Entwicklung und Führung: Selbsterkenntnis und Zweck|Gemeinschaftsarbeit und Projektdesign: Bedarfsermittlung in Familie/Gemeinschaft und Soziales Canvas| Forschung mit Künstlicher Intelligenz: Informationssuche, Ideenfindung und Unterstützungsmaterialien|Ausschreibungen und Finanzierung: Lesen von Grundlagen, Anforderungen und Zusammenstellung von Unterlagen|Projektdurchführung und -überwachung: Implementierung, Nachverfolgung und Allianzen|Auswertung der Wirkung und Sozialisierung: Gemeinschaftsmesse, Systematisierung des Gelernten und Erfolgsgeschichten"
+      "list": "Modul 1. Menschliche Entwicklung und Führung|Modul 2. Gemeinschaftsarbeit und Projektdesign|Modul 3. Forschung mit KI|Modul 4. Ausschreibungen und Finanzierung|Modul 5. Projektdurchführung und -überwachung|Modul 6. Folgenabschätzung und Sozialisierung"
     },
     "objective": {
-      "title": "Ziel des Programms",
-      "description": "Das Ziel ist die Stärkung des generationenübergreifenden Lernens, die Förderung des gemeinschaftlichen Unternehmertums und die Vorbereitung auf das Management von Projekten, die den Bedürfnissen jeder Maya-Familie entsprechen."
+      "title": "Programmziel",
+      "description": "Ziel ist es, das intergenerationelle Lernen zu stärken, kommunales Unternehmertum zu fördern und eine Vorbereitung für das Projektmanagement entsprechend den Bedürfnissen jeder Maya-Familie zu bieten."
     },
     "contact": {
       "title": "Kontaktinformationen",
-      "description": "Wenn Ihre Gemeinschaft Interesse an diesem Programm hat, senden Sie uns eine E-Mail an **pixancheness@gmail.com** oder **yriverae@ipn.com**."
+      "description": "Wenn Ihre Gemeinschaft an diesem Programm interessiert ist, senden Sie uns eine E-Mail an **pixancheness@gmail.com** oder **yriverae@ipn.com**."
     }
   },
   "CTC": {

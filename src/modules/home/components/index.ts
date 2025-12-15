@@ -9,4 +9,4 @@ export { default as Logros } from "./logros";
 export { default as Suenos } from "./suenos";
 export { default as Aliados } from "./aliados";
 export { default as Apoyo } from "./apoyo";
-export { default as Adicional } from "./adicional";
+export { default as Anuncios } from "./anuncios";

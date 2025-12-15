@@ -203,7 +203,7 @@
       "businesses": "Emprendimientos",
       "ctc": "Consejo Técnico Consultivo",
       "artificialIntelligence": "Inteligencia artificial y apicultura",
-      "grandparentsAndYoungPeople": "De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela"
+      "grandparentsAndYoungPeople": "Capacitación"
     },
     "culture": {
       "title": "Cultura",
@@ -590,8 +590,8 @@
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela",
-    "subtitle": "Dra. Yadira Rivera Espinoza",
+    "title": "Capacitación",
+    "subtitle": "De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela por la Dra. Yadira Rivera Espinoza",
     "doctor": {
       "title": "Sobre la Dra. Yadira Rivera Espinoza",
       "description": "La Dra. Yadira Rivera Espinoza, **exdirectora de la Escuela Nacional de Ciencias Biológicas (ENCB) del Instituto Politécnico Nacional**, es biotecnóloga, emprendedora, investigadora y académica de la **Unidad Profesional Interdisciplinaria de Ingenierías Campus Tlaxcala (IPN)**. Ha contribuido a la formación de cientos de estudiantes de **Ingeniería Bioquímica, Biotecnológica, Inteligencia Artificial y Ciencia de Datos**, además de dirigir tesis de maestría y doctorado en ciencias. Con su experiencia, ha impulsado proyectos innovadores que vinculan ciencia y emprendimiento con impacto social.",
@@ -599,7 +599,7 @@
     },
     "program": {
       "title": "El Programa",
-      "description": "En el marco del **Nodo de Impulso a la Economía Social y Solidaria (NODESS)** surge el programa De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela, diseñado por la Dra. Yadira Rivera Espinoza. **El programa dará inicio en octubre del 2025**."
+      "description": "En el marco del **Nodo de Impulso a la Economía Social y Solidaria (NODESS)** surge el programa **De los abuelos aprendemos, con los jóvenes emprendemos desde la escuela**, diseñado por la Dra. Yadira Rivera Espinoza. **El programa dará inicio en octubre del 2025**."
     },
     "communities": {
       "title": "Comunidades Beneficiadas",
@@ -607,7 +607,7 @@
     },
     "modules": {
       "title": "Módulos del Programa (6 Módulos)",
-      "list": "Desarrollo humano y liderazgo: Autoconocimiento y propósito|Trabajo comunitario y diseño de proyectos: Investigación de necesidades en familia/comunidad y Canvas Social| Investigación con Inteligencia Artificial: Búsqueda de información, generación de ideas y materiales de apoyo|Convocatorias y financiamiento: Lectura de bases, requisitos y armado de expedientes|Ejecución y monitoreo de proyectos: Implementación, seguimiento y alianzas|Evaluación de impacto y socialización: Feria comunitaria, sistematización de aprendizajes y casos de éxito"
+      "list": "Módulo 1. Desarrollo humano y liderazgo|Módulo 2. Trabajo comunitario y diseño de proyectos|Módulo 3. Investigación con IA|Módulo 4. Convocatorias y financiamiento|Módulo 5. Ejecución y monitoreo de proyectos|Módulo 6. Evaluación de impacto y socialización"
     },
     "objective": {
       "title": "Objetivo del Programa",

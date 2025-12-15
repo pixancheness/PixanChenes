@@ -526,7 +526,7 @@
       "ctc": "Technical Advisory Board",
       "businesses": "Businesses",
       "artificialIntelligence": "Artificial Intelligence and Apiculture",
-      "grandparentsAndYoungPeople": "We learn from our grandparents, we emprend with our young people from the school"
+      "grandparentsAndYoungPeople": "Training"
     },
 
     "culture": {
@@ -927,32 +927,32 @@
     }
   },
   "GrandparentsAndYoungPeople": {
-    "title": "We Learn from Grandparents, We Undertake with Young People from School",
-    "subtitle": "Dr. Yadira Rivera Espinoza",
+    "title": "Training",
+    "subtitle": "From grandparents we learn, with young people we start businesses from school by Dra. Yadira Rivera Espinoza",
     "doctor": {
-      "title": "About Dr. Yadira Rivera Espinoza",
-      "description": "Dr. Yadira Rivera Espinoza, **former director of the National School of Biological Sciences (ENCB) of the National Polytechnic Institute**, is a biotechnologist, entrepreneur, researcher, and academic at the **Interdisciplinary Professional Unit of Engineering Tlaxcala Campus (IPN)**. She has contributed to the training of hundreds of students in **Biochemical, Biotechnological, Artificial Intelligence, and Data Science Engineering**, in addition to supervising master's and doctoral theses in sciences. With her experience, she has promoted innovative projects that link science and entrepreneurship with social impact.",
-      "commitment": "Her commitment to the Mayan community arises from the direct call of the founders of the **Pixan Chenes** cooperative, who invited her to put her knowledge and her proposal **“Love for the Community”** (presented to the Presidency of the Republic during her tenure at the ENCB) at the service of the Mayan communities."
+      "title": "About Dra. Yadira Rivera Espinoza",
+      "description": "Dra. Yadira Rivera Espinoza, **former director of the National School of Biological Sciences (ENCB) of the National Polytechnic Institute**, is a biotechnologist, entrepreneur, researcher, and academic at the **Interdisciplinary Professional Unit of Engineering Tlaxcala Campus (IPN)**. She has contributed to the training of hundreds of students in **Biochemical, Biotechnological, Artificial Intelligence, and Data Science Engineering**, in addition to directing master's and doctoral theses in sciences. With her experience, she has promoted innovative projects that link science and entrepreneurship with social impact.",
+      "commitment": "Her commitment to the Mayan community arises from the direct call of the founders of the **Pixan Chenes** cooperative, who invited her to put her knowledge and her proposal **'Love for the Community'** (presented to the Presidency of the Republic during her tenure at the ENCB) at the service of the Mayan communities."
     },
     "program": {
       "title": "The Program",
-      "description": "The program 'We Learn from Grandparents, We Undertake with Young People from School,' designed by Dr. Yadira Rivera Espinoza, emerges within the framework of the **Social and Solidarity Economy Promotion Hub (NODESS)**. **The program will start in October 2025**."
+      "description": "Within the framework of the **Social and Solidarity Economy Promotion Node (NODESS)**, the program **From grandparents we learn, with young people we start businesses from school**, designed by Dra. Yadira Rivera Espinoza, emerges. **The program will begin in October 2025**."
     },
     "communities": {
-      "title": "Beneficiary Communities",
-      "description": "The program will begin with students from the communities of **Suc Tuc and Xcupil**, strengthening intergenerational ties and promoting local sustainable development."
+      "title": "Benefited Communities",
+      "description": "The program will start with students from the communities of **Suc Tuc and Xcupil**, strengthening intergenerational bonds and promoting sustainable local development."
     },
     "modules": {
       "title": "Program Modules (6 Modules)",
-      "list": "Human development and leadership: Self-awareness and purpose|Community work and project design: Needs assessment in family/community and Social Canvas| Research with Artificial Intelligence: Information search, idea generation, and support materials|Calls and financing: Reading guidelines, requirements, and compiling files|Project execution and monitoring: Implementation, follow-up, and alliances|Impact evaluation and socialization: Community fair, systematization of learning, and success stories"
+      "list": "Module 1. Human development and leadership|Module 2. Community work and project design|Module 3. Research with AI|Module 4. Calls and financing|Module 5. Project execution and monitoring|Module 6. Impact evaluation and socialization"
     },
     "objective": {
       "title": "Program Objective",
-      "description": "Its objective is to strengthen intergenerational learning, foster community entrepreneurship, and provide preparation for managing projects according to the needs of each Mayan family."
+      "description": "Its objective is to strengthen intergenerational learning, promote community entrepreneurship, and provide preparation for project management according to the needs of each Mayan family."
     },
     "contact": {
       "title": "Contact Information",
-      "description": "If your community is interested in this program, send us an email to **pixancheness@gmail.com** or **yriverae@ipn.com**."
+      "description": "If your community is interested in this program, send us an email at **pixancheness@gmail.com** or **yriverae@ipn.com**."
     }
   },
   "CTC": {

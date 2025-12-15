@@ -28,20 +28,19 @@ export default function HeroSection() {
             {t("heroSubtitle")}
           </h1>
         </div>
-
-        {/* Tarjeta de estadísticas */}
+        {/* 
+        
         <div className="absolute bottom-0 left-0 bg-background rounded-tr-2xl backdrop-blur-sm shadow-lg p-4 md:p-6 lg:p-8 max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-3xl">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 lg:gap-8">
-            {/* Texto de apoyo comunitario */}
+           
             <div className="flex-shrink-0 text-center md:flex md:items-center md:justify-center">
               <p className="text-gray-700 text-sm md:text-base lg:text-lg font-medium leading-tight max-w-[120px] md:max-w-[150px] lg:max-w-[180px] xl:max-w-[200px]">
                 {t("communitySupport")}
               </p>
             </div>
 
-            {/* Estadísticas */}
-            <div className="flex gap-4 md:gap-6 lg:gap-8">
-              {/* Árboles plantados */}
+  
+           <div className="flex gap-4 md:gap-6 lg:gap-8">
               <div className="text-center">
                 <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-yellow-500 mb-1">
                   1,250
@@ -50,8 +49,6 @@ export default function HeroSection() {
                   {t("treesPlanted")}
                 </p>
               </div>
-
-              {/* Certificados emitidos */}
               <div className="text-center">
                 <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-yellow-500 mb-1">
                   3,400
@@ -60,9 +57,9 @@ export default function HeroSection() {
                   {t("certificatesIssued")}
                 </p>
               </div>
-            </div>
+            </div> 
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
