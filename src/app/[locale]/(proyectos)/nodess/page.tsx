@@ -59,7 +59,7 @@ export default function NodessPage() {
                     {t("documentation.description")}
                   </p>
                   <a
-                    href="https://jawtdsvsgowidjmyzqby.supabase.co/storage/v1/object/public/nodess/nodess.pdf"
+                    href="https://jawtdsvsgowidjmyzqby.supabase.co/storage/v1/object/public/nodess/nodessAcreditacion.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg"
@@ -159,7 +159,7 @@ export default function NodessPage() {
                                     key={index}
                                     className="flex items-start text-gray-700"
                                   >
-                                    <span className="text-yellow-500 mr-2 mt-1 flex-shrink-0">
+                                    <span className="text-yellow-500 mr-2 mt-1 shrink-0">
                                       •
                                     </span>
                                     <span className="text-sm leading-relaxed">
@@ -227,7 +227,7 @@ export default function NodessPage() {
                                   key={index}
                                   className="flex items-start text-gray-700"
                                 >
-                                  <span className="text-yellow-500 mr-2 mt-1 flex-shrink-0">
+                                  <span className="text-yellow-500 mr-2 mt-1 shrink-0">
                                     •
                                   </span>
                                   <span className="text-sm leading-relaxed">
@@ -299,7 +299,7 @@ export default function NodessPage() {
                                       key={index}
                                       className="flex items-start text-gray-700"
                                     >
-                                      <span className="text-yellow-500 mr-2 mt-1 flex-shrink-0">
+                                      <span className="text-yellow-500 mr-2 mt-1 shrink-0">
                                         •
                                       </span>
                                       <span>{student.trim()}</span>
@@ -342,7 +342,7 @@ export default function NodessPage() {
                                       key={index}
                                       className="flex items-start text-gray-700"
                                     >
-                                      <span className="text-yellow-500 mr-2 mt-1 flex-shrink-0">
+                                      <span className="text-yellow-500 mr-2 mt-1 shrink-0">
                                         •
                                       </span>
                                       <span>{student.trim()}</span>
