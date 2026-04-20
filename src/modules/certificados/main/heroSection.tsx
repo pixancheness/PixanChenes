@@ -28,7 +28,7 @@ export default function HeroSection() {
             {t("heroSubtitle")}
           </h1>
         </div>
-        {/* 
+        
         
         <div className="absolute bottom-0 left-0 bg-background rounded-tr-2xl backdrop-blur-sm shadow-lg p-4 md:p-6 lg:p-8 max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-3xl">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 lg:gap-8">
@@ -43,7 +43,7 @@ export default function HeroSection() {
            <div className="flex gap-4 md:gap-6 lg:gap-8">
               <div className="text-center">
                 <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-yellow-500 mb-1">
-                  1,250
+                  0
                 </div>
                 <p className="text-xs md:text-sm lg:text-base text-gray-600 font-medium">
                   {t("treesPlanted")}
@@ -51,7 +51,7 @@ export default function HeroSection() {
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-yellow-500 mb-1">
-                  3,400
+                  0
                 </div>
                 <p className="text-xs md:text-sm lg:text-base text-gray-600 font-medium">
                   {t("certificatesIssued")}
@@ -59,7 +59,7 @@ export default function HeroSection() {
               </div>
             </div> 
           </div>
-        </div>*/}
+        </div>
       </div>
     </div>
   );

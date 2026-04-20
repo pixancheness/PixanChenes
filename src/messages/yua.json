@@ -7,7 +7,8 @@
       "galleryButton": "K'áat chi' ta'ano'ob",
       "supportButton": "To'on",
       "visitors": "Maya ki' yéetel le sitio",
-      "loading": "Kánik..."
+      "loading": "Kánik...",
+      "treesPlanted": "Che'o'ob pak'atalo'ob"
     },
     "aboutUs": {
       "title": "¿Máax ku beetik?",
@@ -415,15 +416,42 @@
         "title": "Objetivos tu yáanal le Desarrollo Sostenible",
         "description": "Ku meyaj directamente tu yáanal le Objetivos tu yáanal le Desarrollo Sostenible tu yáanal le ONU, ku ts'aik u jach k'áat tu yáanal jun p'éel kaab ma' jach justo yéetel sustentable.",
         "ods": {
-          "0": { "number": "1", "title": "Fin tu yáanal le Pobreza" },
-          "1": { "number": "2", "title": "Hambre Cero" },
-          "2": { "number": "5", "title": "Igualdad tu yáanal Género" },
-          "3": { "number": "8", "title": "Trabajo Decente" },
-          "4": { "number": "11", "title": "Ciudades Sostenibles" },
-          "5": { "number": "12", "title": "Consumo Responsable" },
-          "6": { "number": "13", "title": "Acción Clima" },
-          "7": { "number": "15", "title": "Vida Terrestre" },
-          "8": { "number": "17", "title": "Alianzas ODS" }
+          "0": {
+            "number": "1",
+            "title": "Fin tu yáanal le Pobreza"
+          },
+          "1": {
+            "number": "2",
+            "title": "Hambre Cero"
+          },
+          "2": {
+            "number": "5",
+            "title": "Igualdad tu yáanal Género"
+          },
+          "3": {
+            "number": "8",
+            "title": "Trabajo Decente"
+          },
+          "4": {
+            "number": "11",
+            "title": "Ciudades Sostenibles"
+          },
+          "5": {
+            "number": "12",
+            "title": "Consumo Responsable"
+          },
+          "6": {
+            "number": "13",
+            "title": "Acción Clima"
+          },
+          "7": {
+            "number": "15",
+            "title": "Vida Terrestre"
+          },
+          "8": {
+            "number": "17",
+            "title": "Alianzas ODS"
+          }
         }
       },
       "impactSection": {
@@ -490,7 +518,6 @@
       }
     }
   },
-
   "Gallery": {
     "title": "Galería de fotos",
     "description": "Galería de fotos de Pixan Chenes",
@@ -534,7 +561,6 @@
       "honey": "Kaab",
       "wine": "T'aanil u k'i'ik'el"
     },
-
     "projects": {
       "title": "Meyajilo'ob",
       "nodess": "Nodess",
@@ -544,18 +570,15 @@
       "artificialIntelligence": "Na'atil máakilo'ob yéetel kaab meyaj",
       "grandparentsAndYoungPeople": "Capacitación"
     },
-
     "culture": {
       "title": "K'ultura",
       "stories": "T'àanilo'ob yéetel u jach k'áat chi'ob",
       "events": "Evento ti' k'iinil le kaab",
       "forum": "Foro UPIIT tu yáanal le lu'um"
     },
-
     "viewCertificates": "Wilik certificados",
     "requestCertificate": "K'áat chi' ti' certificado",
     "faq": "K'áat chi'oba' frecuentes",
-
     "aboutUs": "To'on",
     "login": "Jach'a'aj t'aan",
     "register": "T'aan ts'áak",

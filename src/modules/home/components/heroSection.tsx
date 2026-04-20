@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import SplitText from "@/components/ui/SplitText";
 import { CountUp } from "@/components/ui";
-import { Sparkles, Heart, Users } from "lucide-react";
+import { Sparkles, Heart, Users, Trees } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { useVisitCounter } from "@/components/hooks/use-visit-counter";
 
@@ -50,6 +50,8 @@ export default function HeroSection() {
           </p>
         </motion.div>
 
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -62,7 +64,7 @@ export default function HeroSection() {
               <span className=" font-semibold sm:text-base text-lg ">
                 {t("hero.visitors")}
               </span>
-              <span className="font-bold text-xl min-w-[2rem]">
+              <span className="font-bold text-xl min-w-8">
                 <CountUp
                   from={0}
                   to={totalVisits}
@@ -75,6 +77,34 @@ export default function HeroSection() {
             </div>
           </div>
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
+        >
+          <div className="flex items-center justify-center">
+            <div className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2">
+              <Trees className="w-6 h-6 " />
+              <span className=" font-semibold sm:text-base text-lg ">
+                {t("hero.treesPlanted")}
+              </span>
+              <span className="font-bold text-xl min-w-8">
+                <CountUp
+                  from={0}
+                  to={0}
+                  separator=","
+                  direction="up"
+                  duration={1.5}
+                  className="count-up-text"
+                />
+              </span>
+            </div>
+          </div>
+        </motion.div>
+        
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

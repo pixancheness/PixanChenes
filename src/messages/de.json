@@ -11,7 +11,8 @@
       "galleryButton": "Fotogalerie",
       "supportButton": "Über uns",
       "visitors": "Personen, die den Standort besucht haben",
-      "loading": "Laden..."
+      "loading": "Laden...",
+      "treesPlanted": "Bäume gepflanzt"
     },
     "aboutUs": {
       "title": "Wer sind wir?",
@@ -419,15 +420,42 @@
         "title": "Nachhaltige Entwicklungsziele",
         "description": "Wir arbeiten direkt an den Nachhaltigen Entwicklungszielen der UN, um zu einer gerechteren und nachhaltigeren Welt beizutragen.",
         "ods": {
-          "0": { "number": "1", "title": "Keine Armut" },
-          "1": { "number": "2", "title": "Kein Hunger" },
-          "2": { "number": "5", "title": "Geschlechtergleichheit" },
-          "3": { "number": "8", "title": "Menschenwürdige Arbeit" },
-          "4": { "number": "11", "title": "Nachhaltige Städte" },
-          "5": { "number": "12", "title": "Verantwortungsvoller Konsum" },
-          "6": { "number": "13", "title": "Klimaschutz" },
-          "7": { "number": "15", "title": "Leben an Land" },
-          "8": { "number": "17", "title": "SDG-Partnerschaften" }
+          "0": {
+            "number": "1",
+            "title": "Keine Armut"
+          },
+          "1": {
+            "number": "2",
+            "title": "Kein Hunger"
+          },
+          "2": {
+            "number": "5",
+            "title": "Geschlechtergleichheit"
+          },
+          "3": {
+            "number": "8",
+            "title": "Menschenwürdige Arbeit"
+          },
+          "4": {
+            "number": "11",
+            "title": "Nachhaltige Städte"
+          },
+          "5": {
+            "number": "12",
+            "title": "Verantwortungsvoller Konsum"
+          },
+          "6": {
+            "number": "13",
+            "title": "Klimaschutz"
+          },
+          "7": {
+            "number": "15",
+            "title": "Leben an Land"
+          },
+          "8": {
+            "number": "17",
+            "title": "SDG-Partnerschaften"
+          }
         }
       },
       "impactSection": {
@@ -494,7 +522,6 @@
       }
     }
   },
-
   "Gallery": {
     "title": "Foto Galerie",
     "description": "Foto Galerie von Pixan Chenes",
@@ -615,7 +642,6 @@
     "timeline": {
       "title": "Prozess des Zertifikats",
       "description": "Jedes Zertifikat repräsentiert einen realen Prozess, der mehr als ein Jahr dauert und täglichen Aufwand erfordert. So passiert es:",
-
       "step_1": {
         "title": "Auswahl der Samen",
         "description": "Es werden die besten Samen einheimischer Bäume ausgewählt, die für die Honigproduktion und den traditionellen Maya-Bau geeignet sind."

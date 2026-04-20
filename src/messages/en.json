@@ -7,7 +7,8 @@
       "galleryButton": "Photo Gallery",
       "supportButton": "About us",
       "visitors": "People who have visited the site",
-      "loading": "Loading..."
+      "loading": "Loading...",
+      "treesPlanted": "Trees planted"
     },
     "aboutUs": {
       "title": "Who are we?",
@@ -415,15 +416,42 @@
         "title": "Sustainable Development Goals",
         "description": "We work directly towards the UN Sustainable Development Goals, contributing to a fairer and more sustainable world.",
         "ods": {
-          "0": { "number": "1", "title": "No Poverty" },
-          "1": { "number": "2", "title": "Zero Hunger" },
-          "2": { "number": "5", "title": "Gender Equality" },
-          "3": { "number": "8", "title": "Decent Work" },
-          "4": { "number": "11", "title": "Sustainable Cities" },
-          "5": { "number": "12", "title": "Responsible Consumption" },
-          "6": { "number": "13", "title": "Climate Action" },
-          "7": { "number": "15", "title": "Life on Land" },
-          "8": { "number": "17", "title": "SDG Partnerships" }
+          "0": {
+            "number": "1",
+            "title": "No Poverty"
+          },
+          "1": {
+            "number": "2",
+            "title": "Zero Hunger"
+          },
+          "2": {
+            "number": "5",
+            "title": "Gender Equality"
+          },
+          "3": {
+            "number": "8",
+            "title": "Decent Work"
+          },
+          "4": {
+            "number": "11",
+            "title": "Sustainable Cities"
+          },
+          "5": {
+            "number": "12",
+            "title": "Responsible Consumption"
+          },
+          "6": {
+            "number": "13",
+            "title": "Climate Action"
+          },
+          "7": {
+            "number": "15",
+            "title": "Life on Land"
+          },
+          "8": {
+            "number": "17",
+            "title": "SDG Partnerships"
+          }
         }
       },
       "impactSection": {
@@ -490,7 +518,6 @@
       }
     }
   },
-
   "Gallery": {
     "title": "Photo Gallery",
     "description": "Photo gallery of Pixan Chenes",
@@ -528,20 +555,17 @@
       "artificialIntelligence": "Artificial Intelligence and Apiculture",
       "grandparentsAndYoungPeople": "Training"
     },
-
     "culture": {
       "title": "Culture",
       "stories": "Stories and Legends",
       "events": "World Bee Day Event",
       "forum": "UPIIT Environment Forum"
     },
-
     "aboutUs": "About Us",
     "gallery": "Gallery",
     "viewCertificates": "View Certificates",
     "requestCertificate": "Request Certificate",
     "faq": "Frequently Asked Questions",
-
     "login": "Login",
     "register": "Register",
     "registerFree": "Register Free",
@@ -614,7 +638,6 @@
     "timeline": {
       "title": "Certificate Process",
       "description": "Each certificate represents a real process that takes more than a year and requires daily effort. This is how it happens:",
-
       "step_1": {
         "title": "Seed Selection",
         "description": "The best seeds of native trees are selected, chosen for their value in honey production and traditional Maya housing."
