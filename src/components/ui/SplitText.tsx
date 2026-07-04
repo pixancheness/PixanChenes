@@ -153,10 +153,12 @@ const SplitText: React.FC<SplitTextProps> = ({
   );
 
   const renderTag = () => {
+    const isHeading = tag.startsWith("h");
     const style: React.CSSProperties = {
       textAlign,
       overflow: "hidden",
-      display: "inline-block",
+      display: isHeading ? "block" : "inline-block",
+      width: isHeading ? "100%" : undefined,
       whiteSpace: "normal",
       wordWrap: "break-word",
       willChange: "transform, opacity",

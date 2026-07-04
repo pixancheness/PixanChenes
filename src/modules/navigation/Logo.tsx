@@ -15,7 +15,7 @@ const Logo = ({ size = "medium", className = "" }: LogoProps) => {
           maxWidth: 400,
           maxHeight: 400,
           containerClass:
-            "max-w-56 max-h-56 md:max-w-72 md:max-h-72 lg:max-w-80 lg:max-h-80",
+            "max-w-32 max-h-12 sm:max-w-40 sm:max-h-14 md:max-w-72 md:max-h-72 lg:max-w-80 lg:max-h-80",
         };
       default: // medium
         return {
@@ -30,7 +30,7 @@ const Logo = ({ size = "medium", className = "" }: LogoProps) => {
   const sizeConfig = getSizeConfig(size);
 
   return (
-    <Link href="/" className={`flex items-center pt-4 ${className}`}>
+    <Link href="/" className={`flex items-center pt-1 sm:pt-2 md:pt-4 ${className}`}>
       <div className={`relative ${sizeConfig.containerClass}`}>
         <Image
           src="/img/logo_pixan.webp"

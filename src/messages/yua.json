@@ -15,6 +15,10 @@
       "description": "Pixan ku jach 'pixan' ti' t'aan maya yéetel Chenes ku jach 'chenes' le nojoch k'iino'ob. Ku beetik ti' 2020 tu jach k'áat ku ts'aik to'on ku beetik u jach k'áat. To'on jela'an nojoch k'áat chi'ob ku beetik u jach k'áat le kuxtal, k'ultura yéetel u yáanal le máako'ob.",
       "button": "To'on",
       "gallery": {
+        "nodess_upiit": {
+          "category": "NODESS UPIIT",
+          "title": "Hacia la articulación regional maya"
+        },
         "conferences": {
           "category": "Conferencias",
           "title": "Presencia en escuelas y exposiciones"

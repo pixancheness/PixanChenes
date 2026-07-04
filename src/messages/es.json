@@ -15,6 +15,10 @@
       "description": "Pixan significa 'alma' en lengua maya y Chenes hace referencia a los pozos de nuestra región. Nacimos en 2020 con la convicción de que, desde la comunidad, podemos cambiar nuestro destino. Somos cinco comunidades mayas que trabajan juntas para defender la vida, la cultura y el futuro de nuestro pueblo.",
       "button": "Saber más",
       "gallery": {
+        "nodess_upiit": {
+          "category": "NODESS UPIIT",
+          "title": "Hacia la articulación regional maya"
+        },
         "conferences": {
           "category": "Conferencias",
           "title": "Presencia en escuelas y exposiciones"

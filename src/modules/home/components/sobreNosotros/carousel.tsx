@@ -9,6 +9,12 @@ export function CarouselSobreNosotros() {
 
   const data = [
     {
+      category: t("nodess_upiit.category"),
+      title: t("nodess_upiit.title"),
+      src: "https://res.cloudinary.com/danv3godx/image/upload/v1783193013/WhatsApp_Image_2026-07-02_at_09.56.40_b8ue8x.jpg",
+      content: null,
+    },
+    {
       category: t("conferences.category"),
       title: t("conferences.title"),
       src: "https://res.cloudinary.com/danv3godx/image/upload/v1756431602/22_czcvrc.jpg",

@@ -14,18 +14,18 @@ export default function HeroSection() {
   const t = useTranslations("HomePage");
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden pt-28 pb-10 sm:pt-32 md:pt-24 md:pb-0">
       <div className="absolute inset-0 bg-linear-to-br from-yellow-400/30 via-yellow-300/10 to-amber-400/10"></div>
-      <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-6xl mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="mb-8"
+          className="mb-6 md:mb-8"
         >
           <SplitText
             text={t("hero.title")}
-            className="text-6xl md:text-8xl font-bold text-yellow-800 mb-6"
+            className="block w-full max-w-full text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-yellow-800 mb-4 md:mb-6 leading-tight tracking-tight"
             tag="h1"
             delay={100}
             duration={0.8}
@@ -42,10 +42,10 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mb-8"
         >
-          <h2 className="text-2xl md:text-4xl text-yellow-700 font-semibold mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-4xl text-yellow-700 font-semibold mb-4 md:mb-6">
             {t("hero.subtitle")}
           </h2>
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
             {t("hero.description")}
           </p>
         </motion.div>
