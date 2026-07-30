@@ -62,18 +62,18 @@ const MobileNavigation = ({
 
       {/* Full screen mobile menu */}
       <div
-        className={`fixed top-0 left-0 w-full h-full bg-white z-50 xl:hidden transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 w-full h-full bg-gradient-to-b from-yellow-50 via-amber-50 to-yellow-100 z-50 xl:hidden transform transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Header of mobile menu */}
-        <div className="flex items-center justify-between p-4 border-b border-gray-200">
+        <div className="flex items-center justify-between p-4 border-b border-yellow-900/10 bg-white/30 backdrop-blur-sm">
           <h2 className="text-lg font-semibold text-gray-900">
             {t("Navigation.menu")}
           </h2>
           <button
             onClick={onMenuClose}
-            className="p-2 rounded-full hover:bg-gray-100 transition-colors"
+            className="p-2 rounded-full hover:bg-yellow-100 transition-colors"
           >
             <svg
               className="w-6 h-6"
@@ -100,32 +100,52 @@ const MobileNavigation = ({
               return (
                 <div key={item.name}>
                   <div className="flex items-center justify-between">
-                    <Link
-                      href={item.href}
-                      className={`flex items-center space-x-3 transition-colors duration-200 py-3 px-3 rounded-lg flex-1 ${
-                        isActive
-                          ? "bg-yellow-100 text-black border border-yellow-400"
-                          : "text-gray-900 hover:text-yellow-600 hover:bg-yellow-50"
-                      }`}
-                      onClick={onMenuClose}
-                    >
-                      <item.icon size={24} />
-                      <span className="font-medium text-base">
-                        {t(item.name)}
-                      </span>
-                    </Link>
-                    {item.hasDropdown && (
-                      <button
-                        onClick={() => toggleDropdown(index)}
-                        className="p-3 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors duration-200"
-                      >
-                        <IconChevronDown
-                          size={20}
-                          className={`transition-transform duration-200 ${
-                            activeDropdown === index ? "rotate-180" : ""
+                    {item.hasDropdown ? (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => toggleDropdown(index)}
+                          className={`flex items-center space-x-3 transition-colors duration-200 py-3 px-3 rounded-lg flex-1 text-left ${
+                            isActive
+                              ? "bg-yellow-100 text-black border border-yellow-400"
+                              : "text-gray-900 hover:text-yellow-600 hover:bg-yellow-50"
                           }`}
-                        />
-                      </button>
+                        >
+                          <item.icon size={24} />
+                          <span className="font-medium text-base">
+                            {t(item.name)}
+                          </span>
+                        </button>
+                        <button
+                          type="button"
+                          aria-label={t(item.name)}
+                          aria-expanded={activeDropdown === index}
+                          onClick={() => toggleDropdown(index)}
+                          className="p-3 text-gray-600 hover:text-gray-900 hover:bg-yellow-100 rounded-lg transition-colors duration-200"
+                        >
+                          <IconChevronDown
+                            size={20}
+                            className={`transition-transform duration-200 ${
+                              activeDropdown === index ? "rotate-180" : ""
+                            }`}
+                          />
+                        </button>
+                      </>
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className={`flex items-center space-x-3 transition-colors duration-200 py-3 px-3 rounded-lg flex-1 ${
+                          isActive
+                            ? "bg-yellow-100 text-black border border-yellow-400"
+                            : "text-gray-900 hover:text-yellow-600 hover:bg-yellow-50"
+                        }`}
+                        onClick={onMenuClose}
+                      >
+                        <item.icon size={24} />
+                        <span className="font-medium text-base">
+                          {t(item.name)}
+                        </span>
+                      </Link>
                     )}
                   </div>
 

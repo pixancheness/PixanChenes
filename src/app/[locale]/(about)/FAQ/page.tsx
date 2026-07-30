@@ -184,8 +184,8 @@ export default function FAQPage() {
           normalizeText(faq.answer).includes(searchNormalized) ||
           (faq.details &&
             faq.details.some((detail) =>
-              normalizeText(detail).includes(searchNormalized)
-            ))
+              normalizeText(detail).includes(searchNormalized),
+            )),
       );
     }
 
@@ -207,10 +207,12 @@ export default function FAQPage() {
             {t("header.badge")}
           </span>
         </div>
-        <h1 className="text-4xl md:text-5xl font-light text-gray-600 text-center w-full mb-6">
+        <header className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-900 mb-4 leading-tight">
           {t("header.title")}
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+        </header>
+        <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
+
+        <p className="text-lg text-gray-600  max-w-3xl mx-auto pt-4">
           {t("header.description")}
         </p>
       </div>

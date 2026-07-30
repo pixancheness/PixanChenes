@@ -29,6 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/grandparentsAndYoungPeople',
     '/nodess',
     '/seminario',
+    '/hampolol',
+    '/xcupilcacab',
   ];
   
   // Obtener leyendas dinámicamente
@@ -65,4 +67,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
   
   return sitemap;
-} 
+}

@@ -9,12 +9,13 @@ import React, {
 import {
   IconArrowNarrowLeft,
   IconArrowNarrowRight,
-  IconX,
 } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";
-import { AnimatePresence, motion } from "motion/react";
+import { motion } from "motion/react";
 import Image, { ImageProps } from "next/image";
-import { useOutsideClick } from "@/components/hooks/use-outside-click";
+import ImageModal from "@/components/ui/image-modal";
+import { useImageModal } from "@/components/hooks/use-image-modal";
+import { optimizeCloudinaryUrl } from "@/lib/cloudinary";
 
 interface CarouselProps {
   items: React.ReactNode[];
@@ -26,6 +27,13 @@ type Card = {
   title: string;
   category: string;
   content: React.ReactNode;
+};
+
+export type CarouselImage = {
+  id: string;
+  img: string;
+  alt: string;
+  title: string;
 };
 
 export const CarouselContext = createContext<{
@@ -171,97 +179,39 @@ export const Card = ({
   card,
   index,
   layout = false,
+  images,
 }: {
   card: Card;
   index: number;
   layout?: boolean;
+  images?: CarouselImage[];
 }) => {
-  const [open, setOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const { onCardClose, currentIndex } = useContext(CarouselContext);
+  const { onCardClose } = useContext(CarouselContext);
 
-  useEffect(() => {
-    function onKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") {
-        handleClose();
-      }
-    }
-
-    if (open) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, [open]);
-
-  useOutsideClick(containerRef as React.RefObject<HTMLDivElement>, () =>
-    handleClose()
-  );
+  const modalImages = images?.length ? images : imageModalImages(card);
+  const imageModal = useImageModal({ images: modalImages });
 
   const handleOpen = () => {
-    setOpen(true);
+    imageModal.openModal(index);
   };
 
   const handleClose = () => {
-    setOpen(false);
+    imageModal.closeModal();
     onCardClose(index);
   };
 
   return (
     <>
-      <AnimatePresence>
-        {open && (
-          <div className="fixed inset-0 z-50 h-screen overflow-auto">
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 h-full w-full bg-black/80 backdrop-blur-lg"
-            />
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              ref={containerRef}
-              layoutId={layout ? `card-${card.title}` : undefined}
-              className="relative z-[60] mx-auto my-2 md:my-4 flex flex-col w-[95vw] md:max-w-[50vw] lg:max-w-[40vw] max-h-[95vh] md:max-h-[90vh] min-h-[85vh] md:min-h-[80vh] rounded-3xl bg-white/95 backdrop-blur-sm p-3 md:p-4 font-sans dark:bg-neutral-900/95"
-            >
-              <button
-                className="absolute top-3 right-3 md:top-4 md:right-4 z-10 flex h-8 w-8 md:h-10 md:w-10 items-center justify-center rounded-full bg-black/80 backdrop-blur-sm dark:bg-white/80"
-                onClick={handleClose}
-              >
-                <IconX className="h-5 w-5 md:h-6 md:w-6 text-white dark:text-black" />
-              </button>
-              <div className="mb-3 md:mb-4 pr-10 md:pr-12">
-                <motion.p
-                  layoutId={layout ? `category-${card.title}` : undefined}
-                  className="text-sm md:text-base font-medium text-black dark:text-white"
-                >
-                  {card.category}
-                </motion.p>
-                <motion.p
-                  layoutId={layout ? `title-${card.title}` : undefined}
-                  className="text-xl md:text-2xl font-semibold text-neutral-700 dark:text-white"
-                >
-                  {card.title}
-                </motion.p>
-              </div>
-              <div className="flex-1 relative min-h-0 rounded-lg overflow-hidden">
-                <Image
-                  src={card.src}
-                  alt={card.title}
-                  fill
-                  className="object-contain hover:object-cover transition-all duration-300"
-                  sizes="(max-width: 768px) 95vw, (max-width: 1024px) 50vw, 40vw"
-                />
-              </div>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
+      <ImageModal
+        images={modalImages}
+        isOpen={imageModal.isOpen}
+        currentIndex={imageModal.currentIndex}
+        onClose={handleClose}
+        onNavigate={imageModal.navigateToIndex}
+        showNavigation={modalImages.length > 1}
+        showDownloadButton={false}
+        totalImages={modalImages.length}
+      />
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
@@ -292,6 +242,15 @@ export const Card = ({
     </>
   );
 };
+
+const imageModalImages = (card: Card) => [
+  {
+    id: card.title,
+    img: optimizeCloudinaryUrl(card.src, { width: 1800 }),
+    alt: card.title,
+    title: card.title,
+  },
+];
 
 export const BlurImage = ({
   height,

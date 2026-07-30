@@ -90,6 +90,16 @@
           "description": "We defend the right of every person to live with honor, respect and the necessary conditions for a full life."
         }
       ],
+      "featuredImages": [
+        {
+          "title": "Maya Regional Council Event",
+          "alt": "Constitution event of the Maya Regional Council"
+        },
+        {
+          "title": "Colegio de Postgraduados Campus Campeche",
+          "alt": "Meeting at Colegio de Postgraduados Campus Campeche"
+        }
+      ],
       "liveValues": {
         "title": "Lived Values",
         "description": "These values are not just ideals, but are reflected in each of our daily actions and community decisions. They are the heart that beats in every project and the compass that guides our work.",
@@ -567,6 +577,12 @@
     },
     "aboutUs": "About Us",
     "gallery": "Gallery",
+    "members": "Members",
+    "indigenousCouncil": {
+      "title": "Indigenous Council",
+      "hampolol": "Indigenous Council of Hampolol",
+      "xcupilcacab": "Indigenous Council of Xcupilcacab"
+    },
     "viewCertificates": "View Certificates",
     "requestCertificate": "Request Certificate",
     "faq": "Frequently Asked Questions",
@@ -837,6 +853,27 @@
       }
     }
   },
+  "IndigenousCouncil": {
+    "hampolol": {
+      "title": "Indigenous Council of Hampolol",
+      "description": "Meeting with leaders of Indigenous productive and social sectors for the recovery of historical memory and the request for the Justice Plan",
+      "imageAlt": "Meeting of the Indigenous Council of Hampolol",
+      "caption": "Ejidal Commissioner Josué Saúl González Kantún and President of the Hampolol Municipal Board, C. Marcelino Chan Paredes.",
+      "openImage": "Open image of the Indigenous Council of Hampolol"
+    },
+    "xcupilcacab": {
+      "title": "Indigenous Council of Xcupilcacab",
+      "description": "Meeting on July 25, 2026, with group leaders to form the Indigenous Council of Xcupilcacab.",
+      "imageAlt": "Meeting of the Indigenous Council of Xcupilcacab",
+      "caption": "Meeting on July 25, 2026, with group leaders to form the Indigenous Council of Xcupilcacab.",
+      "openImage": "Open image of the Indigenous Council of Xcupilcacab"
+    }
+  },
+  "Members": {
+    "title": "Our members",
+    "subtitle": "Meet the people who are part of Pixan Chenes.",
+    "openImage": "View the image of {name}"
+  },
   "Metadata": {
     "title": "Pixan Chenes - Mayan Cooperative | Environmental Certificates, Reforestation and Sustainable Development",
     "description": "Pixan Chenes is a Mayan cooperative in Hopelchén, Campeche, dedicated to beekeeping, reforestation, and solidarity economy. We offer digital environmental certificates, Mayan honey, and sustainable products that empower indigenous communities and protect the rainforest.",
@@ -844,6 +881,20 @@
     "about": {
       "title": "About Pixan Chenes",
       "description": "Pixan Chenes is a Mayan indigenous cooperative formed by five communities in Hopelchén, Campeche. We defend the rainforest, care for bees, and offer sustainable alternatives such as digital environmental certificates and culturally rooted products."
+    },
+    "members": {
+      "title": "Pixan Chenes members | The people behind our cooperative",
+      "description": "Meet the members of Pixan Chenes, a Mayan cooperative in Hopelchén, Campeche, committed to community, culture, and sustainable development."
+    },
+    "indigenousCouncil": {
+      "hampolol": {
+        "title": "Indigenous Council of Hampolol | Historical memory and Justice Plan",
+        "description": "Meeting with leaders of Indigenous productive and social sectors to recover historical memory and request the Justice Plan."
+      },
+      "xcupilcacab": {
+        "title": "Indigenous Council of Xcupilcacab | Pixan Chenes",
+        "description": "Meeting with group leaders to form the Indigenous Council of Xcupilcacab."
+      }
     }
   },
   "NotFound": {

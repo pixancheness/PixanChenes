@@ -4,7 +4,8 @@ import { routing } from '@/i18n/routing';
 
 export async function generateMetadata(
   locale: string,
-  page: string = 'home'
+  page: string = 'home',
+  path?: string
 ): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   
@@ -16,11 +17,12 @@ export async function generateMetadata(
   }
   
   const finalBaseUrl = baseUrl || 'http://localhost:3000';
-  const url = `${finalBaseUrl}/${locale}`;
+  const normalizedPath = path ? `/${path.replace(/^\/+|\/+$/g, '')}` : '';
+  const url = `${finalBaseUrl}/${locale}${normalizedPath}`;
   
   // Generar alternates dinámicamente desde routing
   const languages = routing.locales.reduce((acc, loc) => {
-    acc[loc] = `${finalBaseUrl}/${loc}`;
+    acc[loc] = `${finalBaseUrl}/${loc}${normalizedPath}`;
     return acc;
   }, {} as Record<string, string>);
   
@@ -92,7 +94,8 @@ export async function generateMetadata(
 
 export async function generatePageMetadata(
   params: { locale: string },
-  page: string = 'home'
+  page: string = 'home',
+  path?: string
 ): Promise<Metadata> {
-  return generateMetadata(params.locale, page);
-} 
+  return generateMetadata(params.locale, page, path);
+}

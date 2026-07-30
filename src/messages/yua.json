@@ -90,6 +90,16 @@
           "description": "Ku kanantik u derechoj tuláakal máax u kuxtal yéetel respeto yéetel tuláakal ba'ax k'abéet ti' jun ma'alob kuxtal."
         }
       ],
+      "featuredImages": [
+        {
+          "title": "Múuch'ul meyajil le Consejo Regional Maya",
+          "alt": "Múuch'ul meyaj uti'al u káajal le Consejo Regional Maya"
+        },
+        {
+          "title": "Colegio de Postgraduados Campus Campeche",
+          "alt": "Múuch'ul meyaj tu Colegio de Postgraduados Campus Campeche"
+        }
+      ],
       "liveValues": {
         "title": "K'áat ku kuxtal",
         "description": "Le k'áato'ob ma' chen ideales, ba'ale' ku na'atal ti' tuláakal in meyaj yéetel decisiones comunitarias. Le o'olal ku pulsik ti' tuláakal proyecto yéetel le brújula ku kanantik in meyaj.",
@@ -544,6 +554,12 @@
     "home": "Káajal",
     "about": "Yóok'ol",
     "gallery": "Galería",
+    "members": "Múuch'ul máako'ob",
+    "indigenousCouncil": {
+      "title": "Consejo Indígena",
+      "hampolol": "Consejo Indígena Hampolol",
+      "xcupilcacab": "Consejo Indígena Xcupilcacab"
+    },
     "documents": "Documentos",
     "documentsPage": {
       "title": "Documentos",
@@ -851,6 +867,27 @@
       }
     }
   },
+  "IndigenousCouncil": {
+    "hampolol": {
+      "title": "Consejo Indígena Hampolol",
+      "description": "Múuch'ul t'aan yéetel u nojoch máako'ob ti' sectores productivos yéetel sociales indígenas uti'al u k'a'ajsik u k'ajóolal k'iino'ob yéetel u k'áatik u Plan de Justicia",
+      "imageAlt": "Múuch'ul t'aan le Consejo Indígena Hampolol",
+      "caption": "Comisario Ejidal, Josué Saúl González Kantún yéetel Presidente le Junta Municipal Hampolol, C. Marcelino Chan Paredes.",
+      "openImage": "Wilik u oochel le Consejo Indígena Hampolol"
+    },
+    "xcupilcacab": {
+      "title": "Consejo Indígena Xcupilcacab",
+      "description": "Múuch'ul t'aan ti' 25 julio 2026 yéetel u nojoch máako'ob uti'al u beetik le Consejo Indígena Xcupilcacab.",
+      "imageAlt": "Múuch'ul t'aan le Consejo Indígena Xcupilcacab",
+      "caption": "Múuch'ul t'aan ti' 25 julio 2026 yéetel u nojoch máako'ob uti'al u beetik le Consejo Indígena Xcupilcacab.",
+      "openImage": "Wilik u oochel le Consejo Indígena Xcupilcacab"
+    }
+  },
+  "Members": {
+    "title": "U máako'ob Pixan Chenes",
+    "subtitle": "K'ajóolt a máako'ob ku beetik u múuch'meyaj Pixan Chenes.",
+    "openImage": "Wilik u oochel {name}"
+  },
   "Metadata": {
     "title": "Pixan Chenes - Kooperativa Maya | Certificados Ambientales, Reforestación y Desarrollo Sustentable",
     "description": "Pixan Chenes le kaajilo’ob maya tu Hopelchén, Campeche, ku beetik apicultura, reforestación y economia solidaria. K’iin ku meyaj u certificados ambientales digitales, miel maya y productos sustentables u kuxtalil comunidades indígenas y ku bảo’ selva.",
@@ -858,6 +895,20 @@
     "about": {
       "title": "U beel Pixan Chenes",
       "description": "Pixan Chenes kooperativa indígena maya ku formada por cinco comunidades tu Hopelchén, Campeche. K’a’ajsik selva, k’a’ajsik abejas y ku ofrece certificados ambientales digitales y productos con identidad cultural."
+    },
+    "members": {
+      "title": "U máako'ob Pixan Chenes | Le máako'ob ku beetik k múuch'meyaj",
+      "description": "K'ajóolt u máako'ob Pixan Chenes, jump'éel kooperativa maya tu Hopelchén, Campeche, ku ts'áik u puksi'ik'al ti' kaaj, k'ultura yéetel desarrollo sustentable."
+    },
+    "indigenousCouncil": {
+      "hampolol": {
+        "title": "Consejo Indígena Hampolol | U k'ajóolal k'iino'ob yéetel Plan de Justicia",
+        "description": "Múuch'ul t'aan yéetel u nojoch máako'ob ti' sectores productivos yéetel sociales indígenas uti'al u k'a'ajsik u k'ajóolal k'iino'ob yéetel u k'áatik u Plan de Justicia."
+      },
+      "xcupilcacab": {
+        "title": "Consejo Indígena Xcupilcacab | Pixan Chenes",
+        "description": "Múuch'ul t'aan yéetel u nojoch máako'ob uti'al u beetik le Consejo Indígena Xcupilcacab."
+      }
     }
   },
   "NotFound": {

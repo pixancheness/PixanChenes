@@ -32,21 +32,12 @@ export default function Galery() {
   });
 
   return (
-    <div className="pt-16 bg-gradient-to-br from-yellow-400/30 via-yellow-300/10 to-amber-400/10 min-h-screen">
-      <div className="flex justify-center items-center mb-6">
-        <SplitText
-          text={t("title")}
-          className="text-4xl font-bold py-5 text-darkkkk"
-          delay={60}
-          duration={0.8}
-          ease="power3.out"
-          splitType="chars"
-          from={{ opacity: 0, y: 40 }}
-          to={{ opacity: 1, y: 0 }}
-          threshold={0.1}
-          rootMargin="-100px"
-          textAlign="center"
-        />
+    <div className="pt-16 min-h-screen">
+      <div className="text-center pt-9 pb-4">
+        <header className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-900 mb-4 leading-tight">
+          {t("title")}
+        </header>
+        <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
       </div>
 
       {/* Contador de imágenes cargadas

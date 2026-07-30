@@ -94,6 +94,16 @@
           "description": "Wir verteidigen das Recht jedes Menschen, mit Ehre, Respekt und den notwendigen Bedingungen für ein erfülltes Leben zu leben."
         }
       ],
+      "featuredImages": [
+        {
+          "title": "Veranstaltung des regionalen Maya-Rates",
+          "alt": "Veranstaltung zur Gründung des regionalen Maya-Rates"
+        },
+        {
+          "title": "Colegio de Postgraduados Campus Campeche",
+          "alt": "Treffen am Colegio de Postgraduados Campus Campeche"
+        }
+      ],
       "liveValues": {
         "title": "Gelebte Werte",
         "description": "Diese Werte sind nicht nur Ideale, sondern spiegeln sich in jeder unserer täglichen Handlungen und Gemeinschaftsentscheidungen wider. Sie sind das Herz, das in jedem Projekt schlägt, und der Kompass, der unsere Arbeit leitet.",
@@ -563,6 +573,12 @@
       "grandparentsAndYoungPeople": "Ausbildung"
     },
     "gallery": "Galerie",
+    "members": "Mitglieder",
+    "indigenousCouncil": {
+      "title": "Indigener Rat",
+      "hampolol": "Indigener Rat von Hampolol",
+      "xcupilcacab": "Indigener Rat von Xcupilcacab"
+    },
     "documents": "Dokumente",
     "culture": {
       "title": "Kultur",
@@ -841,6 +857,27 @@
       }
     }
   },
+  "IndigenousCouncil": {
+    "hampolol": {
+      "title": "Indigener Rat von Hampolol",
+      "description": "Treffen mit Führungspersönlichkeiten indigener produktiver und sozialer Bereiche zur Wiedergewinnung des historischen Gedächtnisses und zur Beantragung des Gerechtigkeitsplans",
+      "imageAlt": "Treffen des Indigenen Rates von Hampolol",
+      "caption": "Ejidal-Kommissar Josué Saúl González Kantún und Präsident der Gemeindeverwaltung von Hampolol, C. Marcelino Chan Paredes.",
+      "openImage": "Bild des Indigenen Rates von Hampolol öffnen"
+    },
+    "xcupilcacab": {
+      "title": "Indigener Rat von Xcupilcacab",
+      "description": "Treffen am 25. Juli 2026 mit Gruppenleitern zur Bildung des Indigenen Rates von Xcupilcacab.",
+      "imageAlt": "Treffen des Indigenen Rates von Xcupilcacab",
+      "caption": "Treffen am 25. Juli 2026 mit Gruppenleitern zur Bildung des Indigenen Rates von Xcupilcacab.",
+      "openImage": "Bild des Indigenen Rates von Xcupilcacab öffnen"
+    }
+  },
+  "Members": {
+    "title": "Unsere Mitglieder",
+    "subtitle": "Lernen Sie die Menschen kennen, die zu Pixan Chenes gehören.",
+    "openImage": "Bild von {name} ansehen"
+  },
   "Metadata": {
     "title": "Pixan Chenes - Maya-Kooperative | Umweltzertifikate, Wiederaufforstung und nachhaltige Entwicklung",
     "description": "Pixan Chenes ist eine Maya-Kooperative in Hopelchén, Campeche, die sich der Imkerei, Wiederaufforstung und solidarischen Wirtschaft widmet. Wir bieten digitale Umweltzertifikate, Maya-Honig und nachhaltige Produkte an, die indigene Gemeinschaften stärken und den Regenwald schützen.",
@@ -848,6 +885,20 @@
     "about": {
       "title": "Über Pixan Chenes",
       "description": "Pixan Chenes ist eine indigene Maya-Kooperative aus fünf Gemeinden in Hopelchén, Campeche. Wir schützen den Regenwald, kümmern uns um die Bienen und bieten nachhaltige Alternativen wie digitale Umweltzertifikate und kulturell verwurzelte Produkte an."
+    },
+    "members": {
+      "title": "Mitglieder von Pixan Chenes | Die Menschen unserer Kooperative",
+      "description": "Lernen Sie die Mitglieder von Pixan Chenes kennen, einer Maya-Kooperative in Hopelchén, Campeche, die sich für Gemeinschaft, Kultur und nachhaltige Entwicklung einsetzt."
+    },
+    "indigenousCouncil": {
+      "hampolol": {
+        "title": "Indigener Rat von Hampolol | Historisches Gedächtnis und Gerechtigkeitsplan",
+        "description": "Treffen mit Führungspersönlichkeiten indigener produktiver und sozialer Bereiche zur Wiedergewinnung des historischen Gedächtnisses und zur Beantragung des Gerechtigkeitsplans."
+      },
+      "xcupilcacab": {
+        "title": "Indigener Rat von Xcupilcacab | Pixan Chenes",
+        "description": "Treffen mit Gruppenleitern zur Bildung des Indigenen Rates von Xcupilcacab."
+      }
     }
   },
   "NotFound": {

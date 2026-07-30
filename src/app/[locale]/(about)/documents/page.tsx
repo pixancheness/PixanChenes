@@ -26,14 +26,15 @@ export default function DocumentsPage() {
   ];
 
   return (
-    <div className="container mx-auto px-4 pb-12 py-20">
+    <main className="min-h-screen px-4 font-sans pt-16 sm:px-6">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-foreground mb-4">
+        <div className="text-center pt-9 pb-4">
+          <header className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-900 mb-4 leading-tight">
             {t("title")}
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          </header>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
+          <p className="text-lg text-gray-600  max-w-3xl mx-auto pt-4">
             {t("description")}
           </p>
         </div>
@@ -80,6 +81,6 @@ export default function DocumentsPage() {
           <p className="text-sm text-muted-foreground">{t("footerNote")}</p>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

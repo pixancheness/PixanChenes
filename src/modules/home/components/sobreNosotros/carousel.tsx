@@ -1,8 +1,13 @@
 "use client";
 
 import React from "react";
-import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
+import {
+  Carousel,
+  Card,
+  type CarouselImage,
+} from "@/components/ui/apple-cards-carousel";
 import { useTranslations } from "next-intl";
+import { optimizeCloudinaryUrl } from "@/lib/cloudinary";
 
 export function CarouselSobreNosotros() {
   const t = useTranslations("HomePage.aboutUs.gallery");
@@ -70,8 +75,20 @@ export function CarouselSobreNosotros() {
     },
   ];
 
+  const galleryImages: CarouselImage[] = data.map((card, index) => ({
+    id: `about-gallery-${index}`,
+    img: optimizeCloudinaryUrl(card.src, { width: 1800 }),
+    alt: card.title,
+    title: card.title,
+  }));
+
   const cards = data.map((card, index) => (
-    <Card key={card.src} card={card} index={index} />
+    <Card
+      key={card.src}
+      card={card}
+      index={index}
+      images={galleryImages}
+    />
   ));
 
   return (

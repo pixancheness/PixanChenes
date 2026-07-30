@@ -3,6 +3,7 @@ import {
   IconCoffee,
   IconHeartHandshake,
   IconUsers,
+  IconUsersGroup,
 } from "@tabler/icons-react";
 
 export const navigationItems = [
@@ -60,12 +61,29 @@ export const navigationItems = [
     ],
   },
   {
+    name: "Navigation.indigenousCouncil.title",
+    href: "/hampolol",
+    icon: IconUsersGroup,
+    hasDropdown: true,
+    dropdownItems: [
+      {
+        name: "Navigation.indigenousCouncil.hampolol",
+        href: "/hampolol",
+      },
+      {
+        name: "Navigation.indigenousCouncil.xcupilcacab",
+        href: "/xcupilcacab",
+      },
+    ],
+  },
+  {
     name: "Navigation.aboutUs",
     href: "/about",
     icon: IconUsers,
     hasDropdown: true,
     dropdownItems: [
       { name: "Navigation.about", href: "/about" },
+      { name: "Navigation.members", href: "/members" },
       { name: "Navigation.gallery", href: "/galeria" },
       { name: "Navigation.faq", href: "/FAQ" },
       { name: "Navigation.documents", href: "/documents" },

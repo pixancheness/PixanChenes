@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useTranslations } from "next-intl";
-import { SplitText } from "@/components/ui";
+import { ClickableImage, SplitText } from "@/components/ui";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import Image from "next/image";
 
@@ -12,6 +12,10 @@ export default function Valores() {
   const valoresData = t.raw("values.items") as Array<{
     title: string;
     description: string;
+  }>;
+  const featuredImagesData = t.raw("values.featuredImages") as Array<{
+    title: string;
+    alt: string;
   }>;
   const images = [
     "https://res.cloudinary.com/danv3godx/image/upload/v1758089497/chenes08_ixjmyv.jpg",
@@ -29,6 +33,17 @@ export default function Valores() {
     "md:col-span-2",
     "md:col-span-2",
     "md:col-span-1",
+  ];
+
+  const featuredImages = [
+    {
+      src: "https://res.cloudinary.com/danv3godx/image/upload/v1785385302/NODESS_-Evento_de_constitucio%CC%81n_del_Consejo_Regional_Indi%CC%81gena_de_la__Ruta_de_la_Miel_y_el_Mai%CC%81z__j1msir.jpg",
+      ...featuredImagesData[0],
+    },
+    {
+      src: "https://res.cloudinary.com/danv3godx/image/upload/v1785385302/Reunio%CC%81n_en_el_COLPOS_Campus_Edzna_junio_2026_skrg5m.jpg",
+      ...featuredImagesData[1],
+    },
   ];
 
   const valoresItems = valoresData.map((valor, index) => ({
@@ -87,6 +102,25 @@ export default function Valores() {
               }
               header={item.header}
               className={`${item.className} bg-gradient-to-br from-yellow-50/80 to-amber-50/60 border-yellow-200/40 hover:shadow-lg transition-all duration-300`}
+            />
+          ))}
+
+          {featuredImages.map((image) => (
+            <BentoGridItem
+              key={image.src}
+              title={image.title}
+              header={
+                <ClickableImage
+                  src={image.src}
+                  alt={image.alt}
+                  width={1600}
+                  height={900}
+                  modalTitle={image.title}
+                  containerClassName="h-full w-full rounded-xl"
+                  className="h-full w-full rounded-xl object-cover"
+                />
+              }
+              className="md:col-span-3 bg-gradient-to-br from-yellow-50/80 to-amber-50/60 border-yellow-200/40 hover:shadow-lg transition-all duration-300"
             />
           ))}
         </BentoGrid>

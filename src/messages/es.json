@@ -90,6 +90,16 @@
           "description": "Defendemos el derecho de cada persona a vivir con honor, respeto y las condiciones necesarias para una vida plena."
         }
       ],
+      "featuredImages": [
+        {
+          "title": "Evento del Consejo Regional Maya",
+          "alt": "Evento de constitución del Consejo Regional Maya"
+        },
+        {
+          "title": "Colegio de Postgraduados Campus Campeche",
+          "alt": "Reunión en el Colegio de Postgraduados Campus Campeche"
+        }
+      ],
       "liveValues": {
         "title": "Valores Vividos",
         "description": "Estos valores no son solo ideales, sino que se reflejan en cada una de nuestras acciones diarias y decisiones comunitarias. Son el corazón que late en cada proyecto y la brújula que orienta nuestro trabajo.",
@@ -216,6 +226,12 @@
       "forum": "Foro UPIIT medio ambiente."
     },
     "gallery": "Galería",
+    "members": "Miembros",
+    "indigenousCouncil": {
+      "title": "Consejo Indígena",
+      "hampolol": "Consejo Indígena de Hampolol",
+      "xcupilcacab": "Consejo Indígena de Xcupilcacab"
+    },
     "aboutUs": "Sobre Nosotros",
     "viewCertificates": "Ver Certificados",
     "requestCertificate": "Solicitar Certificado",
@@ -677,6 +693,27 @@
     "imageAlt": "Seminario Repensar la Cultura Maya - Comunidades mayas en diálogo",
     "imageCaption": "Encuentro de saberes ancestrales y conocimiento académico para el desarrollo sostenible"
   },
+  "IndigenousCouncil": {
+    "hampolol": {
+      "title": "Consejo Indígena de Hampolol",
+      "description": "Reunión con los líderes de sectores productivos y sociales indígenas para los trabajos de la recuperación de la memoria histórica y la solicitud del Plan de Justicia",
+      "imageAlt": "Reunión del Consejo Indígena de Hampolol",
+      "caption": "Comisario Ejidal, Josué Saúl González Kantún y Presidente de la Junta Municipal de Hampolol, C. Marcelino Chan Paredes.",
+      "openImage": "Abrir imagen del Consejo Indígena de Hampolol"
+    },
+    "xcupilcacab": {
+      "title": "Consejo Indígena de Xcupilcacab",
+      "description": "Reunión del 25 de julio de 2026 con líderes de grupo para integrar el Consejo Indígena de Xcupilcacab.",
+      "imageAlt": "Reunión del Consejo Indígena de Xcupilcacab",
+      "caption": "Reunión del 25 de julio de 2026 con líderes de grupo para integrar el Consejo Indígena de Xcupilcacab.",
+      "openImage": "Abrir imagen del Consejo Indígena de Xcupilcacab"
+    }
+  },
+  "Members": {
+    "title": "Nuestros miembros",
+    "subtitle": "Conoce a las personas que forman parte de Pixan Chenes.",
+    "openImage": "Ver la imagen de {name}"
+  },
   "Metadata": {
     "title": "Pixan Chenes - Cooperativa Maya | Certificados Ambientales, Reforestación y Desarrollo Sustentable",
     "description": "Pixan Chenes es una cooperativa maya en Hopelchén, Campeche, dedicada a la apicultura, la reforestación y la economía solidaria. Ofrecemos certificados ambientales digitales, miel maya y productos sustentables que fortalecen a las comunidades indígenas y protegen la selva.",
@@ -684,6 +721,20 @@
     "about": {
       "title": "Acerca de Pixan Chenes",
       "description": "Pixan Chenes es una cooperativa indígena maya conformada por cinco comunidades en Hopelchén, Campeche. Defendemos la selva, cuidamos a las abejas y ofrecemos alternativas sustentables como certificados ambientales digitales y productos con identidad cultural."
+    },
+    "members": {
+      "title": "Miembros de Pixan Chenes | Personas que forman nuestra cooperativa",
+      "description": "Conoce a los miembros de Pixan Chenes, una cooperativa maya de Hopelchén, Campeche, comprometida con la comunidad, la cultura y el desarrollo sustentable."
+    },
+    "indigenousCouncil": {
+      "hampolol": {
+        "title": "Consejo Indígena de Hampolol | Memoria histórica y Plan de Justicia",
+        "description": "Reunión con líderes de sectores productivos y sociales indígenas para recuperar la memoria histórica y solicitar el Plan de Justicia."
+      },
+      "xcupilcacab": {
+        "title": "Consejo Indígena de Xcupilcacab | Pixan Chenes",
+        "description": "Reunión con líderes de grupo para integrar el Consejo Indígena de Xcupilcacab."
+      }
     }
   },
   "NotFound": {

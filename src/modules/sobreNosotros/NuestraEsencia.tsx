@@ -62,28 +62,14 @@ const NuestraEsencia = () => {
     <section className="py-16 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Título principal con efecto */}
-        <div className="text-center mb-16 pt-9">
-          <SplitText
-            text={t("title")}
-            tag="h1"
-            className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-800 mb-8"
-            splitType="words"
-            delay={200}
-            duration={0.8}
-          />
-
-          {/* Frase destacada */}
-          <div className="relative mx-auto mb-12">
-            <SplitText
-              text={t("description")}
-              tag="h2"
-              className="text-3xl text-yellow-900 italic"
-              splitType="words"
-              delay={150}
-              duration={1}
-              textAlign="center"
-            />
-          </div>
+        <div className="text-center pt-9 pb-4">
+          <header className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-900 mb-4 leading-tight">
+            {t("title")}
+          </header>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
+          <p className="text-lg text-gray-600  max-w-3xl mx-auto pt-4">
+            {t("description")}
+          </p>
         </div>
 
         {/* Bento Grid con contenido */}
